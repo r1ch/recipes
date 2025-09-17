@@ -24,6 +24,10 @@ jobs:
           npm i
           node scrape.js
           ls
+          cd ..
+          ls
+          cd _data
+          ls
 
       - name: Commit downloads
         run: |
