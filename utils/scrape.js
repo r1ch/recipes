@@ -3,7 +3,8 @@ const cheerio = require("cheerio")
 const fs = require("fs")
 
 const recipes = [
-	"kofta-rogan-josh-curry-62a74447a274505d77010ec2"
+	"kofta-rogan-josh-curry-62a74447a274505d77010ec2",
+	"miso-glazed-salmon-60ed8af58452130fbf4e14b6"
 ]
 const URL = recipe => `https://www.greenchef.co.uk/recipes/${recipe}`
 
