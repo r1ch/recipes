@@ -6,18 +6,31 @@ layout: default
 {% assign recipe_data = site.data[datafile] %}
 
 {% if recipe_data %}
-  <h2>Ingredients</h2>
-  <table>
-    {% for item in recipe_data.ingredients %}
-      <tr>
-        <td>{{ item.name }}</td>
-        <td>{{ item.amount }} {{item.unit}}</td>
-      </tr>
+{% assign ingredients = recipe_data.ingredients %}
+{% assign yields = recipe_data.yields %}
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Amount</th>
+      <th>Unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for yield in yields %}
+      {% if yield.yields == 2 %}
+        {% for ing in yield.ingredients %}
+          {% assign ingredient = ingredients | where: "id", ing.id | first %}
+          <tr>
+            <td>{{ ingredient.name }}</td>
+            <td>{{ ing.amount }}</td>
+            <td>{{ ing.unit }}</td>
+          </tr>
+        {% endfor %}
+      {% endif %}
     {% endfor %}
-  </ul>
-
-  <h2>Instructions</h2>
-  <p>{{ recipe_data }}</p>
+  </tbody>
+</table>
 {% else %}
   <p><em>No data found for this recipe.</em></p>
 {% endif %}
