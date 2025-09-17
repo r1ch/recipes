@@ -7,9 +7,12 @@ layout: default
 
 {% if recipe_data %}
   <h2>Ingredients</h2>
-  <ul>
+  <table>
     {% for item in recipe_data.ingredients %}
-      <li>{{ item }}</li>
+      <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.amount }} {{item.unit}}</td>
+      </tr>
     {% endfor %}
   </ul>
 
