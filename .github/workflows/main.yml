@@ -28,11 +28,9 @@ jobs:
       - name: Commit downloads
         run: |
           ls
-          mv *.json ~/_data
-          ls
           git pull
-          git add ~/_data/*.json
-          git config --global user.name 'Poddy'
-          git config --global user.email 'poddy@users.noreply.github.com'
+          git add _data/*.json
+          git config --global user.name 'The Cook'
+          git config --global user.email 'the_cook@users.noreply.github.com'
           git commit -am "Recipe grab"
           git push
