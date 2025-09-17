@@ -1,0 +1,833 @@
+{
+  "state": {
+    "data": {
+      "active": true,
+      "allergens": [
+        {
+          "id": "57962a07b7e8697d4b3052fb",
+          "name": "Nuts",
+          "type": "nuts",
+          "slug": "nuts",
+          "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+          "iconPath": "/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+          "triggersTracesOf": false,
+          "tracesOf": false
+        },
+        {
+          "id": "57962a07b7e8697d4b3052f3",
+          "name": "May contain traces of allergens",
+          "type": "maycontaintracesofallergens",
+          "slug": "may-contain-traces-of-allergens",
+          "iconPath": null,
+          "triggersTracesOf": true,
+          "tracesOf": true
+        },
+        {
+          "id": "5acf972fae08b54d333ac322",
+          "name": "Sesame",
+          "type": "traces-of-sesame",
+          "slug": "traces-of-sesame",
+          "iconPath": null,
+          "triggersTracesOf": false,
+          "tracesOf": true
+        },
+        {
+          "id": "57962a07b7e8697d4b305302",
+          "name": "Nuts",
+          "type": "traces-of-nuts",
+          "slug": "traces-of-nuts",
+          "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+          "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+          "triggersTracesOf": false,
+          "tracesOf": true
+        },
+        {
+          "id": "5a9614ab30006c2c026cf562",
+          "name": "Peanut",
+          "type": "traces-of-peanuts",
+          "slug": "traces-of-peanut",
+          "iconPath": null,
+          "triggersTracesOf": false,
+          "tracesOf": true
+        }
+      ],
+      "averageRating": 3.3,
+      "canonical": null,
+      "canonicalLink": null,
+      "cardLink": "https://www.greenchef.co.uk/recipecards/card/kofta-rogan-josh-curry-62a74447a274505d77010ec2-c686e091.pdf",
+      "category": {
+        "id": "5bd6f0ef19c55bee469039ae",
+        "name": "Beef",
+        "type": "beef",
+        "slug": "beef"
+      },
+      "clonedFrom": null,
+      "comment": "GCLC23411926-1",
+      "country": "GN",
+      "createdAt": "2022-06-13T14:05:59+00:00",
+      "cuisines": [
+        {
+          "id": "57ebbc17b7e8697d4b3053aa",
+          "type": "indian",
+          "name": "Indian",
+          "slug": "indian",
+          "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053aa-835d45ad.jpg"
+        }
+      ],
+      "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+      "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+      "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+      "difficulty": 2,
+      "favoritesCount": 1,
+      "headline": "with Spiced Broccoli & Spinach",
+      "id": "62a74447a274505d77010ec2",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/kofta-rogan-josh-curry-28318491-9f2a5614.jpg",
+      "imagePath": "/image/kofta-rogan-josh-curry-28318491-9f2a5614.jpg",
+      "ingredients": [
+        {
+          "id": "60633303c7e6833e3e38fa40",
+          "uuid": "6c8f19df-7a9e-5397-a4ac-c5736ef93159",
+          "name": "Chicken Stock Paste",
+          "type": "chicken-stock-paste",
+          "slug": "chicken-stock-paste",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+          "imagePath": "/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "58877cf3ed71a76e9c03fc39",
+            "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+            "name": "stock concentrate",
+            "slug": "stock-concentrate",
+            "type": "stock",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62fcaa3fbd9a2478e193f06c",
+          "uuid": "27b39d19-2dcd-5d9b-a4bf-6239da23b0a0",
+          "name": "Rogan Josh Curry Paste",
+          "type": "rogan-josh-curry-paste",
+          "slug": "rogan-josh-curry-paste",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa3fbd9a2478e193f06c-497e2e96.png",
+          "imagePath": "/ingredient/62fcaa3fbd9a2478e193f06c-497e2e96.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "6039042de5dada46f76a2efc",
+          "uuid": "9c185787-b4f8-5457-863b-da9d361fcd22",
+          "name": "Broccoli",
+          "type": "broccoli",
+          "slug": "broccoli",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039042de5dada46f76a2efc-73afaa3f.png",
+          "imagePath": "/ingredient/6039042de5dada46f76a2efc-73afaa3f.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "58877cf3ed71a76e9c03fb56",
+            "uuid": "d01a7d5d-e4fd-52a4-bdc5-8c61549aa9bb",
+            "name": "broccoli",
+            "slug": "broccoli",
+            "type": "broccoli",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62fca9f3bd9a2478e193efd9",
+          "uuid": "ba743c71-aa0e-56f6-9a65-1dc7cd42dbb5",
+          "name": "Flaked Almonds",
+          "type": "flaked-almonds",
+          "slug": "flaked-almonds",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9f3bd9a2478e193efd9-4865ef83.png",
+          "imagePath": "/ingredient/62fca9f3bd9a2478e193efd9-4865ef83.png",
+          "shipped": true,
+          "allergens": [
+            "57962a07b7e8697d4b3052f3",
+            "5acf972fae08b54d333ac322",
+            "57962a07b7e8697d4b305302",
+            "5a9614ab30006c2c026cf562",
+            "57962a07b7e8697d4b3052fb"
+          ],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536e",
+          "uuid": "83debc4f-e731-5de0-b54d-f0c8bc201099",
+          "name": "Baby Spinach",
+          "type": "baby-spinach",
+          "slug": "baby-spinach",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+          "imagePath": "/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+          "name": "Garlic Clove",
+          "type": "garlic-clove",
+          "slug": "garlic-clove",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+          "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "58877cf3ed71a76e9c03fba4",
+            "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+            "name": "garlic",
+            "slug": "garlic",
+            "type": "garlic",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62fcaa0fd7803ca91b79057b",
+          "uuid": "af1e8a57-2f4e-5123-9b7b-bfc0e3c5b4dc",
+          "name": "North Indian Style Spice Mix",
+          "type": "north-indian-style-spice-mix",
+          "slug": "north-indian-style-spice-mix",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0fd7803ca91b79057b-66a36413.png",
+          "imagePath": "/ingredient/62fcaa0fd7803ca91b79057b-66a36413.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62fcaa51c9a48553f9075406",
+          "uuid": "ae95225f-9805-5f92-afa8-0649e7e90122",
+          "name": "Ground Cumin",
+          "type": "ground-cumin",
+          "slug": "ground-cumin",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa51c9a48553f9075406-c6fd23a1.png",
+          "imagePath": "/ingredient/62fcaa51c9a48553f9075406-c6fd23a1.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62fcaa0abd9a2478e193f002",
+          "uuid": "4be57e09-204f-50f6-abf5-a91e4a8099db",
+          "name": "Coconut Milk",
+          "type": "coconut-milk",
+          "slug": "coconut-milk",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0abd9a2478e193f002-af8fb6ac.png",
+          "imagePath": "/ingredient/62fcaa0abd9a2478e193f002-af8fb6ac.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+          "name": "British Beef Mince",
+          "type": "beef-mince",
+          "slug": "british-beef-mince",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+          "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+          "shipped": true,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+          "name": "Oil for Cooking",
+          "type": "oil-for-cooking",
+          "slug": "oil-for-cooking",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+          "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+          "shipped": false,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62c6e0eb9cab2001267a28b5",
+          "uuid": "61c32777-540e-4b15-a60d-9f49c3f2b4aa",
+          "name": "Salt",
+          "type": "salt-1-tsp",
+          "slug": "salt",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+          "imagePath": "/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+          "shipped": false,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "uuid": "ef880220-34dc-4c85-9841-7d34b28d6165",
+          "name": "Water",
+          "type": "water-100ml",
+          "slug": "water",
+          "country": "GN",
+          "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+          "imagePath": "/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+          "shipped": false,
+          "allergens": [],
+          "family": {
+            "id": "6299e0f4f7cd25bc1c024384",
+            "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+            "name": "none",
+            "slug": "none",
+            "type": "none",
+            "priority": 0,
+            "iconLink": null,
+            "iconPath": null
+          }
+        }
+      ],
+      "isAddon": false,
+      "isComplete": null,
+      "isPublished": true,
+      "label": null,
+      "link": "https://hellofresh.com/recipes/62a74447a274505d77010ec2",
+      "name": "Kofta Rogan Josh Curry",
+      "nutrition": [
+        {
+          "type": "57b42a48b7e8697d4b305304",
+          "name": "Energy (kcal)",
+          "amount": 745,
+          "unit": "kcal"
+        },
+        {
+          "type": "57b42a48b7e8697d4b30530d",
+          "name": "Energy (kJ)",
+          "amount": 3116,
+          "unit": "kJ"
+        },
+        {
+          "type": "57b42a48b7e8697d4b305307",
+          "name": "Fat",
+          "amount": 55.2,
+          "unit": "g"
+        },
+        {
+          "type": "57b42a48b7e8697d4b305308",
+          "name": "of which saturates",
+          "amount": 28.3,
+          "unit": "g"
+        },
+        {
+          "type": "57b42a48b7e8697d4b305305",
+          "name": "Carbohydrate",
+          "amount": 14.9,
+          "unit": "g"
+        },
+        {
+          "type": "57b42a48b7e8697d4b305306",
+          "name": "of which sugars",
+          "amount": 6.6,
+          "unit": "g"
+        },
+        {
+          "type": "57b42a48b7e8697d4b30530a",
+          "name": "Dietary Fibre",
+          "amount": 9.7,
+          "unit": "g"
+        },
+        {
+          "type": "57b42a48b7e8697d4b305309",
+          "name": "Protein",
+          "amount": 43.4,
+          "unit": "g"
+        },
+        {
+          "type": "57b42a48b7e8697d4b30530b",
+          "name": "Salt",
+          "amount": 2.28,
+          "unit": "g"
+        }
+      ],
+      "prepTime": "PT25M",
+      "promotion": null,
+      "ratingsCount": 132,
+      "seoDescription": null,
+      "seoName": null,
+      "servingSize": 520,
+      "slug": "kofta-rogan-josh-curry",
+      "steps": [
+        {
+          "index": 1,
+          "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7. Cut the broccoli into florets, halving any large florets. Peel and grate the garlic (or use a garlic press).",
+          "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. Cut the broccoli into florets, halving any large florets. Peel and grate the garlic (or use a garlic press).</p>",
+          "instructionsMarkdown": "Preheat your oven to 220°C/200°C fan/gas mark 7. Cut the broccoli into florets, halving any large florets. Peel and grate the garlic (or use a garlic press).",
+          "ingredients": [
+            "6039042de5dada46f76a2efc",
+            "6048ba435d6d2541787296ec"
+          ],
+          "utensils": [
+            "59d49a9419279f8fe60e867c"
+          ],
+          "timers": [],
+          "images": [
+            {
+              "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62a74447a274505d77010ec2/step-2971cd00.jpg",
+              "path": "/62a74447a274505d77010ec2/step-2971cd00.jpg",
+              "caption": "Prep"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "index": 2,
+          "instructions": "In a medium bowl, add the beef mince, garlic, ground cumin and salt (see pantry). Season with pepper. Using your hands, mix everything together until very well combined. Shape the mixture into evenly sized balls, 5 per person. IMPORTANT: Wash your hands and equipment after handling raw meat.",
+          "instructionsHTML": "<p>In a medium bowl, add the beef mince, garlic, ground cumin and salt (see pantry). Season with pepper. Using your hands, mix everything together until very well combined. Shape the mixture into evenly sized balls, 5 per person. IMPORTANT: Wash your hands and equipment after handling raw meat.</p>",
+          "instructionsMarkdown": "In a medium bowl, add the beef mince, garlic, ground cumin and salt (see pantry). Season with pepper. Using your hands, mix everything together until very well combined. Shape the mixture into evenly sized balls, 5 per person. IMPORTANT: Wash your hands and equipment after handling raw meat.",
+          "ingredients": [
+            "62fcaa07d7803ca91b790566",
+            "6048ba435d6d2541787296ec",
+            "62fcaa51c9a48553f9075406",
+            "62c6e0eb9cab2001267a28b5"
+          ],
+          "utensils": [
+            "57e2674fb7e8697d4b305369"
+          ],
+          "timers": [],
+          "images": [
+            {
+              "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62a74447a274505d77010ec2/step-c5ae1010.jpg",
+              "path": "/62a74447a274505d77010ec2/step-c5ae1010.jpg",
+              "caption": "Make the Koftas"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "index": 3,
+          "instructions": "Put the broccoli florets onto a lined baking tray and drizzle with oil, then coat in the North Indian style spice mix. Season with salt and pepper. Toss to coat, then spread out in a single layer. Add the meatballs to the other end of the baking tray. Use two trays if needed. Once hot, roast on the middle shelf until the broccoli edges are crispy and slightly charred and the meatballs are browned and cooked through, 14-16 mins. IMPORTANT: The meatballs are cooked when no longer pink in the middle.",
+          "instructionsHTML": "<p>Put the broccoli florets onto a lined baking tray and drizzle with oil, then coat in the North Indian style spice mix. Season with salt and pepper. Toss to coat, then spread out in a single layer. Add the meatballs to the other end of the baking tray. Use two trays if needed. Once hot, roast on the middle shelf until the broccoli edges are crispy and slightly charred and the meatballs  are browned and cooked through, 14-16 mins. IMPORTANT: The meatballs are cooked when no longer pink in the middle.</p>",
+          "instructionsMarkdown": "Put the broccoli florets onto a lined baking tray and drizzle with oil, then coat in the North Indian style spice mix. Season with salt and pepper. Toss to coat, then spread out in a single layer. Add the meatballs to the other end of the baking tray. Use two trays if needed. Once hot, roast on the middle shelf until the broccoli edges are crispy and slightly charred and the meatballs  are browned and cooked through, 14-16 mins. IMPORTANT: The meatballs are cooked when no longer pink in the middle.",
+          "ingredients": [
+            "6039042de5dada46f76a2efc",
+            "62fcaa0fd7803ca91b79057b"
+          ],
+          "utensils": [
+            "57e2674fb7e8697d4b305377",
+            "57e2674fb7e8697d4b305368"
+          ],
+          "timers": [],
+          "images": [
+            {
+              "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62a74447a274505d77010ec2/step-5c5ae820.jpg",
+              "path": "/62a74447a274505d77010ec2/step-5c5ae820.jpg",
+              "caption": "Bake the Koftas & Broccoli"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "index": 4,
+          "instructions": "In the meantime, heat a large frying pan on medium-high heat with a drizzle of oil. Squeeze in the Rogan Josh curry paste and cook until fragrant, 1 min. Pour in the coconut milk, water (see pantry) and chicken stock paste. Reduce the heat to medium and simmer until thickened, 5-6 mins.",
+          "instructionsHTML": "<p>In the meantime, heat a large frying pan on medium-high heat with a drizzle of oil. Squeeze in the Rogan Josh curry paste and cook until fragrant, 1 min. Pour in the coconut milk, water (see pantry) and chicken stock paste. Reduce the heat to medium and simmer until thickened, 5-6 mins.</p>",
+          "instructionsMarkdown": "In the meantime, heat a large frying pan on medium-high heat with a drizzle of oil. Squeeze in the Rogan Josh curry paste and cook until fragrant, 1 min. Pour in the coconut milk, water (see pantry) and chicken stock paste. Reduce the heat to medium and simmer until thickened, 5-6 mins.",
+          "ingredients": [
+            "62fcaa0abd9a2478e193f002",
+            "60633303c7e6833e3e38fa40",
+            "62c6e0ef9cab2001267a28b8"
+          ],
+          "utensils": [
+            "57e2674fb7e8697d4b30536f"
+          ],
+          "timers": [],
+          "images": [
+            {
+              "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62a74447a274505d77010ec2/step-7c8adb30.jpg",
+              "path": "/62a74447a274505d77010ec2/step-7c8adb30.jpg",
+              "caption": "Start the Curry"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "index": 5,
+          "instructions": "Once simmered, increase the heat to medium-high and add the spinach to the pan, a handful at a time, until wilted and piping hot, 1-2 mins. Season with salt and pepper.",
+          "instructionsHTML": "<p>Once simmered, increase the heat to medium-high and add the spinach to the pan, a handful at a time, until wilted and piping hot, 1-2 mins. Season with salt and pepper.</p>",
+          "instructionsMarkdown": "Once simmered, increase the heat to medium-high and add the spinach to the pan, a handful at a time, until wilted and piping hot, 1-2 mins. Season with salt and pepper.",
+          "ingredients": [
+            "62fcaa0ec9a48553f907536e"
+          ],
+          "utensils": [],
+          "timers": [],
+          "images": [
+            {
+              "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62a74447a274505d77010ec2/step-a98f5f40.jpg",
+              "path": "/62a74447a274505d77010ec2/step-a98f5f40.jpg",
+              "caption": "Add the Spinach"
+            }
+          ],
+          "videos": []
+        },
+        {
+          "index": 6,
+          "instructions": "Once cooked add the koftas to the curry, then share between your bowls, spooning over any juices from the kofta tray. Top with the spiced broccoli, then sprinkle over the flaked almonds to finish.",
+          "instructionsHTML": "<p>Once cooked add the koftas to the curry, then share between your bowls, spooning over any juices from the kofta tray. Top with the spiced broccoli, then sprinkle over the flaked almonds to finish.</p>",
+          "instructionsMarkdown": "Once cooked add the koftas to the curry, then share between your bowls, spooning over any juices from the kofta tray. Top with the spiced broccoli, then sprinkle over the flaked almonds to finish.",
+          "ingredients": [
+            "6039042de5dada46f76a2efc",
+            "6048ba435d6d2541787296ec",
+            "62fcaa07d7803ca91b790566",
+            "62fcaa51c9a48553f9075406",
+            "62fcaa0fd7803ca91b79057b",
+            "62fcaa0abd9a2478e193f002",
+            "60633303c7e6833e3e38fa40",
+            "62fcaa0ec9a48553f907536e",
+            "62fca9f3bd9a2478e193efd9",
+            "62c6e28e9cab2001267a291a",
+            "62c6e0eb9cab2001267a28b5",
+            "62c6e0ef9cab2001267a28b8"
+          ],
+          "utensils": [],
+          "timers": [],
+          "images": [
+            {
+              "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/62a74447a274505d77010ec2/step-bd85f050.jpg",
+              "path": "/62a74447a274505d77010ec2/step-bd85f050.jpg",
+              "caption": "Serve"
+            }
+          ],
+          "videos": []
+        }
+      ],
+      "tags": [
+        {
+          "id": "61e67258f6ab79631f6dcc26",
+          "type": "lower-carb",
+          "name": "Lower Carb",
+          "slug": "lower-carb",
+          "colorHandle": null,
+          "preferences": [
+            "Lower Carb"
+          ],
+          "displayLabel": true
+        },
+        {
+          "id": "5f9d72c0d8f840084f144706",
+          "type": "keto",
+          "name": "Keto",
+          "slug": "keto",
+          "colorHandle": "text",
+          "preferences": [
+            "Keto"
+          ],
+          "displayLabel": true
+        },
+        {
+          "id": "57d13370b7e8697d4b305321",
+          "type": "high-protein",
+          "name": "High Protein",
+          "slug": "high-protein",
+          "colorHandle": null,
+          "preferences": [
+            "Protein Rich"
+          ],
+          "displayLabel": true
+        },
+        {
+          "id": "64b7dbda8c02aa03441416af",
+          "type": "seo",
+          "name": "SEO",
+          "slug": "seo",
+          "colorHandle": null,
+          "preferences": [],
+          "displayLabel": false
+        }
+      ],
+      "totalTime": "PT30M",
+      "uniqueRecipeCode": "GCLC23411926-1",
+      "updatedAt": "2025-09-03T20:43:38+00:00",
+      "utensils": [
+        {
+          "id": "59d49a9419279f8fe60e867c",
+          "type": "garlic-press",
+          "name": "Garlic Press"
+        },
+        {
+          "id": "57e2674fb7e8697d4b305369",
+          "type": "bowl",
+          "name": "Bowl"
+        },
+        {
+          "id": "57e2674fb7e8697d4b305377",
+          "type": "parchmentpaper",
+          "name": "Baking Paper"
+        },
+        {
+          "id": "57e2674fb7e8697d4b305368",
+          "type": "bakingsheet",
+          "name": "Baking Tray"
+        },
+        {
+          "id": "57e2674fb7e8697d4b30536f",
+          "type": "grillpan",
+          "name": "Grill Pan"
+        }
+      ],
+      "uuid": "bc0fa33c-5c47-4a8e-bcfa-137b55e2abb8",
+      "videoLink": null,
+      "websiteUrl": "https://www.greenchef.co.uk/recipes/kofta-rogan-josh-curry-62a74447a274505d77010ec2",
+      "yields": [
+        {
+          "yields": 2,
+          "ingredients": [
+            {
+              "id": "60633303c7e6833e3e38fa40",
+              "amount": 5,
+              "unit": "grams"
+            },
+            {
+              "id": "62fcaa3fbd9a2478e193f06c",
+              "amount": 50,
+              "unit": "grams"
+            },
+            {
+              "id": "6039042de5dada46f76a2efc",
+              "amount": 1,
+              "unit": "unit(s)"
+            },
+            {
+              "id": "62fca9f3bd9a2478e193efd9",
+              "amount": 15,
+              "unit": "grams"
+            },
+            {
+              "id": "62fcaa0ec9a48553f907536e",
+              "amount": 100,
+              "unit": "grams"
+            },
+            {
+              "id": "6048ba435d6d2541787296ec",
+              "amount": 2,
+              "unit": "unit(s)"
+            },
+            {
+              "id": "62fcaa0fd7803ca91b79057b",
+              "amount": 1,
+              "unit": "sachet(s)"
+            },
+            {
+              "id": "62fcaa51c9a48553f9075406",
+              "amount": 1,
+              "unit": "sachet(s)"
+            },
+            {
+              "id": "62fcaa0abd9a2478e193f002",
+              "amount": 200,
+              "unit": "milliliter(s)"
+            },
+            {
+              "id": "62fcaa07d7803ca91b790566",
+              "amount": 300,
+              "unit": "grams"
+            },
+            {
+              "id": "62c6e28e9cab2001267a291a",
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            {
+              "id": "62c6e0eb9cab2001267a28b5",
+              "amount": 0.25,
+              "unit": "tsp"
+            },
+            {
+              "id": "62c6e0ef9cab2001267a28b8",
+              "amount": 100,
+              "unit": "milliliter(s)"
+            }
+          ]
+        },
+        {
+          "yields": 4,
+          "ingredients": [
+            {
+              "id": "60633303c7e6833e3e38fa40",
+              "amount": 10,
+              "unit": "grams"
+            },
+            {
+              "id": "62fcaa3fbd9a2478e193f06c",
+              "amount": 100,
+              "unit": "grams"
+            },
+            {
+              "id": "6039042de5dada46f76a2efc",
+              "amount": 2,
+              "unit": "unit(s)"
+            },
+            {
+              "id": "62fca9f3bd9a2478e193efd9",
+              "amount": 30,
+              "unit": "grams"
+            },
+            {
+              "id": "62fcaa0ec9a48553f907536e",
+              "amount": 200,
+              "unit": "grams"
+            },
+            {
+              "id": "6048ba435d6d2541787296ec",
+              "amount": 4,
+              "unit": "unit(s)"
+            },
+            {
+              "id": "62fcaa0fd7803ca91b79057b",
+              "amount": 2,
+              "unit": "sachet(s)"
+            },
+            {
+              "id": "62fcaa51c9a48553f9075406",
+              "amount": 2,
+              "unit": "sachet(s)"
+            },
+            {
+              "id": "62fcaa0abd9a2478e193f002",
+              "amount": 400,
+              "unit": "milliliter(s)"
+            },
+            {
+              "id": "62fcaa07d7803ca91b790566",
+              "amount": 600,
+              "unit": "grams"
+            },
+            {
+              "id": "62c6e28e9cab2001267a291a",
+              "amount": 4,
+              "unit": "tbsp"
+            },
+            {
+              "id": "62c6e0eb9cab2001267a28b5",
+              "amount": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "id": "62c6e0ef9cab2001267a28b8",
+              "amount": 200,
+              "unit": "milliliter(s)"
+            }
+          ]
+        }
+      ]
+    },
+    "dataUpdateCount": 1,
+    "dataUpdatedAt": 1758113711265,
+    "error": null,
+    "errorUpdateCount": 0,
+    "errorUpdatedAt": 0,
+    "fetchFailureCount": 0,
+    "fetchMeta": null,
+    "isFetching": false,
+    "isInvalidated": false,
+    "isPaused": false,
+    "status": "success"
+  },
+  "queryKey": [
+    "recipe.byId",
+    {
+      "systemCountry": "GN",
+      "locale": "en-GB",
+      "id": "62a74447a274505d77010ec2"
+    }
+  ],
+  "queryHash": "[\"recipe.byId\",{\"id\":\"62a74447a274505d77010ec2\",\"locale\":\"en-GB\",\"systemCountry\":\"GN\"}]"
+}
