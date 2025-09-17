@@ -36,5 +36,5 @@ jobs:
           git add _data/*.json
           git config --global user.name 'The Cook'
           git config --global user.email 'the_cook@users.noreply.github.com'
-          git commit -am "Recipe grab"
+          git diff --cached --quiet || git commit -am "Recipe grab"
           git push
