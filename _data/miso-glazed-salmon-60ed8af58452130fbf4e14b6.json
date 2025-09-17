@@ -1,0 +1,723 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f7",
+      "name": "Fish",
+      "type": "fish",
+      "slug": "fish",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fe",
+      "name": "Sesame",
+      "type": "sesame",
+      "slug": "sesame",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5a9614ab30006c2c026cf562",
+      "name": "Peanut",
+      "type": "traces-of-peanuts",
+      "slug": "traces-of-peanut",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b305302",
+      "name": "Nuts",
+      "type": "traces-of-nuts",
+      "slug": "traces-of-nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.5,
+  "canonical": "6062fdd19cc1081ad772a5ed",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/miso-glazed-salmon-6062fdd19cc1081ad772a5ed",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/miso-glazed-salmon-60ed8af58452130fbf4e14b6-4d8b51ca.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039b1",
+    "name": "Seafood",
+    "type": "seafood",
+    "slug": "Seafood"
+  },
+  "clonedFrom": "60b7571992ee437a57360c5c",
+  "comment": "GCLC0134158-5",
+  "country": "GN",
+  "createdAt": "2021-07-13T12:45:42+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ad",
+      "type": "japanese",
+      "name": "Japanese",
+      "slug": "japanese",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ad-3f36131f.jpg"
+    }
+  ],
+  "description": "In this dish, we marinate our responsibly sourced salmon in an umami-rich, sweet miso mixture then bake it until tender, then cover it with black sesame seeds so it looks as striking as it tastes. Served with a crunchy side of stir-fried garlic and tamari veg.",
+  "descriptionHTML": "<p>In this dish, we marinate our responsibly sourced salmon in an umami-rich, sweet miso mixture then bake it until tender, then cover it with black sesame seeds so it looks as striking as it tastes. Served with a crunchy side of stir-fried garlic and tamari veg.</p>",
+  "descriptionMarkdown": "In this dish, we marinate our responsibly sourced salmon in an umami-rich, sweet miso mixture then bake it until tender, then cover it with black sesame seeds so it looks as striking as it tastes. Served with a crunchy side of stir-fried garlic and tamari veg.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Stir Fried Vegetables",
+  "id": "60ed8af58452130fbf4e14b6",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/miso-glazed-salmon-27c1d876-12735fb4.jpg",
+  "imagePath": "/image/miso-glazed-salmon-27c1d876-12735fb4.jpg",
+  "ingredients": [
+    {
+      "id": "62fca9f8d7803ca91b790555",
+      "uuid": "d52fa5aa-1f49-5c06-a714-c71690aeec3e",
+      "name": "Miso Paste",
+      "type": "miso-paste",
+      "slug": "miso-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9f8d7803ca91b790555-60ad9b9a.png",
+      "imagePath": "/ingredient/62fca9f8d7803ca91b790555-60ad9b9a.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039021fb46fba0080356138",
+      "uuid": "c827fcef-cde7-5f8f-a284-e6af99d69156",
+      "name": "Tamari Sauce",
+      "type": "tamari-sauce",
+      "slug": "tamari-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039021fb46fba0080356138-31f0d52f.png",
+      "imagePath": "/ingredient/6039021fb46fba0080356138-31f0d52f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc30",
+        "uuid": "3673d814-9d2d-5ac1-bf62-1a0c1f93102a",
+        "name": "sauce",
+        "slug": "sauce",
+        "type": "soy-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603927a7aad25c3c6c6d9462",
+      "uuid": "c2928022-68b3-5239-af1d-9b16a2153402",
+      "name": "Salmon Fillets",
+      "type": "salmon",
+      "slug": "salmon-fillets",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "imagePath": "/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f7"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb9d",
+        "uuid": "71cb7001-a69a-5cfd-bb6b-384757bb222a",
+        "name": "white fish",
+        "slug": "white-fish",
+        "type": "fish",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60392410046fce264a0909e4",
+      "uuid": "540cc6fc-dcc5-5cc8-81b2-669729b49e60",
+      "name": "Tenderstem® Broccoli",
+      "type": "tenderstem-broccoli",
+      "slug": "tenderstem-r-broccoli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "imagePath": "/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb56",
+        "uuid": "d01a7d5d-e4fd-52a4-bdc5-8c61549aa9bb",
+        "name": "broccoli",
+        "slug": "broccoli",
+        "type": "broccoli",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391e4757959309cc4334f8",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "imagePath": "/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0dd7803ca91b790577",
+      "uuid": "998ffdf6-0c88-5da8-87a0-c00df1539195",
+      "name": "Sugar Snap Peas",
+      "type": "sugar-snap-peas",
+      "slug": "sugar-snap-peas",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0dd7803ca91b790577-08a51114.png",
+      "imagePath": "/ingredient/62fcaa0dd7803ca91b790577-08a51114.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603900be24ea885d4c711bf2",
+      "uuid": "6fbc1448-f335-5219-86c6-01f9402a9f10",
+      "name": "Honey",
+      "type": "blossom-honey",
+      "slug": "honey",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603900be24ea885d4c711bf2-3866d80e.png",
+      "imagePath": "/ingredient/603900be24ea885d4c711bf2-3866d80e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbb3",
+        "uuid": "386de5dc-3457-5baf-a3ca-441cc9236d72",
+        "name": "honey",
+        "slug": "honey",
+        "type": "honey",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa2ac9a48553f90753ae",
+      "uuid": "b2650fbb-77ee-5228-a70d-a2f8d7a9b5d5",
+      "name": "Black Sesame Seeds",
+      "type": "black-sesame-seeds",
+      "slug": "black-sesame-seeds",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa2ac9a48553f90753ae-0580b722.png",
+      "imagePath": "/ingredient/62fcaa2ac9a48553f90753ae-0580b722.png",
+      "shipped": true,
+      "allergens": [
+        "5a9614ab30006c2c026cf562",
+        "57962a07b7e8697d4b3052fe",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b305302"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "Lower Carb",
+    "handle": "gn-lower-carb",
+    "foregroundColor": "#000000",
+    "backgroundColor": "#F0D282",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/60ed8af58452130fbf4e14b6",
+  "name": "Miso Glazed Salmon",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 484,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2027,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 27,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 24,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 17,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 7.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 34,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.82,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 83,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 421,
+  "slug": "miso-glazed-salmon",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7. In a large bowl, combine the miso paste and half of the tamari. Pat the salmon fillets dry with kitchen paper. Add the salmon fillets to the miso marinade and gently turn so they’re fully coated. IMPORTANT: Wash your hands and equipment after handling raw fish.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. In a large bowl, combine the miso paste and half of the tamari. Pat the salmon fillets dry with kitchen paper. Add the salmon fillets to the miso marinade and gently turn so they’re fully coated. IMPORTANT: Wash your hands and equipment after handling raw fish.</p>",
+      "instructionsMarkdown": "Preheat your oven to 220°C/200°C fan/gas mark 7. In a large bowl, combine the miso paste and half of the tamari. Pat the salmon fillets dry with kitchen paper. Add the salmon fillets to the miso marinade and gently turn so they’re fully coated. IMPORTANT: Wash your hands and equipment after handling raw fish.",
+      "ingredients": [
+        "62fca9f8d7803ca91b790555",
+        "6039021fb46fba0080356138",
+        "603927a7aad25c3c6c6d9462"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305369"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60ed8af58452130fbf4e14b6/step-43e12700.jpg",
+          "path": "/60ed8af58452130fbf4e14b6/step-43e12700.jpg",
+          "caption": "Prep the Salmon"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Slice any thicker Tenderstem® broccoli stalks in half lengthways. Halve the pepper and discard the core and seeds. Slice into thin strips. Slice the sugar snap peas in half lengthways. Peel and grate the garlic (or use a garlic press).",
+      "instructionsHTML": "<p>Slice any thicker Tenderstem® broccoli stalks in half lengthways. Halve the pepper and discard the core and seeds. Slice into thin strips. Slice the sugar snap peas in half lengthways. Peel and grate the garlic (or use a garlic press).</p>",
+      "instructionsMarkdown": "Slice any thicker Tenderstem® broccoli stalks in half lengthways. Halve the pepper and discard the core and seeds. Slice into thin strips. Slice the sugar snap peas in half lengthways. Peel and grate the garlic (or use a garlic press).",
+      "ingredients": [
+        "60392410046fce264a0909e4",
+        "60391e4757959309cc4334f8",
+        "62fcaa0dd7803ca91b790577",
+        "6048ba435d6d2541787296ec"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60ed8af58452130fbf4e14b6/step-13d9f310.jpg",
+          "path": "/60ed8af58452130fbf4e14b6/step-13d9f310.jpg",
+          "caption": "Prep the Veggies"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Place the salmon fillets onto a lined baking tray with a drizzle of oil. Spoon any remaining marinade over the salmon. Bake on the top shelf of the oven, 10-15 mins. Wait until the salmon has been in the oven for 6 mins to move on to the next step. IMPORTANT: The fish is cooked when it is opaque in the middle.",
+      "instructionsHTML": "<p>Place the salmon fillets onto a lined baking tray with a drizzle of oil. Spoon any remaining marinade over the salmon. Bake on the top shelf of the oven, 10-15 mins. Wait until the salmon has been in the oven for 6 mins to move on to the next step. IMPORTANT: The fish is cooked when it is opaque in the middle.</p>",
+      "instructionsMarkdown": "Place the salmon fillets onto a lined baking tray with a drizzle of oil. Spoon any remaining marinade over the salmon. Bake on the top shelf of the oven, 10-15 mins. Wait until the salmon has been in the oven for 6 mins to move on to the next step. IMPORTANT: The fish is cooked when it is opaque in the middle.",
+      "ingredients": [
+        "603927a7aad25c3c6c6d9462",
+        "62fca9f8d7803ca91b790555",
+        "6039021fb46fba0080356138"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [
+        {
+          "name": "Bake the salmon",
+          "duration": "PT16M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60ed8af58452130fbf4e14b6/step-3f335f20.jpg",
+          "path": "/60ed8af58452130fbf4e14b6/step-3f335f20.jpg",
+          "caption": "Bake the Salmon"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Heat a large frying pan on a high heat with a drizzle of oil. Add the Tenderstem® broccoli and pepper. Cook until starting to char, 3-4 mins. Add the sugar snap peas to the pan and cook for a further 2-3 mins. If you’d like to, season with salt and pepper.",
+      "instructionsHTML": "<p>Heat a large frying pan on a high heat with a drizzle of oil. Add the Tenderstem® broccoli and pepper. Cook until starting to char, 3-4 mins. Add the sugar snap peas to the pan and cook for a further 2-3 mins. If you’d like to, season with salt and pepper.</p>",
+      "instructionsMarkdown": "Heat a large frying pan on a high heat with a drizzle of oil. Add the Tenderstem® broccoli and pepper. Cook until starting to char, 3-4 mins. Add the sugar snap peas to the pan and cook for a further 2-3 mins. If you’d like to, season with salt and pepper.",
+      "ingredients": [
+        "60392410046fce264a0909e4",
+        "60391e4757959309cc4334f8",
+        "62fcaa0dd7803ca91b790577"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30536f"
+      ],
+      "timers": [
+        {
+          "name": "Cook the broccoli and pepper",
+          "duration": "PT3M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        },
+        {
+          "name": "Add and cook the sugar snap peas",
+          "duration": "PT3M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60ed8af58452130fbf4e14b6/step-8d95bc30.jpg",
+          "path": "/60ed8af58452130fbf4e14b6/step-8d95bc30.jpg",
+          "caption": "Cook the Veggies"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "For the last min of cooking, add the garlic and saute to soften. Remove the pan from the heat and pour in the honey and remaining tamari. Stir to coat.",
+      "instructionsHTML": "<p>For the last min of cooking, add the garlic and saute to soften. Remove the pan from the heat and pour in the honey and remaining tamari. Stir to coat.</p>",
+      "instructionsMarkdown": "For the last min of cooking, add the garlic and saute to soften. Remove the pan from the heat and pour in the honey and remaining tamari. Stir to coat.",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "6039021fb46fba0080356138"
+      ],
+      "utensils": [],
+      "timers": [
+        {
+          "name": "Cook the garlic",
+          "duration": "PT1M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60ed8af58452130fbf4e14b6/step-ffb33540.jpg",
+          "path": "/60ed8af58452130fbf4e14b6/step-ffb33540.jpg",
+          "caption": "Add Flavour"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Divide the honey veggies between your plates. Serve topped with the salmon fillets. Drizzle over any remaining marinade and sprinkle the salmon in black sesame seeds.",
+      "instructionsHTML": "<p>Divide the honey veggies between your plates. Serve topped with the salmon fillets. Drizzle over any remaining marinade and sprinkle the salmon in black sesame seeds.</p>",
+      "instructionsMarkdown": "Divide the honey veggies between your plates. Serve topped with the salmon fillets. Drizzle over any remaining marinade and sprinkle the salmon in black sesame seeds.",
+      "ingredients": [
+        "62fca9f8d7803ca91b790555",
+        "6039021fb46fba0080356138",
+        "603927a7aad25c3c6c6d9462",
+        "60392410046fce264a0909e4",
+        "60391e4757959309cc4334f8",
+        "62fcaa0dd7803ca91b790577",
+        "6048ba435d6d2541787296ec",
+        "62fcaa2ac9a48553f90753ae"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30537b"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/60ed8af58452130fbf4e14b6/step-4a214150.jpg",
+          "path": "/60ed8af58452130fbf4e14b6/step-4a214150.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCLC0134158-5",
+  "updatedAt": "2025-09-16T14:47:16+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305369",
+      "type": "bowl",
+      "name": "Bowl"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536f",
+      "type": "grillpan",
+      "name": "Grill Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30537b",
+      "type": "plate",
+      "name": "Plate"
+    }
+  ],
+  "uuid": "f85ce1ff-b089-48f3-aca7-74df05948dd1",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/miso-glazed-salmon-60ed8af58452130fbf4e14b6",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fca9f8d7803ca91b790555",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "6039021fb46fba0080356138",
+          "amount": 24,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa0dd7803ca91b790577",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "603900be24ea885d4c711bf2",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa2ac9a48553f90753ae",
+          "amount": 5,
+          "unit": "grams"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fca9f8d7803ca91b790555",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "6039021fb46fba0080356138",
+          "amount": 48,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa0dd7803ca91b790577",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "603900be24ea885d4c711bf2",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa2ac9a48553f90753ae",
+          "amount": 10,
+          "unit": "grams"
+        }
+      ]
+    }
+  ]
+}
