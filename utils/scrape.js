@@ -4,7 +4,8 @@ const fs = require("fs")
 
 const recipes = [
 	"kofta-rogan-josh-curry-62a74447a274505d77010ec2",
-	"miso-glazed-salmon-60ed8af58452130fbf4e14b6"
+	"miso-glazed-salmon-60ed8af58452130fbf4e14b6",
+	"pork-larb-604f572e9df6c0562d13b372"
 ]
 const URL = recipe => `https://www.greenchef.co.uk/recipes/${recipe}`
 
