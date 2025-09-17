@@ -8,35 +8,41 @@ layout: default
 {% if recipe_data %}
 {% assign ingredients = recipe_data.ingredients %}
 {% assign yields = recipe_data.yields %}
-<table class="table table-striped-columns">
-  <thead>
-    <tr>
-      <th>Ingredient</th>
-      <th>Amount</th>
-      <th>Unit</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for yield in yields %}
-      {% if yield.yields == 2 %}
-        {% for ing in yield.ingredients %}
-          {% assign ingredient = ingredients | where: "id", ing.id | first %}
-          <tr>
-            <td>{{ ingredient.name }}</td>
-            <td>{{ ing.amount }}</td>
-            <td>{{ ing.unit }}</td>
-          </tr>
+<div class = "row">
+  <div class = "col-sm-6">
+    <table class="table table-striped-columns">
+      <thead>
+        <tr>
+          <th>Ingredient</th>
+          <th>Amount</th>
+          <th>Unit</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for yield in yields %}
+          {% if yield.yields == 2 %}
+            {% for ing in yield.ingredients %}
+              {% assign ingredient = ingredients | where: "id", ing.id | first %}
+              <tr>
+                <td>{{ ingredient.name }}</td>
+                <td>{{ ing.amount }}</td>
+                <td>{{ ing.unit }}</td>
+              </tr>
+            {% endfor %}
+          {% endif %}
         {% endfor %}
-      {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
+      </tbody>
+    </table>
+  </div>
 {% assign steps = recipe_data.steps %}
-<ul>
-  {% for step in steps %}
-  <li>{{ step.instructionsHTML }}</li>
-  {% endfor %}
-</ul>
+    <div class = "col-sm-6">
+      <ul>
+        {% for step in steps %}
+        <li>{{ step.instructionsHTML }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
 
 {% else %}
 
