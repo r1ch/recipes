@@ -17,11 +17,11 @@ async function scrape(recipe){
 
 		if(scriptTag){
 			const jsonData = JSON.parse(scriptTag)
-			const recipe = jsonData
+			const recipeData = jsonData
 			.props.pageProps.ssrPayload.dehydratedState.queries
 			.find(q=>q.queryKey.includes("recipe.byId"))
 			
-			fs.writeFileSync(`${recipe}.json`, JSON.stringify(recipe,null,2),"utf-8")
+			fs.writeFileSync(`${recipe}.json`, JSON.stringify(recipeData,null,2),"utf-8")
 			return "OK"
 		} else {
 			console.error("No script tag")
