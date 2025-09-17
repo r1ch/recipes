@@ -20,7 +20,7 @@ jobs:
 
       - name: Run downloader
         run: |
-          cd scraper
+          cd utils
           npm i
           node scrape.js
           ls
