@@ -24,6 +24,7 @@ async function scrape(recipe){
 			const recipeData = jsonData
 			.props.pageProps.ssrPayload.dehydratedState.queries
 			.find(q=>q.queryKey.includes("recipe.byId"))
+			?.state?.data
 			
 			fs.writeFileSync(`../_data/${recipe}.json`, JSON.stringify(recipeData,null,2),"utf-8")
 			console.log("Wrote",recipe)
