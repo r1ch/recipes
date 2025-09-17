@@ -10,7 +10,7 @@ const URL = recipe => `https://www.greenchef.co.uk/recipes/${recipe}`
 
 async function scrape(recipe){
 	try {
-		if(fs.existsSync(`../_data/${recipe}.json`){
+		if(fs.existsSync(`../_data/${recipe}.json`)){
 			console.log("Already have",recipe)
 			return "OK"
 		}
