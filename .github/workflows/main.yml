@@ -32,7 +32,5 @@ jobs:
           git add ~/_data/*.json
           git config --global user.name 'Poddy'
           git config --global user.email 'poddy@users.noreply.github.com'
-          git commit -am "Recipe
-          
- grab"
+          git commit -am "Recipe grab"
           git push
