@@ -10,6 +10,10 @@ const URL = recipe => `https://www.greenchef.co.uk/recipes/${recipe}`
 
 async function scrape(recipe){
 	try {
+		if(fs.existsSync(`../_data/${recipe}.json`){
+			console.log("Already have",recipe)
+			return "OK"
+		}
 		const {data: html} = await axios.get(URL(recipe))
 		const $ = cheerio.load(html)
 
@@ -21,7 +25,7 @@ async function scrape(recipe){
 			.props.pageProps.ssrPayload.dehydratedState.queries
 			.find(q=>q.queryKey.includes("recipe.byId"))
 			
-			fs.writeFileSync(`${recipe}.json`, JSON.stringify(recipeData,null,2),"utf-8")
+			fs.writeFileSync(`../_data/${recipe}.json`, JSON.stringify(recipeData,null,2),"utf-8")
 			return "OK"
 		} else {
 			console.error("No script tag")
