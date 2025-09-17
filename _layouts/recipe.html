@@ -31,6 +31,15 @@ layout: default
     {% endfor %}
   </tbody>
 </table>
+{% assign steps = recipe_data.steps %}
+<ul>
+  {% for step in steps %}
+  <li>{{ step.instructionsHTML }}</li>
+  {% endfor %}
+</ul>
+
 {% else %}
+
+
   <p><em>No data found for this recipe.</em></p>
 {% endif %}
