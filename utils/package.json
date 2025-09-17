@@ -1,5 +1,5 @@
 {
-  "name": "scraper",
+  "name": "utils",
   "version": "1.0.0",
   "main": "scrape.js",
   "scripts": {
