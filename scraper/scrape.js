@@ -26,6 +26,7 @@ async function scrape(recipe){
 			.find(q=>q.queryKey.includes("recipe.byId"))
 			
 			fs.writeFileSync(`../_data/${recipe}.json`, JSON.stringify(recipeData,null,2),"utf-8")
+			console.log("Wrote",recipe)
 			return "OK"
 		} else {
 			console.error("No script tag")
