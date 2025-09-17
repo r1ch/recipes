@@ -23,9 +23,11 @@ jobs:
           cd scraper
           npm i
           node scrape.js
+          ls
 
       - name: Commit downloads
         run: |
+          ls
           mv *.json ~/_data
           ls
           git pull
