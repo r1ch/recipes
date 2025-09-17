@@ -19,8 +19,8 @@ fs.readdirSync(inputDir).forEach(file => {
     // Jekyll front matter
     const frontMatter = `---
 layout: "recipe"
-title: title
-slug: slug
+title: ${title}
+slug: ${slug}
 ---\n`;
 
     // Write to output directory
