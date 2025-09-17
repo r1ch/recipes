@@ -28,7 +28,7 @@ jobs:
           ls
           cd _data
           ls
-          cd _recipes
+          cd ../_recipes
           ls
 
       - name: Commit downloads
