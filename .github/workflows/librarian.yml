@@ -1,0 +1,42 @@
+name: Get Recipes
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Run downloader
+        run: |
+          cd utils
+          npm i
+          node librarian.js
+          ls
+          cd ..
+          ls
+          cd _data
+          ls
+          cd _recipes
+          ls
+
+      - name: Commit downloads
+        run: |
+          ls
+          git pull
+          git add _recipes/*.md
+          git config --global user.name 'The Librarian'
+          git config --global user.email 'the_librarian@users.noreply.github.com'
+          git diff --cached --quiet || git commit -am "Tidy the library"
+          git push
