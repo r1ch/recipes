@@ -1,2 +1,3 @@
 collections:
- - recipes
+  recipes:
+    output: true
