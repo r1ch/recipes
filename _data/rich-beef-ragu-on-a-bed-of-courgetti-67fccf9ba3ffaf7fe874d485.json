@@ -1,0 +1,823 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "60368d89cdbdf450236ad8cd",
+      "name": "Wheat",
+      "type": "wheat",
+      "slug": "wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fc",
+      "name": "Celery",
+      "type": "celery",
+      "slug": "celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052ff",
+      "name": "Sulphites",
+      "type": "sulphites",
+      "slug": "sulphites",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.7,
+  "canonical": "632c7b923d77cefd2762ac25",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/porky-courgetti-632c7b923d77cefd2762ac25",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67fccf9ba3ffaf7fe874d485-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "67f91a4dfe44baceeade0a00",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-04-14T09:04:28+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ac",
+      "type": "italian",
+      "name": "Italian",
+      "slug": "italian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 4,
+  "headline": "with Parmigiano Reggiano",
+  "id": "67fccf9ba3ffaf7fe874d485",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5014_W04_UK_GCLC29812898-4_MB_mod_Swap__low-71f3e634.jpg",
+  "imagePath": "/image/GC_Y23_R5014_W04_UK_GCLC29812898-4_MB_mod_Swap__low-71f3e634.jpg",
+  "ingredients": [
+    {
+      "id": "603904c8823813388f0ab8f6",
+      "uuid": "90f7a2a9-7adb-51b5-8f53-022f3a2ef9d8",
+      "name": "Courgette",
+      "type": "courgette",
+      "slug": "courgette",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "imagePath": "/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb83",
+        "uuid": "c8061e44-33cd-538e-83ce-d05693b35ba7",
+        "name": "zucchini",
+        "slug": "zucchini",
+        "type": "courgette",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390df6f44ad95997152386",
+      "uuid": "15cddd46-c4d1-5521-8277-f964e79d60d7",
+      "name": "Sliced Mushrooms",
+      "type": "sliced-mushrooms",
+      "slug": "sliced-mushrooms",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390df6f44ad95997152386-3c9524f6.png",
+      "imagePath": "/ingredient/60390df6f44ad95997152386-3c9524f6.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbde",
+        "uuid": "4d4e9c74-f094-555b-b132-6edacc2fd433",
+        "name": "plain mushrooms",
+        "slug": "plain-mushrooms",
+        "type": "mushrooms",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "680ba59dbfb92a8200ac0cba",
+      "uuid": "0eae0198-9f27-5e24-97d4-45b44e38d5dd",
+      "name": "Soy Sauce",
+      "type": "soy-sauce",
+      "slug": "soy-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/680ba59dbfb92a8200ac0cba-e60a2689.png",
+      "imagePath": "/ingredient/680ba59dbfb92a8200ac0cba-e60a2689.png",
+      "shipped": true,
+      "allergens": [
+        "60368d89cdbdf450236ad8cd",
+        "57962a07b7e8697d4b3052f5",
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "633c6597aa3f33c15c854baf",
+      "uuid": "b755bc1f-0454-437a-9841-1981d18eb0e4",
+      "name": "Mixed Herbs",
+      "type": "mixed-herbs",
+      "slug": "mixed-herbs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "imagePath": "/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "635b9a8bb8d13143493e30cc",
+      "uuid": "9bd72b6e-0d94-4148-961a-3e78f860086f",
+      "name": "Passata di Pomodoro",
+      "type": "passata-di-pomodoro",
+      "slug": "passata-di-pomodoro",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "imagePath": "/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60af7884a7e769310872d2ac",
+      "uuid": "c7ddc5b5-282c-5d16-978d-985e9b6c2c48",
+      "name": "Red Wine Jus Paste",
+      "type": "red-wine-jus-paste",
+      "slug": "red-wine-jus-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60af7884a7e769310872d2ac-1dd2dd20.png",
+      "imagePath": "/ingredient/60af7884a7e769310872d2ac-1dd2dd20.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fc",
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc54",
+        "uuid": "da557614-f3f3-559c-a83e-c66360fa6ff2",
+        "name": "wine",
+        "slug": "wine",
+        "type": "wine",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6070760fd22c0d123e36336f",
+      "uuid": "f6f00d5f-d551-5f8b-a935-a440152af609",
+      "name": "Parmigiano Reggiano",
+      "type": "parmigiano-reggiano",
+      "slug": "parmigiano-reggiano",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6070760fd22c0d123e36336f-dec999e1.png",
+      "imagePath": "/ingredient/6070760fd22c0d123e36336f-dec999e1.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb68",
+        "uuid": "a560b77e-37ae-5c55-82df-579a3d1d37de",
+        "name": "hard cheese",
+        "slug": "hard-cheese",
+        "type": "cheese",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ff9cab2001267a28c5",
+      "uuid": "7cd85650-3355-4a00-a785-d4c9f199ff49",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce-100ml",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "imagePath": "/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1279cab2001267a28e9",
+      "uuid": "cf9af936-101e-4641-90f0-347da4d0a347",
+      "name": "Butter",
+      "type": "butter-100g",
+      "slug": "butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "imagePath": "/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67fccf9ba3ffaf7fe874d485",
+  "name": "Rich Beef Ragu on a Bed of Courgetti",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2261,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 540,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 31.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 14.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 17.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 11.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 4.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 40.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.23,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 10,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 612,
+  "slug": "rich-beef-ragu-on-a-bed-of-courgetti",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Trim the courgette. If you have a spiralizer, use it on the courgette.\nIf not, use a vegetable peeler to shave the courgette into ribbons, running it down all sides of the courgette evenly until you reach the spongy centre. Discard the core. Pile the ribbons on top of each other and cut them lengthways to create 'spaghetti'.\nPeel and grate the garlic (or use a garlic press). ",
+      "instructionsHTML": "<p>Trim the courgette. If you have a spiralizer, use it on the courgette.</p>\n<p>If not, use a vegetable peeler to shave the courgette into ribbons, running it down all sides of the courgette evenly until you reach the spongy centre. Discard the core. Pile the ribbons on top of each other and cut them lengthways to create &#39;spaghetti&#39;.</p>\n<p>Peel and grate the garlic (or use a garlic press). </p>",
+      "instructionsMarkdown": "<p>Trim the courgette. If you have a spiralizer, use it on the courgette.</p>\n<p>If not, use a vegetable peeler to shave the courgette into ribbons, running it down all sides of the courgette evenly until you reach the spongy centre. Discard the core. Pile the ribbons on top of each other and cut them lengthways to create &#39;spaghetti&#39;.</p>\n<p>Peel and grate the garlic (or use a garlic press). </p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e",
+        "57e2674fb7e8697d4b305379"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67fccf9ba3ffaf7fe874d485/step-9200d300.jpg",
+          "path": "/67fccf9ba3ffaf7fe874d485/step-9200d300.jpg",
+          "caption": "Spiralize the Courgettes"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Heat a large saucepan on medium-high heat with a drizzle of oil.\nOnce hot, fry the beef mince and sliced mushrooms until the mushrooms are softened and the mince has browned, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper.\nStir half the garlic through the mince, 1-2 mins. IMPORTANT: Wash your hands and equipment after handling raw meat.",
+      "instructionsHTML": "<p>Heat a large saucepan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the beef mince and sliced mushrooms until the mushrooms are softened and the mince has browned, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper.</p>\n<p>Stir half the garlic through the mince, 1-2 mins. IMPORTANT: Wash your hands and equipment after handling raw meat.</p>",
+      "instructionsMarkdown": "<p>Heat a large saucepan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the beef mince and sliced mushrooms until the mushrooms are softened and the mince has browned, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper.</p>\n<p>Stir half the garlic through the mince, 1-2 mins. IMPORTANT: Wash your hands and equipment after handling raw meat.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "60390df6f44ad95997152386",
+        "62fcaa07d7803ca91b790566",
+        "6048ba435d6d2541787296ec"
+      ],
+      "utensils": [
+        "623c805661a1b9d0034f9065"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67fccf9ba3ffaf7fe874d485/step-94186f10.jpg",
+          "path": "/67fccf9ba3ffaf7fe874d485/step-94186f10.jpg",
+          "caption": "Fry the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Add the soy sauce, stir and allow to bubble away until evaporated, 30 secs. Stir in half the mixed herbs, the passata, red wine jus paste and water (see pantry).\nIf your red wine jus paste has hardened, put the sachet in a bowl of hot water for 1 min to loosen.\nBring to the boil, then reduce the heat to medium and simmer until the sauce has thickened, 5-6 mins, stirring frequently. IMPORTANT: The mince is cooked when no longer pink in the middle. ",
+      "instructionsHTML": "<p>Add the soy sauce, stir and allow to bubble away until evaporated, 30 secs. Stir in half the mixed herbs, the passata, red wine jus paste and water (see pantry).</p>\n<p><em>If your red wine jus paste has hardened, put the sachet in a bowl of hot water for 1 min to loosen.</em></p>\n<p>Bring to the boil, then reduce the heat to medium and simmer until the sauce has thickened, 5-6 mins, stirring frequently. IMPORTANT: The mince is cooked when no longer pink in the middle. </p>",
+      "instructionsMarkdown": "<p>Add the soy sauce, stir and allow to bubble away until evaporated, 30 secs. Stir in half the mixed herbs, the passata, red wine jus paste and water (see pantry).</p>\n<p><em>If your red wine jus paste has hardened, put the sachet in a bowl of hot water for 1 min to loosen.</em></p>\n<p>Bring to the boil, then reduce the heat to medium and simmer until the sauce has thickened, 5-6 mins, stirring frequently. IMPORTANT: The mince is cooked when no longer pink in the middle. </p>",
+      "ingredients": [
+        "62c6e0ff9cab2001267a28c5",
+        "60af7884a7e769310872d2ac",
+        "635b9a8bb8d13143493e30cc",
+        "633c6597aa3f33c15c854baf",
+        "680ba59dbfb92a8200ac0cba"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67fccf9ba3ffaf7fe874d485/step-56e99f20.jpg",
+          "path": "/67fccf9ba3ffaf7fe874d485/step-56e99f20.jpg",
+          "caption": "Make the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "When the mince has 2 mins remaining, heat a large frying pan on medium-high heat with a drizzle of oil and the butter (see pantry).\nOnce melted and hot, add the remaining garlic and mixed herbs and the courgetti. Fry for 1 min to slightly soften. ",
+      "instructionsHTML": "<p>When the mince has 2 mins remaining, heat a large frying pan on medium-high heat with a drizzle of oil and the butter (see pantry).</p>\n<p>Once melted and hot, add the remaining garlic and mixed herbs and the courgetti. Fry for 1 min to slightly soften. </p>",
+      "instructionsMarkdown": "<p>When the mince has 2 mins remaining, heat a large frying pan on medium-high heat with a drizzle of oil and the butter (see pantry).</p>\n<p>Once melted and hot, add the remaining garlic and mixed herbs and the courgetti. Fry for 1 min to slightly soften. </p>",
+      "ingredients": [
+        "62c6e1279cab2001267a28e9",
+        "6048ba435d6d2541787296ec",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67fccf9ba3ffaf7fe874d485/step-09858b30.jpg",
+          "path": "/67fccf9ba3ffaf7fe874d485/step-09858b30.jpg",
+          "caption": "Fry the Courgetti"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Sprinkle half the Parmigiano Reggiano into the beef mixture, then stir to combine, 1 min.",
+      "instructionsHTML": "<p>Sprinkle half the Parmigiano Reggiano into the beef mixture, then stir to combine, 1 min.</p>",
+      "instructionsMarkdown": "<p>Sprinkle half the Parmigiano Reggiano into the beef mixture, then stir to combine, 1 min.</p>",
+      "ingredients": [
+        "6070760fd22c0d123e36336f"
+      ],
+      "utensils": [],
+      "timers": [
+        {
+          "name": "Add the Cheese",
+          "duration": "PT1M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67fccf9ba3ffaf7fe874d485/step-06bf3140.jpg",
+          "path": "/67fccf9ba3ffaf7fe874d485/step-06bf3140.jpg",
+          "caption": "Add the Cheese"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the courgetti between your bowls, then top with the beef ragu.\nSprinkle over the remaining Parmigiano Reggiano to finish.",
+      "instructionsHTML": "<p>Share the courgetti between your bowls, then top with the beef ragu.</p>\n<p>Sprinkle over the remaining Parmigiano Reggiano to finish.</p>",
+      "instructionsMarkdown": "<p>Share the courgetti between your bowls, then top with the beef ragu.</p>\n<p>Sprinkle over the remaining Parmigiano Reggiano to finish.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e1279cab2001267a28e9",
+        "62c6e0ff9cab2001267a28c5",
+        "6070760fd22c0d123e36336f",
+        "60af7884a7e769310872d2ac",
+        "635b9a8bb8d13143493e30cc",
+        "633c6597aa3f33c15c854baf",
+        "680ba59dbfb92a8200ac0cba",
+        "60390df6f44ad95997152386",
+        "62fcaa07d7803ca91b790566",
+        "6048ba435d6d2541787296ec",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67fccf9ba3ffaf7fe874d485/step-30b38550.jpg",
+          "path": "/67fccf9ba3ffaf7fe874d485/step-30b38550.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCMODLC29812898-43184-2",
+  "updatedAt": "2025-09-07T10:54:10+00:00",
+  "utensils": [
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305379",
+      "type": "peeler",
+      "name": "Peeler"
+    },
+    {
+      "id": "623c805661a1b9d0034f9065",
+      "type": "largesaucepan",
+      "name": "Large Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "9dda18fb-de69-40d9-99af-4f1655c3db44",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/rich-beef-ragu-on-a-bed-of-courgetti-67fccf9ba3ffaf7fe874d485",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "60390df6f44ad95997152386",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "680ba59dbfb92a8200ac0cba",
+          "amount": 10,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "60af7884a7e769310872d2ac",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "6070760fd22c0d123e36336f",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 75,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "60390df6f44ad95997152386",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "680ba59dbfb92a8200ac0cba",
+          "amount": 20,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "60af7884a7e769310872d2ac",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "6070760fd22c0d123e36336f",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 150,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

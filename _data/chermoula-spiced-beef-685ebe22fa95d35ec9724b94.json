@@ -1,0 +1,872 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "5fdcaac412e5336f910e70bd",
+      "name": "Almonds",
+      "type": "almonds",
+      "slug": "almonds",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fb",
+      "name": "Nuts",
+      "type": "nuts",
+      "slug": "nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da4c4bb723852bbf3ef",
+      "name": "Pistachio nuts",
+      "type": "traces-of-pistachio",
+      "slug": "traces-of-pistachio-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62cc417a2f15d58ec3559424",
+      "name": "Hazelnuts",
+      "type": "traces-of-hazelnuts",
+      "slug": "traces-of-hazelnuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afd9e",
+      "name": "Macadamia Nuts",
+      "type": "traces-of-macadamia",
+      "slug": "traces-of-macadamia-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b305302",
+      "name": "Nuts",
+      "type": "traces-of-nuts",
+      "slug": "traces-of-nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afdb0",
+      "name": "Brazil nuts",
+      "type": "traces-of-brazil_nuts",
+      "slug": "traces-of-brazil-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afdb4",
+      "name": "Pecan Nuts",
+      "type": "traces-of-pecan_nuts",
+      "slug": "traces-of-pecan-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da4c4bb723852bbf3cb",
+      "name": "Cashew nuts",
+      "type": "traces-of-cashew_nuts",
+      "slug": "traces-of-cashew-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5acf972fae08b54d333ac322",
+      "name": "Sesame",
+      "type": "traces-of-sesame",
+      "slug": "traces-of-sesame",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5a9614ab30006c2c026cf562",
+      "name": "Peanut",
+      "type": "traces-of-peanuts",
+      "slug": "traces-of-peanut",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.3,
+  "canonical": "66eaee2cefeeb15e34639c55",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/chermoula-spiced-lamb-66eaee2cefeeb15e34639c55",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/685ebe22fa95d35ec9724b94-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "685e4065b3c183c7dd0297b2",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-07-05T00:58:21+00:00",
+  "cuisines": [
+    {
+      "id": "67ebf900b2ffe612cd83e51b",
+      "type": "",
+      "name": "Middle Eastern",
+      "slug": ""
+    }
+  ],
+  "description": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "descriptionHTML": "<p>Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.</p>",
+  "descriptionMarkdown": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Rosemary Cauliflower Rice and Flaked Almonds",
+  "id": "685ebe22fa95d35ec9724b94",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5027_W03_UK_GCLC72629438-4_Main_1_Modular_low-9140c882.jpg",
+  "imagePath": "/image/GC_Y25_R5027_W03_UK_GCLC72629438-4_Main_1_Modular_low-9140c882.jpg",
+  "ingredients": [
+    {
+      "id": "62fca9f4bd9a2478e193efdb",
+      "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
+      "name": "Red Onion",
+      "type": "red-onion",
+      "slug": "red-onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9f4bd9a2478e193efdb-304ca93a.png",
+      "imagePath": "/ingredient/62fca9f4bd9a2478e193efdb-304ca93a.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603904c8823813388f0ab8f6",
+      "uuid": "90f7a2a9-7adb-51b5-8f53-022f3a2ef9d8",
+      "name": "Courgette",
+      "type": "courgette",
+      "slug": "courgette",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "imagePath": "/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb83",
+        "uuid": "c8061e44-33cd-538e-83ce-d05693b35ba7",
+        "name": "zucchini",
+        "slug": "zucchini",
+        "type": "courgette",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa06c9a48553f9075365",
+      "uuid": "ee6a1927-2222-505d-839a-e5637c5f178d",
+      "name": "Chermoula Spice Mix",
+      "type": "chermoula-spice-mix",
+      "slug": "chermoula-spice-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa06c9a48553f9075365-cca6e97e.png",
+      "imagePath": "/ingredient/62fcaa06c9a48553f9075365-cca6e97e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606335279cc1081ad772a604",
+      "uuid": "c7440604-41b7-5ef5-b2b3-8f83c31bccf9",
+      "name": "Tomato Puree",
+      "type": "tomato-puree",
+      "slug": "tomato-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "imagePath": "/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc45",
+        "uuid": "ead9e83c-158c-5ebe-bb04-ec24d45b8d80",
+        "name": "single ingredient paste",
+        "slug": "single-ingredient-paste",
+        "type": "tomato-paste",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa45d7803ca91b7905d0",
+      "uuid": "a0a14688-0d9d-5e41-9484-b930cd2776e9",
+      "name": "Harissa Paste",
+      "type": "harissa-paste",
+      "slug": "harissa-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "imagePath": "/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603900be24ea885d4c711bf2",
+      "uuid": "6fbc1448-f335-5219-86c6-01f9402a9f10",
+      "name": "Honey",
+      "type": "blossom-honey",
+      "slug": "honey",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603900be24ea885d4c711bf2-3866d80e.png",
+      "imagePath": "/ingredient/603900be24ea885d4c711bf2-3866d80e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbb3",
+        "uuid": "386de5dc-3457-5baf-a3ca-441cc9236d72",
+        "name": "honey",
+        "slug": "honey",
+        "type": "honey",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390558e5dada46f76a2efd",
+      "uuid": "64732f49-7b7d-5249-be78-77cd77d69d2e",
+      "name": "Riced Cauliflower",
+      "type": "cauliflower-rice",
+      "slug": "riced-cauliflower",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "imagePath": "/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc1c",
+        "uuid": "78512a36-a243-5b9d-9f38-577b405f1b85",
+        "name": "rice",
+        "slug": "rice",
+        "type": "rice",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60824efd92f2b6517e27e2de",
+      "uuid": "d566e2fd-c965-5a9d-ab98-0a48e581ae81",
+      "name": "Dried Rosemary",
+      "type": "dried-rosemary",
+      "slug": "dried-rosemary",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60824efd92f2b6517e27e2de-0fcf8cca.png",
+      "imagePath": "/ingredient/60824efd92f2b6517e27e2de-0fcf8cca.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc1f",
+        "uuid": "f800fd5b-8b90-59fc-a72a-90fc7394b505",
+        "name": "rosemary",
+        "slug": "rosemary",
+        "type": "rosemary",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6837307bd9848b9dac04ffd0",
+      "uuid": "6232ce43-438d-40ac-9671-91c7981b569f",
+      "name": "Toasted Flaked Almonds",
+      "type": "toasted-flaked-almonds",
+      "slug": "toasted-flaked-almonds",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/630743ac2cde2f8741db9ef7-7aeb11fc.png",
+      "imagePath": "/ingredient/630743ac2cde2f8741db9ef7-7aeb11fc.png",
+      "shipped": true,
+      "allergens": [
+        "63c00da4c4bb723852bbf3ef",
+        "62cc417a2f15d58ec3559424",
+        "63c00da40c675b6b333afd9e",
+        "57962a07b7e8697d4b305302",
+        "63c00da40c675b6b333afdb0",
+        "63c00da40c675b6b333afdb4",
+        "63c00da4c4bb723852bbf3cb",
+        "5acf972fae08b54d333ac322",
+        "5a9614ab30006c2c026cf562",
+        "57962a07b7e8697d4b3052f3",
+        "5fdcaac412e5336f910e70bd",
+        "57962a07b7e8697d4b3052fb"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ff9cab2001267a28c5",
+      "uuid": "7cd85650-3355-4a00-a785-d4c9f199ff49",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce-100ml",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "imagePath": "/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0eb9cab2001267a28b5",
+      "uuid": "61c32777-540e-4b15-a60d-9f49c3f2b4aa",
+      "name": "Salt",
+      "type": "salt-1-tsp",
+      "slug": "salt",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+      "imagePath": "/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1279cab2001267a28e9",
+      "uuid": "cf9af936-101e-4641-90f0-347da4d0a347",
+      "name": "Butter",
+      "type": "butter-100g",
+      "slug": "butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "imagePath": "/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/685ebe22fa95d35ec9724b94",
+  "name": "Chermoula Spiced Beef",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2240,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 535,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 31.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 10.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 26.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 19.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 7.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 37.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.72,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT20M",
+  "promotion": null,
+  "ratingsCount": 3,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 539,
+  "slug": "chermoula-spiced-beef",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Halve, peel and dice the red onion.\nTrim the courgette, then halve lengthways. Slice widthways into 1cm thick pieces.",
+      "instructionsHTML": "<p>Halve, peel and dice the red onion.</p>\n<p>Trim the courgette, then halve lengthways. Slice widthways into 1cm thick pieces.</p>",
+      "instructionsMarkdown": "<p>Halve, peel and dice the red onion.</p>\n<p>Trim the courgette, then halve lengthways. Slice widthways into 1cm thick pieces.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/685ebe22fa95d35ec9724b94/step-c5270a00.jpg",
+          "path": "/685ebe22fa95d35ec9724b94/step-c5270a00.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Heat a large frying pan on medium-high heat with a drizzle of oil.\nWhen hot, fry the onion until starting to soften 4-5 mins.\nAdd the courgette and fry until golden, 5-6 mins.",
+      "instructionsHTML": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, fry the onion until starting to soften 4-5 mins.</p>\n<p>Add the courgette and fry until golden, 5-6 mins.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, fry the onion until starting to soften 4-5 mins.</p>\n<p>Add the courgette and fry until golden, 5-6 mins.</p>",
+      "ingredients": [],
+      "utensils": [
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/685ebe22fa95d35ec9724b94/step-59e73110.jpg",
+          "path": "/685ebe22fa95d35ec9724b94/step-59e73110.jpg",
+          "caption": "Start the  Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Meanwhile, heat another large frying pan on medium-high heat (no oil)..\nWhen hot, add the beef mince and cook until browned, 5-6 mins.\nUse a spoon to break it up as it cooks, then drain and discard any excess fat. IMPORTANT: Wash your hands and equipment after handling raw mince. It's cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Meanwhile, heat another large frying pan on medium-high heat (no oil)..</p>\n<p>When hot, add the beef mince and cook until browned, 5-6 mins.</p>\n<p>Use a spoon to break it up as it cooks, then drain and discard any excess fat. IMPORTANT: Wash your hands and equipment after handling raw mince. It&#39;s cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat another large frying pan on medium-high heat (no oil)..</p>\n<p>When hot, add the beef mince and cook until browned, 5-6 mins.</p>\n<p>Use a spoon to break it up as it cooks, then drain and discard any excess fat. IMPORTANT: Wash your hands and equipment after handling raw mince. It&#39;s cooked when no longer pink in the middle.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305381",
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/685ebe22fa95d35ec9724b94/step-6ddeae20.jpg",
+          "path": "/685ebe22fa95d35ec9724b94/step-6ddeae20.jpg",
+          "caption": "Make the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Add the beef mince to the veg pan, along with the chermoula spice mix, tomato puree, harissa paste (add less if you'd prefer things milder), honey and water (see pantry).\nStir to combine and season with salt and pepper. Simmer until thickened, 2-3 mins. Add a splash of water if it looks thick.\nIf your honey has hardened, put the sachet in a bowl of hot water for 1 min to loosen.",
+      "instructionsHTML": "<p>Add the beef mince to the veg pan, along with the chermoula spice mix, tomato puree, harissa paste (add less if you&#39;d prefer things milder), honey and water (see pantry).</p>\n<p>Stir to combine and season with salt and pepper. Simmer until thickened, 2-3 mins. Add a splash of water if it looks thick.</p>\n<p>If your honey has hardened, put the sachet in a bowl of hot water for 1 min to loosen.</p>",
+      "instructionsMarkdown": "<p>Add the beef mince to the veg pan, along with the chermoula spice mix, tomato puree, harissa paste (add less if you&#39;d prefer things milder), honey and water (see pantry).</p>\n<p>Stir to combine and season with salt and pepper. Simmer until thickened, 2-3 mins. Add a splash of water if it looks thick.</p>\n<p>If your honey has hardened, put the sachet in a bowl of hot water for 1 min to loosen.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/685ebe22fa95d35ec9724b94/step-ab74ee30.jpg",
+          "path": "/685ebe22fa95d35ec9724b94/step-ab74ee30.jpg",
+          "caption": "Simmer"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Meanwhile, heat the frying pan used for the beef on medium-high heat with a drizzle of oil (no need to clean).\nOnce hot, add the riced cauliflower and cook until just soft, 3-4 mins. Stir through the dried rosemary and butter and season well with salt (see pantry) and pepper.",
+      "instructionsHTML": "<p>Meanwhile, heat the frying pan used for the beef on medium-high heat with a drizzle of oil (no need to clean).</p>\n<p>Once hot, add the riced cauliflower and cook until just soft, 3-4 mins. Stir through the dried rosemary and butter and season well with salt (see pantry) and pepper.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat the frying pan used for the beef on medium-high heat with a drizzle of oil (no need to clean).</p>\n<p>Once hot, add the riced cauliflower and cook until just soft, 3-4 mins. Stir through the dried rosemary and butter and season well with salt (see pantry) and pepper.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/685ebe22fa95d35ec9724b94/step-9f08fa40.jpg",
+          "path": "/685ebe22fa95d35ec9724b94/step-9f08fa40.jpg",
+          "caption": "Cook the Cauli Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the rosemary cauliflower rice between your bowls.\nServe with the chermoula spiced beef and sprinkle over the flaked almonds.",
+      "instructionsHTML": "<p>Share the rosemary cauliflower rice between your bowls.</p>\n<p>Serve with the chermoula spiced beef and sprinkle over the flaked almonds.</p>",
+      "instructionsMarkdown": "<p>Share the rosemary cauliflower rice between your bowls.</p>\n<p>Serve with the chermoula spiced beef and sprinkle over the flaked almonds.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/685ebe22fa95d35ec9724b94/step-edf98450.jpg",
+          "path": "/685ebe22fa95d35ec9724b94/step-edf98450.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "62163c70143a35226e03d85e",
+      "type": "super-quick",
+      "name": "Super Quick",
+      "slug": "super-quick",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCMODLC72629438-46838-2",
+  "updatedAt": "2025-09-06T04:51:46+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305381",
+      "type": "spoon",
+      "name": "Spoon"
+    }
+  ],
+  "uuid": "5ac5c599-d69f-43c1-a9f2-41e35365b8ab",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/chermoula-spiced-beef-685ebe22fa95d35ec9724b94",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fca9f4bd9a2478e193efdb",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa06c9a48553f9075365",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "603900be24ea885d4c711bf2",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "60824efd92f2b6517e27e2de",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "6837307bd9848b9dac04ffd0",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 75,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e0eb9cab2001267a28b5",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 10,
+          "unit": "grams"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fca9f4bd9a2478e193efdb",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa06c9a48553f9075365",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "603900be24ea885d4c711bf2",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 500,
+          "unit": "grams"
+        },
+        {
+          "id": "60824efd92f2b6517e27e2de",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "6837307bd9848b9dac04ffd0",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 150,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e0eb9cab2001267a28b5",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 20,
+          "unit": "grams"
+        }
+      ]
+    }
+  ]
+}

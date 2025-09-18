@@ -1,0 +1,724 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fc",
+      "name": "Celery",
+      "type": "celery",
+      "slug": "celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052ff",
+      "name": "Sulphites",
+      "type": "sulphites",
+      "slug": "sulphites",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.3,
+  "canonical": "646b4cb80c1e02e39244a254",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/blue-cheese-topped-beef-pie-646b4cb80c1e02e39244a254",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/677e866b9bad0bb45fbd639d-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039b2",
+    "name": "Veggie",
+    "type": "veggie",
+    "slug": "veggie"
+  },
+  "clonedFrom": "646b4cb80c1e02e39244a254",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-01-20T15:18:54+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053bd",
+      "type": "british",
+      "name": "British",
+      "slug": "british",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bd-8abb14dd.jpg"
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 5,
+  "headline": "with a Cauliflower Topping and Rocket Salad",
+  "id": "677e866b9bad0bb45fbd639d",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5021_W11_UK_GCLC49916688-6_Main_low-0d920643.jpg",
+  "imagePath": "/image/GC_Y25_R5021_W11_UK_GCLC49916688-6_Main_low-0d920643.jpg",
+  "ingredients": [
+    {
+      "id": "606ebcb0a7d64d4f6973d16a",
+      "uuid": "c4ac6805-11a7-55c4-be5e-68aaa3c0f835",
+      "name": "Cauliflower Florets",
+      "type": "cauliflower-florets",
+      "slug": "cauliflower-florets",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606ebcb0a7d64d4f6973d16a-63564d66.png",
+      "imagePath": "/ingredient/606ebcb0a7d64d4f6973d16a-63564d66.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb64",
+        "uuid": "bad64724-eb4b-58ca-8004-f52e17a6c2c9",
+        "name": "cauliflower",
+        "slug": "cauliflower",
+        "type": "cauliflower",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606335279cc1081ad772a604",
+      "uuid": "c7440604-41b7-5ef5-b2b3-8f83c31bccf9",
+      "name": "Tomato Puree",
+      "type": "tomato-puree",
+      "slug": "tomato-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "imagePath": "/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc45",
+        "uuid": "ead9e83c-158c-5ebe-bb04-ec24d45b8d80",
+        "name": "single ingredient paste",
+        "slug": "single-ingredient-paste",
+        "type": "tomato-paste",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60af7884a7e769310872d2ac",
+      "uuid": "c7ddc5b5-282c-5d16-978d-985e9b6c2c48",
+      "name": "Red Wine Jus Paste",
+      "type": "red-wine-jus-paste",
+      "slug": "red-wine-jus-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60af7884a7e769310872d2ac-1dd2dd20.png",
+      "imagePath": "/ingredient/60af7884a7e769310872d2ac-1dd2dd20.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fc",
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc54",
+        "uuid": "da557614-f3f3-559c-a83e-c66360fa6ff2",
+        "name": "wine",
+        "slug": "wine",
+        "type": "wine",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38c9a48553f90753c8",
+      "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
+      "name": "Creme Fraiche",
+      "type": "creme-fraiche",
+      "slug": "creme-fraiche",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "imagePath": "/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "609cfa014162820df73cd730",
+      "uuid": "20f72727-c8b3-5616-a31c-7b4594015052",
+      "name": "Crumbled Blue Cheese",
+      "type": "blue-cheese",
+      "slug": "crumbled-blue-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/609cfa014162820df73cd730-ce5efd3e.png",
+      "imagePath": "/ingredient/609cfa014162820df73cd730-ce5efd3e.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb68",
+        "uuid": "a560b77e-37ae-5c55-82df-579a3d1d37de",
+        "name": "hard cheese",
+        "slug": "hard-cheese",
+        "type": "cheese",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ef9cab2001267a28b8",
+      "uuid": "ef880220-34dc-4c85-9841-7d34b28d6165",
+      "name": "Water",
+      "type": "water-100ml",
+      "slug": "water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "imagePath": "/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/677e866b9bad0bb45fbd639d",
+  "name": "Blue Cheese Topped Beef Pie",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2431,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 581,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 40.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 18.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 14.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 8.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 3.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 40.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.41,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT30M",
+  "promotion": null,
+  "ratingsCount": 25,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 430,
+  "slug": "blue-cheese-topped-beef-pie",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Boil a full kettle. Halve any large cauliflower florets.\nPreheat your grill to high.\nPour the boiled water into a saucepan with 1/4 tsp of salt and bring back to the boil on high heat. Add the cauliflower florets, reduce the heat to medium-high and simmer until soft, 12-15 mins.\nOnce cooked, drain the cauliflower in a colander and leave to steam for 2 mins, uncovered. Return to the pan along with 0.25 tsp of salt and mash until soft. Season well with pepper.",
+      "instructionsHTML": "<p>Boil a full kettle. Halve any large cauliflower florets.</p>\n<p>Preheat your grill to high.</p>\n<p>Pour the boiled water into a saucepan with 1/4 tsp of salt and bring back to the boil on high heat. Add the cauliflower florets, reduce the heat to medium-high and simmer until soft, 12-15 mins.</p>\n<p>Once cooked, drain the cauliflower in a colander and leave to steam for 2 mins, uncovered. Return to the pan along with 0.25 tsp of salt and mash until soft. Season well with pepper.</p>",
+      "instructionsMarkdown": "<p>Boil a full kettle. Halve any large cauliflower florets.</p>\n<p>Preheat your grill to high.</p>\n<p>Pour the boiled water into a saucepan with 1/4 tsp of salt and bring back to the boil on high heat. Add the cauliflower florets, reduce the heat to medium-high and simmer until soft, 12-15 mins.</p>\n<p>Once cooked, drain the cauliflower in a colander and leave to steam for 2 mins, uncovered. Return to the pan along with 0.25 tsp of salt and mash until soft. Season well with pepper.</p>",
+      "ingredients": [
+        "606ebcb0a7d64d4f6973d16a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305393",
+        "57e2674fb7e8697d4b30538c",
+        "57e2674fb7e8697d4b305392",
+        "5e3ad24efcf61c18c30ff538",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677e866b9bad0bb45fbd639d/step-eb419c00.jpg",
+          "path": "/677e866b9bad0bb45fbd639d/step-eb419c00.jpg",
+          "caption": "Prep the Cauliflower"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Meanwhile, heat a frying pan on medium-high heat with oil \nOnce the pan is hot, add the beef mince. Fry until the mince has browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. The mince is cooked when no longer pink in the middle.\nStir through the tomato puree, red wine jus, and water (see pantry) and simmer for a further 2 minutes. Then pour the beef into an ovenproof dish.",
+      "instructionsHTML": "<p>Meanwhile, heat a frying pan on medium-high heat with oil </p>\n<p>Once the pan is hot, add the beef mince. Fry until the mince has browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. The mince is cooked when no longer pink in the middle.</p>\n<p>Stir through the tomato puree, red wine jus, and water (see pantry) and simmer for a further 2 minutes. Then pour the beef into an ovenproof dish.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat a frying pan on medium-high heat with oil </p>\n<p>Once the pan is hot, add the beef mince. Fry until the mince has browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. The mince is cooked when no longer pink in the middle.</p>\n<p>Stir through the tomato puree, red wine jus, and water (see pantry) and simmer for a further 2 minutes. Then pour the beef into an ovenproof dish.</p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566",
+        "606335279cc1081ad772a604",
+        "60af7884a7e769310872d2ac",
+        "62c6e0ef9cab2001267a28b8",
+        "62c6e28e9cab2001267a291a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375",
+        "57e2674fb7e8697d4b305386"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677e866b9bad0bb45fbd639d/step-be16c910.jpg",
+          "path": "/677e866b9bad0bb45fbd639d/step-be16c910.jpg",
+          "caption": "Fry the Beef Mince "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Stir the creme fraiche through the cauliflower mash, and season with salt and pepper.",
+      "instructionsHTML": "<p>Stir the creme fraiche through the cauliflower mash, and season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Stir the creme fraiche through the cauliflower mash, and season with salt and pepper.</p>",
+      "ingredients": [
+        "606ebcb0a7d64d4f6973d16a",
+        "62fcaa38c9a48553f90753c8"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677e866b9bad0bb45fbd639d/step-e02d1520.jpg",
+          "path": "/677e866b9bad0bb45fbd639d/step-e02d1520.jpg",
+          "caption": "Make the Cauliflower Topping "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Pour the creamy cauliflower topping over the beef in the oven-proof dish, and spread out evenly. Then crumble the blue cheese over the top of the pie. \nPlace the pie under the grill for 4-5 mins to allow the cheese to melt.",
+      "instructionsHTML": "<p>Pour the creamy cauliflower topping over the beef in the oven-proof dish, and spread out evenly. Then crumble the blue cheese over the top of the pie. </p>\n<p>Place the pie under the grill for 4-5 mins to allow the cheese to melt.</p>",
+      "instructionsMarkdown": "<p>Pour the creamy cauliflower topping over the beef in the oven-proof dish, and spread out evenly. Then crumble the blue cheese over the top of the pie. </p>\n<p>Place the pie under the grill for 4-5 mins to allow the cheese to melt.</p>",
+      "ingredients": [
+        "606ebcb0a7d64d4f6973d16a",
+        "62fcaa07d7803ca91b790566",
+        "609cfa014162820df73cd730"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677e866b9bad0bb45fbd639d/step-0b9f5630.jpg",
+          "path": "/677e866b9bad0bb45fbd639d/step-0b9f5630.jpg",
+          "caption": "Assemble the Pie "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Whilst the pie is in the grill, place the rocket on your serving plates. Drizzle over some olive oil (see pantry), season with salt and pepper and toss to coat.",
+      "instructionsHTML": "<p>Whilst the pie is in the grill, place the rocket on your serving plates. Drizzle over some olive oil (see pantry), season with salt and pepper and toss to coat.</p>",
+      "instructionsMarkdown": "<p>Whilst the pie is in the grill, place the rocket on your serving plates. Drizzle over some olive oil (see pantry), season with salt and pepper and toss to coat.</p>",
+      "ingredients": [
+        "60390dc851af04233575aab8",
+        "62c6e1059cab2001267a28cb"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677e866b9bad0bb45fbd639d/step-b1225340.jpg",
+          "path": "/677e866b9bad0bb45fbd639d/step-b1225340.jpg",
+          "caption": "Dress the Salad"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Divide the pie between your plates alongside the rocket salad.",
+      "instructionsHTML": "<p>Divide the pie between your plates alongside the rocket salad.</p>",
+      "instructionsMarkdown": "<p>Divide the pie between your plates alongside the rocket salad.</p>",
+      "ingredients": [
+        "60390dc851af04233575aab8",
+        "62c6e28e9cab2001267a291a",
+        "62c6e1059cab2001267a28cb",
+        "62c6e0ef9cab2001267a28b8",
+        "609cfa014162820df73cd730",
+        "62fcaa38c9a48553f90753c8",
+        "60af7884a7e769310872d2ac",
+        "606335279cc1081ad772a604",
+        "62fcaa07d7803ca91b790566",
+        "606ebcb0a7d64d4f6973d16a"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677e866b9bad0bb45fbd639d/step-66fe6b50.jpg",
+          "path": "/677e866b9bad0bb45fbd639d/step-66fe6b50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5f195acee60c1276593d855b",
+      "type": "new",
+      "name": "New",
+      "slug": "new",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "No Preference",
+        "Fish Free",
+        "Pork Free",
+        "Veggie",
+        "Carb Smart",
+        "Protein Rich",
+        "Calorie Smart",
+        "family",
+        "Quick & Easy",
+        "Chef's Choice",
+        "Pescatarian",
+        "Flexitarian"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCLC49916688-6",
+  "updatedAt": "2025-09-07T02:09:00+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305393",
+      "type": "potato-masher",
+      "name": "Potato Masher"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305392",
+      "type": "water-cooker",
+      "name": "Kettle"
+    },
+    {
+      "id": "5e3ad24efcf61c18c30ff538",
+      "type": null,
+      "name": "Colander"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305386",
+      "type": "ovendish",
+      "name": "Oven dish"
+    }
+  ],
+  "uuid": "d40e97ca-0c1c-4243-8ed6-319050d1c42c",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/blue-cheese-topped-beef-pie-677e866b9bad0bb45fbd639d",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "606ebcb0a7d64d4f6973d16a",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "60af7884a7e769310872d2ac",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "609cfa014162820df73cd730",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 75,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "606ebcb0a7d64d4f6973d16a",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "60af7884a7e769310872d2ac",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "609cfa014162820df73cd730",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 150,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "5acf97b7ae08b54d88061162",
+      "name": "Milk",
+      "type": "traces-of-milk",
+      "slug": "traces-of-milk",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 0,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": null,
+  "category": null,
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-07-30T14:28:26+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053af",
+      "type": "mexican",
+      "name": "Mexican",
+      "slug": "mexican",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
+    }
+  ],
+  "description": "Chilli made keto. Traditionally hailing from Mexico, this spicy stew contains beef, kidney beans and a punchy spice mix to bring the heat. Swapping out the rice for cauliflower gives a lower carb alternative to pair with it.",
+  "descriptionHTML": "<p>Chilli made keto. Traditionally hailing from Mexico, this spicy stew contains beef, kidney beans and a punchy spice mix to bring the heat. Swapping out the rice for cauliflower gives a lower carb alternative to pair with it.</p>",
+  "descriptionMarkdown": "Chilli made keto. Traditionally hailing from Mexico, this spicy stew contains beef, kidney beans and a punchy spice mix to bring the heat. Swapping out the rice for cauliflower gives a lower carb alternative to pair with it.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Roasted Spiced Cauliflower and Soured Cream",
+  "id": "688a2c0a9643892dc8fa0f66",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF221004_R5011_W44_UK_GCLC20011567-8_MB_Main_4_low-2a0f8972.jpg",
+  "imagePath": "/image/HF221004_R5011_W44_UK_GCLC20011567-8_MB_Main_4_low-2a0f8972.jpg",
+  "ingredients": [
+    {
+      "id": "606ebcb0a7d64d4f6973d16a",
+      "uuid": "c4ac6805-11a7-55c4-be5e-68aaa3c0f835",
+      "name": "Cauliflower Florets",
+      "type": "cauliflower-florets",
+      "slug": "cauliflower-florets",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606ebcb0a7d64d4f6973d16a-63564d66.png",
+      "imagePath": "/ingredient/606ebcb0a7d64d4f6973d16a-63564d66.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb64",
+        "uuid": "bad64724-eb4b-58ca-8004-f52e17a6c2c9",
+        "name": "cauliflower",
+        "slug": "cauliflower",
+        "type": "cauliflower",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e6c9a48553f9075316",
+      "uuid": "8dd3695b-a336-5476-a1e8-f78d596484a6",
+      "name": "Mexican Style Spice Mix",
+      "type": "mexican-style-spice-mix",
+      "slug": "mexican-style-spice-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e6c9a48553f9075316-e74c61d5.png",
+      "imagePath": "/ingredient/62fca9e6c9a48553f9075316-e74c61d5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "635b9a8bb8d13143493e30cc",
+      "uuid": "9bd72b6e-0d94-4148-961a-3e78f860086f",
+      "name": "Passata di Pomodoro",
+      "type": "passata-di-pomodoro",
+      "slug": "passata-di-pomodoro",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "imagePath": "/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606f03a20f601846c30f9c0e",
+      "uuid": "1d4063e2-3fd4-57e3-8932-c1d3fb33ea45",
+      "name": "Central American Style Spice Mix",
+      "type": "central-american-style-spice-mix",
+      "slug": "central-american-style-spice-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606f03a20f601846c30f9c0e-4130422e.png",
+      "imagePath": "/ingredient/606f03a20f601846c30f9c0e-4130422e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc32",
+        "uuid": "99414e57-f6fb-56c7-9849-042905b22cb1",
+        "name": "spice blend",
+        "slug": "spice-blend",
+        "type": "spice-mix",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "64e492a8e1f123211ed56ce1",
+      "uuid": "8cf4579f-f902-58f0-a2b1-8f5509398a0a",
+      "name": "Vegetable Stock Paste",
+      "type": "vegetable-stock-paste",
+      "slug": "vegetable-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64e492a8e1f123211ed56ce1-a8b70562.png",
+      "imagePath": "/ingredient/64e492a8e1f123211ed56ce1-a8b70562.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38bd9a2478e193f05a",
+      "uuid": "668aa8c0-75d4-5a2d-84d7-7330dc57c99e",
+      "name": "Mature Cheddar Cheese",
+      "type": "mature-cheddar-cheese",
+      "slug": "mature-cheddar-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "imagePath": "/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "68381b6c42dc4b9281983c98",
+      "uuid": "8af5119a-cbf5-5d2e-b83c-b061b5b775b8",
+      "name": "Soured Cream",
+      "type": "soured-cream",
+      "slug": "soured-cream",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/68381b6c42dc4b9281983c98-7b8eaaee.png",
+      "imagePath": "/ingredient/68381b6c42dc4b9281983c98-7b8eaaee.png",
+      "shipped": true,
+      "allergens": [
+        "5acf97b7ae08b54d88061162",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc2f",
+        "uuid": "ba740539-5504-569b-8d50-f28f37c82505",
+        "name": "soured cream",
+        "slug": "soured-cream",
+        "type": "sour-cream",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/688a2c0a9643892dc8fa0f66",
+  "name": "Cheesy Beef Chilli Con Carne",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2381,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 569,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 33.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 15.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 19.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 11.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 41.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.46,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 0,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 472,
+  "slug": "cheesy-beef-chilli-con-carne",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nHalve any large cauliflower florets, then place on a baking tray. Drizzle with oil, sprinkle with the Mexican style spice mix and season with salt and pepper.\nToss to coat, then spread them out in a single layer.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Halve any large cauliflower florets, then place on a baking tray. Drizzle with oil, sprinkle with the Mexican style spice mix and season with salt and pepper.</p>\n<p>Toss to coat, then spread them out in a single layer.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Halve any large cauliflower florets, then place on a baking tray. Drizzle with oil, sprinkle with the Mexican style spice mix and season with salt and pepper.</p>\n<p>Toss to coat, then spread them out in a single layer.</p>",
+      "ingredients": [
+        "606ebcb0a7d64d4f6973d16a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/688a2c0a9643892dc8fa0f66/step-22cc4900.jpg",
+          "path": "/688a2c0a9643892dc8fa0f66/step-22cc4900.jpg",
+          "caption": "Prep the Cauliflower"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Once the oven is hot, roast the cauliflower on the top shelf until golden brown and tender, 15-20 mins. Turn halfway through cooking.",
+      "instructionsHTML": "<p>Once the oven is hot, roast the cauliflower on the top shelf until golden brown and tender, 15-20 mins. Turn halfway through cooking.</p>",
+      "instructionsMarkdown": "<p>Once the oven is hot, roast the cauliflower on the top shelf until golden brown and tender, 15-20 mins. Turn halfway through cooking.</p>",
+      "ingredients": [
+        "606ebcb0a7d64d4f6973d16a"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/688a2c0a9643892dc8fa0f66/step-dfb6dc10.jpg",
+          "path": "/688a2c0a9643892dc8fa0f66/step-dfb6dc10.jpg",
+          "caption": "Roast the Cauliflower"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Meanwhile, heat a large saucepan on medium-high heat with a drizzle of oil.\nOnce hot, add the beef mince and cook until browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. It’s cooked when no longer pink in the middle. ",
+      "instructionsHTML": "<p>Meanwhile, heat a large saucepan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the beef mince and cook until browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. It’s cooked when no longer pink in the middle. </p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat a large saucepan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the beef mince and cook until browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. It’s cooked when no longer pink in the middle. </p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305381",
+        "623c805661a1b9d0034f9065"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/688a2c0a9643892dc8fa0f66/step-26222020.jpg",
+          "path": "/688a2c0a9643892dc8fa0f66/step-26222020.jpg",
+          "caption": "Start the Chilli"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Add the passata, Central American style spice mix and vegetable stock paste to the mince. Stir to combine.\nLower the heat and simmer until thickened, 5-6 mins. Season with salt and pepper.",
+      "instructionsHTML": "<p>Add the passata, Central American style spice mix and vegetable stock paste to the mince. Stir to combine.</p>\n<p>Lower the heat and simmer until thickened, 5-6 mins. Season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Add the passata, Central American style spice mix and vegetable stock paste to the mince. Stir to combine.</p>\n<p>Lower the heat and simmer until thickened, 5-6 mins. Season with salt and pepper.</p>",
+      "ingredients": [
+        "64e492a8e1f123211ed56ce1",
+        "606f03a20f601846c30f9c0e",
+        "635b9a8bb8d13143493e30cc",
+        "62fca9e6c9a48553f9075316"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/688a2c0a9643892dc8fa0f66/step-90128a30.jpg",
+          "path": "/688a2c0a9643892dc8fa0f66/step-90128a30.jpg",
+          "caption": "Simmer the Chilli"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "While the chilli simmers, finely grate the Cheddar cheese.",
+      "instructionsHTML": "<p>While the chilli simmers, finely grate the Cheddar cheese.</p>",
+      "instructionsMarkdown": "<p>While the chilli simmers, finely grate the Cheddar cheese.</p>",
+      "ingredients": [
+        "62fcaa38bd9a2478e193f05a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30536e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/688a2c0a9643892dc8fa0f66/step-76262240.jpg",
+          "path": "/688a2c0a9643892dc8fa0f66/step-76262240.jpg",
+          "caption": "Prep the Cheese"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the roasted spiced cauliflower between your bowls and top with the chilli con carne.\nAdd a dollop of soured cream and sprinkle over the Cheddar cheese to garnish.",
+      "instructionsHTML": "<p>Share the roasted spiced cauliflower between your bowls and top with the chilli con carne.</p>\n<p>Add a dollop of soured cream and sprinkle over the Cheddar cheese to garnish.</p>",
+      "instructionsMarkdown": "<p>Share the roasted spiced cauliflower between your bowls and top with the chilli con carne.</p>\n<p>Add a dollop of soured cream and sprinkle over the Cheddar cheese to garnish.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "68381b6c42dc4b9281983c98",
+        "62fcaa38bd9a2478e193f05a",
+        "64e492a8e1f123211ed56ce1",
+        "606f03a20f601846c30f9c0e",
+        "635b9a8bb8d13143493e30cc",
+        "62fcaa07d7803ca91b790566",
+        "62fca9e6c9a48553f9075316",
+        "606ebcb0a7d64d4f6973d16a"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/688a2c0a9643892dc8fa0f66/step-cdbed750.jpg",
+          "path": "/688a2c0a9643892dc8fa0f66/step-cdbed750.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCLC20011567-45",
+  "updatedAt": "2025-09-15T19:40:55+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305381",
+      "type": "spoon",
+      "name": "Spoon"
+    },
+    {
+      "id": "623c805661a1b9d0034f9065",
+      "type": "largesaucepan",
+      "name": "Large Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    }
+  ],
+  "uuid": "317f806d-770e-4c91-beb7-42520561c801",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/cheesy-beef-chilli-con-carne-688a2c0a9643892dc8fa0f66",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "606ebcb0a7d64d4f6973d16a",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e6c9a48553f9075316",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "606f03a20f601846c30f9c0e",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "64e492a8e1f123211ed56ce1",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "68381b6c42dc4b9281983c98",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "606ebcb0a7d64d4f6973d16a",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e6c9a48553f9075316",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "606f03a20f601846c30f9c0e",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "64e492a8e1f123211ed56ce1",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "68381b6c42dc4b9281983c98",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

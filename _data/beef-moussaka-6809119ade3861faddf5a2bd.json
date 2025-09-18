@@ -1,0 +1,687 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.7,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/6809119ade3861faddf5a2bd-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-04-23T22:34:14+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053a9",
+      "type": "greek",
+      "name": "Greek",
+      "slug": "greek",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a9-66a3ad00.jpg"
+    }
+  ],
+  "description": "Best known for the Greek version created in the 1920s, Moussaka is a hearty staple across the Balkans and Middle East. We’ve foregone the common layer of bechamel to strip it back to glorious basics: golden roast aubergine, tangy ragu and a generous topping of melted cheddar.",
+  "descriptionHTML": "<p>Best known for the Greek version created in the 1920s, Moussaka is a hearty staple across the Balkans and Middle East. We’ve foregone the common layer of bechamel to strip it back to glorious basics: golden roast aubergine, tangy ragu and a generous topping of melted cheddar.</p>",
+  "descriptionMarkdown": "Best known for the Greek version created in the 1920s, Moussaka is a hearty staple across the Balkans and Middle East. We’ve foregone the common layer of bechamel to strip it back to glorious basics: golden roast aubergine, tangy ragu and a generous topping of melted cheddar.",
+  "difficulty": 2,
+  "favoritesCount": 13,
+  "headline": "with a Creamy Cheddar Topping and Rocket",
+  "id": "6809119ade3861faddf5a2bd",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF210420_R5014_W24_GC_UK_GCLC08610143-1_MB_Main_remove_carrots_low-1acb41d8.jpg",
+  "imagePath": "/image/HF210420_R5014_W24_GC_UK_GCLC08610143-1_MB_Main_remove_carrots_low-1acb41d8.jpg",
+  "ingredients": [
+    {
+      "id": "6039096587a96d317f345cc7",
+      "uuid": "1fa6c253-440c-5c98-9e4b-65a57a89f8b1",
+      "name": "Aubergine",
+      "type": "aubergine",
+      "slug": "aubergine",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039096587a96d317f345cc7-a5672d03.png",
+      "imagePath": "/ingredient/6039096587a96d317f345cc7-a5672d03.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb3b",
+        "uuid": "3fc972f5-18bc-5969-b26e-d554466b1c9b",
+        "name": "aubergine",
+        "slug": "aubergine",
+        "type": "aubergine-eggplant",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38bd9a2478e193f05a",
+      "uuid": "668aa8c0-75d4-5a2d-84d7-7330dc57c99e",
+      "name": "Mature Cheddar Cheese",
+      "type": "mature-cheddar-cheese",
+      "slug": "mature-cheddar-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "imagePath": "/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa3ac9a48553f90753cd",
+      "uuid": "24f338b7-16f8-55ff-a1d7-a141505e12cc",
+      "name": "Ground Cinnamon",
+      "type": "ground-cinnamon",
+      "slug": "ground-cinnamon",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa3ac9a48553f90753cd-56fadd53.png",
+      "imagePath": "/ingredient/62fcaa3ac9a48553f90753cd-56fadd53.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6065cc3f2069ab5fc100f292",
+      "uuid": "09f28a4d-894d-55e9-a374-65eea2c98ce1",
+      "name": "Beef Stock Paste",
+      "type": "beef-stock-paste",
+      "slug": "beef-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6065cc3f2069ab5fc100f292-242d9c07.png",
+      "imagePath": "/ingredient/6065cc3f2069ab5fc100f292-242d9c07.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "635b9a8bb8d13143493e30cc",
+      "uuid": "9bd72b6e-0d94-4148-961a-3e78f860086f",
+      "name": "Passata di Pomodoro",
+      "type": "passata-di-pomodoro",
+      "slug": "passata-di-pomodoro",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "imagePath": "/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38c9a48553f90753c8",
+      "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
+      "name": "Creme Fraiche",
+      "type": "creme-fraiche",
+      "slug": "creme-fraiche",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "imagePath": "/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "Keto Favourites",
+    "handle": "keto",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#CE4500",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/6809119ade3861faddf5a2bd",
+  "name": "Beef Moussaka",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2662,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 636,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 40.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 18.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 16.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 10.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 38.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.62,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT40M",
+  "promotion": null,
+  "ratingsCount": 33,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 444,
+  "slug": "beef-moussaka",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nTrim the aubergine, then halve lengthways. Slice each half into four long strips. Place on a baking tray. Drizzle with oil and season with salt and pepper.\nRoast on the top shelf of your oven until soft and golden, 18-20 mins. Turn halfway through cooking.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Trim the aubergine, then halve lengthways. Slice each half into four long strips. Place on a baking tray. Drizzle with oil and season with salt and pepper.</p>\n<p>Roast on the top shelf of your oven until soft and golden, 18-20 mins. Turn halfway through cooking.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Trim the aubergine, then halve lengthways. Slice each half into four long strips. Place on a baking tray. Drizzle with oil and season with salt and pepper.</p>\n<p>Roast on the top shelf of your oven until soft and golden, 18-20 mins. Turn halfway through cooking.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "6039096587a96d317f345cc7"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6809119ade3861faddf5a2bd/step-340d8500.jpg",
+          "path": "/6809119ade3861faddf5a2bd/step-340d8500.jpg",
+          "caption": "Roast the Aubergine"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Meanwhile, coarsely grate the Cheddar cheese.\nHeat a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, cook the beef mince until browned, 5-6 mins. Use a wooden spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. It’s cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Meanwhile, coarsely grate the Cheddar cheese.</p>\n<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, cook the beef mince until browned, 5-6 mins. Use a wooden spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. It’s cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, coarsely grate the Cheddar cheese.</p>\n<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, cook the beef mince until browned, 5-6 mins. Use a wooden spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince. It’s cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566",
+        "62fcaa38bd9a2478e193f05a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30536e",
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6809119ade3861faddf5a2bd/step-c3471610.jpg",
+          "path": "/6809119ade3861faddf5a2bd/step-c3471610.jpg",
+          "caption": "Start the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Next, add the cinnamon, beef stock paste and passata to the frying pan.\nStir to combine and season with salt and pepper. Simmer until thickened, 3-4 mins. ",
+      "instructionsHTML": "<p>Next, add the cinnamon, beef stock paste and passata to the frying pan.</p>\n<p>Stir to combine and season with salt and pepper. Simmer until thickened, 3-4 mins. </p>",
+      "instructionsMarkdown": "<p>Next, add the cinnamon, beef stock paste and passata to the frying pan.</p>\n<p>Stir to combine and season with salt and pepper. Simmer until thickened, 3-4 mins. </p>",
+      "ingredients": [
+        "635b9a8bb8d13143493e30cc",
+        "6065cc3f2069ab5fc100f292",
+        "62fcaa3ac9a48553f90753cd"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6809119ade3861faddf5a2bd/step-0d4c3a20.jpg",
+          "path": "/6809119ade3861faddf5a2bd/step-0d4c3a20.jpg",
+          "caption": "Finish the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Put the beef mixture into a suitably sized ovenproof dish. Follow with a layer of roasted aubergine, then cover with the creme fraiche.\nSprinkle with the Cheddar cheese and season with salt and pepper.",
+      "instructionsHTML": "<p>Put the beef mixture into a suitably sized ovenproof dish. Follow with a layer of roasted aubergine, then cover with the creme fraiche.</p>\n<p>Sprinkle with the Cheddar cheese and season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Put the beef mixture into a suitably sized ovenproof dish. Follow with a layer of roasted aubergine, then cover with the creme fraiche.</p>\n<p>Sprinkle with the Cheddar cheese and season with salt and pepper.</p>",
+      "ingredients": [
+        "62fcaa38c9a48553f90753c8",
+        "62fcaa38bd9a2478e193f05a",
+        "6039096587a96d317f345cc7"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305386"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6809119ade3861faddf5a2bd/step-30e59630.jpg",
+          "path": "/6809119ade3861faddf5a2bd/step-30e59630.jpg",
+          "caption": "Layer the Moussaka"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Bake the moussaka on the top shelf of your oven until golden, 10 mins.",
+      "instructionsHTML": "<p>Bake the moussaka on the top shelf of your oven until golden, 10 mins.</p>",
+      "instructionsMarkdown": "<p>Bake the moussaka on the top shelf of your oven until golden, 10 mins.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6809119ade3861faddf5a2bd/step-a497d740.jpg",
+          "path": "/6809119ade3861faddf5a2bd/step-a497d740.jpg",
+          "caption": "Bake the Moussaka"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Add the rocket to your plates, then drizzle with the olive oil for the dressing (see pantry) and season with salt and pepper.\nServe the baked beef moussaka alongside the dressed rocket leaves.",
+      "instructionsHTML": "<p>Add the rocket to your plates, then drizzle with the olive oil for the dressing (see pantry) and season with salt and pepper.</p>\n<p>Serve the baked beef moussaka alongside the dressed rocket leaves.</p>",
+      "instructionsMarkdown": "<p>Add the rocket to your plates, then drizzle with the olive oil for the dressing (see pantry) and season with salt and pepper.</p>\n<p>Serve the baked beef moussaka alongside the dressed rocket leaves.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e1059cab2001267a28cb",
+        "60390dc851af04233575aab8",
+        "62fcaa38c9a48553f90753c8",
+        "635b9a8bb8d13143493e30cc",
+        "6065cc3f2069ab5fc100f292",
+        "62fcaa3ac9a48553f90753cd",
+        "62fcaa07d7803ca91b790566",
+        "62fcaa38bd9a2478e193f05a",
+        "6039096587a96d317f345cc7"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6809119ade3861faddf5a2bd/step-7f092f50.jpg",
+          "path": "/6809119ade3861faddf5a2bd/step-7f092f50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "67dac638f73a36d1487a7f68",
+      "type": "keto-favourites",
+      "name": "Keto Favourites",
+      "slug": "keto-favourites",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "628cbb0f8c9d464d5c0837f4",
+      "type": "bestseller",
+      "name": "Bestseller",
+      "slug": "bestseller",
+      "colorHandle": "familyFriendly",
+      "preferences": [],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT30M",
+  "uniqueRecipeCode": "GCLC08610143-58",
+  "updatedAt": "2025-09-16T16:56:17+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305386",
+      "type": "ovendish",
+      "name": "Oven dish"
+    }
+  ],
+  "uuid": "b8e9c14b-9156-4d82-b2dd-135811e86edd",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/beef-moussaka-6809119ade3861faddf5a2bd",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "6039096587a96d317f345cc7",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa3ac9a48553f90753cd",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "6065cc3f2069ab5fc100f292",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "6039096587a96d317f345cc7",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa3ac9a48553f90753cd",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "6065cc3f2069ab5fc100f292",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

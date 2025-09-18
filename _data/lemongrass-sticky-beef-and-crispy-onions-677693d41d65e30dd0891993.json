@@ -1,0 +1,797 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.5,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/677693d41d65e30dd0891993-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-01-02T13:25:41+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053b7",
+      "type": "indonesian",
+      "name": "Indonesian",
+      "slug": "indonesian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b7-60cbb133.jpg"
+    }
+  ],
+  "description": "Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.",
+  "descriptionHTML": "<p>Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.</p>",
+  "descriptionMarkdown": "Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.",
+  "difficulty": 2,
+  "favoritesCount": 25,
+  "headline": "with Chive and Spring Onion Rice",
+  "id": "677693d41d65e30dd0891993",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5027_W10_UK_GCB05810312-6_Main_low-5bb17c2b.jpg",
+  "imagePath": "/image/GC_Y24_R5027_W10_UK_GCB05810312-6_Main_low-5bb17c2b.jpg",
+  "ingredients": [
+    {
+      "id": "62fcaa1ec9a48553f9075392",
+      "uuid": "5039a7c1-5de6-5cc1-995f-aebbb994e544",
+      "name": "Spring Onion",
+      "type": "spring-onion",
+      "slug": "spring-onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa1ec9a48553f9075392-d05eab65.png",
+      "imagePath": "/ingredient/62fcaa1ec9a48553f9075392-d05eab65.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391f167f58c906aa09a942",
+      "uuid": "b443c50a-b3b3-510c-93ac-01d6610777a3",
+      "name": "Chives",
+      "type": "chives",
+      "slug": "chives",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391f167f58c906aa09a942-0ac4a203.png",
+      "imagePath": "/ingredient/60391f167f58c906aa09a942-0ac4a203.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb74",
+        "uuid": "ba0b471c-2b24-5aac-bcb1-c610e06408a1",
+        "name": "chive",
+        "slug": "chive",
+        "type": "chives",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "66d08ea0a3a9934710b37318",
+      "uuid": "7f304ea6-1031-48a1-bf51-531a397096ae",
+      "name": "Young Pea Pods",
+      "type": "young-pea-pods",
+      "slug": "young-pea-pods",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/66d08ea0a3a9934710b37318-256e245b.png",
+      "imagePath": "/ingredient/66d08ea0a3a9934710b37318-256e245b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa54c9a48553f907540f",
+      "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
+      "name": "Basmati Rice",
+      "type": "basmati-rice",
+      "slug": "basmati-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa54c9a48553f907540f-f7b74b0e.png",
+      "imagePath": "/ingredient/62fcaa54c9a48553f907540f-f7b74b0e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6148c0ee0acaec19640b29da",
+      "uuid": "b54779f2-d48b-5506-905f-a9b3f3c8ec70",
+      "name": "Ginger, Garlic & Lemongrass Puree",
+      "type": "ginger-garlic-lemongrass-puree",
+      "slug": "ginger-garlic-and-lemongrass-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6148c0ee0acaec19640b29da-b5141af4.png",
+      "imagePath": "/ingredient/6148c0ee0acaec19640b29da-b5141af4.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba7",
+        "uuid": "676c3f86-c3f6-551d-aac6-c15d08d7df96",
+        "name": "ginger",
+        "slug": "ginger",
+        "type": "ginger",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "633ac53d80b9116fd7f58d6f",
+      "uuid": "62332e06-1bd9-5362-a8bd-eb869fce3bea",
+      "name": "Thai Style Spice Blend",
+      "type": "thai-spice-blend",
+      "slug": "thai-style-spice-blend",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/633ac53d80b9116fd7f58d6f-e40b9956.png",
+      "imagePath": "/ingredient/633ac53d80b9116fd7f58d6f-e40b9956.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb39",
+        "uuid": "f17c14b0-36e3-5b68-8858-e1a6751b3aa4",
+        "name": "spice blend",
+        "slug": "spice-blend",
+        "type": "asian-spices",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60dd59f9aea8bc0ebf7acedb",
+      "uuid": "cf091724-33ca-57a1-be89-5146fb69dee3",
+      "name": "Peas",
+      "type": "peas",
+      "slug": "peas",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60dd59f9aea8bc0ebf7acedb-aecd475c.png",
+      "imagePath": "/ingredient/60dd59f9aea8bc0ebf7acedb-aecd475c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc04",
+        "uuid": "f5be8c75-d90c-57d4-bd8e-b39b9417e4e9",
+        "name": "peas",
+        "slug": "peas",
+        "type": "peas",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "604a2e409765f15adb6c30d1",
+      "uuid": "24b03259-ca4b-5338-bf7a-132e30d306ba",
+      "name": "Ketjap Manis",
+      "type": "ketjap-manis",
+      "slug": "ketjap-manis",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "imagePath": "/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc31",
+        "uuid": "3673d814-9d2d-5ac1-bf62-1a0c1f93102a",
+        "name": "Soy sauce",
+        "slug": "soy-sauce",
+        "type": "soy-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "647fc927703882ffab99cd3e",
+      "uuid": "0a15cb9b-a6c5-4fce-b32c-1f756821800c",
+      "name": "Crispy Onions",
+      "type": "crispy-onions",
+      "slug": "crispy-onions",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/647fc927703882ffab99cd3e-e41c531b.png",
+      "imagePath": "/ingredient/647fc927703882ffab99cd3e-e41c531b.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "637ba253ab892fdefbdb734d",
+      "uuid": "33ab2558-6dea-4717-a827-63e7e188b9da",
+      "name": "Boiled Water",
+      "type": "boiled-water",
+      "slug": "boiled-water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/637ba253ab892fdefbdb734d-35ab45fa.png",
+      "imagePath": "/ingredient/637ba253ab892fdefbdb734d-35ab45fa.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e25a9cab2001267a28f5",
+      "uuid": "0f1147fe-5dc9-4e6e-9449-ab2d5dd3f812",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e25a9cab2001267a28f5-b519cd22.png",
+      "imagePath": "/ingredient/62c6e25a9cab2001267a28f5-b519cd22.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "Taste of Indonesia",
+    "handle": "taste-of-indonesia",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#EF6709",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/677693d41d65e30dd0891993",
+  "name": "Lemongrass Sticky Beef and Crispy Onions",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2612,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 624,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 19.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 8.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 73.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 21.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 6.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 41.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.27,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT35M",
+  "promotion": null,
+  "ratingsCount": 100,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 474,
+  "slug": "lemongrass-sticky-beef-and-crispy-onions",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Trim and thinly slice the spring onion.\nRoughly chop the chives.",
+      "instructionsHTML": "<p>Trim and thinly slice the spring onion.</p>\n<p>Roughly chop the chives.</p>",
+      "instructionsMarkdown": "<p>Trim and thinly slice the spring onion.</p>\n<p>Roughly chop the chives.</p>",
+      "ingredients": [
+        "62fcaa1ec9a48553f9075392",
+        "60391f167f58c906aa09a942"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677693d41d65e30dd0891993/step-b6df9100.jpg",
+          "path": "/677693d41d65e30dd0891993/step-b6df9100.jpg",
+          "caption": "Prepare"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Boil a half-full kettle.\nMeanwhile, peel and grate the garlic (or use a garlic press). Halve the young pea pods widthways.",
+      "instructionsHTML": "<p>Boil a half-full kettle.</p>\n<p>Meanwhile, peel and grate the garlic (or use a garlic press). Halve the young pea pods widthways.</p>",
+      "instructionsMarkdown": "<p>Boil a half-full kettle.</p>\n<p>Meanwhile, peel and grate the garlic (or use a garlic press). Halve the young pea pods widthways.</p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "66d08ea0a3a9934710b37318"
+      ],
+      "utensils": [
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b305392"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677693d41d65e30dd0891993/step-d44c0010.jpg",
+          "path": "/677693d41d65e30dd0891993/step-d44c0010.jpg",
+          "caption": "Boil the Kettle"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Pour the boiled water (see pantry) into a medium saucepan. Add 1/4 tsp salt and bring back to the boil on high heat.\nAdd the basmati rice and turn the heat down to low. Cover with a tight-fitting lid and cook for 10 mins, then remove the pan from the heat and leave covered until ready to serve.",
+      "instructionsHTML": "<p>Pour the boiled water (see pantry) into a medium saucepan. Add 1/4 tsp salt and bring back to the boil on high heat.</p>\n<p>Add the basmati rice and turn the heat down to low. Cover with a tight-fitting lid and cook for 10 mins, <span>then remove the pan from the heat and leave covered until ready to serve.</span></p>",
+      "instructionsMarkdown": "<p>Pour the boiled water (see pantry) into a medium saucepan. Add 1/4 tsp salt and bring back to the boil on high heat.</p>\n<p>Add the basmati rice and turn the heat down to low. Cover with a tight-fitting lid and cook for 10 mins, <span>then remove the pan from the heat and leave covered until ready to serve.</span></p>",
+      "ingredients": [
+        "62fcaa54c9a48553f907540f",
+        "637ba253ab892fdefbdb734d"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538c",
+        "57e2674fb7e8697d4b30536b"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677693d41d65e30dd0891993/step-da7dee20.jpg",
+          "path": "/677693d41d65e30dd0891993/step-da7dee20.jpg",
+          "caption": "Cook the Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Heat a frying pan on medium heat with a drizzle of oil.\nOnce hot, add the ginger, garlic & lemongrass puree, Thai style spice blend (add less if you'd prefer it milder) and the garlic, and fry until soft and fragrant, 1-2 mins.\nNext, add the beef mince and cook until the mince is starting to brown, 3-4 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince.",
+      "instructionsHTML": "<p>Heat a frying pan on medium heat with a drizzle of oil.</p>\n<p>Once hot, add the ginger, garlic &amp; lemongrass puree, Thai style spice blend (add less if you&#39;d prefer it milder) and the garlic, and fry until soft and fragrant, 1-2 mins.</p>\n<p>Next, add the beef mince and cook until the mince is starting to brown, 3-4 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>",
+      "instructionsMarkdown": "<p>Heat a frying pan on medium heat with a drizzle of oil.</p>\n<p>Once hot, add the ginger, garlic &amp; lemongrass puree, Thai style spice blend (add less if you&#39;d prefer it milder) and the garlic, and fry until soft and fragrant, 1-2 mins.</p>\n<p>Next, add the beef mince and cook until the mince is starting to brown, 3-4 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>",
+      "ingredients": [
+        "6148c0ee0acaec19640b29da",
+        "633ac53d80b9116fd7f58d6f",
+        "6048ba435d6d2541787296ec",
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677693d41d65e30dd0891993/step-c8644430.jpg",
+          "path": "/677693d41d65e30dd0891993/step-c8644430.jpg",
+          "caption": "Cook the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Add the peas, young pea pods, ketjap manis and water (see pantry) to the beef and fry for 2-3 mins.\nStir to coat the beef in the sauce. IMPORTANT: The mince is cooked when no longer pink in the middle. ",
+      "instructionsHTML": "<p>Add the peas, young pea pods, ketjap manis and water (see pantry) to the beef and fry for 2-3 mins.</p>\n<p>Stir to coat the beef in the sauce. IMPORTANT: <em>T</em><em>he mince is cooked when no longer pink in the middle. </em></p>",
+      "instructionsMarkdown": "<p>Add the peas, young pea pods, ketjap manis and water (see pantry) to the beef and fry for 2-3 mins.</p>\n<p>Stir to coat the beef in the sauce. IMPORTANT: <em>T</em><em>he mince is cooked when no longer pink in the middle. </em></p>",
+      "ingredients": [
+        "60dd59f9aea8bc0ebf7acedb",
+        "66d08ea0a3a9934710b37318",
+        "604a2e409765f15adb6c30d1",
+        "62c6e25a9cab2001267a28f5"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677693d41d65e30dd0891993/step-b2ea9440.jpg",
+          "path": "/677693d41d65e30dd0891993/step-b2ea9440.jpg",
+          "caption": "Finish the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "When ready to serve, fluff up the rice with a fork and stir in the chives and spring onion.\nServe the chive and spring onion rice with the lemongrass sticky beef alongside.\nGarnish with the crispy onions.",
+      "instructionsHTML": "<p>When ready to serve, fluff up the rice with a fork and stir in the chives and spring onion.</p>\n<p>Serve the chive<strong> </strong>and<strong> </strong>spring onion rice with the lemongrass sticky beef alongside.</p>\n<p>Garnish with the crispy onions.</p>",
+      "instructionsMarkdown": "<p>When ready to serve, fluff up the rice with a fork and stir in the chives and spring onion.</p>\n<p>Serve the chive<strong> </strong>and<strong> </strong>spring onion rice with the lemongrass sticky beef alongside.</p>\n<p>Garnish with the crispy onions.</p>",
+      "ingredients": [
+        "62fcaa1ec9a48553f9075392",
+        "60391f167f58c906aa09a942",
+        "6048ba435d6d2541787296ec",
+        "66d08ea0a3a9934710b37318",
+        "62fcaa54c9a48553f907540f",
+        "6148c0ee0acaec19640b29da",
+        "633ac53d80b9116fd7f58d6f",
+        "62fcaa07d7803ca91b790566",
+        "60dd59f9aea8bc0ebf7acedb",
+        "604a2e409765f15adb6c30d1",
+        "637ba253ab892fdefbdb734d",
+        "647fc927703882ffab99cd3e",
+        "62c6e25a9cab2001267a28f5"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/677693d41d65e30dd0891993/step-edc44a50.jpg",
+          "path": "/677693d41d65e30dd0891993/step-edc44a50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67289724a8a26a35045e4",
+      "type": "flexitarian",
+      "name": "Flexitarian",
+      "slug": "flexitarian",
+      "colorHandle": null,
+      "preferences": [
+        "Flexitarian"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66df147e6f2782a900bc741d",
+      "type": "tasty-adventures",
+      "name": "tasty-adventures",
+      "slug": "tasty-adventures",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT30M",
+  "uniqueRecipeCode": "GCB05810312-13",
+  "updatedAt": "2025-09-14T14:18:12+00:00",
+  "utensils": [
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305392",
+      "type": "water-cooker",
+      "name": "Kettle"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536b",
+      "type": "lid",
+      "name": "Lid"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "ee4ce011-cbf5-46bb-a1d1-559acf9921de",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/lemongrass-sticky-beef-and-crispy-onions-677693d41d65e30dd0891993",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa1ec9a48553f9075392",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f167f58c906aa09a942",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "66d08ea0a3a9934710b37318",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa54c9a48553f907540f",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "6148c0ee0acaec19640b29da",
+          "amount": 22,
+          "unit": "grams"
+        },
+        {
+          "id": "633ac53d80b9116fd7f58d6f",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "60dd59f9aea8bc0ebf7acedb",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "647fc927703882ffab99cd3e",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "637ba253ab892fdefbdb734d",
+          "amount": 200,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e25a9cab2001267a28f5",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa1ec9a48553f9075392",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f167f58c906aa09a942",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "66d08ea0a3a9934710b37318",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa54c9a48553f907540f",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "6148c0ee0acaec19640b29da",
+          "amount": 44,
+          "unit": "grams"
+        },
+        {
+          "id": "633ac53d80b9116fd7f58d6f",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "60dd59f9aea8bc0ebf7acedb",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "647fc927703882ffab99cd3e",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "637ba253ab892fdefbdb734d",
+          "amount": 400,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e25a9cab2001267a28f5",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

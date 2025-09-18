@@ -1,0 +1,854 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "60368d40474cf27d2f79d901",
+      "name": "Barley",
+      "type": "barley",
+      "slug": "barley",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "60368d89cdbdf450236ad8cd",
+      "name": "Wheat",
+      "type": "wheat",
+      "slug": "wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fe",
+      "name": "Sesame",
+      "type": "sesame",
+      "slug": "sesame",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "63c00da40c675b6b333afdb4",
+      "name": "Pecan Nuts",
+      "type": "traces-of-pecan_nuts",
+      "slug": "traces-of-pecan-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da4c4bb723852bbf3ef",
+      "name": "Pistachio nuts",
+      "type": "traces-of-pistachio",
+      "slug": "traces-of-pistachio-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62cc417a2f15d58ec3559424",
+      "name": "Hazelnuts",
+      "type": "traces-of-hazelnuts",
+      "slug": "traces-of-hazelnuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afd9e",
+      "name": "Macadamia Nuts",
+      "type": "traces-of-macadamia",
+      "slug": "traces-of-macadamia-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b305302",
+      "name": "Nuts",
+      "type": "traces-of-nuts",
+      "slug": "traces-of-nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5a9614ab30006c2c026cf562",
+      "name": "Peanut",
+      "type": "traces-of-peanuts",
+      "slug": "traces-of-peanut",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62038a7c614fc10b645e85b9",
+      "name": "Almonds",
+      "type": "traces-of-almonds",
+      "slug": "traces-of-almonds",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afdb0",
+      "name": "Brazil nuts",
+      "type": "traces-of-brazil_nuts",
+      "slug": "traces-of-brazil-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da4c4bb723852bbf3cb",
+      "name": "Cashew nuts",
+      "type": "traces-of-cashew_nuts",
+      "slug": "traces-of-cashew-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 0,
+  "canonical": "664dcb017d59947cc3a74bde",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/one-pan-pork-yaki-udon-664dcb017d59947cc3a74bde",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/6895f5459643892dc8fbfbd0-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "6895578b9643892dc8fbd562",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-09T01:43:51+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ad",
+      "type": "japanese",
+      "name": "Japanese",
+      "slug": "japanese",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ad-3f36131f.jpg"
+    }
+  ],
+  "description": "One pan and protein-packed for your convenience. Often a Japanese noodle stir-fry dish, 'yaki' means fried or grilled. Using udon noodles for their unique texture, this dish delivers over 40g of protein as well.",
+  "descriptionHTML": "<p>One pan and protein-packed for your convenience. Often a Japanese noodle stir-fry dish, 'yaki' means fried or grilled. Using udon noodles for their unique texture, this dish delivers over 40g of protein as well.</p>",
+  "descriptionMarkdown": "One pan and protein-packed for your convenience. Often a Japanese noodle stir-fry dish, 'yaki' means fried or grilled. Using udon noodles for their unique texture, this dish delivers over 40g of protein as well.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Baby Corn, Mushrooms and Pak Choi",
+  "id": "6895f5459643892dc8fbfbd0",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5031_W30_UK_GCB15719810-4_mod_swap__low-a5548337.jpg",
+  "imagePath": "/image/GC_Y24_R5031_W30_UK_GCB15719810-4_mod_swap__low-a5548337.jpg",
+  "ingredients": [
+    {
+      "id": "6340bee0233160a36674ba38",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6340bee0233160a36674ba38-4612e733.png",
+      "imagePath": "/ingredient/6340bee0233160a36674ba38-4612e733.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa4ec9a48553f90753f6",
+      "uuid": "f76c5fff-a3b7-56d0-b342-50d61ca74613",
+      "name": "Pak Choi",
+      "type": "pak-choi",
+      "slug": "pak-choi",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa4ec9a48553f90753f6-de8af61e.png",
+      "imagePath": "/ingredient/62fcaa4ec9a48553f90753f6-de8af61e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390df6f44ad95997152386",
+      "uuid": "15cddd46-c4d1-5521-8277-f964e79d60d7",
+      "name": "Sliced Mushrooms",
+      "type": "sliced-mushrooms",
+      "slug": "sliced-mushrooms",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390df6f44ad95997152386-3c9524f6.png",
+      "imagePath": "/ingredient/60390df6f44ad95997152386-3c9524f6.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbde",
+        "uuid": "4d4e9c74-f094-555b-b132-6edacc2fd433",
+        "name": "plain mushrooms",
+        "slug": "plain-mushrooms",
+        "type": "mushrooms",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa49d7803ca91b7905d8",
+      "uuid": "379a5c78-a99f-54fd-b5da-d1718529dae5",
+      "name": "Baby Corn",
+      "type": "baby-corn",
+      "slug": "baby-corn",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa49d7803ca91b7905d8-9030f78c.png",
+      "imagePath": "/ingredient/62fcaa49d7803ca91b7905d8-9030f78c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "67f66c7c596b6eeb0c6f93bf",
+      "uuid": "b4f36945-566b-5d02-8e68-929d76b976a5",
+      "name": "Worcester Sauce",
+      "type": "worcester-sauce",
+      "slug": "worcester-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9d0d7803ca91b7904f6-b6d56845.png",
+      "imagePath": "/ingredient/62fca9d0d7803ca91b7904f6-b6d56845.png",
+      "shipped": true,
+      "allergens": [
+        "60368d40474cf27d2f79d901",
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "680ba59dbfb92a8200ac0cba",
+      "uuid": "0eae0198-9f27-5e24-97d4-45b44e38d5dd",
+      "name": "Soy Sauce",
+      "type": "soy-sauce",
+      "slug": "soy-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/680ba59dbfb92a8200ac0cba-e60a2689.png",
+      "imagePath": "/ingredient/680ba59dbfb92a8200ac0cba-e60a2689.png",
+      "shipped": true,
+      "allergens": [
+        "60368d89cdbdf450236ad8cd",
+        "57962a07b7e8697d4b3052f5",
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa2ebd9a2478e193f040",
+      "uuid": "d435f722-73a9-506b-b2a4-195521e65ea6",
+      "name": "Rice Vinegar",
+      "type": "rice-vinegar",
+      "slug": "rice-vinegar",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa2ebd9a2478e193f040-b8ef9ed9.png",
+      "imagePath": "/ingredient/62fcaa2ebd9a2478e193f040-b8ef9ed9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "604a2e409765f15adb6c30d1",
+      "uuid": "24b03259-ca4b-5338-bf7a-132e30d306ba",
+      "name": "Ketjap Manis",
+      "type": "ketjap-manis",
+      "slug": "ketjap-manis",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "imagePath": "/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc31",
+        "uuid": "3673d814-9d2d-5ac1-bf62-1a0c1f93102a",
+        "name": "Soy sauce",
+        "slug": "soy-sauce",
+        "type": "soy-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "67c71e6208108e6b05aa25ee",
+      "uuid": "4d08f895-ac4f-5922-af38-c2693b40797f",
+      "name": "Udon Noodles",
+      "type": "udon-noodles",
+      "slug": "udon-noodles",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/67c71e6208108e6b05aa25ee-e0aed871.png",
+      "imagePath": "/ingredient/67c71e6208108e6b05aa25ee-e0aed871.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f5",
+        "60368d89cdbdf450236ad8cd"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6837307bd9848b9dac04ffd4",
+      "uuid": "b2650fbb-77ee-5228-a70d-a2f8d7a9b5d5",
+      "name": "Black Sesame Seeds",
+      "type": "black-sesame-seeds",
+      "slug": "black-sesame-seeds",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa2ac9a48553f90753ae-0580b722.png",
+      "imagePath": "/ingredient/62fcaa2ac9a48553f90753ae-0580b722.png",
+      "shipped": true,
+      "allergens": [
+        "63c00da40c675b6b333afdb4",
+        "63c00da4c4bb723852bbf3ef",
+        "62cc417a2f15d58ec3559424",
+        "63c00da40c675b6b333afd9e",
+        "57962a07b7e8697d4b305302",
+        "5a9614ab30006c2c026cf562",
+        "62038a7c614fc10b645e85b9",
+        "63c00da40c675b6b333afdb0",
+        "63c00da4c4bb723852bbf3cb",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b3052fe"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/6895f5459643892dc8fbfbd0",
+  "name": "One Pan Beef Yaki Udon",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2310,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 552,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 17.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 7.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 56.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 22.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 6.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 41.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.62,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT20M",
+  "promotion": null,
+  "ratingsCount": 0,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 555,
+  "slug": "one-pan-beef-yaki-udon",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Halve the bell pepper and discard the core and seeds. Slice into thin strips.\nTrim the pak choi, then thinly slice widthways.",
+      "instructionsHTML": "<p>Halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Trim the pak choi, then thinly slice widthways.</p>",
+      "instructionsMarkdown": "<p>Halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Trim the pak choi, then thinly slice widthways.</p>",
+      "ingredients": [
+        "6340bee0233160a36674ba38",
+        "62fcaa4ec9a48553f90753f6"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6895f5459643892dc8fbfbd0/step-97a9f400.jpg",
+          "path": "/6895f5459643892dc8fbfbd0/step-97a9f400.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Heat a large frying pan on medium-high with a drizzle of oil.\nOnce hot, add the sliced mushrooms and fry for 2-3 mins.\nNext, add the beef mince and cook until starting to brown, 2-3 mins. Use a spoon to break it up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. ",
+      "instructionsHTML": "<p>Heat a large frying pan on medium-high with a drizzle of oil.</p>\n<p>Once hot, add the sliced mushrooms and fry for 2-3 mins.</p>\n<p>Next, add the beef mince and cook until starting to brown, 2-3 mins. Use a spoon to break it up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. </p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on medium-high with a drizzle of oil.</p>\n<p>Once hot, add the sliced mushrooms and fry for 2-3 mins.</p>\n<p>Next, add the beef mince and cook until starting to brown, 2-3 mins. Use a spoon to break it up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. </p>",
+      "ingredients": [
+        "60390df6f44ad95997152386",
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6895f5459643892dc8fbfbd0/step-70df8e10.jpg",
+          "path": "/6895f5459643892dc8fbfbd0/step-70df8e10.jpg",
+          "caption": "Fry the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Add the pepper strips and baby corn to the pan.\nCook until the vegetables start to soften, 2-3 mins, stirring occasionally.",
+      "instructionsHTML": "<p>Add the pepper strips and baby corn to the pan.</p>\n<p>Cook until the vegetables start to soften, 2-3 mins, stirring occasionally.</p>",
+      "instructionsMarkdown": "<p>Add the pepper strips and baby corn to the pan.</p>\n<p>Cook until the vegetables start to soften, 2-3 mins, stirring occasionally.</p>",
+      "ingredients": [
+        "6340bee0233160a36674ba38",
+        "62fcaa49d7803ca91b7905d8"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6895f5459643892dc8fbfbd0/step-b7ec9620.jpg",
+          "path": "/6895f5459643892dc8fbfbd0/step-b7ec9620.jpg",
+          "caption": "Add the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Reduce the heat to medium and add the Worcester sauce, soy sauce, rice vinegar and ketjap manis.\nStir to combine and simmer until thickened, 3-4 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Reduce the heat to medium and add the Worcester sauce, soy sauce, rice vinegar and ketjap manis.</p>\n<p>Stir to combine and simmer until thickened, 3-4 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Reduce the heat to medium and add the Worcester sauce, soy sauce, rice vinegar and ketjap manis.</p>\n<p>Stir to combine and simmer until thickened, 3-4 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "67f66c7c596b6eeb0c6f93bf",
+        "680ba59dbfb92a8200ac0cba",
+        "62fcaa2ebd9a2478e193f040",
+        "604a2e409765f15adb6c30d1"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6895f5459643892dc8fbfbd0/step-44ecc030.jpg",
+          "path": "/6895f5459643892dc8fbfbd0/step-44ecc030.jpg",
+          "caption": "Add the Sauce "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Break the udon noodles apart gently with your hands, then add them to the pan along with the pak choi. Toss to coat and simmer until piping hot, 1-2 mins.\nAdd a splash of water if the sauce looks too thick.",
+      "instructionsHTML": "<p>Break the udon noodles apart gently with your hands, then add them to the pan along with the pak choi. Toss to coat and simmer until piping hot, 1-2 mins.</p>\n<p>Add a splash of water if the sauce looks too thick.</p>",
+      "instructionsMarkdown": "<p>Break the udon noodles apart gently with your hands, then add them to the pan along with the pak choi. Toss to coat and simmer until piping hot, 1-2 mins.</p>\n<p>Add a splash of water if the sauce looks too thick.</p>",
+      "ingredients": [
+        "62fcaa4ec9a48553f90753f6",
+        "67c71e6208108e6b05aa25ee"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6895f5459643892dc8fbfbd0/step-c6845540.jpg",
+          "path": "/6895f5459643892dc8fbfbd0/step-c6845540.jpg",
+          "caption": "Add the Noodles"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the beef yaki udon noodles between your bowls. \nSprinkle the black sesame seeds over to finish.",
+      "instructionsHTML": "<p>Share the beef yaki udon noodles between your bowls. </p>\n<p>Sprinkle the black sesame seeds over to finish.</p>",
+      "instructionsMarkdown": "<p>Share the beef yaki udon noodles between your bowls. </p>\n<p>Sprinkle the black sesame seeds over to finish.</p>",
+      "ingredients": [
+        "6340bee0233160a36674ba38",
+        "62fcaa4ec9a48553f90753f6",
+        "60390df6f44ad95997152386",
+        "62fcaa07d7803ca91b790566",
+        "62fcaa49d7803ca91b7905d8",
+        "67f66c7c596b6eeb0c6f93bf",
+        "680ba59dbfb92a8200ac0cba",
+        "62fcaa2ebd9a2478e193f040",
+        "604a2e409765f15adb6c30d1",
+        "67c71e6208108e6b05aa25ee",
+        "6837307bd9848b9dac04ffd4"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6895f5459643892dc8fbfbd0/step-4ea88150.jpg",
+          "path": "/6895f5459643892dc8fbfbd0/step-4ea88150.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "596df0032c3e08133541c5d3",
+      "type": "one-pan",
+      "name": "One Pan",
+      "slug": "one-pan",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "585a98214348d20b1a5850b1",
+      "type": "rapid",
+      "name": "Rapid",
+      "slug": "rapid",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "62163c70143a35226e03d85e",
+      "type": "super-quick",
+      "name": "Super Quick",
+      "slug": "super-quick",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCMODB15719810-48868-2",
+  "updatedAt": "2025-09-15T18:27:07+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "30e12ee4-1dea-4755-96e4-d8f442dac900",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/one-pan-beef-yaki-udon-6895f5459643892dc8fbfbd0",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "6340bee0233160a36674ba38",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa4ec9a48553f90753f6",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390df6f44ad95997152386",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa49d7803ca91b7905d8",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "67f66c7c596b6eeb0c6f93bf",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "680ba59dbfb92a8200ac0cba",
+          "amount": 10,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa2ebd9a2478e193f040",
+          "amount": 15,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 40,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "67c71e6208108e6b05aa25ee",
+          "amount": 220,
+          "unit": "grams"
+        },
+        {
+          "id": "6837307bd9848b9dac04ffd4",
+          "amount": 5,
+          "unit": "grams"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "6340bee0233160a36674ba38",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa4ec9a48553f90753f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390df6f44ad95997152386",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa49d7803ca91b7905d8",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "67f66c7c596b6eeb0c6f93bf",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "680ba59dbfb92a8200ac0cba",
+          "amount": 20,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa2ebd9a2478e193f040",
+          "amount": 30,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 80,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "67c71e6208108e6b05aa25ee",
+          "amount": 440,
+          "unit": "grams"
+        },
+        {
+          "id": "6837307bd9848b9dac04ffd4",
+          "amount": 10,
+          "unit": "grams"
+        }
+      ]
+    }
+  ]
+}

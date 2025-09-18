@@ -1,0 +1,762 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fe",
+      "name": "Sesame",
+      "type": "sesame",
+      "slug": "sesame",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 0,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/689cc40d1597ca633109c32a-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-13T19:04:39+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ae",
+      "type": "korean",
+      "name": "Korean",
+      "slug": "korean",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ae-01d27069.jpg"
+    }
+  ],
+  "description": "Bring some balance to dinner with this bowl. Infusing the beef mince with ketjap manis, an Indonesian staple, brings both saltiness and sweetness to the dish, giving it an almost caramelised flavour. With less than 30g of carbs, this dish is beautifully light and balanced.",
+  "descriptionHTML": "<p>Bring some balance to dinner with this bowl. Infusing the beef mince with ketjap manis, an Indonesian staple, brings both saltiness and sweetness to the dish, giving it an almost caramelised flavour. With less than 30g of carbs, this dish is beautifully light and balanced.</p>",
+  "descriptionMarkdown": "Bring some balance to dinner with this bowl. Infusing the beef mince with ketjap manis, an Indonesian staple, brings both saltiness and sweetness to the dish, giving it an almost caramelised flavour. With less than 30g of carbs, this dish is beautifully light and balanced.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Sesame Sauteed Vegetables",
+  "id": "689cc40d1597ca633109c32a",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5017_W02_UK_GCLC0244189-11__MB_Main_low-275cce83.jpg",
+  "imagePath": "/image/GC_Y23_R5017_W02_UK_GCLC0244189-11__MB_Main_low-275cce83.jpg",
+  "ingredients": [
+    {
+      "id": "62fcaa21bd9a2478e193f01f",
+      "uuid": "0af471b0-f5b6-53c8-bf79-1fa315f20bf3",
+      "name": "Green Beans",
+      "type": "green-beans",
+      "slug": "green-beans",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa21bd9a2478e193f01f-8a639bdd.png",
+      "imagePath": "/ingredient/62fcaa21bd9a2478e193f01f-8a639bdd.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "66d08ea0a3a9934710b37318",
+      "uuid": "7f304ea6-1031-48a1-bf51-531a397096ae",
+      "name": "Young Pea Pods",
+      "type": "young-pea-pods",
+      "slug": "young-pea-pods",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/66d08ea0a3a9934710b37318-256e245b.png",
+      "imagePath": "/ingredient/66d08ea0a3a9934710b37318-256e245b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603904501cc99c4f987b3c55",
+      "uuid": "74465e54-fa3b-5202-b7f2-b465297bb828",
+      "name": "Carrot",
+      "type": "carrot",
+      "slug": "carrot",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603904501cc99c4f987b3c55-8b7ed747.png",
+      "imagePath": "/ingredient/603904501cc99c4f987b3c55-8b7ed747.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb62",
+        "uuid": "b183506b-ae5e-5689-9362-9c74e6f64079",
+        "name": "carrot",
+        "slug": "carrot",
+        "type": "carrot",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039209c6fbff80589294fd7",
+      "uuid": "da5a5db9-d6f6-5e0c-94fe-9874b0b466ec",
+      "name": "Kale",
+      "type": "kale",
+      "slug": "kale",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039209c6fbff80589294fd7-c4d1aba4.png",
+      "imagePath": "/ingredient/6039209c6fbff80589294fd7-c4d1aba4.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbbd",
+        "uuid": "e2fb94ef-0c4b-53e0-8bf6-10a4fef70695",
+        "name": "kale",
+        "slug": "kale",
+        "type": "kale",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "604a2e409765f15adb6c30d1",
+      "uuid": "24b03259-ca4b-5338-bf7a-132e30d306ba",
+      "name": "Ketjap Manis",
+      "type": "ketjap-manis",
+      "slug": "ketjap-manis",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "imagePath": "/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc31",
+        "uuid": "3673d814-9d2d-5ac1-bf62-1a0c1f93102a",
+        "name": "Soy sauce",
+        "slug": "soy-sauce",
+        "type": "soy-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa18bd9a2478e193f014",
+      "uuid": "dbc8bc5d-daac-50e9-8161-afdb361d627a",
+      "name": "Chilli Flakes",
+      "type": "chilli-flakes",
+      "slug": "chilli-flakes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "imagePath": "/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa52bd9a2478e193f0b1",
+      "uuid": "ebd2f698-4242-5deb-b767-d529fb84b42f",
+      "name": "Sesame Oil",
+      "type": "sesame-oil",
+      "slug": "sesame-oil",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "imagePath": "/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fe"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e2819cab2001267a2911",
+      "uuid": "23740aeb-69bd-4e44-9d4d-df9b3641bcfd",
+      "name": "Water",
+      "type": "water-1-tbsp",
+      "slug": "water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e2819cab2001267a2911-7cc2404f.png",
+      "imagePath": "/ingredient/62c6e2819cab2001267a2911-7cc2404f.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "Bestseller",
+    "handle": "bestseller",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#067A46",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/689cc40d1597ca633109c32a",
+  "name": "Sweet and Spicy Beef Bowl",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 1955,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 467,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 26.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 8.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 22.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 17.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 6.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 35.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.13,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 0,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 382,
+  "slug": "sweet-and-spicy-beef-bowl",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Trim and halve the green beans. \nSlice the young pea pods in half widthways. \nTrim the carrot, then coarsely grate (no need to peel). Peel and grate the garlic (or use a garlic press).\nDestalk the kale and discard the stems. Thinly slice the leaves widthways. ",
+      "instructionsHTML": "<p>Trim and halve the green beans. </p>\n<p>Slice the young pea pods in half widthways. </p>\n<p>Trim the carrot, then coarsely grate (no need to peel). Peel and grate the garlic (or use a garlic press).</p>\n<p>Destalk the kale and discard the stems. Thinly slice the leaves widthways. </p>",
+      "instructionsMarkdown": "<p>Trim and halve the green beans. </p>\n<p>Slice the young pea pods in half widthways. </p>\n<p>Trim the carrot, then coarsely grate (no need to peel). Peel and grate the garlic (or use a garlic press).</p>\n<p>Destalk the kale and discard the stems. Thinly slice the leaves widthways. </p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc40d1597ca633109c32a/step-7b6b0500.jpg",
+          "path": "/689cc40d1597ca633109c32a/step-7b6b0500.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Place a medium frying pan on medium-high heat with a drizzle of oil.\nWhen hot, brown the beef mince, using a spoon to break it up as it cooks, 5-6 mins. IMPORTANT: Wash your hands and equipment after handling raw meat. It's cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Place a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, brown the beef mince, using a spoon to break it up as it cooks, 5-6 mins. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Place a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, brown the beef mince, using a spoon to break it up as it cooks, 5-6 mins. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [
+        {
+          "name": "Cook the Beef",
+          "duration": "PT6M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc40d1597ca633109c32a/step-c4dd6710.jpg",
+          "path": "/689cc40d1597ca633109c32a/step-c4dd6710.jpg",
+          "caption": "Cook the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Meanwhile, boil a half-full kettle. Pour the boiled water into a medium saucepan with 0.25 tsp salt and bring back to the boil.\nAdd the kale and cook until tender and wilted, 2-3 mins.\nOnce cooked, drain in a colander. Return to the pan, season with salt and pepper and cover to keep warm. ",
+      "instructionsHTML": "<p>Meanwhile, boil a half-full kettle. Pour the boiled water into a medium saucepan with 0.25 tsp salt and bring back to the boil.</p>\n<p>Add the kale and cook until tender and wilted, 2-3 mins.</p>\n<p>Once cooked, drain in a colander. Return to the pan, season with salt and pepper and cover to keep warm. </p>",
+      "instructionsMarkdown": "<p>Meanwhile, boil a half-full kettle. Pour the boiled water into a medium saucepan with 0.25 tsp salt and bring back to the boil.</p>\n<p>Add the kale and cook until tender and wilted, 2-3 mins.</p>\n<p>Once cooked, drain in a colander. Return to the pan, season with salt and pepper and cover to keep warm. </p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538c",
+        "57e2674fb7e8697d4b305392",
+        "5e3ad24efcf61c18c30ff538",
+        "57e2674fb7e8697d4b30536b"
+      ],
+      "timers": [
+        {
+          "name": "Cook the Kale",
+          "duration": "PT3M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc40d1597ca633109c32a/step-e7550520.jpg",
+          "path": "/689cc40d1597ca633109c32a/step-e7550520.jpg",
+          "caption": "Cook the Kale"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Once the beef is cooked, add the garlic, ketjap manis and water (see pantry) to the pan. Stir to coat and cook for 30 secs.\nStir through the chilli flakes. Add a splash of water if it looks dry.\nSet your beef aside in a medium bowl and cover to keep warm.",
+      "instructionsHTML": "<p>Once the beef is cooked, add the garlic, ketjap manis and water (see pantry) to the pan. Stir to coat and cook for 30 secs.</p>\n<p>Stir through the chilli flakes. Add a splash of water if it looks dry.</p>\n<p>Set your beef aside in a medium bowl and cover to keep warm.</p>",
+      "instructionsMarkdown": "<p>Once the beef is cooked, add the garlic, ketjap manis and water (see pantry) to the pan. Stir to coat and cook for 30 secs.</p>\n<p>Stir through the chilli flakes. Add a splash of water if it looks dry.</p>\n<p>Set your beef aside in a medium bowl and cover to keep warm.</p>",
+      "ingredients": [],
+      "utensils": [
+        "59d49a9319279f8fe60e866f"
+      ],
+      "timers": [
+        {
+          "name": "Cook the Ketjap Manis and Garlic",
+          "duration": "PT30S",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc40d1597ca633109c32a/step-d3f4a930.jpg",
+          "path": "/689cc40d1597ca633109c32a/step-d3f4a930.jpg",
+          "caption": "Finish the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Return the frying pan (no need to clean) to medium-high heat with a drizzle of oil.\nOnce hot, fry the young pea pods and green beans until starting to char, 2-3 mins. Add the grated carrot and cook, stirring occasionally, for a further 1-2 mins.\nAdd the sesame oil and toss to coat, then remove from the heat. Season with salt and pepper.",
+      "instructionsHTML": "<p>Return the frying pan (no need to clean) to medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the young pea pods and green beans until starting to char, 2-3 mins. Add the grated carrot and cook, stirring occasionally, for a further 1-2 mins.</p>\n<p>Add the sesame oil and toss to coat, then remove from the heat. Season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Return the frying pan (no need to clean) to medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the young pea pods and green beans until starting to char, 2-3 mins. Add the grated carrot and cook, stirring occasionally, for a further 1-2 mins.</p>\n<p>Add the sesame oil and toss to coat, then remove from the heat. Season with salt and pepper.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [
+        {
+          "name": "Cook the Mangetout and Green Beans",
+          "duration": "PT3M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        },
+        {
+          "name": "Add the Carrot",
+          "duration": "PT2M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc40d1597ca633109c32a/step-6bc2f740.jpg",
+          "path": "/689cc40d1597ca633109c32a/step-6bc2f740.jpg",
+          "caption": "Cook the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the sweet and spicy beef and kale between your bowls.\nTop with the sauteed sesame veg, then drizzle over any remaining sauce from the pan.",
+      "instructionsHTML": "<p>Share the sweet and spicy beef and kale between your bowls.</p>\n<p>Top with the sauteed sesame veg, then drizzle over any remaining sauce from the pan.</p>",
+      "instructionsMarkdown": "<p>Share the sweet and spicy beef and kale between your bowls.</p>\n<p>Top with the sauteed sesame veg, then drizzle over any remaining sauce from the pan.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc40d1597ca633109c32a/step-21206950.jpg",
+          "path": "/689cc40d1597ca633109c32a/step-21206950.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "628cbb0f8c9d464d5c0837f4",
+      "type": "bestseller",
+      "name": "Bestseller",
+      "slug": "bestseller",
+      "colorHandle": "familyFriendly",
+      "preferences": [],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCLC0244189-55",
+  "updatedAt": "2025-09-15T17:51:50+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305392",
+      "type": "water-cooker",
+      "name": "Kettle"
+    },
+    {
+      "id": "5e3ad24efcf61c18c30ff538",
+      "type": null,
+      "name": "Colander"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536b",
+      "type": "lid",
+      "name": "Lid"
+    },
+    {
+      "id": "59d49a9319279f8fe60e866f",
+      "type": "medium-bowl",
+      "name": "Medium Bowl"
+    }
+  ],
+  "uuid": "3961f4e5-b985-4335-954c-7bfa80599539",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/sweet-and-spicy-beef-bowl-689cc40d1597ca633109c32a",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa21bd9a2478e193f01f",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "66d08ea0a3a9934710b37318",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "603904501cc99c4f987b3c55",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039209c6fbff80589294fd7",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 40,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 20,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e2819cab2001267a2911",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa21bd9a2478e193f01f",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "66d08ea0a3a9934710b37318",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "603904501cc99c4f987b3c55",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039209c6fbff80589294fd7",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 80,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 2,
+          "unit": "pinch"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 40,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e2819cab2001267a2911",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

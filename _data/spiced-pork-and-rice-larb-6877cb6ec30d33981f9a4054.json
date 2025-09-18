@@ -1,0 +1,867 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f8",
+      "name": "Peanut",
+      "type": "peanuts",
+      "slug": "peanut",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f8-b2ad43cd.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f8-b2ad43cd.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "5acf972fae08b54d333ac322",
+      "name": "Sesame",
+      "type": "traces-of-sesame",
+      "slug": "traces-of-sesame",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afd9e",
+      "name": "Macadamia Nuts",
+      "type": "traces-of-macadamia",
+      "slug": "traces-of-macadamia-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b305302",
+      "name": "Nuts",
+      "type": "traces-of-nuts",
+      "slug": "traces-of-nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afdb4",
+      "name": "Pecan Nuts",
+      "type": "traces-of-pecan_nuts",
+      "slug": "traces-of-pecan-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afdb0",
+      "name": "Brazil nuts",
+      "type": "traces-of-brazil_nuts",
+      "slug": "traces-of-brazil-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62cc417a2f15d58ec3559424",
+      "name": "Hazelnuts",
+      "type": "traces-of-hazelnuts",
+      "slug": "traces-of-hazelnuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da4c4bb723852bbf3ef",
+      "name": "Pistachio nuts",
+      "type": "traces-of-pistachio",
+      "slug": "traces-of-pistachio-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62038b0335f8ee1bcc1ce196",
+      "name": "Walnuts",
+      "type": "traces-of-walnuts",
+      "slug": "traces-of-walnuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62038a7c614fc10b645e85b9",
+      "name": "Almonds",
+      "type": "traces-of-almonds",
+      "slug": "traces-of-almonds",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da4c4bb723852bbf3cb",
+      "name": "Cashew nuts",
+      "type": "traces-of-cashew_nuts",
+      "slug": "traces-of-cashew-nuts",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.7,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/6877cb6ec30d33981f9a4054-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-07-17T07:55:37+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053b3",
+      "type": "thai",
+      "name": "Thai",
+      "slug": "thai",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b3-3b2b2add.jpg"
+    }
+  ],
+  "description": "Bring home a taste of Laos. A refreshing and popular salad in Lao cuisine, larb is made with minced meat and often served with rice. Balanced with harmonious flavours, this salad also serves up over 40g of protein.",
+  "descriptionHTML": "<p>Bring home a taste of Laos. A refreshing and popular salad in Lao cuisine, larb is made with minced meat and often served with rice. Balanced with harmonious flavours, this salad also serves up over 40g of protein.</p>",
+  "descriptionMarkdown": "Bring home a taste of Laos. A refreshing and popular salad in Lao cuisine, larb is made with minced meat and often served with rice. Balanced with harmonious flavours, this salad also serves up over 40g of protein. ",
+  "difficulty": 2,
+  "favoritesCount": 3,
+  "headline": "with Lettuce Cups and a Peanut Lime Garnish",
+  "id": "6877cb6ec30d33981f9a4054",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5030_W38_UK_GCBT11112829-7_Mainhigh-3ecc264e.jpg",
+  "imagePath": "/image/GC_Y25_R5030_W38_UK_GCBT11112829-7_Mainhigh-3ecc264e.jpg",
+  "ingredients": [
+    {
+      "id": "62fca9e7c9a48553f907531a",
+      "uuid": "be165c72-c406-54e5-b7c6-8fcea891fdf1",
+      "name": "Brown Basmati Rice",
+      "type": "brown-basmati-rice",
+      "slug": "brown-basmati-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e7c9a48553f907531a-79fa5647.png",
+      "imagePath": "/ingredient/62fca9e7c9a48553f907531a-79fa5647.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e1bd9a2478e193efaa",
+      "uuid": "86ce96e5-c9ee-5e07-86ef-3d49305ed2f1",
+      "name": "Radishes",
+      "type": "radishes",
+      "slug": "radishes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e1bd9a2478e193efaa-891fa9c6.png",
+      "imagePath": "/ingredient/62fca9e1bd9a2478e193efaa-891fa9c6.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6877cb6bc30d33981f9a4047",
+      "uuid": "14c309a3-f0b6-54cd-bd8a-8616ef0b8482",
+      "name": "Salted Peanuts",
+      "type": "salted-peanuts",
+      "slug": "salted-peanuts",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa1dd7803ca91b790590-f0d9d1d3.png",
+      "imagePath": "/ingredient/62fcaa1dd7803ca91b790590-f0d9d1d3.png",
+      "shipped": true,
+      "allergens": [
+        "5acf972fae08b54d333ac322",
+        "63c00da40c675b6b333afd9e",
+        "57962a07b7e8697d4b305302",
+        "63c00da40c675b6b333afdb4",
+        "63c00da40c675b6b333afdb0",
+        "62cc417a2f15d58ec3559424",
+        "63c00da4c4bb723852bbf3ef",
+        "62038b0335f8ee1bcc1ce196",
+        "62038a7c614fc10b645e85b9",
+        "63c00da4c4bb723852bbf3cb",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b3052f8"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390809b47bdb2f3e439e0d",
+      "uuid": "2904fadb-88de-569e-9c92-a87c61848fdb",
+      "name": "Red Chilli",
+      "type": "red-chilli",
+      "slug": "red-chilli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "imagePath": "/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb6d",
+        "uuid": "b7fdbff4-955d-578f-92e0-26786c9bc842",
+        "name": "chili",
+        "slug": "chili",
+        "type": "chili",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390c61b36c4838656814ba",
+      "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
+      "name": "Lime",
+      "type": "lime",
+      "slug": "lime",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390c61b36c4838656814ba-76f1e4d9.png",
+      "imagePath": "/ingredient/60390c61b36c4838656814ba-76f1e4d9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbc8",
+        "uuid": "56e4f66d-871d-50f5-8619-c9d10b949c50",
+        "name": "lime",
+        "slug": "lime",
+        "type": "lime",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e8c9a48553f907531e",
+      "uuid": "9a94a307-a64d-5b85-962a-663dff0b143e",
+      "name": "Baby Gem Lettuce",
+      "type": "baby-gem-lettuce",
+      "slug": "baby-gem-lettuce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e8c9a48553f907531e-461ec13b.png",
+      "imagePath": "/ingredient/62fca9e8c9a48553f907531e-461ec13b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6038faba6b19a5090032ecaa",
+      "uuid": "7edee583-2fee-5bec-9e26-2cd66cea813f",
+      "name": "Ginger Puree",
+      "type": "ginger-puree",
+      "slug": "ginger-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6038faba6b19a5090032ecaa-18af8f03.png",
+      "imagePath": "/ingredient/6038faba6b19a5090032ecaa-18af8f03.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb8e",
+        "uuid": "3a80953a-051d-547e-9c30-400651b3b94d",
+        "name": "dip",
+        "slug": "dip",
+        "type": "dip",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "633ac53d80b9116fd7f58d6f",
+      "uuid": "62332e06-1bd9-5362-a8bd-eb869fce3bea",
+      "name": "Thai Style Spice Blend",
+      "type": "thai-spice-blend",
+      "slug": "thai-style-spice-blend",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/633ac53d80b9116fd7f58d6f-e40b9956.png",
+      "imagePath": "/ingredient/633ac53d80b9116fd7f58d6f-e40b9956.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb39",
+        "uuid": "f17c14b0-36e3-5b68-8858-e1a6751b3aa4",
+        "name": "spice blend",
+        "slug": "spice-blend",
+        "type": "asian-spices",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "604a2e409765f15adb6c30d1",
+      "uuid": "24b03259-ca4b-5338-bf7a-132e30d306ba",
+      "name": "Ketjap Manis",
+      "type": "ketjap-manis",
+      "slug": "ketjap-manis",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "imagePath": "/ingredient/604a2e409765f15adb6c30d1-1b1ac7ca.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc31",
+        "uuid": "3673d814-9d2d-5ac1-bf62-1a0c1f93102a",
+        "name": "Soy sauce",
+        "slug": "soy-sauce",
+        "type": "soy-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0f09cab2001267a28b9",
+      "uuid": "92a795fa-d1ee-46cf-a06b-4f0014fdb9fb",
+      "name": "Water for the Rice",
+      "type": "water-for-the-rice-100ml",
+      "slug": "water-for-the-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0f09cab2001267a28b9-46484042.png",
+      "imagePath": "/ingredient/62c6e0f09cab2001267a28b9-46484042.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/6877cb6ec30d33981f9a4054",
+  "name": "Spiced Beef and Rice Larb",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2623,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 627,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 27.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 9.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 54.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 11.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 41.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.42,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT30M",
+  "promotion": null,
+  "ratingsCount": 9,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 622,
+  "slug": "spiced-pork-and-rice-larb",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Boil a half-full kettle. Rinse the brown rice.\nPour the boiled water (see pantry) into a medium saucepan with 1/4 tsp salt, and bring back to the boil on high heat. Add the brown rice, then reduce the heat to low. \nCover with a tight-fitting lid and cook for 20-25 mins. Once cooked, drain in a sieve.",
+      "instructionsHTML": "<p>Boil a half-full kettle. Rinse the brown rice.</p>\n<p>Pour the boiled water (see pantry) into a medium saucepan with 1/4 tsp salt, and bring back to the boil on high heat. Add the brown rice, then reduce the heat to low. </p>\n<p>Cover with a tight-fitting lid and cook for 20-25 mins. Once cooked, drain in a sieve.</p>",
+      "instructionsMarkdown": "<p>Boil a half-full kettle. Rinse the brown rice.</p>\n<p>Pour the boiled water (see pantry) into a medium saucepan with 1/4 tsp salt, and bring back to the boil on high heat. Add the brown rice, then reduce the heat to low. </p>\n<p>Cover with a tight-fitting lid and cook for 20-25 mins. Once cooked, drain in a sieve.</p>",
+      "ingredients": [
+        "62fca9e7c9a48553f907531a",
+        "62c6e0f09cab2001267a28b9"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30539b",
+        "57e2674fb7e8697d4b305392",
+        "57e2674fb7e8697d4b30536b",
+        "637ccf1f51efa9c65fc33335"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6877cb6ec30d33981f9a4054/step-c2e74300.jpg",
+          "path": "/6877cb6ec30d33981f9a4054/step-c2e74300.jpg",
+          "caption": "Cook the Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Trim and thinly slice the radishes. Peel and grate the garlic (or use a garlic press). \nCrush the peanuts in the unopened sachet using a rolling pin. Halve the red chilli lengthways, deseed then finely chop. \nZest the whole lime, then juice one half and cut the other half into wedges. ",
+      "instructionsHTML": "<p><span>Trim and thinly slice the radishes. </span><span>Peel and grate the garlic (or use a garlic press). </span></p>\n<p><span><span>Crush the peanuts in the unopened sachet using a rolling pin. </span></span><span>Halve the red chilli lengthways, deseed then finely chop. </span></p>\n<p><span>Zest the whole lime, then juice one half and cut the other half into wedges. </span></p>",
+      "instructionsMarkdown": "<p><span>Trim and thinly slice the radishes. </span><span>Peel and grate the garlic (or use a garlic press). </span></p>\n<p><span><span>Crush the peanuts in the unopened sachet using a rolling pin. </span></span><span>Halve the red chilli lengthways, deseed then finely chop. </span></p>\n<p><span>Zest the whole lime, then juice one half and cut the other half into wedges. </span></p>",
+      "ingredients": [
+        "62fca9e1bd9a2478e193efaa",
+        "6048ba435d6d2541787296ec",
+        "6877cb6bc30d33981f9a4047",
+        "60390809b47bdb2f3e439e0d",
+        "60390c61b36c4838656814ba"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305385",
+        "57e2674fb7e8697d4b30537d",
+        "59d49a9419279f8fe60e867c"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6877cb6ec30d33981f9a4054/step-8ec97c10.jpg",
+          "path": "/6877cb6ec30d33981f9a4054/step-8ec97c10.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Trim the baby gem lettuce, then peel off as many big leaves as you can. Stop once the leaves are too small to peel off, then thinly slice the baby gem core and set aside.",
+      "instructionsHTML": "<p><span>Trim the baby gem lettuce, then peel off as many big leaves as you can. Stop once the leaves are too small to peel off, then thinly slice the baby gem core and set aside.</span></p>",
+      "instructionsMarkdown": "<p><span>Trim the baby gem lettuce, then peel off as many big leaves as you can. Stop once the leaves are too small to peel off, then thinly slice the baby gem core and set aside.</span></p>",
+      "ingredients": [
+        "62fca9e8c9a48553f907531e"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6877cb6ec30d33981f9a4054/step-bbe19220.jpg",
+          "path": "/6877cb6ec30d33981f9a4054/step-bbe19220.jpg",
+          "caption": "Prep the Baby Gem"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Heat a large frying pan on medium-high heat with a drizzle of oil.\nWhen hot, fry the beef mince until golden, 5-6 mins. Use a wooden spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It's cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, fry the beef mince until golden, 5-6 mins. Use a wooden spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, fry the beef mince until golden, 5-6 mins. Use a wooden spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6877cb6ec30d33981f9a4054/step-aa992030.jpg",
+          "path": "/6877cb6ec30d33981f9a4054/step-aa992030.jpg",
+          "caption": "Start the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Add the garlic, radishes, ginger puree, Thai style spice mix, half the chilli and the chopped baby gem core to the mince, then fry until softened, 1-2 mins.\nTake the pan off the heat, then stir through the ketjap manis, lime juice and lime zest. ",
+      "instructionsHTML": "<p>Add the garlic, radishes, ginger puree, Thai style spice mix, half the chilli and the chopped baby gem core to the mince, then fry until softened, 1-2 mins.</p>\n<p>Take the pan off the heat, then stir through the ketjap manis, lime juice and lime zest. </p>",
+      "instructionsMarkdown": "<p>Add the garlic, radishes, ginger puree, Thai style spice mix, half the chilli and the chopped baby gem core to the mince, then fry until softened, 1-2 mins.</p>\n<p>Take the pan off the heat, then stir through the ketjap manis, lime juice and lime zest. </p>",
+      "ingredients": [
+        "6038faba6b19a5090032ecaa",
+        "633ac53d80b9116fd7f58d6f",
+        "60390809b47bdb2f3e439e0d",
+        "62fca9e8c9a48553f907531e",
+        "604a2e409765f15adb6c30d1"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6877cb6ec30d33981f9a4054/step-100dc140.jpg",
+          "path": "/6877cb6ec30d33981f9a4054/step-100dc140.jpg",
+          "caption": "Add the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the brown basmati rice between your bowls.\nPlace the whole baby gem leaves around half of the bowl. Spoon the spiced beef over the leaves and rice. Use the baby gem leaves to scoop the beef and rice.\nGarnish with peanuts, lime wedges and remaining chilli (careful - it's hot). \nEnjoy!",
+      "instructionsHTML": "<p>Share the brown basmati rice between your bowls.</p>\n<p>Place the whole baby gem leaves around half of the bowl. Spoon the spiced beef over the leaves and rice. Use the baby gem leaves to scoop the beef and rice.</p>\n<p>Garnish with peanuts, lime wedges and remaining chilli (careful - it&#39;s hot). </p>\n<p>Enjoy!</p>",
+      "instructionsMarkdown": "<p>Share the brown basmati rice between your bowls.</p>\n<p>Place the whole baby gem leaves around half of the bowl. Spoon the spiced beef over the leaves and rice. Use the baby gem leaves to scoop the beef and rice.</p>\n<p>Garnish with peanuts, lime wedges and remaining chilli (careful - it&#39;s hot). </p>\n<p>Enjoy!</p>",
+      "ingredients": [
+        "62fca9e7c9a48553f907531a",
+        "62fca9e1bd9a2478e193efaa",
+        "6048ba435d6d2541787296ec",
+        "6877cb6bc30d33981f9a4047",
+        "60390809b47bdb2f3e439e0d",
+        "60390c61b36c4838656814ba",
+        "62fca9e8c9a48553f907531e",
+        "62fcaa07d7803ca91b790566",
+        "6038faba6b19a5090032ecaa",
+        "633ac53d80b9116fd7f58d6f",
+        "604a2e409765f15adb6c30d1",
+        "62c6e0f09cab2001267a28b9"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6877cb6ec30d33981f9a4054/step-79101f50.jpg",
+          "path": "/6877cb6ec30d33981f9a4054/step-79101f50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT25M",
+  "uniqueRecipeCode": "GCBT11112829-7",
+  "updatedAt": "2025-09-17T19:08:58+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30539b",
+      "type": "sieve",
+      "name": "Sieve"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305392",
+      "type": "water-cooker",
+      "name": "Kettle"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536b",
+      "type": "lid",
+      "name": "Lid"
+    },
+    {
+      "id": "637ccf1f51efa9c65fc33335",
+      "type": "medium-saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305385",
+      "type": "zester",
+      "name": "Zester"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30537d",
+      "type": "rollingpin",
+      "name": "Rolling Pin"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "b02129e0-6e0a-45f2-83df-51c6bf78e02b",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/spiced-pork-and-rice-larb-6877cb6ec30d33981f9a4054",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fca9e7c9a48553f907531a",
+          "amount": 125,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e1bd9a2478e193efaa",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6877cb6bc30d33981f9a4047",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c61b36c4838656814ba",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9e8c9a48553f907531e",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "6038faba6b19a5090032ecaa",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "633ac53d80b9116fd7f58d6f",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 25,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0f09cab2001267a28b9",
+          "amount": 375,
+          "unit": "milliliter(s)"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fca9e7c9a48553f907531a",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e1bd9a2478e193efaa",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6877cb6bc30d33981f9a4047",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c61b36c4838656814ba",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9e8c9a48553f907531e",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "6038faba6b19a5090032ecaa",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "633ac53d80b9116fd7f58d6f",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "604a2e409765f15adb6c30d1",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0f09cab2001267a28b9",
+          "amount": 750,
+          "unit": "milliliter(s)"
+        }
+      ]
+    }
+  ]
+}

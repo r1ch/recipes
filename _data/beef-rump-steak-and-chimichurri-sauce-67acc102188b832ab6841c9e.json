@@ -1,0 +1,755 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.4,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67acc102188b832ab6841c9e-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-02-12T15:40:50+00:00",
+  "cuisines": [
+    {
+      "id": "623d9c9e5bdfb809438c0db4",
+      "type": "argentinian",
+      "name": "Argentinsk",
+      "slug": "argentinsk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/no-image.jpg"
+    }
+  ],
+  "description": "Originating in South America where they really know how to grill meat, chimichurri is a vibrant green herb sauce that pairs perfectly with tender slices of steak. The meat’s really the star of this dish, so we keep it simple by pairing it with an elegant cheese, tomato and broccoli salad.",
+  "descriptionHTML": "<p>Originating in South America where they really know how to grill meat, chimichurri is a vibrant green herb sauce that pairs perfectly with tender slices of steak. The meat’s really the star of this dish, so we keep it simple by pairing it with an elegant cheese, tomato and broccoli salad.</p>",
+  "descriptionMarkdown": "Originating in South America where they really know how to grill meat, chimichurri is a vibrant green herb sauce that pairs perfectly with tender slices of steak. The meat’s really the star of this dish, so we keep it simple by pairing it with an elegant cheese, tomato and broccoli salad.",
+  "difficulty": 2,
+  "favoritesCount": 12,
+  "headline": "with a Charred Tenderstem® and Tomato Salad",
+  "id": "67acc102188b832ab6841c9e",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5019_W41_UK_GCLC0204182-21_Main_low-884668bd.jpg",
+  "imagePath": "/image/GC_Y23_R5019_W41_UK_GCLC0204182-21_Main_low-884668bd.jpg",
+  "ingredients": [
+    {
+      "id": "6048baaf4e63a957f421eb72",
+      "uuid": "26c839a7-90d5-5ab1-808a-7f16c7526471",
+      "name": "21 Day Aged British Rump Steaks",
+      "type": "rump-steak",
+      "slug": "21-day-aged-british-rump-steaks",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048baaf4e63a957f421eb72-42f05c70.png",
+      "imagePath": "/ingredient/6048baaf4e63a957f421eb72-42f05c70.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb4e",
+        "uuid": "11d21a27-e54b-59e8-8657-9bff7b84ca88",
+        "name": "beef",
+        "slug": "beef",
+        "type": "beef",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60392410046fce264a0909e4",
+      "uuid": "540cc6fc-dcc5-5cc8-81b2-669729b49e60",
+      "name": "Tenderstem® Broccoli",
+      "type": "tenderstem-broccoli",
+      "slug": "tenderstem-r-broccoli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "imagePath": "/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb56",
+        "uuid": "d01a7d5d-e4fd-52a4-bdc5-8c61549aa9bb",
+        "name": "broccoli",
+        "slug": "broccoli",
+        "type": "broccoli",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390c61b36c4838656814ba",
+      "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
+      "name": "Lime",
+      "type": "lime",
+      "slug": "lime",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390c61b36c4838656814ba-76f1e4d9.png",
+      "imagePath": "/ingredient/60390c61b36c4838656814ba-76f1e4d9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbc8",
+        "uuid": "56e4f66d-871d-50f5-8619-c9d10b949c50",
+        "name": "lime",
+        "slug": "lime",
+        "type": "lime",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391f6bd3bd3274754539eb",
+      "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
+      "name": "Coriander",
+      "type": "coriander",
+      "slug": "coriander",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391f6bd3bd3274754539eb-7b85d9f4.png",
+      "imagePath": "/ingredient/60391f6bd3bd3274754539eb-7b85d9f4.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbf9",
+        "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
+        "name": "parsley",
+        "slug": "parsley",
+        "type": "parsley",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa18bd9a2478e193f014",
+      "uuid": "dbc8bc5d-daac-50e9-8161-afdb361d627a",
+      "name": "Chilli Flakes",
+      "type": "chilli-flakes",
+      "slug": "chilli-flakes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "imagePath": "/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039053d91ca37537b720b74",
+      "uuid": "f2061e37-18b0-59c3-b8d2-38e3c9d0d5bd",
+      "name": "Baby Plum Tomatoes",
+      "type": "baby-plum-tomatoes",
+      "slug": "baby-plum-tomatoes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "imagePath": "/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6764b4a29905c923d7fd4567",
+      "uuid": "d7764c9e-eb56-4d4d-b452-dc58846a6e03",
+      "name": "Greek Style Salad Cheese",
+      "type": "greek-style-cheese",
+      "slug": "greek-style-salad-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6764b4a29905c923d7fd4567-226133f6.png",
+      "imagePath": "/ingredient/6764b4a29905c923d7fd4567-226133f6.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e2c79cab2001267a2961",
+      "uuid": "cc4a99c5-10b6-4a71-ad13-0a9be1ca4439",
+      "name": "Salt for the Dressing",
+      "type": "salt-for-the-dressing-1tsp",
+      "slug": "salt-for-the-dressing",
+      "country": "GN",
+      "imageLink": null,
+      "imagePath": null,
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "Easter Special",
+    "handle": "easter-special",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#CE4500",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/67acc102188b832ab6841c9e",
+  "name": "Beef Rump Steak and Chimichurri Sauce",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2413,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 577,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 42.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 18.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 5.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 4.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 4.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 45,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.16,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 34,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 406,
+  "slug": "beef-rump-steak-and-chimichurri-sauce",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Remove the steaks from the fridge to bring up to room temperature before cooking.\nHalve any thicker broccoli stems lengthways. Peel the garlic.\nJuice half the lime and cut the other half into wedges.",
+      "instructionsHTML": "<p>Remove the steaks from the fridge to bring up to room temperature before cooking.</p>\n<p>Halve any thicker broccoli stems lengthways. Peel the garlic.</p>\n<p>Juice half the lime and cut the other half into wedges.</p>",
+      "instructionsMarkdown": "<p>Remove the steaks from the fridge to bring up to room temperature before cooking.</p>\n<p>Halve any thicker broccoli stems lengthways. Peel the garlic.</p>\n<p>Juice half the lime and cut the other half into wedges.</p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "60392410046fce264a0909e4",
+        "6048baaf4e63a957f421eb72"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30536c",
+        "57e2674fb7e8697d4b305379"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67acc102188b832ab6841c9e/step-f0b6bb00.jpg",
+          "path": "/67acc102188b832ab6841c9e/step-f0b6bb00.jpg",
+          "caption": "Prep"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Next, make the chimichurri sauce. If you don’t have a food processor, finely chop the coriander (stalks and all). Grate the garlic (or use a garlic press).\nIn a small bowl, add the coriander, garlic, chilli flakes, lime juice, the salt and olive oil for the dressing (see pantry for both). Mix well with a fork, then set aside for serving.\nIf you have a food processor, whizz the same ingredients together until you have a paste.",
+      "instructionsHTML": "<p>Next, make the chimichurri sauce. If you don’t have a food processor, finely chop the coriander (stalks and all). Grate the garlic (or use a garlic press).</p>\n<p>In a small bowl, add the coriander, garlic, chilli flakes, lime juice, the salt and olive oil for the dressing (see pantry for both). Mix well with a fork, then set aside for serving.</p>\n<p>If you have a food processor, whizz the same ingredients together until you have a paste.</p>",
+      "instructionsMarkdown": "<p>Next, make the chimichurri sauce. If you don’t have a food processor, finely chop the coriander (stalks and all). Grate the garlic (or use a garlic press).</p>\n<p>In a small bowl, add the coriander, garlic, chilli flakes, lime juice, the salt and olive oil for the dressing (see pantry for both). Mix well with a fork, then set aside for serving.</p>\n<p>If you have a food processor, whizz the same ingredients together until you have a paste.</p>",
+      "ingredients": [
+        "62c6e1059cab2001267a28cb",
+        "62c6e2c79cab2001267a2961",
+        "62fcaa18bd9a2478e193f014",
+        "60391f6bd3bd3274754539eb",
+        "60390c61b36c4838656814ba"
+      ],
+      "utensils": [
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e",
+        "57e2674fb7e8697d4b305380"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67acc102188b832ab6841c9e/step-c3b8a010.jpg",
+          "path": "/67acc102188b832ab6841c9e/step-c3b8a010.jpg",
+          "caption": "Make the Chimichurri"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Heat a large frying pan on high heat with a drizzle of oil. Rump steaks naturally vary in shape, so adjust the following timings depending on how you like yours cooked.\nOnce very hot, fry the steaks for medium-rare: 5 mins / medium: 5 mins 30 secs / well done: 6 mins. Turn halfway through cooking. IMPORTANT: Wash your hands and equipment after handling raw meat. The steak is safe to eat when browned on the outside.",
+      "instructionsHTML": "<p>Heat a large frying pan on high heat with a drizzle of oil. Rump steaks naturally vary in shape, so adjust the following timings depending on how you like yours cooked.</p>\n<p>Once very hot, fry the steaks for medium-rare: 5 mins / medium: 5 mins 30 secs / well done: 6 mins. Turn halfway through cooking. IMPORTANT: Wash your hands and equipment after handling raw meat. The steak is safe to eat when browned on the outside.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on high heat with a drizzle of oil. Rump steaks naturally vary in shape, so adjust the following timings depending on how you like yours cooked.</p>\n<p>Once very hot, fry the steaks for medium-rare: 5 mins / medium: 5 mins 30 secs / well done: 6 mins. Turn halfway through cooking. IMPORTANT: Wash your hands and equipment after handling raw meat. The steak is safe to eat when browned on the outside.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67acc102188b832ab6841c9e/step-e1798f20.jpg",
+          "path": "/67acc102188b832ab6841c9e/step-e1798f20.jpg",
+          "caption": "Cook the Steaks"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Transfer the steaks to a plate to rest, covering with a plate or foil to keep warm.",
+      "instructionsHTML": "<p>Transfer the steaks to a plate to rest, covering with a plate or foil to keep warm.</p>",
+      "instructionsMarkdown": "<p>Transfer the steaks to a plate to rest, covering with a plate or foil to keep warm.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67acc102188b832ab6841c9e/step-7e98f330.jpg",
+          "path": "/67acc102188b832ab6841c9e/step-7e98f330.jpg",
+          "caption": "Rest the Steaks"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Whilst the steaks rest, return the frying pan to medium-high heat with a drizzle of oil (no need to clean).\nAdd the Tenderstem® and fry for 5 mins, turning occasionally, then add in the baby plum tomatoes. Season with salt and pepper. Cook until the tomatoes start to burst and the broccoli chars, 2-3 mins.\nOnce rested, slice the steaks widthways into 1cm thick slices.",
+      "instructionsHTML": "<p>Whilst the steaks rest, return the frying pan to medium-high heat with a drizzle of oil (no need to clean).</p>\n<p>Add the Tenderstem® and fry for 5 mins, turning occasionally, then add in the baby plum tomatoes. Season with salt and pepper. Cook until the tomatoes start to burst and the broccoli chars, 2-3 mins.</p>\n<p>Once rested, slice the steaks widthways into 1cm thick slices.</p>",
+      "instructionsMarkdown": "<p>Whilst the steaks rest, return the frying pan to medium-high heat with a drizzle of oil (no need to clean).</p>\n<p>Add the Tenderstem® and fry for 5 mins, turning occasionally, then add in the baby plum tomatoes. Season with salt and pepper. Cook until the tomatoes start to burst and the broccoli chars, 2-3 mins.</p>\n<p>Once rested, slice the steaks widthways into 1cm thick slices.</p>",
+      "ingredients": [
+        "6039053d91ca37537b720b74"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67acc102188b832ab6841c9e/step-44619040.jpg",
+          "path": "/67acc102188b832ab6841c9e/step-44619040.jpg",
+          "caption": "Cook the Tenderstem® and Tomatoes "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Once rested, fan your steak slices out on your plates.\nServe the rocket alongside and top with the charred Tenderstem® and baby plum tomatoes.\nCrumble the Greek style salad cheese over the salad and drizzle the chimichurri sauce over your steak.\nServe with a lime wedge on the side.",
+      "instructionsHTML": "<p>Once rested, fan your steak slices out on your plates.</p>\n<p>Serve the rocket alongside and top with the charred Tenderstem® and baby plum tomatoes.</p>\n<p>Crumble the Greek style salad cheese over the salad and drizzle the chimichurri sauce over your steak.</p>\n<p>Serve with a lime wedge on the side.</p>",
+      "instructionsMarkdown": "<p>Once rested, fan your steak slices out on your plates.</p>\n<p>Serve the rocket alongside and top with the charred Tenderstem® and baby plum tomatoes.</p>\n<p>Crumble the Greek style salad cheese over the salad and drizzle the chimichurri sauce over your steak.</p>\n<p>Serve with a lime wedge on the side.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e1059cab2001267a28cb",
+        "62c6e2c79cab2001267a2961",
+        "6764b4a29905c923d7fd4567",
+        "60390dc851af04233575aab8",
+        "6039053d91ca37537b720b74",
+        "62fcaa18bd9a2478e193f014",
+        "60391f6bd3bd3274754539eb",
+        "60390c61b36c4838656814ba",
+        "6048ba435d6d2541787296ec",
+        "60392410046fce264a0909e4",
+        "6048baaf4e63a957f421eb72"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67acc102188b832ab6841c9e/step-32c21150.jpg",
+          "path": "/67acc102188b832ab6841c9e/step-32c21150.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "655c79a39b7963775732d3cb",
+      "type": "easter",
+      "name": "easter",
+      "slug": "easter",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCLC0204182-34",
+  "updatedAt": "2025-09-07T06:27:54+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30536c",
+      "type": "foodprocessor",
+      "name": "Food Processor"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305379",
+      "type": "peeler",
+      "name": "Peeler"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305380",
+      "type": "smallbowl",
+      "name": "Small Bowl"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "531e548e-1175-4f81-8d3e-45b5b2aaed8b",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/beef-rump-steak-and-chimichurri-sauce-67acc102188b832ab6841c9e",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "6048baaf4e63a957f421eb72",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c61b36c4838656814ba",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f6bd3bd3274754539eb",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 125,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "6764b4a29905c923d7fd4567",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2c79cab2001267a2961",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 0.5,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "6048baaf4e63a957f421eb72",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c61b36c4838656814ba",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f6bd3bd3274754539eb",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 2,
+          "unit": "pinch"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "6764b4a29905c923d7fd4567",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2c79cab2001267a2961",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

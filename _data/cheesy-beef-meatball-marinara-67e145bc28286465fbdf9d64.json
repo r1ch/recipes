@@ -1,0 +1,826 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f6",
+      "name": "Egg",
+      "type": "egg",
+      "slug": "egg",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 2.9,
+  "canonical": "67daf73c7aed69c9540c8fc4",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/cheesy-pork-meatball-marinara-67daf73c7aed69c9540c8fc4",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67e145bc28286465fbdf9d64-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "67db1fbc40b689c290457480",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-03-24T11:45:01+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ac",
+      "type": "italian",
+      "name": "Italian",
+      "slug": "italian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 2,
+  "headline": "with Roasted Aubergine and a Baby Leaf Salad",
+  "id": "67e145bc28286465fbdf9d64",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5018_W21_UK_GCLC14810854-33_mod_swap__low-0dd018a1.jpg",
+  "imagePath": "/image/GC_Y25_R5018_W21_UK_GCLC14810854-33_mod_swap__low-0dd018a1.jpg",
+  "ingredients": [
+    {
+      "id": "6039096587a96d317f345cc7",
+      "uuid": "1fa6c253-440c-5c98-9e4b-65a57a89f8b1",
+      "name": "Aubergine",
+      "type": "aubergine",
+      "slug": "aubergine",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039096587a96d317f345cc7-a5672d03.png",
+      "imagePath": "/ingredient/6039096587a96d317f345cc7-a5672d03.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb3b",
+        "uuid": "3fc972f5-18bc-5969-b26e-d554466b1c9b",
+        "name": "aubergine",
+        "slug": "aubergine",
+        "type": "aubergine-eggplant",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38bd9a2478e193f05a",
+      "uuid": "668aa8c0-75d4-5a2d-84d7-7330dc57c99e",
+      "name": "Mature Cheddar Cheese",
+      "type": "mature-cheddar-cheese",
+      "slug": "mature-cheddar-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "imagePath": "/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039053d91ca37537b720b74",
+      "uuid": "f2061e37-18b0-59c3-b8d2-38e3c9d0d5bd",
+      "name": "Baby Plum Tomatoes",
+      "type": "baby-plum-tomatoes",
+      "slug": "baby-plum-tomatoes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "imagePath": "/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "635b9a8bb8d13143493e30cc",
+      "uuid": "9bd72b6e-0d94-4148-961a-3e78f860086f",
+      "name": "Passata di Pomodoro",
+      "type": "passata-di-pomodoro",
+      "slug": "passata-di-pomodoro",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "imagePath": "/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60633303c7e6833e3e38fa40",
+      "uuid": "6c8f19df-7a9e-5397-a4ac-c5736ef93159",
+      "name": "Chicken Stock Paste",
+      "type": "chicken-stock-paste",
+      "slug": "chicken-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+      "imagePath": "/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa30c9a48553f90753b8",
+      "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
+      "name": "Dried Oregano",
+      "type": "dried-oregano",
+      "slug": "dried-oregano",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa30c9a48553f90753b8-bee2e1e5.png",
+      "imagePath": "/ingredient/62fcaa30c9a48553f90753b8-bee2e1e5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e0d7803ca91b79050f",
+      "uuid": "6939977c-68b0-5e37-ab54-1be0ffa14129",
+      "name": "Grated Hard Italian Style Cheese",
+      "type": "grated-hard-italian-style-cheese",
+      "slug": "grated-hard-italian-style-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e0d7803ca91b79050f-0e605a8c.png",
+      "imagePath": "/ingredient/62fca9e0d7803ca91b79050f-0e605a8c.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa",
+        "57962a07b7e8697d4b3052f6"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9cac9a48553f90752d7",
+      "uuid": "bf51a385-1674-556b-8df8-1ac51b8e7ed1",
+      "name": "Baby Leaf Mix",
+      "type": "premium-baby-leaf-mix",
+      "slug": "baby-leaf-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9cac9a48553f90752d7-803e6f56.png",
+      "imagePath": "/ingredient/62fca9cac9a48553f90752d7-803e6f56.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1269cab2001267a28e8",
+      "uuid": "b1c999b7-7744-4cac-9f00-176f0dacbe2e",
+      "name": "Salt for the Meatballs",
+      "type": "salt-for-the-meatballs-1-tsp",
+      "slug": "salt-for-the-meatballs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1269cab2001267a28e8-b50e03f9.png",
+      "imagePath": "/ingredient/62c6e1269cab2001267a28e8-b50e03f9.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67e145bc28286465fbdf9d64",
+  "name": "Cheesy Beef Meatball Marinara",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2564,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 613,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 34.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 15.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 17.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 10.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 6.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 45.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.85,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT45M",
+  "promotion": null,
+  "ratingsCount": 8,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 510,
+  "slug": "cheesy-beef-meatball-marinara",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nTrim the aubergine, then cut into 2cm pieces. Place on a baking tray. Drizzle with oil, season with salt and pepper and toss to coat. Spread out in a single layer.\nWhen the oven is hot, roast on the top shelf until soft and golden, 25-30 mins. Turn halfway through cooking.\nGrate the cheese. Peel and grate the garlic (or use a garlic press). ",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Trim the aubergine, then cut into 2cm pieces. Place on a baking tray. Drizzle with oil, season with salt and pepper and toss to coat. Spread out in a single layer.</p>\n<p>When the oven is hot, roast on the top shelf until soft and golden, 25-30 mins. Turn halfway through cooking.</p>\n<p>Grate the cheese. Peel and grate the garlic (or use a garlic press). </p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Trim the aubergine, then cut into 2cm pieces. Place on a baking tray. Drizzle with oil, season with salt and pepper and toss to coat. Spread out in a single layer.</p>\n<p>When the oven is hot, roast on the top shelf until soft and golden, 25-30 mins. Turn halfway through cooking.</p>\n<p>Grate the cheese. Peel and grate the garlic (or use a garlic press). </p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "62fcaa38bd9a2478e193f05a",
+        "6039096587a96d317f345cc7"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368",
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67e145bc28286465fbdf9d64/step-37f9ba00.jpg",
+          "path": "/67e145bc28286465fbdf9d64/step-37f9ba00.jpg",
+          "caption": "Roast the Aubergine"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Meanwhile, in a medium bowl, add the beef mince, half the garlic and the salt (see pantry). Season with pepper.\nUsing your hands, mix until very well combined. Shape into evenly sized balls, 5 per person.\nPlace in an oven dish. Roast on the middle shelf until browned, 12-15 mins. IMPORTANT: Wash your hands and equipment after handling raw mince. The meatballs are cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Meanwhile, in a medium bowl, add the beef mince, half the garlic and the salt (see pantry). Season with pepper.</p>\n<p>Using your hands, mix until very well combined. Shape into evenly sized balls, 5 per person.</p>\n<p>Place in an oven dish. Roast on the middle shelf until browned, 12-15 mins. IMPORTANT: Wash your hands and equipment after handling raw mince. The meatballs are cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, in a medium bowl, add the beef mince, half the garlic and the salt (see pantry). Season with pepper.</p>\n<p>Using your hands, mix until very well combined. Shape into evenly sized balls, 5 per person.</p>\n<p>Place in an oven dish. Roast on the middle shelf until browned, 12-15 mins. IMPORTANT: Wash your hands and equipment after handling raw mince. The meatballs are cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62c6e1269cab2001267a28e8",
+        "62fcaa07d7803ca91b790566",
+        "6048ba435d6d2541787296ec"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305386",
+        "59d49a9319279f8fe60e866f",
+        "6724dcd72e384a4fe481872e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67e145bc28286465fbdf9d64/step-1e5e6910.jpg",
+          "path": "/67e145bc28286465fbdf9d64/step-1e5e6910.jpg",
+          "caption": "Make the Meatballs"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Once the aubergine has cooked for 10 mins, add the baby plum tomatoes to the tray. Drizzle with oil and return to the top shelf to cook for the remaining time, 15-20 mins. \nWhen the veg has 5 mins remaining, heat a medium saucepan on medium-high heat with a drizzle of oil. Fry the remaining garlic for 1 min, then add the passata, chicken stock paste and dried oregano.\nStir, bring to the boil, then reduce the heat to medium and simmer for 5-6 mins. Season with salt and pepper. ",
+      "instructionsHTML": "<p>Once the aubergine has cooked for 10 mins, add the baby plum tomatoes to the tray. Drizzle with oil and return to the top shelf to cook for the remaining time, 15-20 mins. </p>\n<p>When the veg has 5 mins remaining, heat a medium saucepan on medium-high heat with a drizzle of oil. Fry the remaining garlic for 1 min, then add the passata, chicken stock paste and dried oregano.</p>\n<p>Stir, bring to the boil, then reduce the heat to medium and simmer for 5-6 mins. Season with salt and pepper. </p>",
+      "instructionsMarkdown": "<p>Once the aubergine has cooked for 10 mins, add the baby plum tomatoes to the tray. Drizzle with oil and return to the top shelf to cook for the remaining time, 15-20 mins. </p>\n<p>When the veg has 5 mins remaining, heat a medium saucepan on medium-high heat with a drizzle of oil. Fry the remaining garlic for 1 min, then add the passata, chicken stock paste and dried oregano.</p>\n<p>Stir, bring to the boil, then reduce the heat to medium and simmer for 5-6 mins. Season with salt and pepper. </p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62fcaa30c9a48553f90753b8",
+        "60633303c7e6833e3e38fa40",
+        "635b9a8bb8d13143493e30cc",
+        "6039053d91ca37537b720b74",
+        "62fcaa38bd9a2478e193f05a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538c"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67e145bc28286465fbdf9d64/step-e5ddf220.jpg",
+          "path": "/67e145bc28286465fbdf9d64/step-e5ddf220.jpg",
+          "caption": "Make the Marinara Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Once the veg and meatballs are cooked, turn your grill on high.\nPlace the roasted veg into the meatball dish and mix together. Pour the marinara sauce over the top. Sprinkle over the hard Italian style cheese and the grated Cheddar cheese.\nWhen hot, grill until the cheese is golden, 5-6 mins.",
+      "instructionsHTML": "<p>Once the veg and meatballs are cooked, turn your grill on high.</p>\n<p>Place the roasted veg into the meatball dish and mix together. Pour the marinara sauce over the top. Sprinkle over the hard Italian style cheese and the grated Cheddar cheese.</p>\n<p>When hot, grill until the cheese is golden, 5-6 mins.</p>",
+      "instructionsMarkdown": "<p>Once the veg and meatballs are cooked, turn your grill on high.</p>\n<p>Place the roasted veg into the meatball dish and mix together. Pour the marinara sauce over the top. Sprinkle over the hard Italian style cheese and the grated Cheddar cheese.</p>\n<p>When hot, grill until the cheese is golden, 5-6 mins.</p>",
+      "ingredients": [
+        "62fca9e0d7803ca91b79050f"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305386",
+        "57e2674fb7e8697d4b30536e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67e145bc28286465fbdf9d64/step-60b4e430.jpg",
+          "path": "/67e145bc28286465fbdf9d64/step-60b4e430.jpg",
+          "caption": "Prepare the Bake"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Just before serving, add the baby leaves to your plates and toss with the olive oil for the dressing (see pantry).\nSeason with salt and pepper.",
+      "instructionsHTML": "<p>Just before serving, add the baby leaves to your plates and toss with the olive oil for the dressing (see pantry).</p>\n<p>Season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Just before serving, add the baby leaves to your plates and toss with the olive oil for the dressing (see pantry).</p>\n<p>Season with salt and pepper.</p>",
+      "ingredients": [
+        "62c6e1059cab2001267a28cb",
+        "62fca9cac9a48553f90752d7"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305369"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67e145bc28286465fbdf9d64/step-d767d040.jpg",
+          "path": "/67e145bc28286465fbdf9d64/step-d767d040.jpg",
+          "caption": "Toss the Baby Leaves"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Serve the cheesy meatball marinara with the baby leaf salad alongside.",
+      "instructionsHTML": "<p>Serve the cheesy meatball marinara with the baby leaf salad alongside.</p>",
+      "instructionsMarkdown": "<p>Serve the cheesy meatball marinara with the baby leaf salad alongside.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e1059cab2001267a28cb",
+        "62c6e1269cab2001267a28e8",
+        "62fca9cac9a48553f90752d7",
+        "62fca9e0d7803ca91b79050f",
+        "62fcaa30c9a48553f90753b8",
+        "60633303c7e6833e3e38fa40",
+        "635b9a8bb8d13143493e30cc",
+        "6039053d91ca37537b720b74",
+        "6048ba435d6d2541787296ec",
+        "62fcaa38bd9a2478e193f05a",
+        "6039096587a96d317f345cc7"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67e145bc28286465fbdf9d64/step-3cdfe750.jpg",
+          "path": "/67e145bc28286465fbdf9d64/step-3cdfe750.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT35M",
+  "uniqueRecipeCode": "GCMODLC14810854-42110-2",
+  "updatedAt": "2025-09-07T03:26:42+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305386",
+      "type": "ovendish",
+      "name": "Oven dish"
+    },
+    {
+      "id": "59d49a9319279f8fe60e866f",
+      "type": "medium-bowl",
+      "name": "Medium Bowl"
+    },
+    {
+      "id": "6724dcd72e384a4fe481872e",
+      "type": "baking-paper",
+      "name": "Baking Paper"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305369",
+      "type": "bowl",
+      "name": "Bowl"
+    }
+  ],
+  "uuid": "9ae5f59e-ecb6-464a-b6f2-e94f97a96b45",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/cheesy-beef-meatball-marinara-67e145bc28286465fbdf9d64",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "6039096587a96d317f345cc7",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 125,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "60633303c7e6833e3e38fa40",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa30c9a48553f90753b8",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fca9e0d7803ca91b79050f",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9cac9a48553f90752d7",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1269cab2001267a28e8",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "6039096587a96d317f345cc7",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "60633303c7e6833e3e38fa40",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa30c9a48553f90753b8",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fca9e0d7803ca91b79050f",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9cac9a48553f90752d7",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1269cab2001267a28e8",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

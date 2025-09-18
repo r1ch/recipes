@@ -1,0 +1,763 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5acf97a2ae08b54dad34eb82",
+      "name": "Sulphites",
+      "type": "traces-of-sulphites",
+      "slug": "traces-of-sulphites",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.2,
+  "canonical": "64f1b29ac09936aa866c4e6c",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/cheesy-beef-meatballs-in-tomato-sauce-64f1b29ac09936aa866c4e6c",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67d1b8f4e4321b3b6ef33a8d-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "6389f1456be9f1083ba32704",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-03-12T16:40:21+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ac",
+      "type": "italian",
+      "name": "Italian",
+      "slug": "italian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
+    }
+  ],
+  "description": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "descriptionHTML": "<p>Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.</p>",
+  "descriptionMarkdown": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "difficulty": 2,
+  "favoritesCount": 13,
+  "headline": "with Pesto Roasted Vegetables and Rocket Salad",
+  "id": "67d1b8f4e4321b3b6ef33a8d",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5022_W03_UK_GCLC37613907-15_Main_low-7648a8d2.jpg",
+  "imagePath": "/image/GC_Y24_R5022_W03_UK_GCLC37613907-15_Main_low-7648a8d2.jpg",
+  "ingredients": [
+    {
+      "id": "603904c8823813388f0ab8f6",
+      "uuid": "90f7a2a9-7adb-51b5-8f53-022f3a2ef9d8",
+      "name": "Courgette",
+      "type": "courgette",
+      "slug": "courgette",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "imagePath": "/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb83",
+        "uuid": "c8061e44-33cd-538e-83ce-d05693b35ba7",
+        "name": "zucchini",
+        "slug": "zucchini",
+        "type": "courgette",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391e4757959309cc4334f8",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "imagePath": "/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6480af53f0b225130ecebce0",
+      "uuid": "a8da16f5-d8c4-524d-b1c3-12f24aed1592",
+      "name": "Beef Meatballs",
+      "type": "beef-meatballs",
+      "slug": "beef-meatballs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6480af53f0b225130ecebce0-6a5e051c.png",
+      "imagePath": "/ingredient/6480af53f0b225130ecebce0-6a5e051c.png",
+      "shipped": true,
+      "allergens": [
+        "5acf97a2ae08b54dad34eb82",
+        "57962a07b7e8697d4b3052f3"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "635b9a8bb8d13143493e30cc",
+      "uuid": "9bd72b6e-0d94-4148-961a-3e78f860086f",
+      "name": "Passata di Pomodoro",
+      "type": "passata-di-pomodoro",
+      "slug": "passata-di-pomodoro",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "imagePath": "/ingredient/635b9a8bb8d13143493e30cc-2afde528.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa12d7803ca91b790582",
+      "uuid": "c244cb6b-c2c3-57c3-974b-540a06aac073",
+      "name": "Sun-Dried Tomato Paste",
+      "type": "sun-dried-tomato-paste",
+      "slug": "sun-dried-tomato-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa12d7803ca91b790582-8005b040.png",
+      "imagePath": "/ingredient/62fcaa12d7803ca91b790582-8005b040.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6065cc3f2069ab5fc100f292",
+      "uuid": "09f28a4d-894d-55e9-a374-65eea2c98ce1",
+      "name": "Beef Stock Paste",
+      "type": "beef-stock-paste",
+      "slug": "beef-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6065cc3f2069ab5fc100f292-242d9c07.png",
+      "imagePath": "/ingredient/6065cc3f2069ab5fc100f292-242d9c07.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "664f52982f920ffe29e932b5",
+      "uuid": "97fe7a85-fed9-5bc6-82e6-7a2c1e845742",
+      "name": "Pesto",
+      "type": "pesto",
+      "slug": "pesto",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/664f52982f920ffe29e932b5-4a31f4ac.png",
+      "imagePath": "/ingredient/664f52982f920ffe29e932b5-4a31f4ac.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6070760fd22c0d123e36336f",
+      "uuid": "f6f00d5f-d551-5f8b-a935-a440152af609",
+      "name": "Parmigiano Reggiano",
+      "type": "parmigiano-reggiano",
+      "slug": "parmigiano-reggiano",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6070760fd22c0d123e36336f-dec999e1.png",
+      "imagePath": "/ingredient/6070760fd22c0d123e36336f-dec999e1.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb68",
+        "uuid": "a560b77e-37ae-5c55-82df-579a3d1d37de",
+        "name": "hard cheese",
+        "slug": "hard-cheese",
+        "type": "cheese",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67d1b8f4e4321b3b6ef33a8d",
+  "name": "Cheesy Beef Meatballs in Tomato Sauce",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2625,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 627,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 34.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 12.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 29.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 12.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 45.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 4.34,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT35M",
+  "promotion": null,
+  "ratingsCount": 31,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 512,
+  "slug": "cheesy-beef-meatballs-in-tomato-sauce",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nTrim the courgette, then quarter lengthways. Cut into 2cm chunks. Halve the bell pepper and discard the core and seeds. Cut into 2cm chunks.\nPeel and grate the garlic (or use a garlic press).",
+      "instructionsHTML": "<p dir=\"ltr\">Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p dir=\"ltr\">Trim the courgette, then quarter lengthways. Cut into 2cm chunks. Halve the bell pepper and discard the core and seeds. Cut into 2cm chunks.</p>\n<p dir=\"ltr\">Peel and grate the garlic (or use a garlic press).</p>",
+      "instructionsMarkdown": "<p dir=\"ltr\">Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p dir=\"ltr\">Trim the courgette, then quarter lengthways. Cut into 2cm chunks. Halve the bell pepper and discard the core and seeds. Cut into 2cm chunks.</p>\n<p dir=\"ltr\">Peel and grate the garlic (or use a garlic press).</p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "60391e4757959309cc4334f8",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8f4e4321b3b6ef33a8d/step-696c0100.jpg",
+          "path": "/67d1b8f4e4321b3b6ef33a8d/step-696c0100.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Place the meatballs on a lined baking tray.\nOnce the oven is hot, bake on the middle shelf until browned on the outside and cooked through, 18-20 mins. IMPORTANT: Wash your hands and equipment after handling raw meat. The meatballs are cooked when no longer pink in the middle. ",
+      "instructionsHTML": "<p dir=\"ltr\">Place the meatballs on a lined baking tray.</p>\n<p dir=\"ltr\">Once the oven is hot, bake on the middle shelf until browned on the outside and cooked through, 18-20 mins. IMPORTANT: Wash your hands and equipment after handling raw meat. The meatballs are cooked when no longer pink in the middle. </p>",
+      "instructionsMarkdown": "<p dir=\"ltr\">Place the meatballs on a lined baking tray.</p>\n<p dir=\"ltr\">Once the oven is hot, bake on the middle shelf until browned on the outside and cooked through, 18-20 mins. IMPORTANT: Wash your hands and equipment after handling raw meat. The meatballs are cooked when no longer pink in the middle. </p>",
+      "ingredients": [
+        "6480af53f0b225130ecebce0"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305377",
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8f4e4321b3b6ef33a8d/step-82d04110.jpg",
+          "path": "/67d1b8f4e4321b3b6ef33a8d/step-82d04110.jpg",
+          "caption": "Bake the Meatballs"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Place the courgette and pepper onto a baking tray, drizzle with oil and scatter over the garlic. Season with salt and pepper.\nRoast on the top shelf of your oven until golden, 12-14 mins.",
+      "instructionsHTML": "<p dir=\"ltr\">Place the courgette and pepper onto a baking tray, drizzle with oil and scatter over the garlic. Season with salt and pepper.</p>\n<p dir=\"ltr\">Roast on the top shelf of your oven until golden, 12-14 mins.</p>",
+      "instructionsMarkdown": "<p dir=\"ltr\">Place the courgette and pepper onto a baking tray, drizzle with oil and scatter over the garlic. Season with salt and pepper.</p>\n<p dir=\"ltr\">Roast on the top shelf of your oven until golden, 12-14 mins.</p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "60391e4757959309cc4334f8",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [
+        "5e3ad24dfcf61c18c30ff522"
+      ],
+      "timers": [
+        {
+          "name": "Roast the Veg",
+          "duration": "PT14M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8f4e4321b3b6ef33a8d/step-50a37320.jpg",
+          "path": "/67d1b8f4e4321b3b6ef33a8d/step-50a37320.jpg",
+          "caption": "Roast the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "When the meatballs have 5 mins remaining, heat a frying pan on medium-high heat (no oil). \nOnce hot, add the passata, sun-dried tomato paste and beef stock paste, stir to combine. Bring to the boil, then reduce the heat and simmer, 3-4 mins.",
+      "instructionsHTML": "<p dir=\"ltr\">When the meatballs have 5 mins remaining, heat a frying pan on medium-high heat (no oil). </p>\n<p dir=\"ltr\">Once hot, add the passata, sun-dried tomato paste and beef stock paste, stir to combine. Bring to the boil, then reduce the heat and simmer, 3-4 mins.</p>",
+      "instructionsMarkdown": "<p dir=\"ltr\">When the meatballs have 5 mins remaining, heat a frying pan on medium-high heat (no oil). </p>\n<p dir=\"ltr\">Once hot, add the passata, sun-dried tomato paste and beef stock paste, stir to combine. Bring to the boil, then reduce the heat and simmer, 3-4 mins.</p>",
+      "ingredients": [
+        "62fcaa12d7803ca91b790582",
+        "635b9a8bb8d13143493e30cc",
+        "6065cc3f2069ab5fc100f292"
+      ],
+      "utensils": [
+        "623c805661a1b9d0034f9065"
+      ],
+      "timers": [
+        {
+          "name": "Simmer the sauce",
+          "duration": "PT4M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8f4e4321b3b6ef33a8d/step-fed25230.jpg",
+          "path": "/67d1b8f4e4321b3b6ef33a8d/step-fed25230.jpg",
+          "caption": "Make the Sauce "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "When the vegetables have finished cooking, remove from the oven and drizzle over the pesto. Toss to coat.",
+      "instructionsHTML": "<p>When the vegetables have finished cooking, remove from the oven and drizzle over the pesto. Toss to coat.</p>",
+      "instructionsMarkdown": "<p>When the vegetables have finished cooking, remove from the oven and drizzle over the pesto. Toss to coat.</p>",
+      "ingredients": [
+        "664f52982f920ffe29e932b5"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8f4e4321b3b6ef33a8d/step-1e235040.jpg",
+          "path": "/67d1b8f4e4321b3b6ef33a8d/step-1e235040.jpg",
+          "caption": "Finish the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Serve the beef meatballs on your plates and spoon over the tomato sauce. Lay the pesto roasted vegetables alongside. Sprinkle the Parmigiano Reggiano over the meatballs.\nShare the rocket between your plates, drizzle with the olive oil for the dressing (see pantry) and season with salt and pepper.",
+      "instructionsHTML": "<p dir=\"ltr\">Serve the beef meatballs on your plates and spoon over the tomato sauce. Lay the pesto roasted vegetables alongside. Sprinkle the Parmigiano Reggiano over the meatballs.</p>\n<p dir=\"ltr\">Share the rocket between your plates, drizzle with the olive oil for the dressing (see pantry) and season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p dir=\"ltr\">Serve the beef meatballs on your plates and spoon over the tomato sauce. Lay the pesto roasted vegetables alongside. Sprinkle the Parmigiano Reggiano over the meatballs.</p>\n<p dir=\"ltr\">Share the rocket between your plates, drizzle with the olive oil for the dressing (see pantry) and season with salt and pepper.</p>",
+      "ingredients": [
+        "62c6e1059cab2001267a28cb",
+        "60390dc851af04233575aab8",
+        "6070760fd22c0d123e36336f",
+        "664f52982f920ffe29e932b5",
+        "62fcaa12d7803ca91b790582",
+        "635b9a8bb8d13143493e30cc",
+        "6065cc3f2069ab5fc100f292",
+        "6480af53f0b225130ecebce0",
+        "6048ba435d6d2541787296ec",
+        "60391e4757959309cc4334f8",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8f4e4321b3b6ef33a8d/step-05675450.jpg",
+          "path": "/67d1b8f4e4321b3b6ef33a8d/step-05675450.jpg",
+          "caption": "Serve "
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT30M",
+  "uniqueRecipeCode": "GCLC37613907-31",
+  "updatedAt": "2025-09-10T08:22:01+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305377",
+      "type": "parchmentpaper",
+      "name": "Baking Paper"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "5e3ad24dfcf61c18c30ff522",
+      "type": null,
+      "name": "Baking Sheet with Baking Paper"
+    },
+    {
+      "id": "623c805661a1b9d0034f9065",
+      "type": "largesaucepan",
+      "name": "Large Saucepan"
+    }
+  ],
+  "uuid": "72117164-510d-4ca1-a35e-7d773defe0b7",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/cheesy-beef-meatballs-in-tomato-sauce-67d1b8f4e4321b3b6ef33a8d",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6480af53f0b225130ecebce0",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fcaa12d7803ca91b790582",
+          "amount": 25,
+          "unit": "grams"
+        },
+        {
+          "id": "6065cc3f2069ab5fc100f292",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "664f52982f920ffe29e932b5",
+          "amount": 32,
+          "unit": "grams"
+        },
+        {
+          "id": "6070760fd22c0d123e36336f",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 0.5,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6480af53f0b225130ecebce0",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "635b9a8bb8d13143493e30cc",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fcaa12d7803ca91b790582",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "6065cc3f2069ab5fc100f292",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "664f52982f920ffe29e932b5",
+          "amount": 64,
+          "unit": "grams"
+        },
+        {
+          "id": "6070760fd22c0d123e36336f",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

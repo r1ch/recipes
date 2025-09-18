@@ -1,0 +1,848 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052ff",
+      "name": "Sulphites",
+      "type": "sulphites",
+      "slug": "sulphites",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f6",
+      "name": "Egg",
+      "type": "egg",
+      "slug": "egg",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fd",
+      "name": "Mustard",
+      "type": "mustard",
+      "slug": "mustard",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3,
+  "canonical": "6645ce034a34d4f2b5e173dc",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/sloppy-joe-inspired-pork-lettuce-cups-6645ce034a34d4f2b5e173dc",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/68554b255bd0c1208002e970-en-GB.pdf",
+  "category": null,
+  "clonedFrom": "6855329a5bd0c1208002e833",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-06-27T00:47:45+00:00",
+  "cuisines": [
+    {
+      "id": "67ebf900b2ffe612cd83e51a",
+      "type": "",
+      "name": "American",
+      "slug": ""
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Pickled Shallot, Cheddar Cheese and Burger Sauce",
+  "id": "68554b255bd0c1208002e970",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5022_W29_UK_GCLC53317630-3_Main_swap_low-79711271.jpg",
+  "imagePath": "/image/GC_Y24_R5022_W29_UK_GCLC53317630-3_Main_swap_low-79711271.jpg",
+  "ingredients": [
+    {
+      "id": "62fcaa50d7803ca91b7905f7",
+      "uuid": "fae5d907-0d6f-55eb-8a2c-294591f96234",
+      "name": "Echalion Shallot",
+      "type": "echalion-shallot",
+      "slug": "echalion-shallot",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa50d7803ca91b7905f7-48a4c122.png",
+      "imagePath": "/ingredient/62fcaa50d7803ca91b7905f7-48a4c122.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa4fbd9a2478e193f0a3",
+      "uuid": "801432dd-21b3-56dc-bacb-c6996441c1b9",
+      "name": "Cider Vinegar",
+      "type": "cider-vinegar",
+      "slug": "cider-vinegar",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa4fbd9a2478e193f0a3-22e946a0.png",
+      "imagePath": "/ingredient/62fcaa4fbd9a2478e193f0a3-22e946a0.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6340bee0233160a36674ba38",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6340bee0233160a36674ba38-4612e733.png",
+      "imagePath": "/ingredient/6340bee0233160a36674ba38-4612e733.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039064ba89c7678cd6b0d84",
+      "uuid": "06e875a3-26bf-5da5-b1d7-6290a9f9bc93",
+      "name": "Medium Tomato",
+      "type": "medium-tomato",
+      "slug": "medium-tomato",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "imagePath": "/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38bd9a2478e193f05a",
+      "uuid": "668aa8c0-75d4-5a2d-84d7-7330dc57c99e",
+      "name": "Mature Cheddar Cheese",
+      "type": "mature-cheddar-cheese",
+      "slug": "mature-cheddar-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "imagePath": "/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e8c9a48553f907531e",
+      "uuid": "9a94a307-a64d-5b85-962a-663dff0b143e",
+      "name": "Baby Gem Lettuce",
+      "type": "baby-gem-lettuce",
+      "slug": "baby-gem-lettuce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e8c9a48553f907531e-461ec13b.png",
+      "imagePath": "/ingredient/62fca9e8c9a48553f907531e-461ec13b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606335279cc1081ad772a604",
+      "uuid": "c7440604-41b7-5ef5-b2b3-8f83c31bccf9",
+      "name": "Tomato Puree",
+      "type": "tomato-puree",
+      "slug": "tomato-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "imagePath": "/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc45",
+        "uuid": "ead9e83c-158c-5ebe-bb04-ec24d45b8d80",
+        "name": "single ingredient paste",
+        "slug": "single-ingredient-paste",
+        "type": "tomato-paste",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606f03a20f601846c30f9c0e",
+      "uuid": "1d4063e2-3fd4-57e3-8932-c1d3fb33ea45",
+      "name": "Central American Style Spice Mix",
+      "type": "central-american-style-spice-mix",
+      "slug": "central-american-style-spice-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606f03a20f601846c30f9c0e-4130422e.png",
+      "imagePath": "/ingredient/606f03a20f601846c30f9c0e-4130422e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc32",
+        "uuid": "99414e57-f6fb-56c7-9849-042905b22cb1",
+        "name": "spice blend",
+        "slug": "spice-blend",
+        "type": "spice-mix",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "682bcd817fe6dd267e29b6ca",
+      "uuid": "b0bf78aa-aee2-54a8-9729-c47d4b7bb10a",
+      "name": "BBQ Sauce",
+      "type": "bbq-sauce",
+      "slug": "bbq-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039027de35d6f4d45745691-153ac34e.png",
+      "imagePath": "/ingredient/6039027de35d6f4d45745691-153ac34e.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb47",
+        "uuid": "b33fa81a-2159-5e9c-9012-8aa53ff64998",
+        "name": "sauce",
+        "slug": "sauce",
+        "type": "bbq-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60fa21697536f54fac006b81",
+      "uuid": "8cb9ce7b-f1ee-5e87-afdf-91e4f5a00bb2",
+      "name": "Burger Sauce",
+      "type": "burger-sauce",
+      "slug": "burger-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60fa21697536f54fac006b81-d8d49e5d.png",
+      "imagePath": "/ingredient/60fa21697536f54fac006b81-d8d49e5d.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f6",
+        "57962a07b7e8697d4b3052fd"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc27",
+        "uuid": "65a71832-4f7e-568a-8c48-a943ab1cdc1b",
+        "name": "sauce",
+        "slug": "sauce",
+        "type": "sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e2819cab2001267a2911",
+      "uuid": "23740aeb-69bd-4e44-9d4d-df9b3641bcfd",
+      "name": "Water",
+      "type": "water-1-tbsp",
+      "slug": "water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e2819cab2001267a2911-7cc2404f.png",
+      "imagePath": "/ingredient/62c6e2819cab2001267a2911-7cc2404f.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/68554b255bd0c1208002e970",
+  "name": "Sloppy Joe Inspired Beef Lettuce Cups",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2124,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 508,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 30.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 12,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 14.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 11.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 40,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.24,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 2,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 486,
+  "slug": "sloppy-joe-inspired-beef-lettuce-cups",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Halve, peel and thinly slice the shallot.\nIn a small bowl, add the shallot with the cider vinegar and a pinch of salt. Stir to combine and set aside to pickle.",
+      "instructionsHTML": "<p>Halve, peel and thinly slice the shallot.</p>\n<p>In a small bowl, add the shallot with the cider vinegar and a pinch of salt. Stir to combine and set aside to pickle.</p>",
+      "instructionsMarkdown": "<p>Halve, peel and thinly slice the shallot.</p>\n<p>In a small bowl, add the shallot with the cider vinegar and a pinch of salt. Stir to combine and set aside to pickle.</p>",
+      "ingredients": [
+        "62fcaa50d7803ca91b7905f7",
+        "62fcaa4fbd9a2478e193f0a3"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305380"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68554b255bd0c1208002e970/step-e68a7e00.jpg",
+          "path": "/68554b255bd0c1208002e970/step-e68a7e00.jpg",
+          "caption": "Pickle the Shallot"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Halve the bell pepper and discard the core and seeds. Chop into 1cm chunks. Cut the tomato into 1cm chunks.\nGrate the Cheddar cheese. Peel and grate the garlic (or use a garlic press).",
+      "instructionsHTML": "<p>Halve the bell pepper and discard the core and seeds. Chop into 1cm chunks. Cut the tomato into 1cm chunks.</p>\n<p>Grate the Cheddar cheese. Peel and grate the garlic (or use a garlic press).</p>",
+      "instructionsMarkdown": "<p>Halve the bell pepper and discard the core and seeds. Chop into 1cm chunks. Cut the tomato into 1cm chunks.</p>\n<p>Grate the Cheddar cheese. Peel and grate the garlic (or use a garlic press).</p>",
+      "ingredients": [
+        "6340bee0233160a36674ba38",
+        "6039064ba89c7678cd6b0d84",
+        "62fcaa38bd9a2478e193f05a",
+        "6048ba435d6d2541787296ec"
+      ],
+      "utensils": [
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68554b255bd0c1208002e970/step-ce00e010.jpg",
+          "path": "/68554b255bd0c1208002e970/step-ce00e010.jpg",
+          "caption": "Prep"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Trim the root from the baby gem lettuce, then peel off as many big leaves as you can. Stop once the leaves are too small to peel off.",
+      "instructionsHTML": "<p>Trim the root from the baby gem lettuce, then peel off as many big leaves as you can. Stop once the leaves are too small to peel off.</p>",
+      "instructionsMarkdown": "<p>Trim the root from the baby gem lettuce, then peel off as many big leaves as you can. Stop once the leaves are too small to peel off.</p>",
+      "ingredients": [
+        "62fca9e8c9a48553f907531e"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68554b255bd0c1208002e970/step-f6a6d920.jpg",
+          "path": "/68554b255bd0c1208002e970/step-f6a6d920.jpg",
+          "caption": "Prep the Leaves"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Heat a large frying pan on medium-high heat with a drizzle of oil. \nOnce hot, fry the beef mince and pepper chunks until starting to brown, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat.",
+      "instructionsHTML": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil. </p>\n<p>Once hot, fry the beef mince and pepper chunks until starting to brown, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil. </p>\n<p>Once hot, fry the beef mince and pepper chunks until starting to brown, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat.</p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566",
+        "62c6e28e9cab2001267a291a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68554b255bd0c1208002e970/step-49bd4730.jpg",
+          "path": "/68554b255bd0c1208002e970/step-49bd4730.jpg",
+          "caption": "Start Cooking"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Drain the shallot pickling liquid into the beef mixture.\nAdd the garlic, tomato puree, Central American style spice mix, BBQ sauce and water (see pantry). Cook until it has thickened slightly, 3-5 mins. IMPORTANT: The beef is cooked when no longer pink in the middle.\nStir the tomato chunks through the beef mixture.",
+      "instructionsHTML": "<p>Drain the shallot pickling liquid into the beef mixture.</p>\n<p>Add the garlic, tomato puree, Central American style spice mix, BBQ sauce and water (see pantry). Cook until it has thickened slightly, 3-5 mins. IMPORTANT: The beef is cooked when no longer pink in the middle.</p>\n<p>Stir the tomato chunks through the beef mixture.</p>",
+      "instructionsMarkdown": "<p>Drain the shallot pickling liquid into the beef mixture.</p>\n<p>Add the garlic, tomato puree, Central American style spice mix, BBQ sauce and water (see pantry). Cook until it has thickened slightly, 3-5 mins. IMPORTANT: The beef is cooked when no longer pink in the middle.</p>\n<p>Stir the tomato chunks through the beef mixture.</p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "606335279cc1081ad772a604",
+        "606f03a20f601846c30f9c0e",
+        "682bcd817fe6dd267e29b6ca",
+        "62c6e2819cab2001267a2911"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68554b255bd0c1208002e970/step-d4d0c540.jpg",
+          "path": "/68554b255bd0c1208002e970/step-d4d0c540.jpg",
+          "caption": "Add the Flavour"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Arrange the lettuce leaves onto your plates and spread the burger sauce onto the bases of the lettuce cups.\nSpoon the sloppy joe inspired beef mince mixture into the lettuce cups. Top with the grated Cheddar cheese and pickled shallot.",
+      "instructionsHTML": "<p>Arrange the lettuce leaves onto your plates and spread the burger sauce onto the bases of the lettuce cups.</p>\n<p>Spoon the sloppy joe inspired beef mince mixture into the lettuce cups. Top with the grated Cheddar cheese and pickled shallot.</p>",
+      "instructionsMarkdown": "<p>Arrange the lettuce leaves onto your plates and spread the burger sauce onto the bases of the lettuce cups.</p>\n<p>Spoon the sloppy joe inspired beef mince mixture into the lettuce cups. Top with the grated Cheddar cheese and pickled shallot.</p>",
+      "ingredients": [
+        "62fcaa50d7803ca91b7905f7",
+        "62fcaa4fbd9a2478e193f0a3",
+        "6340bee0233160a36674ba38",
+        "6039064ba89c7678cd6b0d84",
+        "62fcaa38bd9a2478e193f05a",
+        "6048ba435d6d2541787296ec",
+        "62fca9e8c9a48553f907531e",
+        "62fcaa07d7803ca91b790566",
+        "606335279cc1081ad772a604",
+        "606f03a20f601846c30f9c0e",
+        "682bcd817fe6dd267e29b6ca",
+        "60fa21697536f54fac006b81",
+        "62c6e2819cab2001267a2911",
+        "62c6e28e9cab2001267a291a"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68554b255bd0c1208002e970/step-c6df8750.jpg",
+          "path": "/68554b255bd0c1208002e970/step-c6df8750.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCMODLC53317630-46468-2",
+  "updatedAt": "2025-09-10T08:26:23+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305380",
+      "type": "smallbowl",
+      "name": "Small Bowl"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "a1226f2b-ca3f-4040-9cc9-ce2da671a738",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/sloppy-joe-inspired-beef-lettuce-cups-68554b255bd0c1208002e970",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa50d7803ca91b7905f7",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa4fbd9a2478e193f0a3",
+          "amount": 15,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "6340bee0233160a36674ba38",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9e8c9a48553f907531e",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "606f03a20f601846c30f9c0e",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "682bcd817fe6dd267e29b6ca",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60fa21697536f54fac006b81",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2819cab2001267a2911",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 0.5,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa50d7803ca91b7905f7",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa4fbd9a2478e193f0a3",
+          "amount": 30,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "6340bee0233160a36674ba38",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9e8c9a48553f907531e",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "606f03a20f601846c30f9c0e",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "682bcd817fe6dd267e29b6ca",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60fa21697536f54fac006b81",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2819cab2001267a2911",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

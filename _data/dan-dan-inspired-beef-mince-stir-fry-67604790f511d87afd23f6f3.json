@@ -1,0 +1,845 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fb",
+      "name": "Nuts",
+      "type": "nuts",
+      "slug": "nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fe",
+      "name": "Sesame",
+      "type": "sesame",
+      "slug": "sesame",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b305302",
+      "name": "Nuts",
+      "type": "traces-of-nuts",
+      "slug": "traces-of-nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5a9614ab30006c2c026cf562",
+      "name": "Peanut",
+      "type": "traces-of-peanuts",
+      "slug": "traces-of-peanut",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.2,
+  "canonical": "65a53525a4190de83372c2cc",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/dan-dan-inspired-beef-mince-stir-fry-65a53525a4190de83372c2cc",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67604790f511d87afd23f6f3-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "64abd226adf12186bf9aecf0",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-01-14T00:19:53+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053a6",
+      "type": "chinese",
+      "name": "Chinese",
+      "slug": "chinese",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a6-846a76df.jpg"
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 13,
+  "headline": "with Sesame Cauliflower Rice, Pak Choi & Sriracha",
+  "id": "67604790f511d87afd23f6f3",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5017_W08_UK_GCLC52917613-17_MAIN__4low-89c0a6b4.jpg",
+  "imagePath": "/image/GC_Y25_R5017_W08_UK_GCLC52917613-17_MAIN__4low-89c0a6b4.jpg",
+  "ingredients": [
+    {
+      "id": "62fcaa50d7803ca91b7905f7",
+      "uuid": "fae5d907-0d6f-55eb-8a2c-294591f96234",
+      "name": "Echalion Shallot",
+      "type": "echalion-shallot",
+      "slug": "echalion-shallot",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa50d7803ca91b7905f7-48a4c122.png",
+      "imagePath": "/ingredient/62fcaa50d7803ca91b7905f7-48a4c122.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa2ebd9a2478e193f040",
+      "uuid": "d435f722-73a9-506b-b2a4-195521e65ea6",
+      "name": "Rice Vinegar",
+      "type": "rice-vinegar",
+      "slug": "rice-vinegar",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa2ebd9a2478e193f040-b8ef9ed9.png",
+      "imagePath": "/ingredient/62fcaa2ebd9a2478e193f040-b8ef9ed9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa4ec9a48553f90753f6",
+      "uuid": "f76c5fff-a3b7-56d0-b342-50d61ca74613",
+      "name": "Pak Choi",
+      "type": "pak-choi",
+      "slug": "pak-choi",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa4ec9a48553f90753f6-de8af61e.png",
+      "imagePath": "/ingredient/62fcaa4ec9a48553f90753f6-de8af61e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6388c84f6d5575e916b62aba",
+      "uuid": "0eae0198-9f27-5e24-97d4-45b44e38d5dd",
+      "name": "Soy Sauce",
+      "type": "soy-sauce",
+      "slug": "soy-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6388c84f6d5575e916b62aba-9931ae8a.png",
+      "imagePath": "/ingredient/6388c84f6d5575e916b62aba-9931ae8a.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9",
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039135a024cbf6320565652",
+      "uuid": "df8b3527-0444-5e31-853c-1ff77877e5aa",
+      "name": "Cashew Butter",
+      "type": "cashew-butter",
+      "slug": "cashew-butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039135a024cbf6320565652-b151d89f.png",
+      "imagePath": "/ingredient/6039135a024cbf6320565652-b151d89f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fb",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b305302",
+        "5a9614ab30006c2c026cf562"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb5b",
+        "uuid": "e1a21c36-6c62-5638-9364-d39039f0b218",
+        "name": "butter",
+        "slug": "butter",
+        "type": "butter",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa51c9a48553f9075405",
+      "uuid": "4bb2d585-8bff-53e8-85b3-fc1744a8b5bd",
+      "name": "Sriracha Sauce",
+      "type": "sriracha",
+      "slug": "sriracha-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa51c9a48553f9075405-9fc92fcf.png",
+      "imagePath": "/ingredient/62fcaa51c9a48553f9075405-9fc92fcf.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa52bd9a2478e193f0b1",
+      "uuid": "ebd2f698-4242-5deb-b767-d529fb84b42f",
+      "name": "Sesame Oil",
+      "type": "sesame-oil",
+      "slug": "sesame-oil",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "imagePath": "/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fe"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390558e5dada46f76a2efd",
+      "uuid": "64732f49-7b7d-5249-be78-77cd77d69d2e",
+      "name": "Riced Cauliflower",
+      "type": "cauliflower-rice",
+      "slug": "riced-cauliflower",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "imagePath": "/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc1c",
+        "uuid": "78512a36-a243-5b9d-9f38-577b405f1b85",
+        "name": "rice",
+        "slug": "rice",
+        "type": "rice",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa2ac9a48553f90753ae",
+      "uuid": "b2650fbb-77ee-5228-a70d-a2f8d7a9b5d5",
+      "name": "Black Sesame Seeds",
+      "type": "black-sesame-seeds",
+      "slug": "black-sesame-seeds",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa2ac9a48553f90753ae-0580b722.png",
+      "imagePath": "/ingredient/62fcaa2ac9a48553f90753ae-0580b722.png",
+      "shipped": true,
+      "allergens": [
+        "5a9614ab30006c2c026cf562",
+        "57962a07b7e8697d4b3052fe",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b305302"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ff9cab2001267a28c5",
+      "uuid": "7cd85650-3355-4a00-a785-d4c9f199ff49",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce-100ml",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "imagePath": "/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67604790f511d87afd23f6f3",
+  "name": "Dan Dan Inspired Beef Mince Stir-Fry",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2648,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 633,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 46.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 11.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 16,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 9.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 39.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.93,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT20M",
+  "promotion": null,
+  "ratingsCount": 42,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 497,
+  "slug": "dan-dan-inspired-beef-mince-stir-fry",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Halve, peel and thinly slice the shallot.\nAdd to a small bowl with the rice vinegar and a pinch of salt. Stir to combine, then set aside to pickle.",
+      "instructionsHTML": "<p>Halve, peel and thinly slice the shallot.</p>\n<p>Add to a small bowl with the rice vinegar and a pinch of salt. Stir to combine, then set aside to pickle.</p>",
+      "instructionsMarkdown": "<p>Halve, peel and thinly slice the shallot.</p>\n<p>Add to a small bowl with the rice vinegar and a pinch of salt. Stir to combine, then set aside to pickle.</p>",
+      "ingredients": [
+        "62fcaa2ebd9a2478e193f040",
+        "62fcaa50d7803ca91b7905f7"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305380"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67604790f511d87afd23f6f3/step-58f0d600.jpg",
+          "path": "/67604790f511d87afd23f6f3/step-58f0d600.jpg",
+          "caption": "Pickle the Shallot"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Trim the pak choi, then thinly slice widthways. ",
+      "instructionsHTML": "<p>Trim the pak choi, then thinly slice widthways. </p>",
+      "instructionsMarkdown": "<p>Trim the pak choi, then thinly slice widthways. </p>",
+      "ingredients": [
+        "62fcaa4ec9a48553f90753f6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30536e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67604790f511d87afd23f6f3/step-5e4aef10.jpg",
+          "path": "/67604790f511d87afd23f6f3/step-5e4aef10.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "In a small bowl, combine the soy sauce, cashew butter, half the sriracha, half the sesame oil and the olive oil for the dressing (see pantry). Slowly whisk in the water (see pantry).\nSet aside your Dan Dan inspired sauce. ",
+      "instructionsHTML": "<p>In a small bowl, combine the soy sauce, cashew butter, half the sriracha, half the sesame oil and the olive oil for the dressing (see pantry). Slowly whisk in the water (see pantry).</p>\n<p>Set aside your Dan Dan inspired sauce. </p>",
+      "instructionsMarkdown": "<p>In a small bowl, combine the soy sauce, cashew butter, half the sriracha, half the sesame oil and the olive oil for the dressing (see pantry). Slowly whisk in the water (see pantry).</p>\n<p>Set aside your Dan Dan inspired sauce. </p>",
+      "ingredients": [
+        "62c6e1059cab2001267a28cb",
+        "62c6e0ff9cab2001267a28c5",
+        "62fcaa52bd9a2478e193f0b1",
+        "62fcaa51c9a48553f9075405",
+        "6039135a024cbf6320565652",
+        "6388c84f6d5575e916b62aba"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305380"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67604790f511d87afd23f6f3/step-023ae320.jpg",
+          "path": "/67604790f511d87afd23f6f3/step-023ae320.jpg",
+          "caption": "Make the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Heat a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, add the beef mince and cook until the mince is starting to brown, 3-4 mins. Use a spoon to break it up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince.\nAdd the Dan Dan inspired sauce, pak choi and the pickling liquid from the pickled shallots to the pan.\nStir to combine and simmer until thickened, 3-5 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the beef mince and cook until the mince is starting to brown, 3-4 mins. Use a spoon to break it up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>\n<p>Add the Dan Dan inspired sauce, pak choi and the pickling liquid from the pickled shallots to the pan.</p>\n<p>Stir to combine and simmer until thickened, 3-5 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the beef mince and cook until the mince is starting to brown, 3-4 mins. Use a spoon to break it up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>\n<p>Add the Dan Dan inspired sauce, pak choi and the pickling liquid from the pickled shallots to the pan.</p>\n<p>Stir to combine and simmer until thickened, 3-5 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67604790f511d87afd23f6f3/step-e6e37930.jpg",
+          "path": "/67604790f511d87afd23f6f3/step-e6e37930.jpg",
+          "caption": "Start Cooking"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "While the sauce simmers, heat a medium frying pan on medium-high heat with a drizzle of oil.\nOnce hot, add the cauli rice and remaining sesame oil and cook until just soft, 3-4 mins. Season well with salt and pepper.\nOnce cooked, stir through the sesame seeds.",
+      "instructionsHTML": "<p>While the sauce simmers, heat a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the cauli rice and remaining sesame oil and cook until just soft, 3-4 mins. Season well with salt and pepper.</p>\n<p>Once cooked, stir through the sesame seeds.</p>",
+      "instructionsMarkdown": "<p>While the sauce simmers, heat a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the cauli rice and remaining sesame oil and cook until just soft, 3-4 mins. Season well with salt and pepper.</p>\n<p>Once cooked, stir through the sesame seeds.</p>",
+      "ingredients": [
+        "60390558e5dada46f76a2efd"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67604790f511d87afd23f6f3/step-2dfee840.jpg",
+          "path": "/67604790f511d87afd23f6f3/step-2dfee840.jpg",
+          "caption": "Cook the Cauliflower Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Serve the Dan Dan inspired beef mince stir-fry with the sesame cauliflower rice alongside.\nTop with the pickled shallot and drizzle over the remaining sriracha.",
+      "instructionsHTML": "<p>Serve the Dan Dan inspired beef mince stir-fry with the sesame cauliflower rice alongside.</p>\n<p>Top with the pickled shallot and drizzle over the remaining sriracha.</p>",
+      "instructionsMarkdown": "<p>Serve the Dan Dan inspired beef mince stir-fry with the sesame cauliflower rice alongside.</p>\n<p>Top with the pickled shallot and drizzle over the remaining sriracha.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e1059cab2001267a28cb",
+        "62c6e0ff9cab2001267a28c5",
+        "62fcaa2ac9a48553f90753ae",
+        "60390558e5dada46f76a2efd",
+        "62fcaa07d7803ca91b790566",
+        "62fcaa52bd9a2478e193f0b1",
+        "62fcaa51c9a48553f9075405",
+        "6039135a024cbf6320565652",
+        "6388c84f6d5575e916b62aba",
+        "62fcaa4ec9a48553f90753f6",
+        "62fcaa2ebd9a2478e193f040",
+        "62fcaa50d7803ca91b7905f7"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67604790f511d87afd23f6f3/step-d6a8ac50.jpg",
+          "path": "/67604790f511d87afd23f6f3/step-d6a8ac50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "62163c70143a35226e03d85e",
+      "type": "super-quick",
+      "name": "Super Quick",
+      "slug": "super-quick",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCLC52917613-17",
+  "updatedAt": "2025-09-18T07:10:17+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305380",
+      "type": "smallbowl",
+      "name": "Small Bowl"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "f02d8a9c-ef90-44db-8101-16bb7102186a",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/dan-dan-inspired-beef-mince-stir-fry-67604790f511d87afd23f6f3",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa50d7803ca91b7905f7",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa2ebd9a2478e193f040",
+          "amount": 22,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa4ec9a48553f90753f6",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6388c84f6d5575e916b62aba",
+          "amount": 25,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "6039135a024cbf6320565652",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa51c9a48553f9075405",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 20,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa2ac9a48553f90753ae",
+          "amount": 5,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 100,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa50d7803ca91b7905f7",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa2ebd9a2478e193f040",
+          "amount": 44,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa4ec9a48553f90753f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6388c84f6d5575e916b62aba",
+          "amount": 50,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "6039135a024cbf6320565652",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa51c9a48553f9075405",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 40,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 500,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa2ac9a48553f90753ae",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 200,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.3,
+  "canonical": "650acc3553d80a0362116d42",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/chipotle-beef-and-butternut-squash-chilli-650acc3553d80a0362116d42",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67c062ef9d75dd14bb52bae2-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "646235486ced9aa0d6353afc",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-03-11T10:36:12+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053af",
+      "type": "mexican",
+      "name": "Mexican",
+      "slug": "mexican",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
+    }
+  ],
+  "description": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "descriptionHTML": "<p>Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.</p>",
+  "descriptionMarkdown": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "difficulty": 2,
+  "favoritesCount": 16,
+  "headline": "with Cheddar Cheese",
+  "id": "67c062ef9d75dd14bb52bae2",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5022_W47_UK_GCLC50416562-4_Main_white_onions_edit_low-ff770560.jpg",
+  "imagePath": "/image/GC_Y23_R5022_W47_UK_GCLC50416562-4_Main_white_onions_edit_low-ff770560.jpg",
+  "ingredients": [
+    {
+      "id": "6390aea6da082ea161fce4e6",
+      "uuid": "ee90258d-e1dc-4156-8e8a-0964c10de606",
+      "name": "Diced Butternut Squash",
+      "type": "butternut-squash-diced",
+      "slug": "diced-butternut-squash",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6390aea6da082ea161fce4e6-bb56c6b3.png",
+      "imagePath": "/ingredient/6390aea6da082ea161fce4e6-bb56c6b3.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38bd9a2478e193f05a",
+      "uuid": "668aa8c0-75d4-5a2d-84d7-7330dc57c99e",
+      "name": "Mature Cheddar Cheese",
+      "type": "mature-cheddar-cheese",
+      "slug": "mature-cheddar-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "imagePath": "/ingredient/62fcaa38bd9a2478e193f05a-ef8a6170.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "607856060e038e53063b2f0a",
+      "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
+      "name": "Onion",
+      "type": "onion",
+      "slug": "onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/607856060e038e53063b2f0a-92a47b95.png",
+      "imagePath": "/ingredient/607856060e038e53063b2f0a-92a47b95.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbee",
+        "uuid": "1a30a8a2-71bc-52c5-89fa-8184b99ce42c",
+        "name": "onion",
+        "slug": "onion",
+        "type": "onion",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa1ec9a48553f9075392",
+      "uuid": "5039a7c1-5de6-5cc1-995f-aebbb994e544",
+      "name": "Spring Onion",
+      "type": "spring-onion",
+      "slug": "spring-onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa1ec9a48553f9075392-d05eab65.png",
+      "imagePath": "/ingredient/62fcaa1ec9a48553f9075392-d05eab65.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6038d39fb46fba0080356115",
+      "uuid": "b0cfc879-87a8-5859-a7fa-1d01b3174567",
+      "name": "Finely Chopped Tomatoes with Onion and Garlic",
+      "type": "finely-chopped-tomatoes-with-garlic-and-onion",
+      "slug": "finely-chopped-tomatoes-with-onion-and-garlic",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6038d39fb46fba0080356115-bd309b07.png",
+      "imagePath": "/ingredient/6038d39fb46fba0080356115-bd309b07.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6065cc3f2069ab5fc100f292",
+      "uuid": "09f28a4d-894d-55e9-a374-65eea2c98ce1",
+      "name": "Beef Stock Paste",
+      "type": "beef-stock-paste",
+      "slug": "beef-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6065cc3f2069ab5fc100f292-242d9c07.png",
+      "imagePath": "/ingredient/6065cc3f2069ab5fc100f292-242d9c07.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa55c9a48553f9075413",
+      "uuid": "04d854ae-33e4-599b-b3bc-3e9c0acb3298",
+      "name": "Chipotle Paste",
+      "type": "chipotle-paste",
+      "slug": "chipotle-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa55c9a48553f9075413-214c7a8c.png",
+      "imagePath": "/ingredient/62fcaa55c9a48553f9075413-214c7a8c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ef9cab2001267a28b8",
+      "uuid": "ef880220-34dc-4c85-9841-7d34b28d6165",
+      "name": "Water",
+      "type": "water-100ml",
+      "slug": "water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "imagePath": "/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67c062ef9d75dd14bb52bae2",
+  "name": "Chipotle Beef and Butternut Squash Chilli",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2126,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 508,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 21.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 10.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 33.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 22.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 8.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 41.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 3.29,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 39,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 680,
+  "slug": "chipotle-beef-and-butternut-squash-chilli",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 240°C/220°C fan/gas mark 9.\nPlace the butternut squash onto a large baking tray. Drizzle with oil and season with salt and pepper. Toss to coat, then spread out into a single layer.\nOnce the oven is hot, roast on the top shelf until soft and golden, 18-20 mins. Turn halfway through cooking.",
+      "instructionsHTML": "<p>Preheat your oven to 240°C/220°C fan/gas mark 9.</p>\n<p>Place the butternut squash onto a large baking tray. Drizzle with oil and season with salt and pepper. Toss to coat, then spread out into a single layer.</p>\n<p>Once the oven is hot, roast on the top shelf until soft and golden, 18-20 mins. Turn halfway through cooking.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 240°C/220°C fan/gas mark 9.</p>\n<p>Place the butternut squash onto a large baking tray. Drizzle with oil and season with salt and pepper. Toss to coat, then spread out into a single layer.</p>\n<p>Once the oven is hot, roast on the top shelf until soft and golden, 18-20 mins. Turn halfway through cooking.</p>",
+      "ingredients": [
+        "6390aea6da082ea161fce4e6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [
+        {
+          "name": "Roast the Squash",
+          "duration": "PT20M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67c062ef9d75dd14bb52bae2/step-3b9efe00.jpg",
+          "path": "/67c062ef9d75dd14bb52bae2/step-3b9efe00.jpg",
+          "caption": "Roast the Squash"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "While the butternut squash roasts, grate the Cheddar cheese.\nHalve, peel and thinly slice the onion.\nTrim and thinly slice the spring onion at an angle.",
+      "instructionsHTML": "<p>While the butternut squash roasts, grate the Cheddar cheese.</p>\n<p>Halve, peel and thinly slice the onion.</p>\n<p>Trim and thinly slice the spring onion at an angle.</p>",
+      "instructionsMarkdown": "<p>While the butternut squash roasts, grate the Cheddar cheese.</p>\n<p>Halve, peel and thinly slice the onion.</p>\n<p>Trim and thinly slice the spring onion at an angle.</p>",
+      "ingredients": [
+        "62fcaa1ec9a48553f9075392",
+        "607856060e038e53063b2f0a",
+        "62fcaa38bd9a2478e193f05a",
+        "6390aea6da082ea161fce4e6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b30536e",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67c062ef9d75dd14bb52bae2/step-fc71e810.jpg",
+          "path": "/67c062ef9d75dd14bb52bae2/step-fc71e810.jpg",
+          "caption": "Prep"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "When the butternut has 10 mins remaining, heat a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, add the beef mince and onion and cook until the mince is starting to brown and onion starts to soften, 3-4 mins. Use a spoon to break the mince up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. ",
+      "instructionsHTML": "<p>When the butternut has 10 mins remaining, heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the beef mince and onion and cook until the mince is starting to brown and onion starts to soften, 3-4 mins. Use a spoon to break the mince up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. </p>",
+      "instructionsMarkdown": "<p>When the butternut has 10 mins remaining, heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the beef mince and onion and cook until the mince is starting to brown and onion starts to soften, 3-4 mins. Use a spoon to break the mince up as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. </p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566",
+        "607856060e038e53063b2f0a"
+      ],
+      "utensils": [
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [
+        {
+          "name": "Cook the Mince",
+          "duration": "PT5M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67c062ef9d75dd14bb52bae2/step-5ebee720.jpg",
+          "path": "/67c062ef9d75dd14bb52bae2/step-5ebee720.jpg",
+          "caption": "Cook the Mince"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Add the chopped tomatoes, beef stock paste, chipotle paste and water (see pantry) to the mince. Stir to combine and simmer until thickened, 3-5 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Add the chopped tomatoes, beef stock paste, chipotle paste and water (see pantry) to the mince. Stir to combine and simmer until thickened, 3-5 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Add the chopped tomatoes, beef stock paste, chipotle paste and water (see pantry) to the mince. Stir to combine and simmer until thickened, 3-5 mins. Season with salt and pepper. IMPORTANT: The mince is cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62c6e0ef9cab2001267a28b8",
+        "62fcaa55c9a48553f9075413",
+        "6065cc3f2069ab5fc100f292",
+        "6038d39fb46fba0080356115"
+      ],
+      "utensils": [],
+      "timers": [
+        {
+          "name": "Simmer until thickened",
+          "duration": "PT5M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67c062ef9d75dd14bb52bae2/step-85227530.jpg",
+          "path": "/67c062ef9d75dd14bb52bae2/step-85227530.jpg",
+          "caption": "Add the Flavour"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Once cooked, stir the butternut squash through the chilli.",
+      "instructionsHTML": "<p>Once cooked, stir the butternut squash through the chilli.</p>",
+      "instructionsMarkdown": "<p>Once cooked, stir the butternut squash through the chilli.</p>",
+      "ingredients": [
+        "6390aea6da082ea161fce4e6"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67c062ef9d75dd14bb52bae2/step-b28e4540.jpg",
+          "path": "/67c062ef9d75dd14bb52bae2/step-b28e4540.jpg",
+          "caption": "Add the Butternut Squash"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Serve the chipotle beef and butternut squash chilli in bowls.\nTop with the Cheddar cheese and garnish with the spring onion.",
+      "instructionsHTML": "<p>Serve the chipotle beef and butternut squash chilli in bowls.</p>\n<p>Top with the Cheddar cheese and garnish with the spring onion.</p>",
+      "instructionsMarkdown": "<p>Serve the chipotle beef and butternut squash chilli in bowls.</p>\n<p>Top with the Cheddar cheese and garnish with the spring onion.</p>",
+      "ingredients": [
+        "62c6e0ef9cab2001267a28b8",
+        "62fcaa55c9a48553f9075413",
+        "6065cc3f2069ab5fc100f292",
+        "6038d39fb46fba0080356115",
+        "62fcaa07d7803ca91b790566",
+        "62fcaa1ec9a48553f9075392",
+        "607856060e038e53063b2f0a",
+        "62fcaa38bd9a2478e193f05a",
+        "6390aea6da082ea161fce4e6"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67c062ef9d75dd14bb52bae2/step-db5ed050.jpg",
+          "path": "/67c062ef9d75dd14bb52bae2/step-db5ed050.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "64624e0c8ab1333a8ca245a8",
+      "type": "gut-health",
+      "name": "Fibre Focused ",
+      "slug": "fibre-focused",
+      "colorHandle": "quickPrep",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCLC50416562-22",
+  "updatedAt": "2025-09-07T03:28:08+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "c80c11ef-8061-4055-8474-381cd3f2bba7",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/chipotle-beef-and-butternut-squash-chilli-67c062ef9d75dd14bb52bae2",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "6390aea6da082ea161fce4e6",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "607856060e038e53063b2f0a",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa1ec9a48553f9075392",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "6038d39fb46fba0080356115",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6065cc3f2069ab5fc100f292",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa55c9a48553f9075413",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 150,
+          "unit": "milliliter(s)"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "6390aea6da082ea161fce4e6",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38bd9a2478e193f05a",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "607856060e038e53063b2f0a",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa1ec9a48553f9075392",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "6038d39fb46fba0080356115",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6065cc3f2069ab5fc100f292",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa55c9a48553f9075413",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 300,
+          "unit": "milliliter(s)"
+        }
+      ]
+    }
+  ]
+}

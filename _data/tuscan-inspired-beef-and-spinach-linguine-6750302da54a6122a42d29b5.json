@@ -1,0 +1,900 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052ff",
+      "name": "Sulphites",
+      "type": "sulphites",
+      "slug": "sulphites",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f6",
+      "name": "Egg",
+      "type": "egg",
+      "slug": "egg",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "5de91d27f4c17e42c17aef94",
+      "name": "Mustard",
+      "type": "traces-of-mustard",
+      "slug": "traces-of-mustard",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5b0532aaae08b52eb9420552",
+      "name": "Soya",
+      "type": "traces-of-soya",
+      "slug": "traces-of-soya",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.9,
+  "canonical": "64ca20a72a63efcc605e8193",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/tuscan-inspired-pork-and-spinach-linguine-64ca20a72a63efcc605e8193",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/6750302da54a6122a42d29b5-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "674f54e1a54a6122a42d1ebf",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2024-12-06T00:16:57+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ac",
+      "type": "italian",
+      "name": "Italian",
+      "slug": "italian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
+    }
+  ],
+  "description": "For the days when you just need a bit of balance, this healthy recipe is bound to hit the spot. Not only does it look good, but it'll also make you feel good too.",
+  "descriptionHTML": "<p>For the days when you just need a bit of balance, this healthy recipe is bound to hit the spot. Not only does it look good, but it'll also make you feel good too.</p>",
+  "descriptionMarkdown": "For the days when you just need a bit of balance, this healthy recipe is bound to hit the spot. Not only does it look good, but it'll also make you feel good too.",
+  "difficulty": 2,
+  "favoritesCount": 7,
+  "headline": "with a Cheesy Garlic Pangrattato",
+  "id": "6750302da54a6122a42d29b5",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5026_W40_UK_GCB12814100-3_Main__4madular_low-a7b74a8d.jpg",
+  "imagePath": "/image/GC_Y23_R5026_W40_UK_GCB12814100-3_Main__4madular_low-a7b74a8d.jpg",
+  "ingredients": [
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "646f19918c393b044d744a56",
+      "uuid": "bc22c386-6177-54cb-a21d-e59a8239e9e1",
+      "name": "Breadcrumbs",
+      "type": "breadcrumbs",
+      "slug": "breadcrumbs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/646f19918c393b044d744a56-847d7c6e.png",
+      "imagePath": "/ingredient/646f19918c393b044d744a56-847d7c6e.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "633c6597aa3f33c15c854baf",
+      "uuid": "b755bc1f-0454-437a-9841-1981d18eb0e4",
+      "name": "Mixed Herbs",
+      "type": "mixed-herbs",
+      "slug": "mixed-herbs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "imagePath": "/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa18bd9a2478e193f014",
+      "uuid": "dbc8bc5d-daac-50e9-8161-afdb361d627a",
+      "name": "Chilli Flakes",
+      "type": "chilli-flakes",
+      "slug": "chilli-flakes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "imagePath": "/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "63e662be11d6aa361e490722",
+      "uuid": "311510b9-47da-5f5c-af7c-c6cb9907a5de",
+      "name": "Whole Wheat Linguine",
+      "type": "wholewheat-linguine",
+      "slug": "whole-wheat-linguine",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e662be11d6aa361e490722-45351c5a.png",
+      "imagePath": "/ingredient/63e662be11d6aa361e490722-45351c5a.png",
+      "shipped": true,
+      "allergens": [
+        "5de91d27f4c17e42c17aef94",
+        "5b0532aaae08b52eb9420552",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbfd",
+        "uuid": "2198479a-831a-5fef-8384-10e1db4e10c4",
+        "name": "other noodle",
+        "slug": "other-noodle",
+        "type": "pasta",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9d1d7803ca91b7904f9",
+      "uuid": "a3e964bb-f521-59af-869d-ef52d0019868",
+      "name": "Red Wine Stock Paste",
+      "type": "red-wine-stock-paste",
+      "slug": "red-wine-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9d1d7803ca91b7904f9-3ac6780c.png",
+      "imagePath": "/ingredient/62fca9d1d7803ca91b7904f9-3ac6780c.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6038d39fb46fba0080356115",
+      "uuid": "b0cfc879-87a8-5859-a7fa-1d01b3174567",
+      "name": "Finely Chopped Tomatoes with Onion and Garlic",
+      "type": "finely-chopped-tomatoes-with-garlic-and-onion",
+      "slug": "finely-chopped-tomatoes-with-onion-and-garlic",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6038d39fb46fba0080356115-bd309b07.png",
+      "imagePath": "/ingredient/6038d39fb46fba0080356115-bd309b07.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9d0d7803ca91b7904f6",
+      "uuid": "b4f36945-566b-5d02-8e68-929d76b976a5",
+      "name": "Worcester Sauce",
+      "type": "worcester-sauce",
+      "slug": "worcester-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9d0d7803ca91b7904f6-b6d56845.png",
+      "imagePath": "/ingredient/62fca9d0d7803ca91b7904f6-b6d56845.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0ec9a48553f907536e",
+      "uuid": "83debc4f-e731-5de0-b54d-f0c8bc201099",
+      "name": "Baby Spinach",
+      "type": "baby-spinach",
+      "slug": "baby-spinach",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+      "imagePath": "/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e0d7803ca91b79050f",
+      "uuid": "6939977c-68b0-5e37-ab54-1be0ffa14129",
+      "name": "Grated Hard Italian Style Cheese",
+      "type": "grated-hard-italian-style-cheese",
+      "slug": "grated-hard-italian-style-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e0d7803ca91b79050f-0e605a8c.png",
+      "imagePath": "/ingredient/62fca9e0d7803ca91b79050f-0e605a8c.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa",
+        "57962a07b7e8697d4b3052f6"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ff9cab2001267a28c5",
+      "uuid": "7cd85650-3355-4a00-a785-d4c9f199ff49",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce-100ml",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "imagePath": "/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ec9cab2001267a28b6",
+      "uuid": "809fb77d-c002-4b7e-bc7f-dad64260ecf8",
+      "name": "Sugar",
+      "type": "sugar-1-tsp",
+      "slug": "sugar",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ec9cab2001267a28b6-e4d7f5ab.png",
+      "imagePath": "/ingredient/62c6e0ec9cab2001267a28b6-e4d7f5ab.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/6750302da54a6122a42d29b5",
+  "name": "Tuscan Inspired Beef and Spinach Linguine",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 3334,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 797,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 20.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 9.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 96.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 19.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 11.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 50.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 4.42,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 16,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 573,
+  "slug": "tuscan-inspired-beef-and-spinach-linguine",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Peel and grate the garlic (or use a garlic press). \nHeat a drizzle of oil in a frying pan on medium-high heat. \nOnce hot, add the breadcrumbs and half the garlic. Season with salt and pepper and fry, stirring regularly, until lightly toasted, 3-4 mins. Watch closely so they don't burn. Set aside in a small bowl.",
+      "instructionsHTML": "<p><span>Peel and grate the garlic (or use a garlic press). </span></p>\n<p><span>Heat a drizzle of oil in a frying pan on medium-high heat. </span></p>\n<p><span>Once hot, add the breadcrumbs and half the garlic. </span><span>Season with salt and pepper and fry, stirring regularly, until lightly toasted, 3-4 mins. Watch closely so they don&#39;t burn. Set aside in a small bowl.</span></p>",
+      "instructionsMarkdown": "<p><span>Peel and grate the garlic (or use a garlic press). </span></p>\n<p><span>Heat a drizzle of oil in a frying pan on medium-high heat. </span></p>\n<p><span>Once hot, add the breadcrumbs and half the garlic. </span><span>Season with salt and pepper and fry, stirring regularly, until lightly toasted, 3-4 mins. Watch closely so they don&#39;t burn. Set aside in a small bowl.</span></p>",
+      "ingredients": [
+        "646f19918c393b044d744a56",
+        "6048ba435d6d2541787296ec"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b305380",
+        "57e2674fb7e8697d4b305370",
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [
+        {
+          "name": "Add the breadcrumbs and half the garlic",
+          "duration": "PT4M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6750302da54a6122a42d29b5/step-5e5ccb00.jpg",
+          "path": "/6750302da54a6122a42d29b5/step-5e5ccb00.jpg",
+          "caption": "Make the Pangrattato"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Boil a full kettle. Heat the same frying pan on medium-high heat with a drizzle of oil (no need to clean). \nWhen hot, add the beef mince, sprinkle over the mixed herbs, and fry until golden, 3-4 mins. Use a wooden spoon to break it up as it cooks. Season with salt and pepper.\nAdd the remaining garlic and the chilli flakes, cook for 30 secs. IMPORTANT: Wash your hands and equipment after handling raw meat.",
+      "instructionsHTML": "<p>Boil a full kettle. Heat the same frying pan on medium-high heat with a drizzle of oil (no need to clean). </p>\n<p>When hot, add the beef mince, sprinkle over the mixed herbs, and fry until golden, 3-4 mins. Use a wooden spoon to break it up as it cooks. Season with salt and pepper.</p>\n<p>Add the remaining garlic and the chilli flakes, cook for 30 secs. IMPORTANT: Wash your hands and equipment after handling raw meat.</p>",
+      "instructionsMarkdown": "<p>Boil a full kettle. Heat the same frying pan on medium-high heat with a drizzle of oil (no need to clean). </p>\n<p>When hot, add the beef mince, sprinkle over the mixed herbs, and fry until golden, 3-4 mins. Use a wooden spoon to break it up as it cooks. Season with salt and pepper.</p>\n<p>Add the remaining garlic and the chilli flakes, cook for 30 secs. IMPORTANT: Wash your hands and equipment after handling raw meat.</p>",
+      "ingredients": [
+        "62fcaa18bd9a2478e193f014",
+        "633c6597aa3f33c15c854baf",
+        "62fcaa07d7803ca91b790566",
+        "6048ba435d6d2541787296ec"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375",
+        "57e2674fb7e8697d4b305392"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6750302da54a6122a42d29b5/step-da0ecd10.jpg",
+          "path": "/6750302da54a6122a42d29b5/step-da0ecd10.jpg",
+          "caption": "Fry the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Pour the boiled water into a saucepan with 0.5 tsp salt and bring back to the boil.\nAdd the linguine and cook until tender, 10-12 mins. When the linguine has finished cooking, drain in a colander, return to the pan and toss in a splash of oil to prevent sticking.",
+      "instructionsHTML": "<p>Pour the boiled water into a saucepan with 0.5 tsp salt and bring back to the boil.</p>\n<p>Add the linguine and cook until tender, 10-12 mins. When the linguine has finished cooking, drain in a colander, return to the pan and toss in a splash of oil to prevent sticking.</p>",
+      "instructionsMarkdown": "<p>Pour the boiled water into a saucepan with 0.5 tsp salt and bring back to the boil.</p>\n<p>Add the linguine and cook until tender, 10-12 mins. When the linguine has finished cooking, drain in a colander, return to the pan and toss in a splash of oil to prevent sticking.</p>",
+      "ingredients": [
+        "63e662be11d6aa361e490722"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538c"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6750302da54a6122a42d29b5/step-576f0a20.jpg",
+          "path": "/6750302da54a6122a42d29b5/step-576f0a20.jpg",
+          "caption": "Cook the Pasta"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "While the pasta cooks, stir in the chopped tomatoes, Worcester sauce, red wine stock paste, the water and the sugar (see pantry for both) to the mince pan. Simmer until the sauce has thickened slightly, 5-6 mins.\nWhen the sauce has thickened, stir in the spinach a handful at a time until wilted, 2-3 mins. IMPORTANT: The pork is cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>While the pasta cooks, stir in the chopped tomatoes, Worcester sauce, red wine stock paste, the water and the sugar (see pantry for both) to the mince pan. Simmer until the sauce has thickened slightly, 5-6 mins.</p>\n<p>When the sauce has thickened, stir in the spinach a handful at a time until wilted, 2-3 mins. IMPORTANT: The pork is cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>While the pasta cooks, stir in the chopped tomatoes, Worcester sauce, red wine stock paste, the water and the sugar (see pantry for both) to the mince pan. Simmer until the sauce has thickened slightly, 5-6 mins.</p>\n<p>When the sauce has thickened, stir in the spinach a handful at a time until wilted, 2-3 mins. IMPORTANT: The pork is cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62c6e0ec9cab2001267a28b6",
+        "62c6e0ff9cab2001267a28c5",
+        "62fcaa0ec9a48553f907536e",
+        "62fca9d0d7803ca91b7904f6",
+        "6038d39fb46fba0080356115"
+      ],
+      "utensils": [],
+      "timers": [
+        {
+          "name": "Simmer the sauce",
+          "duration": "PT6M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        },
+        {
+          "name": "Add the spinach",
+          "duration": "PT3M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6750302da54a6122a42d29b5/step-fe872130.jpg",
+          "path": "/6750302da54a6122a42d29b5/step-fe872130.jpg",
+          "caption": "Make the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Toss the cooked linguine through the sauce along with half the hard Italian style cheese. Season with salt and pepper.",
+      "instructionsHTML": "<p>Toss the cooked linguine through the sauce along with half the hard Italian style cheese. Season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Toss the cooked linguine through the sauce along with half the hard Italian style cheese. Season with salt and pepper.</p>",
+      "ingredients": [
+        "62fca9e0d7803ca91b79050f",
+        "62fca9d1d7803ca91b7904f9",
+        "63e662be11d6aa361e490722"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6750302da54a6122a42d29b5/step-1082c640.jpg",
+          "path": "/6750302da54a6122a42d29b5/step-1082c640.jpg",
+          "caption": "Add the Linguine"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the rocket between your bowls. Drizzle with oil, season with salt and pepper and toss to coat.\nServe the Tuscan inspired beef and spinach linguine alongside.\nTop with the garlic pangrattato and remaining hard Italian style cheese. ",
+      "instructionsHTML": "<p>Share the rocket between your bowls. Drizzle with oil, season with salt and pepper and toss to coat.</p>\n<p>Serve the Tuscan inspired beef and spinach linguine alongside.</p>\n<p>Top with the garlic pangrattato and remaining hard Italian style cheese. </p>",
+      "instructionsMarkdown": "<p>Share the rocket between your bowls. Drizzle with oil, season with salt and pepper and toss to coat.</p>\n<p>Serve the Tuscan inspired beef and spinach linguine alongside.</p>\n<p>Top with the garlic pangrattato and remaining hard Italian style cheese. </p>",
+      "ingredients": [
+        "62c6e0ec9cab2001267a28b6",
+        "62c6e0ff9cab2001267a28c5",
+        "60390dc851af04233575aab8",
+        "62fca9e0d7803ca91b79050f",
+        "62fcaa0ec9a48553f907536e",
+        "62fca9d0d7803ca91b7904f6",
+        "6038d39fb46fba0080356115",
+        "62fca9d1d7803ca91b7904f9",
+        "63e662be11d6aa361e490722",
+        "62fcaa18bd9a2478e193f014",
+        "633c6597aa3f33c15c854baf",
+        "62fcaa07d7803ca91b790566",
+        "646f19918c393b044d744a56",
+        "6048ba435d6d2541787296ec"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6750302da54a6122a42d29b5/step-ece10c50.jpg",
+          "path": "/6750302da54a6122a42d29b5/step-ece10c50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5c0a23a7e3f339428b5edaf2",
+      "type": "balanced",
+      "name": "Balanced",
+      "slug": "balanced",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCMODB12814100-36723-2",
+  "updatedAt": "2025-09-07T03:26:36+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305380",
+      "type": "smallbowl",
+      "name": "Small Bowl"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305392",
+      "type": "water-cooker",
+      "name": "Kettle"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    }
+  ],
+  "uuid": "10b7644b-0f06-4f8e-b9e4-111234367c97",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/tuscan-inspired-beef-and-spinach-linguine-6750302da54a6122a42d29b5",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "646f19918c393b044d744a56",
+          "amount": 25,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "63e662be11d6aa361e490722",
+          "amount": 180,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9d1d7803ca91b7904f9",
+          "amount": 28,
+          "unit": "grams"
+        },
+        {
+          "id": "6038d39fb46fba0080356115",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fca9d0d7803ca91b7904f6",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536e",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e0d7803ca91b79050f",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 100,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e0ec9cab2001267a28b6",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "646f19918c393b044d744a56",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 2,
+          "unit": "pinch"
+        },
+        {
+          "id": "63e662be11d6aa361e490722",
+          "amount": 360,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9d1d7803ca91b7904f9",
+          "amount": 56,
+          "unit": "grams"
+        },
+        {
+          "id": "6038d39fb46fba0080356115",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fca9d0d7803ca91b7904f6",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536e",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e0d7803ca91b79050f",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 200,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e0ec9cab2001267a28b6",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ]
+    }
+  ]
+}

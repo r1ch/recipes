@@ -1,0 +1,736 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.5,
+  "canonical": "663ba8185e4dcee2f1227d2e",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/hoisin-beef-stir-fry-663ba8185e4dcee2f1227d2e",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/6760479cd1e807b4c4b24105-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "659bfff9aa12a55eb35332f0",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2024-12-16T15:30:38+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053a6",
+      "type": "chinese",
+      "name": "Chinese",
+      "slug": "chinese",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a6-846a76df.jpg"
+    }
+  ],
+  "description": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "descriptionHTML": "<p>Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.</p>",
+  "descriptionMarkdown": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "difficulty": 2,
+  "favoritesCount": 4,
+  "headline": "with Cauliflower Rice and Sriracha",
+  "id": "6760479cd1e807b4c4b24105",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5026_W50_UK_GCLC63921881-6_MAIN_low-f76ed178.jpg",
+  "imagePath": "/image/GC_Y24_R5026_W50_UK_GCLC63921881-6_MAIN_low-f76ed178.jpg",
+  "ingredients": [
+    {
+      "id": "60391e4757959309cc4334f8",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "imagePath": "/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "637f7b0b1ef09fb45a483bb4",
+      "uuid": "84e36e2b-8f1a-4cbf-9b67-57c9fd7895bd",
+      "name": "Slow Cooked Beef",
+      "type": "slow-cooked-beef",
+      "slug": "slow-cooked-beef",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/637f7b0b1ef09fb45a483bb4-919a0f1a.png",
+      "imagePath": "/ingredient/637f7b0b1ef09fb45a483bb4-919a0f1a.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "66d08ea0a3a9934710b37318",
+      "uuid": "7f304ea6-1031-48a1-bf51-531a397096ae",
+      "name": "Young Pea Pods",
+      "type": "young-pea-pods",
+      "slug": "young-pea-pods",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/66d08ea0a3a9934710b37318-256e245b.png",
+      "imagePath": "/ingredient/66d08ea0a3a9934710b37318-256e245b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039043439a23b795d48a4a1",
+      "uuid": "c57adecc-4f9c-5c9e-9762-b44b3bcd4b90",
+      "name": "Coleslaw Mix",
+      "type": "coleslaw-mix",
+      "slug": "coleslaw-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039043439a23b795d48a4a1-9ac40a59.png",
+      "imagePath": "/ingredient/6039043439a23b795d48a4a1-9ac40a59.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc23",
+        "uuid": "06221a75-8a7a-5ff7-9ca8-5609bc4b900f",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad-mix",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa1dd7803ca91b790591",
+      "uuid": "e27b110b-467b-50bb-90ba-de73cb061683",
+      "name": "Hoisin Sauce",
+      "type": "hoisin-sauce",
+      "slug": "hoisin-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa1dd7803ca91b790591-f7ec3ccf.png",
+      "imagePath": "/ingredient/62fcaa1dd7803ca91b790591-f7ec3ccf.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390558e5dada46f76a2efd",
+      "uuid": "64732f49-7b7d-5249-be78-77cd77d69d2e",
+      "name": "Riced Cauliflower",
+      "type": "cauliflower-rice",
+      "slug": "riced-cauliflower",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "imagePath": "/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc1c",
+        "uuid": "78512a36-a243-5b9d-9f38-577b405f1b85",
+        "name": "rice",
+        "slug": "rice",
+        "type": "rice",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa51c9a48553f9075405",
+      "uuid": "4bb2d585-8bff-53e8-85b3-fc1744a8b5bd",
+      "name": "Sriracha Sauce",
+      "type": "sriracha",
+      "slug": "sriracha-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa51c9a48553f9075405-9fc92fcf.png",
+      "imagePath": "/ingredient/62fcaa51c9a48553f9075405-9fc92fcf.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e25a9cab2001267a28f5",
+      "uuid": "0f1147fe-5dc9-4e6e-9449-ab2d5dd3f812",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e25a9cab2001267a28f5-b519cd22.png",
+      "imagePath": "/ingredient/62c6e25a9cab2001267a28f5-b519cd22.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1279cab2001267a28e9",
+      "uuid": "cf9af936-101e-4641-90f0-347da4d0a347",
+      "name": "Butter",
+      "type": "butter-100g",
+      "slug": "butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "imagePath": "/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0eb9cab2001267a28b5",
+      "uuid": "61c32777-540e-4b15-a60d-9f49c3f2b4aa",
+      "name": "Salt",
+      "type": "salt-1-tsp",
+      "slug": "salt",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+      "imagePath": "/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/6760479cd1e807b4c4b24105",
+  "name": "Hoisin Beef Stir-Fry",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2239,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 535,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 31.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 13.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 28.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 23.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 8.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 35.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.8,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT20M",
+  "promotion": null,
+  "ratingsCount": 47,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 495,
+  "slug": "hoisin-beef-stir-fry",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Halve the bell pepper and discard the core and seeds. Slice into thin strips.\nPeel and grate the garlic (or use a garlic press).\nRemove the beef from the packet and cut into 2cm chunks (reserve the juices in the packet to add later).",
+      "instructionsHTML": "<p>Halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Peel and grate the garlic (or use a garlic press).</p>\n<p>Remove the beef from the packet and cut into 2cm chunks (reserve the juices in the packet to add later).</p>",
+      "instructionsMarkdown": "<p>Halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Peel and grate the garlic (or use a garlic press).</p>\n<p>Remove the beef from the packet and cut into 2cm chunks (reserve the juices in the packet to add later).</p>",
+      "ingredients": [
+        "60391e4757959309cc4334f8",
+        "637f7b0b1ef09fb45a483bb4"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6760479cd1e807b4c4b24105/step-0f605000.jpg",
+          "path": "/6760479cd1e807b4c4b24105/step-0f605000.jpg",
+          "caption": "Prep"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Place a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, add the pepper strips, the beef and its juices. Season with salt and pepper. Use a wooden spoon to break up the beef as it cooks. Fry until softened, 4-5 mins. IMPORTANT: Ensure the beef is piping hot throughout.",
+      "instructionsHTML": "<p>Place a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the pepper strips, the beef and its juices. Season with salt and pepper. Use a wooden spoon to break up the beef as it cooks. Fry until softened, 4-5 mins. IMPORTANT: Ensure the beef is piping hot throughout.</p>",
+      "instructionsMarkdown": "<p>Place a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the pepper strips, the beef and its juices. Season with salt and pepper. Use a wooden spoon to break up the beef as it cooks. Fry until softened, 4-5 mins. IMPORTANT: Ensure the beef is piping hot throughout.</p>",
+      "ingredients": [
+        "60391e4757959309cc4334f8",
+        "637f7b0b1ef09fb45a483bb4"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6760479cd1e807b4c4b24105/step-babab110.jpg",
+          "path": "/6760479cd1e807b4c4b24105/step-babab110.jpg",
+          "caption": "Start the Stir Fry"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Add the coleslaw mix, young pea pods and water (see pantry) and fry, 2-3 mins.",
+      "instructionsHTML": "<p>Add the coleslaw mix, young pea pods and water (see pantry) and fry, 2-3 mins.</p>",
+      "instructionsMarkdown": "<p>Add the coleslaw mix, young pea pods and water (see pantry) and fry, 2-3 mins.</p>",
+      "ingredients": [
+        "62c6e25a9cab2001267a28f5",
+        "6039043439a23b795d48a4a1",
+        "66d08ea0a3a9934710b37318"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6760479cd1e807b4c4b24105/step-039c1520.jpg",
+          "path": "/6760479cd1e807b4c4b24105/step-039c1520.jpg",
+          "caption": "Add the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Meanwhile, heat a medium frying pan on medium-high heat with a drizzle of oil.\nOnce hot, add the riced cauliflower and cook until just soft, 3-4 mins.\nStir through the garlic and butter (see pantry), season well with salt (see pantry) and pepper. Continue to cook until fragrant, 30 secs.",
+      "instructionsHTML": "<p>Meanwhile, heat a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the riced cauliflower and cook until just soft, 3-4 mins.</p>\n<p>Stir through the garlic and butter (see pantry), season well with salt (see pantry) and pepper. Continue to cook until fragrant, 30 secs.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the riced cauliflower and cook until just soft, 3-4 mins.</p>\n<p>Stir through the garlic and butter (see pantry), season well with salt (see pantry) and pepper. Continue to cook until fragrant, 30 secs.</p>",
+      "ingredients": [
+        "62c6e0eb9cab2001267a28b5",
+        "62c6e1279cab2001267a28e9",
+        "60390558e5dada46f76a2efd"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6760479cd1e807b4c4b24105/step-4822a030.jpg",
+          "path": "/6760479cd1e807b4c4b24105/step-4822a030.jpg",
+          "caption": "Cook the Cauli Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Remove the beef from the heat and add the hoisin sauce. Stir to coat and season with salt and pepper.\nAdd a splash of water if it looks dry.",
+      "instructionsHTML": "<p>Remove the beef from the heat and add the hoisin sauce. Stir to coat and season with salt and pepper.</p>\n<p>Add a splash of water if it looks dry.</p>",
+      "instructionsMarkdown": "<p>Remove the beef from the heat and add the hoisin sauce. Stir to coat and season with salt and pepper.</p>\n<p>Add a splash of water if it looks dry.</p>",
+      "ingredients": [
+        "62fcaa51c9a48553f9075405",
+        "62fcaa1dd7803ca91b790591"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6760479cd1e807b4c4b24105/step-60b75840.jpg",
+          "path": "/6760479cd1e807b4c4b24105/step-60b75840.jpg",
+          "caption": "Add the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the hoisin beef stir-fry between your bowls.\nServe the cauliflower rice alongside. \nDrizzle over the sriracha to finish.",
+      "instructionsHTML": "<p>Share the hoisin beef stir-fry between your bowls.</p>\n<p>Serve the cauliflower rice alongside. </p>\n<p>Drizzle over the sriracha to finish.</p>",
+      "instructionsMarkdown": "<p>Share the hoisin beef stir-fry between your bowls.</p>\n<p>Serve the cauliflower rice alongside. </p>\n<p>Drizzle over the sriracha to finish.</p>",
+      "ingredients": [
+        "62c6e0eb9cab2001267a28b5",
+        "62c6e1279cab2001267a28e9",
+        "62c6e25a9cab2001267a28f5",
+        "62fcaa51c9a48553f9075405",
+        "60390558e5dada46f76a2efd",
+        "62fcaa1dd7803ca91b790591",
+        "6039043439a23b795d48a4a1",
+        "66d08ea0a3a9934710b37318",
+        "60391e4757959309cc4334f8",
+        "637f7b0b1ef09fb45a483bb4"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6760479cd1e807b4c4b24105/step-efcae950.jpg",
+          "path": "/6760479cd1e807b4c4b24105/step-efcae950.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "62163c70143a35226e03d85e",
+      "type": "super-quick",
+      "name": "Super Quick",
+      "slug": "super-quick",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "64624e0c8ab1333a8ca245a8",
+      "type": "gut-health",
+      "name": "Fibre Focused ",
+      "slug": "fibre-focused",
+      "colorHandle": "quickPrep",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "63ad6f2ddcd3f60e830a1d1f",
+      "type": "550-kcal",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCLC63921881-11",
+  "updatedAt": "2025-09-18T07:10:17+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "51625a9d-21c2-4680-bfe0-8639b3a16de6",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/hoisin-beef-stir-fry-6760479cd1e807b4c4b24105",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "637f7b0b1ef09fb45a483bb4",
+          "amount": 280,
+          "unit": "grams"
+        },
+        {
+          "id": "66d08ea0a3a9934710b37318",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "6039043439a23b795d48a4a1",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa1dd7803ca91b790591",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa51c9a48553f9075405",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e25a9cab2001267a28f5",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0eb9cab2001267a28b5",
+          "amount": 0.25,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "637f7b0b1ef09fb45a483bb4",
+          "amount": 560,
+          "unit": "grams"
+        },
+        {
+          "id": "66d08ea0a3a9934710b37318",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "6039043439a23b795d48a4a1",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa1dd7803ca91b790591",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 500,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa51c9a48553f9075405",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e25a9cab2001267a28f5",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0eb9cab2001267a28b5",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ]
+    }
+  ]
+}

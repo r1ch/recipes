@@ -1,0 +1,761 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.3,
+  "canonical": "6791157365b9a198d6a4bedf",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/mexican-beef-rice-bowl-6791157365b9a198d6a4bedf",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/682deb21c4a648afcad0dce4-en-GB.pdf",
+  "category": null,
+  "clonedFrom": "6791157365b9a198d6a4bedf",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-05-28T15:49:17+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053af",
+      "type": "mexican",
+      "name": "Mexican",
+      "slug": "mexican",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053af-0317d647.jpg"
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 3,
+  "headline": "with Roasted Veg and Coriander",
+  "id": "682deb21c4a648afcad0dce4",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5021_W23_UK_GCCC02139212-4_Main_low-a71af6d4.jpeg",
+  "imagePath": "/image/GC_Y25_R5021_W23_UK_GCCC02139212-4_Main_low-a71af6d4.jpeg",
+  "ingredients": [
+    {
+      "id": "62fcaa54c9a48553f907540f",
+      "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
+      "name": "Basmati Rice",
+      "type": "basmati-rice",
+      "slug": "basmati-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa54c9a48553f907540f-f7b74b0e.png",
+      "imagePath": "/ingredient/62fcaa54c9a48553f907540f-f7b74b0e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391e4757959309cc4334f8",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "imagePath": "/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9f4bd9a2478e193efdb",
+      "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
+      "name": "Red Onion",
+      "type": "red-onion",
+      "slug": "red-onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9f4bd9a2478e193efdb-304ca93a.png",
+      "imagePath": "/ingredient/62fca9f4bd9a2478e193efdb-304ca93a.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390c61b36c4838656814ba",
+      "uuid": "666e029a-22e8-527e-86c7-ec6f33d41327",
+      "name": "Lime",
+      "type": "lime",
+      "slug": "lime",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390c61b36c4838656814ba-76f1e4d9.png",
+      "imagePath": "/ingredient/60390c61b36c4838656814ba-76f1e4d9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbc8",
+        "uuid": "56e4f66d-871d-50f5-8619-c9d10b949c50",
+        "name": "lime",
+        "slug": "lime",
+        "type": "lime",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390809b47bdb2f3e439e0d",
+      "uuid": "2904fadb-88de-569e-9c92-a87c61848fdb",
+      "name": "Red Chilli",
+      "type": "red-chilli",
+      "slug": "red-chilli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "imagePath": "/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb6d",
+        "uuid": "b7fdbff4-955d-578f-92e0-26786c9bc842",
+        "name": "chili",
+        "slug": "chili",
+        "type": "chili",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391f6bd3bd3274754539eb",
+      "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
+      "name": "Coriander",
+      "type": "coriander",
+      "slug": "coriander",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391f6bd3bd3274754539eb-7b85d9f4.png",
+      "imagePath": "/ingredient/60391f6bd3bd3274754539eb-7b85d9f4.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbf9",
+        "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
+        "name": "parsley",
+        "slug": "parsley",
+        "type": "parsley",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e6c9a48553f9075316",
+      "uuid": "8dd3695b-a336-5476-a1e8-f78d596484a6",
+      "name": "Mexican Style Spice Mix",
+      "type": "mexican-style-spice-mix",
+      "slug": "mexican-style-spice-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e6c9a48553f9075316-e74c61d5.png",
+      "imagePath": "/ingredient/62fca9e6c9a48553f9075316-e74c61d5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606335279cc1081ad772a604",
+      "uuid": "c7440604-41b7-5ef5-b2b3-8f83c31bccf9",
+      "name": "Tomato Puree",
+      "type": "tomato-puree",
+      "slug": "tomato-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "imagePath": "/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc45",
+        "uuid": "ead9e83c-158c-5ebe-bb04-ec24d45b8d80",
+        "name": "single ingredient paste",
+        "slug": "single-ingredient-paste",
+        "type": "tomato-paste",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "64e492a8e1f123211ed56ce1",
+      "uuid": "8cf4579f-f902-58f0-a2b1-8f5509398a0a",
+      "name": "Vegetable Stock Paste",
+      "type": "vegetable-stock-paste",
+      "slug": "vegetable-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64e492a8e1f123211ed56ce1-a8b70562.png",
+      "imagePath": "/ingredient/64e492a8e1f123211ed56ce1-a8b70562.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ef9cab2001267a28b8",
+      "uuid": "ef880220-34dc-4c85-9841-7d34b28d6165",
+      "name": "Water",
+      "type": "water-100ml",
+      "slug": "water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "imagePath": "/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/682deb21c4a648afcad0dce4",
+  "name": "Mexican Inspired Spiced Beef Zesty Rice Bowl ",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2215,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 529,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 16.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 59.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 12.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 38,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.6,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 51,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 530,
+  "slug": "mexican-inspired-spiced-beef-zesty-rice-bowl",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7. Boil a half-full kettle.\nPour the boiled water into a large saucepan with 1/4 tsp salt on high heat.\nAdd the rice and cook for 10-12 mins. Once cooked, drain in a sieve and pop back in the pan. Cover with a lid and leave to the side until ready to serve.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. Boil a half-full kettle.</p>\n<p>Pour the boiled water into a large saucepan with 1/4 tsp salt on high heat.</p>\n<p>Add the rice and cook for 10-12 mins. Once cooked, drain in a sieve and pop back in the pan. Cover with a lid and leave to the side until ready to serve.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. Boil a half-full kettle.</p>\n<p>Pour the boiled water into a large saucepan with 1/4 tsp salt on high heat.</p>\n<p>Add the rice and cook for 10-12 mins. Once cooked, drain in a sieve and pop back in the pan. Cover with a lid and leave to the side until ready to serve.</p>",
+      "ingredients": [
+        "60391e4757959309cc4334f8",
+        "62fcaa54c9a48553f907540f"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538c",
+        "57e2674fb7e8697d4b30536b"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/682deb21c4a648afcad0dce4/step-9a5ab800.jpg",
+          "path": "/682deb21c4a648afcad0dce4/step-9a5ab800.jpg",
+          "caption": "Start the Rice  "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Meanwhile, halve the bell pepper and discard the core and seeds. Slice into thin strips.\nHalve and peel the red onion, then cut each half into 3 wedges.\nPlace the onion and pepper slices onto a baking tray. Drizzle with oil and season with salt and pepper. Toss to coat.\nWhen the oven is hot, roast on the top shelf of your oven until soft and slightly charred, 14-16 mins.",
+      "instructionsHTML": "<p>Meanwhile, halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Halve and peel the red onion, then cut each half into 3 wedges.</p>\n<p>Place the onion and pepper slices onto a baking tray. Drizzle with oil and season with salt and pepper. Toss to coat.</p>\n<p>When the oven is hot, roast on the top shelf of your oven until soft and slightly charred, 14-16 mins.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Halve and peel the red onion, then cut each half into 3 wedges.</p>\n<p>Place the onion and pepper slices onto a baking tray. Drizzle with oil and season with salt and pepper. Toss to coat.</p>\n<p>When the oven is hot, roast on the top shelf of your oven until soft and slightly charred, 14-16 mins.</p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "62fca9f4bd9a2478e193efdb"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/682deb21c4a648afcad0dce4/step-48625b10.jpeg",
+          "path": "/682deb21c4a648afcad0dce4/step-48625b10.jpeg",
+          "caption": "Prep the Veg  "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Peel and grate the garlic (or use a garlic press). Juice half the lime, then cut the remaining half into wedges.\nThinly slice the red chilli. Roughly chop the coriander (stalks and all).",
+      "instructionsHTML": "<p>Peel and grate the garlic (or use a garlic press). Juice half the lime, then cut the remaining half into wedges.</p>\n<p>Thinly slice the red chilli. Roughly chop the coriander (stalks and all).</p>",
+      "instructionsMarkdown": "<p>Peel and grate the garlic (or use a garlic press). Juice half the lime, then cut the remaining half into wedges.</p>\n<p>Thinly slice the red chilli. Roughly chop the coriander (stalks and all).</p>",
+      "ingredients": [
+        "60391f6bd3bd3274754539eb",
+        "60390809b47bdb2f3e439e0d",
+        "60390c61b36c4838656814ba"
+      ],
+      "utensils": [
+        "59d49a9419279f8fe60e867c"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/682deb21c4a648afcad0dce4/step-0c5f5f20.jpeg",
+          "path": "/682deb21c4a648afcad0dce4/step-0c5f5f20.jpeg",
+          "caption": "Finish the Prep"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Heat a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, fry the beef mince until browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It's cooked when no longer pink in the middle.\nAdd the garlic, Mexican style spice mix, half the red chilli, tomato puree, vegetable stock paste and water (see pantry) to the mince. Stir to combine and simmer for 1-2 mins.",
+      "instructionsHTML": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the beef mince until browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>\n<p>Add the garlic, Mexican style spice mix, half the red chilli, tomato puree, vegetable stock paste and water (see pantry) to the mince. Stir to combine and simmer for 1-2 mins.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the beef mince until browned, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>\n<p>Add the garlic, Mexican style spice mix, half the red chilli, tomato puree, vegetable stock paste and water (see pantry) to the mince. Stir to combine and simmer for 1-2 mins.</p>",
+      "ingredients": [
+        "62c6e0ef9cab2001267a28b8",
+        "64e492a8e1f123211ed56ce1",
+        "606335279cc1081ad772a604",
+        "62fca9e6c9a48553f9075316",
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/682deb21c4a648afcad0dce4/step-32f8f630.jpeg",
+          "path": "/682deb21c4a648afcad0dce4/step-32f8f630.jpeg",
+          "caption": "Fry the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Once the rice is cooked, stir through half the lime juice and half the coriander.",
+      "instructionsHTML": "<p>Once the rice is cooked, stir through half the lime juice and half the coriander.</p>",
+      "instructionsMarkdown": "<p>Once the rice is cooked, stir through half the lime juice and half the coriander.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/682deb21c4a648afcad0dce4/step-f397e140.jpg",
+          "path": "/682deb21c4a648afcad0dce4/step-f397e140.jpg",
+          "caption": "Finish the Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Divide the rice between your bowls.\nIn sections on top of the rice, add the vegetables and Mexican inspired spiced beef. Coat the veg in the remaining lime juice.\nSprinkle over the remaining chilli (careful - it's hot) and remaining coriander.\nServe with a lime wedge.",
+      "instructionsHTML": "<p>Divide the rice between your bowls.</p>\n<p>In sections on top of the rice, add the vegetables and Mexican inspired spiced beef. Coat the veg in the remaining lime juice.</p>\n<p>Sprinkle over the remaining chilli (careful - it&#39;s hot) and remaining coriander.</p>\n<p>Serve with a lime wedge.</p>",
+      "instructionsMarkdown": "<p>Divide the rice between your bowls.</p>\n<p>In sections on top of the rice, add the vegetables and Mexican inspired spiced beef. Coat the veg in the remaining lime juice.</p>\n<p>Sprinkle over the remaining chilli (careful - it&#39;s hot) and remaining coriander.</p>\n<p>Serve with a lime wedge.</p>",
+      "ingredients": [
+        "62c6e0ef9cab2001267a28b8",
+        "64e492a8e1f123211ed56ce1",
+        "606335279cc1081ad772a604",
+        "62fca9e6c9a48553f9075316",
+        "62fcaa07d7803ca91b790566",
+        "60391f6bd3bd3274754539eb",
+        "60390809b47bdb2f3e439e0d",
+        "60390c61b36c4838656814ba",
+        "6048ba435d6d2541787296ec",
+        "62fca9f4bd9a2478e193efdb",
+        "60391e4757959309cc4334f8",
+        "62fcaa54c9a48553f907540f"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/682deb21c4a648afcad0dce4/step-6c502c50.jpeg",
+          "path": "/682deb21c4a648afcad0dce4/step-6c502c50.jpeg",
+          "caption": "Serve   "
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "61e67289724a8a26a35045e4",
+      "type": "flexitarian",
+      "name": "Flexitarian",
+      "slug": "flexitarian",
+      "colorHandle": null,
+      "preferences": [
+        "Flexitarian"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305313",
+      "type": "extra-spicy",
+      "name": "Very Hot",
+      "slug": "very-hot",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT25M",
+  "uniqueRecipeCode": "GCCC02139212-6",
+  "updatedAt": "2025-09-10T08:22:11+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536b",
+      "type": "lid",
+      "name": "Lid"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "8eecd4ee-a721-4828-98aa-00c5f25c5088",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/mexican-inspired-spiced-beef-zesty-rice-bowl-682deb21c4a648afcad0dce4",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa54c9a48553f907540f",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9f4bd9a2478e193efdb",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c61b36c4838656814ba",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f6bd3bd3274754539eb",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e6c9a48553f9075316",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "64e492a8e1f123211ed56ce1",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 200,
+          "unit": "milliliter(s)"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa54c9a48553f907540f",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9f4bd9a2478e193efdb",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c61b36c4838656814ba",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f6bd3bd3274754539eb",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9e6c9a48553f9075316",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "64e492a8e1f123211ed56ce1",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 400,
+          "unit": "milliliter(s)"
+        }
+      ]
+    }
+  ]
+}

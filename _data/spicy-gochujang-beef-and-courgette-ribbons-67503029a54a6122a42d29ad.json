@@ -1,0 +1,748 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f8",
+      "name": "Peanut",
+      "type": "peanuts",
+      "slug": "peanut",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f8-b2ad43cd.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f8-b2ad43cd.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fe",
+      "name": "Sesame",
+      "type": "sesame",
+      "slug": "sesame",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b305302",
+      "name": "Nuts",
+      "type": "traces-of-nuts",
+      "slug": "traces-of-nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5acf972fae08b54d333ac322",
+      "name": "Sesame",
+      "type": "traces-of-sesame",
+      "slug": "traces-of-sesame",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.3,
+  "canonical": "6570a72102bcfeab65565651",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/spicy-gochujang-pork-and-courgette-ribbons-6570a72102bcfeab65565651",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67503029a54a6122a42d29ad-en-GB.pdf",
+  "category": null,
+  "clonedFrom": "674f5260d4acb9b7600a8ebd",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2024-12-06T00:17:01+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ae",
+      "type": "korean",
+      "name": "Korean",
+      "slug": "korean",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ae-01d27069.jpg"
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 2,
+  "headline": "with Pepper, Chilli Flakes and Peanuts",
+  "id": "67503029a54a6122a42d29ad",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5019_W06_UK_GCLC53517881-2_mod_swap_low-6606ba61.jpg",
+  "imagePath": "/image/GC_Y24_R5019_W06_UK_GCLC53517881-2_mod_swap_low-6606ba61.jpg",
+  "ingredients": [
+    {
+      "id": "603904c8823813388f0ab8f6",
+      "uuid": "90f7a2a9-7adb-51b5-8f53-022f3a2ef9d8",
+      "name": "Courgette",
+      "type": "courgette",
+      "slug": "courgette",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "imagePath": "/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb83",
+        "uuid": "c8061e44-33cd-538e-83ce-d05693b35ba7",
+        "name": "zucchini",
+        "slug": "zucchini",
+        "type": "courgette",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391e4757959309cc4334f8",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "imagePath": "/ingredient/60391e4757959309cc4334f8-1f39487f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "675041faa54a6122a42d2b2f",
+      "uuid": "14c309a3-f0b6-54cd-bd8a-8616ef0b8482",
+      "name": "Salted Peanuts",
+      "type": "salted-peanuts",
+      "slug": "salted-peanuts",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/675041faa54a6122a42d2b2f-434f9857.png",
+      "imagePath": "/ingredient/675041faa54a6122a42d2b2f-434f9857.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b305302",
+        "5acf972fae08b54d333ac322",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b3052f8"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "63e6da9811d6aa361e4907a3",
+      "uuid": "c6f9741b-7994-46c4-8ae0-f38d9281b114",
+      "name": "Gochujang Paste",
+      "type": "gochujang-paste",
+      "slug": "gochujang-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/63e6da9811d6aa361e4907a3-a5ba3ebd.png",
+      "imagePath": "/ingredient/63e6da9811d6aa361e4907a3-a5ba3ebd.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "632c7b5d3d77cefd2762ac19",
+      "uuid": "b0bf78aa-aee2-54a8-9729-c47d4b7bb10a",
+      "name": "BBQ Sauce",
+      "type": "bbq-sauce",
+      "slug": "bbq-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/632c7b5d3d77cefd2762ac19-0a29f26f.png",
+      "imagePath": "/ingredient/632c7b5d3d77cefd2762ac19-0a29f26f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb47",
+        "uuid": "b33fa81a-2159-5e9c-9012-8aa53ff64998",
+        "name": "sauce",
+        "slug": "sauce",
+        "type": "bbq-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6038faba6b19a5090032ecaa",
+      "uuid": "7edee583-2fee-5bec-9e26-2cd66cea813f",
+      "name": "Ginger Puree",
+      "type": "ginger-puree",
+      "slug": "ginger-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6038faba6b19a5090032ecaa-18af8f03.png",
+      "imagePath": "/ingredient/6038faba6b19a5090032ecaa-18af8f03.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb8e",
+        "uuid": "3a80953a-051d-547e-9c30-400651b3b94d",
+        "name": "dip",
+        "slug": "dip",
+        "type": "dip",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa52bd9a2478e193f0b1",
+      "uuid": "ebd2f698-4242-5deb-b767-d529fb84b42f",
+      "name": "Sesame Oil",
+      "type": "sesame-oil",
+      "slug": "sesame-oil",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "imagePath": "/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fe"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa18bd9a2478e193f014",
+      "uuid": "dbc8bc5d-daac-50e9-8161-afdb361d627a",
+      "name": "Chilli Flakes",
+      "type": "chilli-flakes",
+      "slug": "chilli-flakes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "imagePath": "/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67503029a54a6122a42d29ad",
+  "name": "Spicy Gochujang Beef and Courgette Ribbons",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2464,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 589,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 40.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 10.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 19,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 13.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 38.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.61,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 7,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 502,
+  "slug": "spicy-gochujang-beef-and-courgette-ribbons",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Trim the courgettes. Use a peeler to peel long ribbons down the length of the courgette, stopping at the spongy centre.\nCut the centre of the courgette into 1cm thick chunks. ",
+      "instructionsHTML": "<p>Trim the courgettes. Use a peeler to peel long ribbons down the length of the courgette, stopping at the spongy centre.</p>\n<p>Cut the centre of the courgette into 1cm thick chunks. </p>",
+      "instructionsMarkdown": "<p>Trim the courgettes. Use a peeler to peel long ribbons down the length of the courgette, stopping at the spongy centre.</p>\n<p>Cut the centre of the courgette into 1cm thick chunks. </p>",
+      "ingredients": [
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305379"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67503029a54a6122a42d29ad/step-0f75b200.jpg",
+          "path": "/67503029a54a6122a42d29ad/step-0f75b200.jpg",
+          "caption": "Prep the Courgette"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Halve the bell pepper and discard the core and seeds. Slice into thin strips.\nCrush the peanuts in the unopened sachet using a rolling pin.",
+      "instructionsHTML": "<p>Halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Crush the peanuts in the unopened sachet using a rolling pin.</p>",
+      "instructionsMarkdown": "<p>Halve the bell pepper and discard the core and seeds. Slice into thin strips.</p>\n<p>Crush the peanuts in the unopened sachet using a rolling pin.</p>",
+      "ingredients": [
+        "60391e4757959309cc4334f8",
+        "675041faa54a6122a42d2b2f"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30537d"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67503029a54a6122a42d29ad/step-896d6d10.jpg",
+          "path": "/67503029a54a6122a42d29ad/step-896d6d10.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Heat a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, fry the courgette pieces and the beef mince until golden, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It's cooked when no longer pink in the middle.\nFor the last 3-4 mins, add the pepper strips and fry until just soft. Continue to stir while it cooks.",
+      "instructionsHTML": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the courgette pieces and the beef mince until golden, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>\n<p>For the last 3-4 mins, add the pepper strips and fry until just soft. Continue to stir while it cooks.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the courgette pieces and the beef mince until golden, 5-6 mins. Use a spoon to break it up as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. It&#39;s cooked when no longer pink in the middle.</p>\n<p>For the last 3-4 mins, add the pepper strips and fry until just soft. Continue to stir while it cooks.</p>",
+      "ingredients": [
+        "603904c8823813388f0ab8f6",
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67503029a54a6122a42d29ad/step-30750020.jpg",
+          "path": "/67503029a54a6122a42d29ad/step-30750020.jpg",
+          "caption": "Cook the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Whilst the beef and veg cooks, heat another large frying pan on medium-high heat with a drizzle of oil.\nWhen hot, fry the courgette ribbons for 4 mins, then season with salt and pepper. ",
+      "instructionsHTML": "<p>Whilst the beef and veg cooks, heat another large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, fry the courgette ribbons for 4 mins, then season with salt and pepper. </p>",
+      "instructionsMarkdown": "<p>Whilst the beef and veg cooks, heat another large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, fry the courgette ribbons for 4 mins, then season with salt and pepper. </p>",
+      "ingredients": [],
+      "utensils": [
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67503029a54a6122a42d29ad/step-93be7630.jpg",
+          "path": "/67503029a54a6122a42d29ad/step-93be7630.jpg",
+          "caption": "Cook the Courgette "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Once the beef is cooked, stir through the gochujang paste, BBQ sauce, ginger puree and sesame oil. Warm through for 1-2 mins.\nAdd half the chilli flakes (careful - they're hot) and season with salt and pepper. Add a splash of water if it looks dry.\nStir the courgette ribbons through the mince and coat in the sauce.",
+      "instructionsHTML": "<p>Once the beef is cooked, stir through the gochujang paste, BBQ sauce, ginger puree and sesame oil. Warm through for 1-2 mins.</p>\n<p>Add half the chilli flakes (careful - they&#39;re hot) and season with salt and pepper. Add a splash of water if it looks dry.</p>\n<p>Stir the courgette ribbons through the mince and coat in the sauce.</p>",
+      "instructionsMarkdown": "<p>Once the beef is cooked, stir through the gochujang paste, BBQ sauce, ginger puree and sesame oil. Warm through for 1-2 mins.</p>\n<p>Add half the chilli flakes (careful - they&#39;re hot) and season with salt and pepper. Add a splash of water if it looks dry.</p>\n<p>Stir the courgette ribbons through the mince and coat in the sauce.</p>",
+      "ingredients": [
+        "63e6da9811d6aa361e4907a3",
+        "632c7b5d3d77cefd2762ac19",
+        "6038faba6b19a5090032ecaa",
+        "62fcaa52bd9a2478e193f0b1"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67503029a54a6122a42d29ad/step-f976de40.jpg",
+          "path": "/67503029a54a6122a42d29ad/step-f976de40.jpg",
+          "caption": "Make the Sauce "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Divide the gochujang beef and courgette ribbons between your bowls. \nTo finish, sprinkle over the peanuts and remaining chilli flakes.",
+      "instructionsHTML": "<p>Divide the gochujang beef and courgette ribbons between your bowls. </p>\n<p>To finish, sprinkle over the peanuts and remaining chilli flakes.</p>",
+      "instructionsMarkdown": "<p>Divide the gochujang beef and courgette ribbons between your bowls. </p>\n<p>To finish, sprinkle over the peanuts and remaining chilli flakes.</p>",
+      "ingredients": [
+        "603904c8823813388f0ab8f6",
+        "60391e4757959309cc4334f8",
+        "62fcaa07d7803ca91b790566",
+        "63e6da9811d6aa361e4907a3",
+        "632c7b5d3d77cefd2762ac19",
+        "6038faba6b19a5090032ecaa",
+        "62fcaa52bd9a2478e193f0b1",
+        "62fcaa18bd9a2478e193f014",
+        "62c6e28e9cab2001267a291a"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67503029a54a6122a42d29ad/step-47032550.jpg",
+          "path": "/67503029a54a6122a42d29ad/step-47032550.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCMODLC53517881-36721-2",
+  "updatedAt": "2025-09-10T08:21:50+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305379",
+      "type": "peeler",
+      "name": "Peeler"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30537d",
+      "type": "rollingpin",
+      "name": "Rolling Pin"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "1936f025-6afc-408c-aa1f-ee49948c9900",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/spicy-gochujang-beef-and-courgette-ribbons-67503029a54a6122a42d29ad",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "675041faa54a6122a42d2b2f",
+          "amount": 25,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "63e6da9811d6aa361e4907a3",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "632c7b5d3d77cefd2762ac19",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6038faba6b19a5090032ecaa",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 20,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391e4757959309cc4334f8",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "675041faa54a6122a42d2b2f",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "63e6da9811d6aa361e4907a3",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "632c7b5d3d77cefd2762ac19",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6038faba6b19a5090032ecaa",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 40,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 2,
+          "unit": "pinch"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

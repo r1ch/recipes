@@ -1,0 +1,859 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "60368d89cdbdf450236ad8cd",
+      "name": "Wheat",
+      "type": "wheat",
+      "slug": "wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f9",
+      "name": "Soya",
+      "type": "soya",
+      "slug": "soya",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f9-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fe",
+      "name": "Sesame",
+      "type": "sesame",
+      "slug": "sesame",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fe-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fb",
+      "name": "Nuts",
+      "type": "nuts",
+      "slug": "nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fb-172b155c.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b305302",
+      "name": "Nuts",
+      "type": "traces-of-nuts",
+      "slug": "traces-of-nuts",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b305302-20b4388c.png",
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5a9614ab30006c2c026cf562",
+      "name": "Peanut",
+      "type": "traces-of-peanuts",
+      "slug": "traces-of-peanut",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 2.5,
+  "canonical": "64ca20aa2864fe111ef97cd4",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/dan-dan-inspired-pork-curry-64ca20aa2864fe111ef97cd4",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67cb177f849ab09a45ce2921-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "67cae28f5dfd3604b519fe16",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-03-07T15:57:51+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053a6",
+      "type": "chinese",
+      "name": "Chinese",
+      "slug": "chinese",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a6-846a76df.jpg"
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 1,
+  "headline": "with Courgette Ribbons & Sesame Dressed Cucumber",
+  "id": "67cb177f849ab09a45ce2921",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5018_W19_UK_GCLC37213894-29_mod_swap__3_low-582bf839.jpg",
+  "imagePath": "/image/GC_Y25_R5018_W19_UK_GCLC37213894-29_mod_swap__3_low-582bf839.jpg",
+  "ingredients": [
+    {
+      "id": "603904c8823813388f0ab8f6",
+      "uuid": "90f7a2a9-7adb-51b5-8f53-022f3a2ef9d8",
+      "name": "Courgette",
+      "type": "courgette",
+      "slug": "courgette",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "imagePath": "/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb83",
+        "uuid": "c8061e44-33cd-538e-83ce-d05693b35ba7",
+        "name": "zucchini",
+        "slug": "zucchini",
+        "type": "courgette",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6156e54cc746d20c7974d8c4",
+      "uuid": "50a4516b-b328-56e7-b7bf-19aa198cb066",
+      "name": "Baby Cucumber",
+      "type": "baby-cucumber",
+      "slug": "baby-cucumber",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6156e54cc746d20c7974d8c4-07a883f4.png",
+      "imagePath": "/ingredient/6156e54cc746d20c7974d8c4-07a883f4.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb88",
+        "uuid": "04735b2b-6b8a-5dcd-b14a-16006ed26652",
+        "name": "cucumber",
+        "slug": "cucumber",
+        "type": "cucumber",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390809b47bdb2f3e439e0d",
+      "uuid": "2904fadb-88de-569e-9c92-a87c61848fdb",
+      "name": "Red Chilli",
+      "type": "red-chilli",
+      "slug": "red-chilli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "imagePath": "/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb6d",
+        "uuid": "b7fdbff4-955d-578f-92e0-26786c9bc842",
+        "name": "chili",
+        "slug": "chili",
+        "type": "chili",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa1ec9a48553f9075392",
+      "uuid": "5039a7c1-5de6-5cc1-995f-aebbb994e544",
+      "name": "Spring Onion",
+      "type": "spring-onion",
+      "slug": "spring-onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa1ec9a48553f9075392-d05eab65.png",
+      "imagePath": "/ingredient/62fcaa1ec9a48553f9075392-d05eab65.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "680ba59dbfb92a8200ac0cba",
+      "uuid": "0eae0198-9f27-5e24-97d4-45b44e38d5dd",
+      "name": "Soy Sauce",
+      "type": "soy-sauce",
+      "slug": "soy-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/680ba59dbfb92a8200ac0cba-e60a2689.png",
+      "imagePath": "/ingredient/680ba59dbfb92a8200ac0cba-e60a2689.png",
+      "shipped": true,
+      "allergens": [
+        "60368d89cdbdf450236ad8cd",
+        "57962a07b7e8697d4b3052f5",
+        "57962a07b7e8697d4b3052f9"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa2ebd9a2478e193f040",
+      "uuid": "d435f722-73a9-506b-b2a4-195521e65ea6",
+      "name": "Rice Vinegar",
+      "type": "rice-vinegar",
+      "slug": "rice-vinegar",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa2ebd9a2478e193f040-b8ef9ed9.png",
+      "imagePath": "/ingredient/62fcaa2ebd9a2478e193f040-b8ef9ed9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa52bd9a2478e193f0b1",
+      "uuid": "ebd2f698-4242-5deb-b767-d529fb84b42f",
+      "name": "Sesame Oil",
+      "type": "sesame-oil",
+      "slug": "sesame-oil",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "imagePath": "/ingredient/62fcaa52bd9a2478e193f0b1-b4ba2d3b.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fe"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60accfa832d09252b2766bf2",
+      "uuid": "3342ba3e-3ad5-589c-8481-79543f04e767",
+      "name": "Sambal Paste",
+      "type": "sambal",
+      "slug": "sambal-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60accfa832d09252b2766bf2-4039c9e5.png",
+      "imagePath": "/ingredient/60accfa832d09252b2766bf2-4039c9e5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb6f",
+        "uuid": "87ff461e-fcd1-5b82-8fd3-91a8661db1ee",
+        "name": "Chili sauce",
+        "slug": "chili-sauce",
+        "type": "chili-sauce",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039135a024cbf6320565652",
+      "uuid": "df8b3527-0444-5e31-853c-1ff77877e5aa",
+      "name": "Cashew Butter",
+      "type": "cashew-butter",
+      "slug": "cashew-butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039135a024cbf6320565652-b151d89f.png",
+      "imagePath": "/ingredient/6039135a024cbf6320565652-b151d89f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fb",
+        "57962a07b7e8697d4b3052f3",
+        "57962a07b7e8697d4b305302",
+        "5a9614ab30006c2c026cf562"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb5b",
+        "uuid": "e1a21c36-6c62-5638-9364-d39039f0b218",
+        "name": "butter",
+        "slug": "butter",
+        "type": "butter",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ff9cab2001267a28c5",
+      "uuid": "7cd85650-3355-4a00-a785-d4c9f199ff49",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce-100ml",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "imagePath": "/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67cb177f849ab09a45ce2921",
+  "name": "Dan Dan Inspired Beef Curry ",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2711,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 648,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 42.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 11.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 16.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 9.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 39.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.42,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 4,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 570,
+  "slug": "dan-dan-inspired-beef-curry",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Trim the courgette. Use a peeler to peel long ribbons down the length of the courgette, stopping at the spongy centre. Cut the centre of the courgette into 1cm chunks.\nTrim the baby cucumber, then halve lengthways. Thinly slice lengthways.\nHalve the red chilli lengthways, deseed, then thinly slice. Trim the spring onion and thinly slice on an angle.",
+      "instructionsHTML": "<p>Trim the courgette. Use a peeler to peel long ribbons down the length of the courgette, stopping at the spongy centre. Cut the centre of the courgette into 1cm chunks.</p>\n<p>Trim the baby cucumber, then halve lengthways. Thinly slice lengthways.</p>\n<p>Halve the red chilli lengthways, deseed, then thinly slice. Trim the spring onion and thinly slice on an angle.</p>",
+      "instructionsMarkdown": "<p>Trim the courgette. Use a peeler to peel long ribbons down the length of the courgette, stopping at the spongy centre. Cut the centre of the courgette into 1cm chunks.</p>\n<p>Trim the baby cucumber, then halve lengthways. Thinly slice lengthways.</p>\n<p>Halve the red chilli lengthways, deseed, then thinly slice. Trim the spring onion and thinly slice on an angle.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62fcaa1ec9a48553f9075392",
+        "60390809b47bdb2f3e439e0d",
+        "6156e54cc746d20c7974d8c4",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305379",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67cb177f849ab09a45ce2921/step-f9bd5700.jpg",
+          "path": "/67cb177f849ab09a45ce2921/step-f9bd5700.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "In a small bowl, whisk the soy sauce, rice vinegar, half the sesame oil, sambal paste, cashew butter and water (see pantry). Set aside your Dan Dan inspired sauce.\nIn a medium bowl, add the cucumber and the remaining sesame oil. Season with salt and pepper and toss to coat. ",
+      "instructionsHTML": "<p>In a small bowl, whisk the soy sauce, rice vinegar, half the sesame oil, sambal paste, cashew butter and water (see pantry). Set aside your Dan Dan inspired sauce.</p>\n<p>In a medium bowl, add the cucumber and the remaining sesame oil. Season with salt and pepper and toss to coat. </p>",
+      "instructionsMarkdown": "<p>In a small bowl, whisk the soy sauce, rice vinegar, half the sesame oil, sambal paste, cashew butter and water (see pantry). Set aside your Dan Dan inspired sauce.</p>\n<p>In a medium bowl, add the cucumber and the remaining sesame oil. Season with salt and pepper and toss to coat. </p>",
+      "ingredients": [
+        "62c6e0ff9cab2001267a28c5",
+        "6039135a024cbf6320565652",
+        "60accfa832d09252b2766bf2",
+        "62fcaa52bd9a2478e193f0b1",
+        "62fcaa2ebd9a2478e193f040",
+        "680ba59dbfb92a8200ac0cba",
+        "6156e54cc746d20c7974d8c4",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305369",
+        "57e2674fb7e8697d4b305380"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67cb177f849ab09a45ce2921/step-9c11c810.jpg",
+          "path": "/67cb177f849ab09a45ce2921/step-9c11c810.jpg",
+          "caption": "Make the Dan Dan Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Heat a frying pan on medium-high heat with a drizzle of oil.\nWhen hot, add the beef mince and chopped courgette core, fry until golden, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince.",
+      "instructionsHTML": "<p>Heat a frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, add the beef mince and chopped courgette core, fry until golden, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>",
+      "instructionsMarkdown": "<p>Heat a frying pan on medium-high heat with a drizzle of oil.</p>\n<p>When hot, add the beef mince and chopped courgette core, fry until golden, 3-4 mins. Use a spoon to break up the mince as it cooks. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [
+        {
+          "name": "Cook the Beef",
+          "duration": "PT4M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67cb177f849ab09a45ce2921/step-0b88f020.jpg",
+          "path": "/67cb177f849ab09a45ce2921/step-0b88f020.jpg",
+          "caption": "Cook the Beef"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Add the Dan Dan inspired sauce to the beef and simmer, 3-5 mins. IMPORTANT: The beef is cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Add the Dan Dan inspired sauce to the beef and simmer, 3-5 mins. IMPORTANT: The beef is cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Add the Dan Dan inspired sauce to the beef and simmer, 3-5 mins. IMPORTANT: The beef is cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566"
+      ],
+      "utensils": [],
+      "timers": [
+        {
+          "name": "Add the Dan Dan Sauce",
+          "duration": "PT5M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67cb177f849ab09a45ce2921/step-b5005e30.jpg",
+          "path": "/67cb177f849ab09a45ce2921/step-b5005e30.jpg",
+          "caption": "Add the Dan Dan Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Meanwhile, heat a drizzle of oil in large frying pan on medium-high heat. \nOnce hot, add the courgette ribbons and allow to cook until tender, 1-2 mins more. Season with salt and pepper. Cook in batches if necessary.",
+      "instructionsHTML": "<p>Meanwhile, heat a drizzle of oil in large frying pan on medium-high heat. </p>\n<p>Once hot, add the courgette ribbons and allow to cook until tender, 1-2 mins more. Season with salt and pepper. Cook in batches if necessary.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat a drizzle of oil in large frying pan on medium-high heat. </p>\n<p>Once hot, add the courgette ribbons and allow to cook until tender, 1-2 mins more. Season with salt and pepper. Cook in batches if necessary.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [
+        {
+          "name": "Cook the Courgette Ribbons",
+          "duration": "PT2M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67cb177f849ab09a45ce2921/step-93572540.jpg",
+          "path": "/67cb177f849ab09a45ce2921/step-93572540.jpg",
+          "caption": "Cook the Courgette Ribbons"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the courgette ribbons between your bowls. Top with the Dan Dan inspired beef. Using two forks, gently toss the ribbons and beef to coat.\nGarnish with the sesame cucumber alongside and sprinkle over the chilli (careful - it’s hot) and spring onion. ",
+      "instructionsHTML": "<p>Share the courgette ribbons between your bowls. Top with the Dan Dan inspired beef. Using two forks, gently toss the ribbons and beef to coat.</p>\n<p>Garnish with the sesame cucumber alongside and sprinkle over the chilli (careful - it’s hot) and spring onion. </p>",
+      "instructionsMarkdown": "<p>Share the courgette ribbons between your bowls. Top with the Dan Dan inspired beef. Using two forks, gently toss the ribbons and beef to coat.</p>\n<p>Garnish with the sesame cucumber alongside and sprinkle over the chilli (careful - it’s hot) and spring onion. </p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e0ff9cab2001267a28c5",
+        "62fcaa07d7803ca91b790566",
+        "6039135a024cbf6320565652",
+        "60accfa832d09252b2766bf2",
+        "62fcaa52bd9a2478e193f0b1",
+        "62fcaa2ebd9a2478e193f040",
+        "680ba59dbfb92a8200ac0cba",
+        "62fcaa1ec9a48553f9075392",
+        "60390809b47bdb2f3e439e0d",
+        "6156e54cc746d20c7974d8c4",
+        "603904c8823813388f0ab8f6"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67cb177f849ab09a45ce2921/step-49546850.jpg",
+          "path": "/67cb177f849ab09a45ce2921/step-49546850.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305313",
+      "type": "extra-spicy",
+      "name": "Very Hot",
+      "slug": "very-hot",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCMODLC37213894-41486-2",
+  "updatedAt": "2025-09-12T00:37:09+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305379",
+      "type": "peeler",
+      "name": "Peeler"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305369",
+      "type": "bowl",
+      "name": "Bowl"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305380",
+      "type": "smallbowl",
+      "name": "Small Bowl"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "b7703244-06d1-4d13-838d-40403691498e",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/dan-dan-inspired-beef-curry-67cb177f849ab09a45ce2921",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6156e54cc746d20c7974d8c4",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa1ec9a48553f9075392",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "680ba59dbfb92a8200ac0cba",
+          "amount": 25,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa2ebd9a2478e193f040",
+          "amount": 15,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 20,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "60accfa832d09252b2766bf2",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "6039135a024cbf6320565652",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 75,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6156e54cc746d20c7974d8c4",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa1ec9a48553f9075392",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "680ba59dbfb92a8200ac0cba",
+          "amount": 50,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa2ebd9a2478e193f040",
+          "amount": 30,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa52bd9a2478e193f0b1",
+          "amount": 40,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "60accfa832d09252b2766bf2",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "6039135a024cbf6320565652",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 150,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

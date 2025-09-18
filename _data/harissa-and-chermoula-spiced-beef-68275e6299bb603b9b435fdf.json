@@ -1,0 +1,727 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.8,
+  "canonical": "6697d95ed188c65a70c4c584",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/harissa-and-chermoula-spiced-lamb-6697d95ed188c65a70c4c584",
+  "cardLink": null,
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": "68272e6797a36a9824b3e735",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-06-12T04:40:51+00:00",
+  "cuisines": [
+    {
+      "id": "67ebf900b2ffe612cd83e51b",
+      "type": "",
+      "name": "Middle Eastern",
+      "slug": ""
+    }
+  ],
+  "description": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "descriptionHTML": "<p>Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.</p>",
+  "descriptionMarkdown": "Whether you're giving keto a go for the first time, or have been following it for a while, this recipe fits the bill. Simple to cook and full of flavour, it's bound to become a favourite in no time.",
+  "difficulty": 2,
+  "favoritesCount": 1,
+  "headline": "with a Mint Yoghurt and Cauliflower Rice",
+  "id": "68275e6299bb603b9b435fdf",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5022_W38_UK_GCLC69425172-3_mod_swap__low-ca49dba2.jpg",
+  "imagePath": "/image/GC_Y24_R5022_W38_UK_GCLC69425172-3_mod_swap__low-ca49dba2.jpg",
+  "ingredients": [
+    {
+      "id": "603921f32fff951976062e7b",
+      "uuid": "bf396f23-64e6-52fb-9c2a-f3ea6e6a53f3",
+      "name": "Mint",
+      "type": "mint",
+      "slug": "mint",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603921f32fff951976062e7b-f5e590c9.png",
+      "imagePath": "/ingredient/603921f32fff951976062e7b-f5e590c9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbdb",
+        "uuid": "a9768bb1-323c-5d26-87f6-1a41c6efea52",
+        "name": "mint",
+        "slug": "mint",
+        "type": "mint",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa50d7803ca91b7905f7",
+      "uuid": "fae5d907-0d6f-55eb-8a2c-294591f96234",
+      "name": "Echalion Shallot",
+      "type": "echalion-shallot",
+      "slug": "echalion-shallot",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa50d7803ca91b7905f7-48a4c122.png",
+      "imagePath": "/ingredient/62fcaa50d7803ca91b7905f7-48a4c122.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039053d91ca37537b720b74",
+      "uuid": "f2061e37-18b0-59c3-b8d2-38e3c9d0d5bd",
+      "name": "Baby Plum Tomatoes",
+      "type": "baby-plum-tomatoes",
+      "slug": "baby-plum-tomatoes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "imagePath": "/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390558e5dada46f76a2efd",
+      "uuid": "64732f49-7b7d-5249-be78-77cd77d69d2e",
+      "name": "Riced Cauliflower",
+      "type": "cauliflower-rice",
+      "slug": "riced-cauliflower",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "imagePath": "/ingredient/60390558e5dada46f76a2efd-7e02fcd9.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc1c",
+        "uuid": "78512a36-a243-5b9d-9f38-577b405f1b85",
+        "name": "rice",
+        "slug": "rice",
+        "type": "rice",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa06c9a48553f9075365",
+      "uuid": "ee6a1927-2222-505d-839a-e5637c5f178d",
+      "name": "Chermoula Spice Mix",
+      "type": "chermoula-spice-mix",
+      "slug": "chermoula-spice-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa06c9a48553f9075365-cca6e97e.png",
+      "imagePath": "/ingredient/62fcaa06c9a48553f9075365-cca6e97e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60633303c7e6833e3e38fa40",
+      "uuid": "6c8f19df-7a9e-5397-a4ac-c5736ef93159",
+      "name": "Chicken Stock Paste",
+      "type": "chicken-stock-paste",
+      "slug": "chicken-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+      "imagePath": "/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa45d7803ca91b7905d0",
+      "uuid": "a0a14688-0d9d-5e41-9484-b930cd2776e9",
+      "name": "Harissa Paste",
+      "type": "harissa-paste",
+      "slug": "harissa-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "imagePath": "/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa50bd9a2478e193f0a4",
+      "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
+      "name": "Greek Style Natural Yoghurt",
+      "type": "greek-style-natural-yoghurt",
+      "slug": "greek-style-natural-yoghurt",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa50bd9a2478e193f0a4-2d4b9337.png",
+      "imagePath": "/ingredient/62fcaa50bd9a2478e193f0a4-2d4b9337.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1279cab2001267a28e9",
+      "uuid": "cf9af936-101e-4641-90f0-347da4d0a347",
+      "name": "Butter",
+      "type": "butter-100g",
+      "slug": "butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "imagePath": "/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ff9cab2001267a28c5",
+      "uuid": "7cd85650-3355-4a00-a785-d4c9f199ff49",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce-100ml",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "imagePath": "/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/68275e6299bb603b9b435fdf",
+  "name": "Harissa and Chermoula Spiced Beef",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2520,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 602,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 39.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 16,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 18.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 12.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 37.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.88,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT20M",
+  "promotion": null,
+  "ratingsCount": 4,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 489,
+  "slug": "harissa-and-chermoula-spiced-beef",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Pick the mint leaves from their stalks and roughly chop (discard the stalks).",
+      "instructionsHTML": "<p>Pick the mint leaves from their stalks and roughly chop (discard the stalks).</p>",
+      "instructionsMarkdown": "<p>Pick the mint leaves from their stalks and roughly chop (discard the stalks).</p>",
+      "ingredients": [
+        "603921f32fff951976062e7b"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68275e6299bb603b9b435fdf/step-0d4ffc00.jpg",
+          "path": "/68275e6299bb603b9b435fdf/step-0d4ffc00.jpg",
+          "caption": "Prep the Mint"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Halve, peel and thinly slice the shallot.",
+      "instructionsHTML": "<p>Halve, peel and thinly slice the shallot.</p>",
+      "instructionsMarkdown": "<p>Halve, peel and thinly slice the shallot.</p>",
+      "ingredients": [
+        "62fcaa50d7803ca91b7905f7"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68275e6299bb603b9b435fdf/step-43059510.jpg",
+          "path": "/68275e6299bb603b9b435fdf/step-43059510.jpg",
+          "caption": "Prep the Shallot"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Heat a large frying pan on high heat (no oil).\nOnce hot, add the baby plum tomatoes to the pan and cook for 2-3 mins until slightly blistered.\nTurn the heat down to medium-high, then add the beef mince and shallot. Cook until browned, 5-6 mins. Use a spoon to break up the beef mince as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. It's cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Heat a large frying pan on high heat (no oil).</p>\n<p>Once hot, add the baby plum tomatoes to the pan and cook for 2-3 mins until slightly blistered.</p>\n<p>Turn the heat down to medium-high, then add the beef mince and shallot. Cook until browned, 5-6 mins. Use a spoon to break up the beef mince as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. It&#39;s cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Heat a large frying pan on high heat (no oil).</p>\n<p>Once hot, add the baby plum tomatoes to the pan and cook for 2-3 mins until slightly blistered.</p>\n<p>Turn the heat down to medium-high, then add the beef mince and shallot. Cook until browned, 5-6 mins. Use a spoon to break up the beef mince as it cooks. IMPORTANT: Wash your hands and equipment after handling raw mince. It&#39;s cooked when no longer pink in the middle.</p>",
+      "ingredients": [
+        "62fcaa07d7803ca91b790566",
+        "6039053d91ca37537b720b74",
+        "62fcaa50d7803ca91b7905f7"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68275e6299bb603b9b435fdf/step-4488f320.jpg",
+          "path": "/68275e6299bb603b9b435fdf/step-4488f320.jpg",
+          "caption": "Start Cooking"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Meanwhile, heat another frying pan on medium-high heat with a drizzle of oil.\nOnce hot, add the riced cauliflower and butter (see pantry). Cook until just soft, 3-4 mins. Season well with salt and pepper.",
+      "instructionsHTML": "<p>Meanwhile, heat another frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the riced cauliflower and butter (see pantry). Cook until just soft, 3-4 mins. Season well with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat another frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the riced cauliflower and butter (see pantry). Cook until just soft, 3-4 mins. Season well with salt and pepper.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e1279cab2001267a28e9",
+        "60390558e5dada46f76a2efd"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68275e6299bb603b9b435fdf/step-4cef2630.jpg",
+          "path": "/68275e6299bb603b9b435fdf/step-4cef2630.jpg",
+          "caption": "Cook the Cauli Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Add the harissa, chicken stock paste, chermoula spice mix (add less if you'd prefer it milder) and the water for the sauce (see pantry) to the beef mince. Simmer until slightly thickened, 2-3 mins. Season with salt and pepper. Add a splash of water if it looks dry.\nWhile the sauce cooks, in a small bowl, mix the yoghurt and half the mint.",
+      "instructionsHTML": "<p>Add the harissa, chicken stock paste, chermoula spice mix (add less if you&#39;d prefer it milder) and the water for the sauce (see pantry) to the beef mince. Simmer until slightly thickened, 2-3 mins. Season with salt and pepper. Add a splash of water if it looks dry.</p>\n<p>While the sauce cooks, in a small bowl, mix the yoghurt and half the mint.</p>",
+      "instructionsMarkdown": "<p>Add the harissa, chicken stock paste, chermoula spice mix (add less if you&#39;d prefer it milder) and the water for the sauce (see pantry) to the beef mince. Simmer until slightly thickened, 2-3 mins. Season with salt and pepper. Add a splash of water if it looks dry.</p>\n<p>While the sauce cooks, in a small bowl, mix the yoghurt and half the mint.</p>",
+      "ingredients": [
+        "62c6e0ff9cab2001267a28c5",
+        "62fcaa50bd9a2478e193f0a4",
+        "62fcaa45d7803ca91b7905d0",
+        "60633303c7e6833e3e38fa40",
+        "62fcaa06c9a48553f9075365",
+        "62fcaa07d7803ca91b790566",
+        "603921f32fff951976062e7b"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68275e6299bb603b9b435fdf/step-228cf840.jpg",
+          "path": "/68275e6299bb603b9b435fdf/step-228cf840.jpg",
+          "caption": "Add the Flavour"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Serve the harissa and chermoula spiced beef alongside the cauliflower rice.\nDrizzle over the mint yoghurt and scatter with the remaining mint to finish.",
+      "instructionsHTML": "<p>Serve the harissa and chermoula spiced beef alongside the cauliflower rice.</p>\n<p>Drizzle over the mint yoghurt and scatter with the remaining mint to finish.</p>",
+      "instructionsMarkdown": "<p>Serve the harissa and chermoula spiced beef alongside the cauliflower rice.</p>\n<p>Drizzle over the mint yoghurt and scatter with the remaining mint to finish.</p>",
+      "ingredients": [
+        "62c6e28e9cab2001267a291a",
+        "62c6e0ff9cab2001267a28c5",
+        "62c6e1279cab2001267a28e9",
+        "62fcaa50bd9a2478e193f0a4",
+        "62fcaa45d7803ca91b7905d0",
+        "60633303c7e6833e3e38fa40",
+        "62fcaa06c9a48553f9075365",
+        "60390558e5dada46f76a2efd",
+        "62fcaa07d7803ca91b790566",
+        "6039053d91ca37537b720b74",
+        "62fcaa50d7803ca91b7905f7",
+        "603921f32fff951976062e7b"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68275e6299bb603b9b435fdf/step-2bd8d650.jpg",
+          "path": "/68275e6299bb603b9b435fdf/step-2bd8d650.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "62163c70143a35226e03d85e",
+      "type": "super-quick",
+      "name": "Super Quick",
+      "slug": "super-quick",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305313",
+      "type": "extra-spicy",
+      "name": "Very Hot",
+      "slug": "very-hot",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCMODLC69425172-44759-2",
+  "updatedAt": "2025-09-07T03:29:32+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "c6d1a40a-2575-4408-9737-58cf4628a3a9",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/harissa-and-chermoula-spiced-beef-68275e6299bb603b9b435fdf",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "603921f32fff951976062e7b",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa50d7803ca91b7905f7",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 125,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa06c9a48553f9075365",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "60633303c7e6833e3e38fa40",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa50bd9a2478e193f0a4",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 50,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "603921f32fff951976062e7b",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa50d7803ca91b7905f7",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "60390558e5dada46f76a2efd",
+          "amount": 500,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa06c9a48553f9075365",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "60633303c7e6833e3e38fa40",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa50bd9a2478e193f0a4",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 100,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

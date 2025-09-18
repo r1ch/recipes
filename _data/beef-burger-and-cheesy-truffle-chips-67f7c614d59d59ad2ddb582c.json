@@ -1,0 +1,854 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "60368d89cdbdf450236ad8cd",
+      "name": "Wheat",
+      "type": "wheat",
+      "slug": "wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f6",
+      "name": "Egg",
+      "type": "egg",
+      "slug": "egg",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f6-63afd198.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052ff",
+      "name": "Sulphites",
+      "type": "sulphites",
+      "slug": "sulphites",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b305303",
+      "name": "Egg",
+      "type": "traces-of-egg",
+      "slug": "traces-of-egg",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5acf97b7ae08b54d88061162",
+      "name": "Milk",
+      "type": "traces-of-milk",
+      "slug": "traces-of-milk",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5b0532aaae08b52eb9420552",
+      "name": "Soya",
+      "type": "traces-of-soya",
+      "slug": "traces-of-soya",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 3.3,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67f7c614d59d59ad2ddb582c-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ae",
+    "name": "Beef",
+    "type": "beef",
+    "slug": "beef"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-04-10T13:22:28+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053bd",
+      "type": "british",
+      "name": "British",
+      "slug": "british",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bd-8abb14dd.jpg"
+    }
+  ],
+  "description": "Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.",
+  "descriptionHTML": "<p>Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.</p>",
+  "descriptionMarkdown": "Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.",
+  "difficulty": 2,
+  "favoritesCount": 13,
+  "headline": "with Onion Marmalade and a Rocket Salad",
+  "id": "67f7c614d59d59ad2ddb582c",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5023_W21_UK_GCB11012668-8_Main_F2_low-19c50b04.jpg",
+  "imagePath": "/image/GC_Y23_R5023_W21_UK_GCB11012668-8_Main_F2_low-19c50b04.jpg",
+  "ingredients": [
+    {
+      "id": "62fca9e3d7803ca91b790518",
+      "uuid": "838d0fe0-6ab9-5d7a-8bec-e1f0346e365f",
+      "name": "Potatoes",
+      "type": "potatoes",
+      "slug": "potatoes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e3d7803ca91b790518-987ab5bd.png",
+      "imagePath": "/ingredient/62fca9e3d7803ca91b790518-987ab5bd.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6837235cd9848b9dac04fd42",
+      "uuid": "bc22c386-6177-54cb-a21d-e59a8239e9e1",
+      "name": "Breadcrumbs",
+      "type": "breadcrumbs",
+      "slug": "breadcrumbs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9f6bd9a2478e193efdd-bc4c72ab.png",
+      "imagePath": "/ingredient/62fca9f6bd9a2478e193efdd-bc4c72ab.png",
+      "shipped": true,
+      "allergens": [
+        "60368d89cdbdf450236ad8cd",
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa07d7803ca91b790566",
+      "uuid": "edb45406-e818-56a4-b9b9-2022a79d3087",
+      "name": "British Beef Mince",
+      "type": "beef-mince",
+      "slug": "british-beef-mince",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "imagePath": "/ingredient/62fcaa07d7803ca91b790566-618d9b9d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039064ba89c7678cd6b0d84",
+      "uuid": "06e875a3-26bf-5da5-b1d7-6290a9f9bc93",
+      "name": "Medium Tomato",
+      "type": "medium-tomato",
+      "slug": "medium-tomato",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "imagePath": "/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6837307bf7d5496ac4a65c9f",
+      "uuid": "814be840-0f1d-5c90-9c40-0cf228337e70",
+      "name": "Burger Buns",
+      "type": "burger-bun",
+      "slug": "burger-buns",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62553fda34629253c37a2791-049d28f5.png",
+      "imagePath": "/ingredient/62553fda34629253c37a2791-049d28f5.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b305303",
+        "5acf97b7ae08b54d88061162",
+        "5b0532aaae08b52eb9420552",
+        "57962a07b7e8697d4b3052f3",
+        "60368d89cdbdf450236ad8cd",
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb54",
+        "uuid": "3d0e6d2e-79f6-5aa1-ae2c-52c38a401193",
+        "name": "bread dough",
+        "slug": "bread-dough",
+        "type": "bread",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9e0d7803ca91b79050f",
+      "uuid": "6939977c-68b0-5e37-ab54-1be0ffa14129",
+      "name": "Grated Hard Italian Style Cheese",
+      "type": "grated-hard-italian-style-cheese",
+      "slug": "grated-hard-italian-style-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9e0d7803ca91b79050f-0e605a8c.png",
+      "imagePath": "/ingredient/62fca9e0d7803ca91b79050f-0e605a8c.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa",
+        "57962a07b7e8697d4b3052f6"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60995054121d621c1d032d05",
+      "uuid": "7d6d6c52-1f3d-5b04-a304-da8006314d73",
+      "name": "Balsamic Glaze",
+      "type": "balsamic-glaze",
+      "slug": "balsamic-glaze",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60995054121d621c1d032d05-494310e7.png",
+      "imagePath": "/ingredient/60995054121d621c1d032d05-494310e7.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc4e",
+        "uuid": "ef226ca9-de76-5074-9563-631afeabb7d3",
+        "name": "vinegar",
+        "slug": "vinegar",
+        "type": "vinegar",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa15c9a48553f9075381",
+      "uuid": "1466f3e9-f67c-5d5f-b831-6be6143ee556",
+      "name": "Onion Marmalade",
+      "type": "onion-marmalade",
+      "slug": "onion-marmalade",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa15c9a48553f9075381-6392ddda.png",
+      "imagePath": "/ingredient/62fcaa15c9a48553f9075381-6392ddda.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa58d7803ca91b79060a",
+      "uuid": "cf26f0fc-4511-5f44-ac90-09af0724db6d",
+      "name": "Truffle Zest",
+      "type": "truffle-zest",
+      "slug": "truffle-zest",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa58d7803ca91b79060a-2ab3f3c1.png",
+      "imagePath": "/ingredient/62fcaa58d7803ca91b79060a-2ab3f3c1.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e12d9cab2001267a28ee",
+      "uuid": "e914139d-5f50-4ce7-89f5-4cef9be873b6",
+      "name": "Salt for the Burgers ",
+      "type": "salt-for-the-burgers-1-tsp",
+      "slug": "salt-for-the-burgers",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e12d9cab2001267a28ee-0e2f7c30.png",
+      "imagePath": "/ingredient/62c6e12d9cab2001267a28ee-0e2f7c30.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1139cab2001267a28d8",
+      "uuid": "3e8c2ffa-bef8-439e-a069-f35ec969a0b0",
+      "name": "Mayonnaise",
+      "type": "mayonnaise-tbsp",
+      "slug": "mayonnaise",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1139cab2001267a28d8-68b820ab.png",
+      "imagePath": "/ingredient/62c6e1139cab2001267a28d8-68b820ab.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "Father's Day",
+    "handle": "fathers-day",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#EF6709",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/67f7c614d59d59ad2ddb582c",
+  "name": "Beef Burger and Cheesy Truffle Chips",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 3417,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 817,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 25.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 9.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 100.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 20.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 8.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 46.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.63,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT35M",
+  "promotion": null,
+  "ratingsCount": 85,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 596,
+  "slug": "beef-burger-and-cheesy-truffle-chips",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nChop the potatoes lengthways into 1cm slices, then chop into 1cm wide chips (no need to peel).\nPlace the chips onto a large baking tray. Drizzle with oil, season with salt and pepper, then toss to coat. Spread out in a single layer.\nBake on the top shelf until golden, 25-30 mins. Turn halfway through cooking.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Chop the potatoes lengthways into 1cm slices, then chop into 1cm wide chips (no need to peel).</p>\n<p>Place the chips onto a large baking tray. Drizzle with oil, season with salt and pepper, then toss to coat. Spread out in a single layer.</p>\n<p>Bake on the top shelf until golden, 25-30 mins. Turn halfway through cooking.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Chop the potatoes lengthways into 1cm slices, then chop into 1cm wide chips (no need to peel).</p>\n<p>Place the chips onto a large baking tray. Drizzle with oil, season with salt and pepper, then toss to coat. Spread out in a single layer.</p>\n<p>Bake on the top shelf until golden, 25-30 mins. Turn halfway through cooking.</p>",
+      "ingredients": [
+        "62fca9e3d7803ca91b790518"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67f7c614d59d59ad2ddb582c/step-e122da00.jpg",
+          "path": "/67f7c614d59d59ad2ddb582c/step-e122da00.jpg",
+          "caption": "Roast the Chips"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Meanwhile, peel and grate the garlic (or use a garlic press).\nIn a large bowl, combine the garlic, breadcrumbs, salt (see pantry) and beef mince. Season with pepper and mix together with your hands.\nRoll into evenly sized balls, then shape into 1cm thick burgers, 1 per person. IMPORTANT: Wash your hands and equipment after handling raw mince.",
+      "instructionsHTML": "<p>Meanwhile, peel and grate the garlic (or use a garlic press).</p>\n<p>In a large bowl, combine the garlic, breadcrumbs, salt (see pantry) and beef mince. Season with pepper and mix together with your hands.</p>\n<p>Roll into evenly sized balls, then shape into 1cm thick burgers, 1 per person. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, peel and grate the garlic (or use a garlic press).</p>\n<p>In a large bowl, combine the garlic, breadcrumbs, salt (see pantry) and beef mince. Season with pepper and mix together with your hands.</p>\n<p>Roll into evenly sized balls, then shape into 1cm thick burgers, 1 per person. IMPORTANT: Wash your hands and equipment after handling raw mince.</p>",
+      "ingredients": [
+        "6048ba435d6d2541787296ec",
+        "6837235cd9848b9dac04fd42",
+        "62fcaa07d7803ca91b790566",
+        "62c6e12d9cab2001267a28ee"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305372",
+        "59d49a9419279f8fe60e867c"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67f7c614d59d59ad2ddb582c/step-b4676f10.jpg",
+          "path": "/67f7c614d59d59ad2ddb582c/step-b4676f10.jpg",
+          "caption": "Make the Burgers"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "When the chips have been roasting for 10 mins, place the burgers onto a baking tray.\nBake on the middle shelf until cooked through, 15-18 mins. IMPORTANT: The burgers are cooked when no longer pink in the middle. ",
+      "instructionsHTML": "<p>When the chips have been roasting for 10 mins, place the burgers onto a baking tray.</p>\n<p>Bake on the middle shelf until cooked through, 15-18 mins. IMPORTANT: The burgers are cooked when no longer pink in the middle. </p>",
+      "instructionsMarkdown": "<p>When the chips have been roasting for 10 mins, place the burgers onto a baking tray.</p>\n<p>Bake on the middle shelf until cooked through, 15-18 mins. IMPORTANT: The burgers are cooked when no longer pink in the middle. </p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67f7c614d59d59ad2ddb582c/step-4cf9a220.jpg",
+          "path": "/67f7c614d59d59ad2ddb582c/step-4cf9a220.jpg",
+          "caption": "Bake the Burgers"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Meanwhile, thinly slice the tomatoes and add to a medium bowl with the rocket.",
+      "instructionsHTML": "<p>Meanwhile, thinly slice the tomatoes and add to a medium bowl with the rocket.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, thinly slice the tomatoes and add to a medium bowl with the rocket.</p>",
+      "ingredients": [
+        "6039064ba89c7678cd6b0d84",
+        "60390dc851af04233575aab8"
+      ],
+      "utensils": [
+        "59d49a9319279f8fe60e866f"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67f7c614d59d59ad2ddb582c/step-fc0c4a30.jpg",
+          "path": "/67f7c614d59d59ad2ddb582c/step-fc0c4a30.jpg",
+          "caption": "Make the Salad"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Halve the burger buns.\nWhen the chips and burgers have 2-3 mins remaining, remove the chips from the oven and sprinkle over the grated hard Italian style cheese.\nAdd the buns to the same tray and return to the oven until the buns are warmed through and the cheese has melted, 2-3 mins.\nJust before serving, drizzle the rocket salad with the balsamic glaze and season with salt and pepper. ",
+      "instructionsHTML": "<p>Halve the burger buns.</p>\n<p>When the chips and burgers have 2-3 mins remaining, remove the chips from the oven and sprinkle over the grated hard Italian style cheese.</p>\n<p>Add the buns to the same tray and return to the oven until the buns are warmed through and the cheese has melted, 2-3 mins.</p>\n<p>Just before serving, drizzle the rocket salad with the balsamic glaze and season with salt and pepper. </p>",
+      "instructionsMarkdown": "<p>Halve the burger buns.</p>\n<p>When the chips and burgers have 2-3 mins remaining, remove the chips from the oven and sprinkle over the grated hard Italian style cheese.</p>\n<p>Add the buns to the same tray and return to the oven until the buns are warmed through and the cheese has melted, 2-3 mins.</p>\n<p>Just before serving, drizzle the rocket salad with the balsamic glaze and season with salt and pepper. </p>",
+      "ingredients": [
+        "62fca9e3d7803ca91b790518",
+        "6837307bf7d5496ac4a65c9f",
+        "62fca9e0d7803ca91b79050f",
+        "60995054121d621c1d032d05"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67f7c614d59d59ad2ddb582c/step-eabc0f40.jpg",
+          "path": "/67f7c614d59d59ad2ddb582c/step-eabc0f40.jpg",
+          "caption": "Toast the Buns"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Spread the mayonnaise (see pantry) on the base of your burger buns. Top with a burger and a dollop of onion marmalade. Add a few tomato slices and some rocket from your salad, then sandwich shut with the bun lid.\nShare the cheesy chips between your plates and dust with the truffle zest.\nServe the remaining rocket salad alongside.",
+      "instructionsHTML": "<p>Spread the mayonnaise (see pantry) on the base of your burger buns. Top with a burger and a dollop of onion marmalade. Add a few tomato slices and some rocket from your salad, then sandwich shut with the bun lid.</p>\n<p>Share the cheesy chips between your plates and dust with the truffle zest.</p>\n<p>Serve the remaining rocket salad alongside.</p>",
+      "instructionsMarkdown": "<p>Spread the mayonnaise (see pantry) on the base of your burger buns. Top with a burger and a dollop of onion marmalade. Add a few tomato slices and some rocket from your salad, then sandwich shut with the bun lid.</p>\n<p>Share the cheesy chips between your plates and dust with the truffle zest.</p>\n<p>Serve the remaining rocket salad alongside.</p>",
+      "ingredients": [
+        "62fca9e3d7803ca91b790518",
+        "6048ba435d6d2541787296ec",
+        "6837235cd9848b9dac04fd42",
+        "62fcaa07d7803ca91b790566",
+        "6039064ba89c7678cd6b0d84",
+        "60390dc851af04233575aab8",
+        "6837307bf7d5496ac4a65c9f",
+        "62fca9e0d7803ca91b79050f",
+        "60995054121d621c1d032d05",
+        "62fcaa15c9a48553f9075381",
+        "62fcaa58d7803ca91b79060a",
+        "62c6e12d9cab2001267a28ee",
+        "62c6e1139cab2001267a28d8"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67f7c614d59d59ad2ddb582c/step-5a180e50.jpg",
+          "path": "/67f7c614d59d59ad2ddb582c/step-5a180e50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "649d46504387a88e63f51776",
+      "type": "father-day",
+      "name": "father-day",
+      "slug": "father-day",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67289724a8a26a35045e4",
+      "type": "flexitarian",
+      "name": "Flexitarian",
+      "slug": "flexitarian",
+      "colorHandle": null,
+      "preferences": [
+        "Flexitarian"
+      ],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT30M",
+  "uniqueRecipeCode": "GCB11012668-19",
+  "updatedAt": "2025-09-07T03:26:43+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305372",
+      "type": "largebowl",
+      "name": "Large Bowl"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "59d49a9319279f8fe60e866f",
+      "type": "medium-bowl",
+      "name": "Medium Bowl"
+    }
+  ],
+  "uuid": "fa8a4c3d-504a-47e9-883d-705296ee7b19",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/beef-burger-and-cheesy-truffle-chips-67f7c614d59d59ad2ddb582c",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fca9e3d7803ca91b790518",
+          "amount": 450,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6837235cd9848b9dac04fd42",
+          "amount": 25,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "6837307bf7d5496ac4a65c9f",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9e0d7803ca91b79050f",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "60995054121d621c1d032d05",
+          "amount": 12,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa15c9a48553f9075381",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa58d7803ca91b79060a",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62c6e12d9cab2001267a28ee",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1139cab2001267a28d8",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fca9e3d7803ca91b790518",
+          "amount": 900,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6837235cd9848b9dac04fd42",
+          "amount": 25,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa07d7803ca91b790566",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "6837307bf7d5496ac4a65c9f",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9e0d7803ca91b79050f",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "60995054121d621c1d032d05",
+          "amount": 24,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62fcaa15c9a48553f9075381",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa58d7803ca91b79060a",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62c6e12d9cab2001267a28ee",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1139cab2001267a28d8",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}
