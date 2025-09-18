@@ -4,7 +4,7 @@ layout: default
 ---
 <h1>Recipes</h1>
   <div class = "row">
-    <div class = "col-sm-6">
+    <div class = "col-sm-12">
       <table class="table table-striped-columns">
         <thead>
           <tr>
