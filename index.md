@@ -20,7 +20,7 @@ layout: default
               {% assign ingredients = recipe_data.ingredients %}
           <tr>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
-            <td>{{ recipe_data.totalTime }}</td>
+            <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", "minutes"  }}</td>
             <td>{{ ingredients | size }}</td>
           </tr>
             {% endif %}
