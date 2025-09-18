@@ -16,14 +16,16 @@ layout: default
         <tbody>
           {% for recipe in site.recipes %}
           {% assign recipe_data = site.data[recipe] %}
-          {% if recipe_data %}
-            {% assign ingredients = recipe_data.ingredients %}
-            {% assign yields = recipe_data.yields %}
+            {% if recipe_data %}
+              {% assign ingredients = recipe_data.ingredients %}
+              {% assign yields = recipe_data.yields %}
           <tr>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
             <td>{{ recipe_data }}</td>
             <td>{{ ingredients }}{{ yields }}</td>
           </tr>
+            {% endif %}
+          {% endfor %}
         </tbody>
       </table>
     </div>
