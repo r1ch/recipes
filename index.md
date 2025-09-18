@@ -18,11 +18,10 @@ layout: default
           {% assign recipe_data = site.data[recipe.slug] %}
             {% if recipe_data %}
               {% assign ingredients = recipe_data.ingredients %}
-              {% assign yields = recipe_data.yields %}
           <tr>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
-            <td>{{ recipe_data }}</td>
-            <td>{{ ingredients }}{{ yields }}</td>
+            <td>{{ recipe_data.totalTime }}</td>
+            <td>{{ ingredients | size }}</td>
           </tr>
             {% endif %}
           {% endfor %}
