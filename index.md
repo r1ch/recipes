@@ -15,7 +15,7 @@ layout: default
         </thead>
         <tbody>
           {% for recipe in site.recipes %}
-          {% assign recipe_data = site.data[recipe] %}
+          {% assign recipe_data = site.data[recipe.slug] %}
             {% if recipe_data %}
               {% assign ingredients = recipe_data.ingredients %}
               {% assign yields = recipe_data.yields %}
@@ -29,4 +29,3 @@ layout: default
         </tbody>
       </table>
     </div>
-</ul>
