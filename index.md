@@ -35,16 +35,17 @@ layout: default
         </tbody>
       </table>
     </div>
-    <script>
-      const { createApp, ref } = Vue
-      const app = createApp({
-          setup() {
-            const message = ref('Hello vue!')
-            return {
-              message
-            }
-          }
-        })
-    app.config.compilerOptions.delimiters = ['((', '))']
-    app.mount('#app')
-  </script>
+  </div>
+<script>
+  const { createApp, ref } = Vue
+  const app = createApp({
+      setup() {
+        const message = ref('Hello vue!')
+        return {
+          message
+        }
+      }
+    })
+  app.config.compilerOptions.delimiters = ['((', '))']
+  app.mount('#app')
+</script>
