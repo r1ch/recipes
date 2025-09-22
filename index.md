@@ -4,6 +4,9 @@ layout: default
 ---
 <h1>Recipes</h1>
   <div class = "row">
+    <div class = "col-sm-6" id="app">
+      {{}}
+    </div>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
         <thead>
@@ -32,3 +35,16 @@ layout: default
         </tbody>
       </table>
     </div>
+    <script>
+      const { createApp, ref } = Vue
+      const app = createApp({
+          setup() {
+            const message = ref('Hello vue!')
+            return {
+              message
+            }
+          }
+        })
+    app.config.compilerOptions.delimiters = ['${', '}']
+    app.mount('#app')
+  </script>
