@@ -24,7 +24,7 @@ layout: default
             {%- if recipe_data -%}
               {%- assign ingredients = recipe_data.ingredients -%}
           <tr>
-            <td><input type = "checkbox"></td>
+            <td><input type = "checkbox" @change = "></td>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
             <td><img style="max-width:100px" class="img-fluid" src="/images/{{ recipe.slug }}.jpg"></td>
             <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}</td>
@@ -40,9 +40,14 @@ layout: default
   const { createApp, ref } = Vue
   const app = createApp({
       setup() {
-        const message = ref('Hello vue!')
+        const recipes = ref([])
+        function addRecipe(event) {
+          recipes.value.push({event})
+          newTodo.value = ''
+        }
         return {
-          message
+          addRecipe,
+          recipes
         }
       }
     })
