@@ -13,6 +13,14 @@ const recipes = [
 	"one-pan-smoky-chicken-and-chickpea-chana-saag-687e0d517299475a5b05d9f0",
 	"lemon-and-herb-roasted-salmon-686bacb56abf1607dadcc1ef",
 	"pan-fried-sea-bass-and-salsa-verde-681ca49d35963fcd98f3f0f5",
+	"pesto-baked-salmon-and-oregano-butternut-squash-67d1b8ffe4321b3b6ef33a96",
+	"lamb-steak-and-peppercorn-sauce-689cc40483f90c073abac57a",
+	"lamb-steak-and-biryani-inspired-rice-6880dc467299475a5b062d94",
+	"21-day-aged-rump-steak-and-chimichurri-sauce-6867921e700c002ea14ffae0",
+	"sweet-and-spicy-beef-bowl-689cc40d1597ca633109c32a",
+	"harissa-and-chermoula-spiced-beef-687622325a587f17f458dda9",
+	"beef-chilli-con-carne-68874443637c1fda3ad8acdf",
+	"beef-rogan-josh-68762236a5a49c635d8b254e"
 ]
 const URL = recipe => `https://www.greenchef.co.uk/recipes/${recipe}`
 
