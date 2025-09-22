@@ -3,8 +3,8 @@ title: Main
 layout: default
 ---
 <h1>Recipes</h1>
-  <div class = "row">
-    <div class = "col-sm-6" id="app">
+  <div class = "row" id="app">
+    <div class = "col-sm-6">
       ((message))
     </div>
     <div class = "col-sm-6">
