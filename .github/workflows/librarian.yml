@@ -20,7 +20,7 @@ jobs:
 
       - name: Run Librarian
         run: |
-          mkdir -p _data
+          mkdir -p _recipes
           cd utils
           npm i
           node librarian.js
