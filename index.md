@@ -5,7 +5,7 @@ layout: default
 <h1>Recipes</h1>
   <div class = "row" id="app">
     <div class = "col-sm-6">
-      ((recipes))
+      (( recipes ))
     </div>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
@@ -24,7 +24,7 @@ layout: default
             {%- if recipe_data -%}
               {%- assign ingredients = recipe_data.ingredients -%}
           <tr>
-            <td><input type="checkbox" @change="addRecipe()"></td>
+            <td><input type="checkbox" v-model="picked" value="{{ recipe.slug }}"></td>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
             <td><img style="max-width:100px" class="img-fluid" src="/images/{{ recipe.slug }}.jpg"></td>
             <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}</td>
@@ -40,14 +40,9 @@ layout: default
   const { createApp, ref } = Vue
   const app = createApp({
       setup() {
-        const recipes = ref([])
-        function addRecipe(event) {
-          console.log(event)
-          recipes.value.push(event)
-        }
+        const picked = ref([])
         return {
-          addRecipe,
-          recipes
+          picked
         }
       }
     })
