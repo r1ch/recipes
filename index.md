@@ -9,6 +9,7 @@ layout: default
         <thead>
           <tr>
             <th>Title</th>
+            <th>Image</th>
             <th>Time</th>
             <th>Number of ingredients</th>
           </tr>
@@ -20,6 +21,7 @@ layout: default
               {%- assign ingredients = recipe_data.ingredients -%}
           <tr>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
+            <td><img src="_images/{{ recipe.slug }}.jpg"></td>
             <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}</td>
             <td>{{ ingredients | size }}</td>
           </tr>
