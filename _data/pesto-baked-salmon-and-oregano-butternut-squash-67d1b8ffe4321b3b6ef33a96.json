@@ -1,0 +1,621 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052f7",
+      "name": "Fish",
+      "type": "fish",
+      "slug": "fish",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.6,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/67d1b8ffe4321b3b6ef33a96-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039b1",
+    "name": "Seafood",
+    "type": "seafood",
+    "slug": "Seafood"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-03-12T16:40:31+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053ac",
+      "type": "italian",
+      "name": "Italian",
+      "slug": "italian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
+    }
+  ],
+  "description": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "descriptionHTML": "<p>Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.</p>",
+  "descriptionMarkdown": "Lower in carbs but high in flavour! Packing a serious flavour punch without loading up on the carbs, this recipe will fill you up and leave you feeling nourished and energised.",
+  "difficulty": 2,
+  "favoritesCount": 21,
+  "headline": "with Samphire and Green Beans",
+  "id": "67d1b8ffe4321b3b6ef33a96",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5025_W20_UK_GCLC26812301-27_Main_low-9b76e1d5.jpg",
+  "imagePath": "/image/GC_Y25_R5025_W20_UK_GCLC26812301-27_Main_low-9b76e1d5.jpg",
+  "ingredients": [
+    {
+      "id": "62fca9cdc9a48553f90752e1",
+      "uuid": "5ccca295-8a97-50fe-ac29-753af6df7e36",
+      "name": "Butternut Squash",
+      "type": "butternut-squash",
+      "slug": "butternut-squash",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9cdc9a48553f90752e1-ba175540.png",
+      "imagePath": "/ingredient/62fca9cdc9a48553f90752e1-ba175540.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa30c9a48553f90753b8",
+      "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
+      "name": "Dried Oregano",
+      "type": "dried-oregano",
+      "slug": "dried-oregano",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa30c9a48553f90753b8-bee2e1e5.png",
+      "imagePath": "/ingredient/62fcaa30c9a48553f90753b8-bee2e1e5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa21bd9a2478e193f01f",
+      "uuid": "0af471b0-f5b6-53c8-bf79-1fa315f20bf3",
+      "name": "Green Beans",
+      "type": "green-beans",
+      "slug": "green-beans",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa21bd9a2478e193f01f-8a639bdd.png",
+      "imagePath": "/ingredient/62fcaa21bd9a2478e193f01f-8a639bdd.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603927a7aad25c3c6c6d9462",
+      "uuid": "c2928022-68b3-5239-af1d-9b16a2153402",
+      "name": "Salmon Fillets",
+      "type": "salmon",
+      "slug": "salmon-fillets",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "imagePath": "/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f7"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb9d",
+        "uuid": "71cb7001-a69a-5cfd-bb6b-384757bb222a",
+        "name": "white fish",
+        "slug": "white-fish",
+        "type": "fish",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "664f52982f920ffe29e932b5",
+      "uuid": "97fe7a85-fed9-5bc6-82e6-7a2c1e845742",
+      "name": "Pesto",
+      "type": "pesto",
+      "slug": "pesto",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/664f52982f920ffe29e932b5-4a31f4ac.png",
+      "imagePath": "/ingredient/664f52982f920ffe29e932b5-4a31f4ac.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa27c9a48553f90753a2",
+      "uuid": "0a380dfe-c36a-5eba-b96b-14066dcb1256",
+      "name": "Samphire",
+      "type": "samphire",
+      "slug": "samphire",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa27c9a48553f90753a2-5019ccc8.png",
+      "imagePath": "/ingredient/62fcaa27c9a48553f90753a2-5019ccc8.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1139cab2001267a28d8",
+      "uuid": "3e8c2ffa-bef8-439e-a069-f35ec969a0b0",
+      "name": "Mayonnaise",
+      "type": "mayonnaise-tbsp",
+      "slug": "mayonnaise",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1139cab2001267a28d8-68b820ab.png",
+      "imagePath": "/ingredient/62c6e1139cab2001267a28d8-68b820ab.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/67d1b8ffe4321b3b6ef33a96",
+  "name": "Pesto Baked Salmon and Oregano Butternut Squash",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2713,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 649,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 41.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 6.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 29.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 16.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 8.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 37.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.55,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT40M",
+  "promotion": null,
+  "ratingsCount": 67,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 577,
+  "slug": "pesto-baked-salmon-and-oregano-butternut-squash",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nTrim the butternut squash, halve lengthways, then scoop out the seeds (no need to peel). Cut into 1cm chunks.\nSpread the butternut squash cubes out on a baking tray. Season with salt and pepper and toss in the dried oregano.\nOnce the oven is hot, roast on the top shelf until soft and golden, 25-30 mins. Turn halfway through cooking.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Trim the butternut squash, halve lengthways, then scoop out the seeds (no need to peel). Cut into 1cm chunks.</p>\n<p>Spread the butternut squash cubes out on a baking tray. Season with salt and pepper and toss in the dried oregano.</p>\n<p>Once the oven is hot, roast on the top shelf until soft and golden, 25-30 mins. Turn halfway through cooking.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Trim the butternut squash, halve lengthways, then scoop out the seeds (no need to peel). Cut into 1cm chunks.</p>\n<p>Spread the butternut squash cubes out on a baking tray. Season with salt and pepper and toss in the dried oregano.</p>\n<p>Once the oven is hot, roast on the top shelf until soft and golden, 25-30 mins. Turn halfway through cooking.</p>",
+      "ingredients": [
+        "62fca9cdc9a48553f90752e1",
+        "62fcaa30c9a48553f90753b8"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305368",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8ffe4321b3b6ef33a96/step-78b49f00.jpg",
+          "path": "/67d1b8ffe4321b3b6ef33a96/step-78b49f00.jpg",
+          "caption": "Roast the Butternut Squash"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "While the squash cooks, trim the green beans.\nLay the salmon fillets onto one side of a lined baking tray, skin-side down. \nSeason with salt and pepper and coat the salmon flesh in half the pesto. IMPORTANT: Wash your hands and equipment after handling raw fish.",
+      "instructionsHTML": "<p>While the squash cooks, trim the green beans.</p>\n<p>Lay the salmon fillets onto one side of a lined baking tray, skin-side down. </p>\n<p>Season with salt and pepper and coat the salmon flesh in half the pesto. IMPORTANT: Wash your hands and equipment after handling raw fish.</p>",
+      "instructionsMarkdown": "<p>While the squash cooks, trim the green beans.</p>\n<p>Lay the salmon fillets onto one side of a lined baking tray, skin-side down. </p>\n<p>Season with salt and pepper and coat the salmon flesh in half the pesto. IMPORTANT: Wash your hands and equipment after handling raw fish.</p>",
+      "ingredients": [
+        "664f52982f920ffe29e932b5",
+        "603927a7aad25c3c6c6d9462",
+        "62fcaa21bd9a2478e193f01f"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8ffe4321b3b6ef33a96/step-76110d10.jpg",
+          "path": "/67d1b8ffe4321b3b6ef33a96/step-76110d10.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Next, add the green beans to the other side of the baking tray. Use two baking trays if necessary. Drizzle with oil. Season with salt and pepper, then turn to coat.\nWhen the squash has 10-15 mins remaining, bake the salmon and green beans on the middle shelf, until the fish is cooked and the green beans are tender, 10-15 mins. IMPORTANT: The fish is cooked when opaque in the centre.\nIf you’d prefer to boil your green beans, add them to the pan with the samphire in step 4 and boil until tender, 4-6 mins. ",
+      "instructionsHTML": "<p>Next, add the green beans to the other side of the baking tray. Use two baking trays if necessary. Drizzle with oil. Season with salt and pepper, then turn to coat.</p>\n<p>When the squash has 10-15 mins remaining, bake the salmon and green beans on the middle shelf, until the fish is cooked and the green beans are tender, 10-15 mins. IMPORTANT: The fish is cooked when opaque in the centre.</p>\n<p><em>If you’d prefer to boil your green beans, add them to the pan with the samphire in step 4 and boil until tender, 4-6 mins. </em></p>",
+      "instructionsMarkdown": "<p>Next, add the green beans to the other side of the baking tray. Use two baking trays if necessary. Drizzle with oil. Season with salt and pepper, then turn to coat.</p>\n<p>When the squash has 10-15 mins remaining, bake the salmon and green beans on the middle shelf, until the fish is cooked and the green beans are tender, 10-15 mins. IMPORTANT: The fish is cooked when opaque in the centre.</p>\n<p><em>If you’d prefer to boil your green beans, add them to the pan with the samphire in step 4 and boil until tender, 4-6 mins. </em></p>",
+      "ingredients": [
+        "62fcaa27c9a48553f90753a2",
+        "603927a7aad25c3c6c6d9462",
+        "62fcaa21bd9a2478e193f01f"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305377",
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8ffe4321b3b6ef33a96/step-73bfdc20.jpg",
+          "path": "/67d1b8ffe4321b3b6ef33a96/step-73bfdc20.jpg",
+          "caption": "Bake the Salmon and Green Beans"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Meanwhile, boil a full kettle. Add the boiled water to a medium saucepan and heat on medium-high heat. Don’t add salt - the samphire is salty enough.\nOnce the water is boiling, add the samphire to the pan and simmer until tender, 3-4 mins.\nDrain the samphire in a sieve, then add back into the pan with a drizzle of olive oil and toss to coat.",
+      "instructionsHTML": "<p>Meanwhile, boil a full kettle. Add the boiled water to a medium saucepan and heat on medium-high heat. Don’t add salt - the samphire is salty enough.</p>\n<p>Once the water is boiling, add the samphire to the pan and simmer until tender, 3-4 mins.</p>\n<p>Drain the samphire in a sieve, then add back into the pan with a drizzle of olive oil and toss to coat.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, boil a full kettle. Add the boiled water to a medium saucepan and heat on medium-high heat. Don’t add salt - the samphire is salty enough.</p>\n<p>Once the water is boiling, add the samphire to the pan and simmer until tender, 3-4 mins.</p>\n<p>Drain the samphire in a sieve, then add back into the pan with a drizzle of olive oil and toss to coat.</p>",
+      "ingredients": [
+        "62fcaa27c9a48553f90753a2"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b30539b",
+        "57e2674fb7e8697d4b30538c",
+        "57e2674fb7e8697d4b305392"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8ffe4321b3b6ef33a96/step-b7099b30.jpg",
+          "path": "/67d1b8ffe4321b3b6ef33a96/step-b7099b30.jpg",
+          "caption": "Boil the Samphire"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "While the samphire is cooking, in a small bowl, mix the mayonnaise (see pantry) with the remaining pesto.\nSeason with salt and pepper.",
+      "instructionsHTML": "<p>While the samphire is cooking, in a small bowl, mix the mayonnaise (see pantry) with the remaining pesto.</p>\n<p>Season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>While the samphire is cooking, in a small bowl, mix the mayonnaise (see pantry) with the remaining pesto.</p>\n<p>Season with salt and pepper.</p>",
+      "ingredients": [
+        "62c6e1139cab2001267a28d8",
+        "664f52982f920ffe29e932b5"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305380"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8ffe4321b3b6ef33a96/step-2b3cb040.jpg",
+          "path": "/67d1b8ffe4321b3b6ef33a96/step-2b3cb040.jpg",
+          "caption": "Make the Pesto Mayo"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Serve the pesto baked salmon, skin-side down, with the oregano butternut squash alongside.\nAdd the roasted green beans to your plates and spoon the samphire over the salmon.\nAdd a dollop of pesto mayonnaise to finish.",
+      "instructionsHTML": "<p>Serve the pesto baked salmon, skin-side down, with the oregano butternut squash alongside.</p>\n<p>Add the roasted green beans to your plates and spoon the samphire over the salmon.</p>\n<p>Add a dollop of pesto mayonnaise to finish.</p>",
+      "instructionsMarkdown": "<p>Serve the pesto baked salmon, skin-side down, with the oregano butternut squash alongside.</p>\n<p>Add the roasted green beans to your plates and spoon the samphire over the salmon.</p>\n<p>Add a dollop of pesto mayonnaise to finish.</p>",
+      "ingredients": [
+        "62c6e1139cab2001267a28d8",
+        "62fcaa27c9a48553f90753a2",
+        "664f52982f920ffe29e932b5",
+        "603927a7aad25c3c6c6d9462",
+        "62fcaa21bd9a2478e193f01f",
+        "62fca9cdc9a48553f90752e1",
+        "62fcaa30c9a48553f90753b8"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/67d1b8ffe4321b3b6ef33a96/step-5bc25750.jpg",
+          "path": "/67d1b8ffe4321b3b6ef33a96/step-5bc25750.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "62388d0e819bac74ed3067ef",
+      "type": "pescatarian",
+      "name": "Pescatarian",
+      "slug": "pescatarian",
+      "colorHandle": null,
+      "preferences": [
+        "Pescatarian"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "62cd3aaff9fe2cce9908255c",
+      "type": "low-emission",
+      "name": "Low-emission",
+      "slug": "low-emission",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCLC26812301-27",
+  "updatedAt": "2025-09-10T09:28:43+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305377",
+      "type": "parchmentpaper",
+      "name": "Baking Paper"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30539b",
+      "type": "sieve",
+      "name": "Sieve"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305392",
+      "type": "water-cooker",
+      "name": "Kettle"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305380",
+      "type": "smallbowl",
+      "name": "Small Bowl"
+    }
+  ],
+  "uuid": "22460ba8-ee8b-4a00-baea-ddb7fdddee81",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/pesto-baked-salmon-and-oregano-butternut-squash-67d1b8ffe4321b3b6ef33a96",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fca9cdc9a48553f90752e1",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa30c9a48553f90753b8",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa21bd9a2478e193f01f",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "664f52982f920ffe29e932b5",
+          "amount": 32,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa27c9a48553f90753a2",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1139cab2001267a28d8",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fca9cdc9a48553f90752e1",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa30c9a48553f90753b8",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa21bd9a2478e193f01f",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "664f52982f920ffe29e932b5",
+          "amount": 64,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa27c9a48553f90753a2",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1139cab2001267a28d8",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

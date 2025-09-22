@@ -1,0 +1,863 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fd",
+      "name": "Mustard",
+      "type": "mustard",
+      "slug": "mustard",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 1,
+  "canonical": "66bc94a80176da61893dc967",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/one-pan-smoky-chickpea-chana-saag-66bc94a80176da61893dc967",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/687e0d517299475a5b05d9f0-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ad",
+    "name": "Poultry",
+    "type": "poultry",
+    "slug": "poultry"
+  },
+  "clonedFrom": "687a4b4c0e296dba6fd60818",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-01T00:30:14+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053aa",
+      "type": "indian",
+      "name": "Indian",
+      "slug": "indian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053aa-835d45ad.jpg"
+    }
+  ],
+  "description": "One pan, all the flavour. 'Chana' is Hindi for chickpeas, whilst 'saag' means spinach. Simmered with warming spices, chickpeas are a source of plant-based protein as well as fibre, paired with the extra protein from the chicken breast.",
+  "descriptionHTML": "<p>One pan, all the flavour. 'Chana' is Hindi for chickpeas, whilst 'saag' means spinach. Simmered with warming spices, chickpeas are a source of plant-based protein as well as fibre, paired with the extra protein from the chicken breast.</p>",
+  "descriptionMarkdown": "One pan, all the flavour. 'Chana' is Hindi for chickpeas, whilst 'saag' means spinach. Simmered with warming spices, chickpeas are a source of plant-based protein as well as fibre, paired with the extra protein from the chicken breast.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Brown Basmati Rice and Mango Chutney",
+  "id": "687e0d517299475a5b05d9f0",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y24_R5012_W29_UK_GCPP58923420-3_mod_add_low-ea686de4.jpg",
+  "imagePath": "/image/GC_Y24_R5012_W29_UK_GCPP58923420-3_mod_add_low-ea686de4.jpg",
+  "ingredients": [
+    {
+      "id": "607856060e038e53063b2f0a",
+      "uuid": "e5f7a84f-9f36-538d-af4e-3633bd6ec5d8",
+      "name": "Onion",
+      "type": "onion",
+      "slug": "onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/607856060e038e53063b2f0a-92a47b95.png",
+      "imagePath": "/ingredient/607856060e038e53063b2f0a-92a47b95.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbee",
+        "uuid": "1a30a8a2-71bc-52c5-89fa-8184b99ce42c",
+        "name": "onion",
+        "slug": "onion",
+        "type": "onion",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390809b47bdb2f3e439e0d",
+      "uuid": "2904fadb-88de-569e-9c92-a87c61848fdb",
+      "name": "Red Chilli",
+      "type": "red-chilli",
+      "slug": "red-chilli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "imagePath": "/ingredient/60390809b47bdb2f3e439e0d-580baf2b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb6d",
+        "uuid": "b7fdbff4-955d-578f-92e0-26786c9bc842",
+        "name": "chili",
+        "slug": "chili",
+        "type": "chili",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6038fedee0dcd710657d0a8e",
+      "uuid": "427c79c7-8c5a-567a-aec0-980b9e2aca8d",
+      "name": "Korma Curry Paste",
+      "type": "korma-curry-paste",
+      "slug": "korma-curry-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6038fedee0dcd710657d0a8e-7d69193c.png",
+      "imagePath": "/ingredient/6038fedee0dcd710657d0a8e-7d69193c.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fd"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb8a",
+        "uuid": "7af8f2e9-c302-57de-8b46-c811cab0546a",
+        "name": "spice blend",
+        "slug": "spice-blend",
+        "type": "curry",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0cd7803ca91b790573",
+      "uuid": "81ee030d-c41d-5521-acb8-338b9e877fca",
+      "name": "Chickpeas",
+      "type": "chickpeas",
+      "slug": "chickpeas",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0cd7803ca91b790573-5e83574b.png",
+      "imagePath": "/ingredient/62fcaa0cd7803ca91b790573-5e83574b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6489bd550635a1e9befbb46d",
+      "uuid": "8a37d948-a345-45c9-8aed-6f4a09635456",
+      "name": "Smoky Base Paste",
+      "type": "smokey-base-paste",
+      "slug": "smoky-base-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6489bd550635a1e9befbb46d-d038affc.png",
+      "imagePath": "/ingredient/6489bd550635a1e9befbb46d-d038affc.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "64e492a8e1f123211ed56ce1",
+      "uuid": "8cf4579f-f902-58f0-a2b1-8f5509398a0a",
+      "name": "Vegetable Stock Paste",
+      "type": "vegetable-stock-paste",
+      "slug": "vegetable-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/64e492a8e1f123211ed56ce1-a8b70562.png",
+      "imagePath": "/ingredient/64e492a8e1f123211ed56ce1-a8b70562.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0dbd9a2478e193f006",
+      "uuid": "b9e6d69e-8c74-5d13-b2ae-97b8de86ecf6",
+      "name": "Steamed Brown Basmati Rice",
+      "type": "steamed-brown-basmati-rice",
+      "slug": "steamed-brown-basmati-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0dbd9a2478e193f006-79a834a5.png",
+      "imagePath": "/ingredient/62fcaa0dbd9a2478e193f006-79a834a5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "610cfb2d66653831646e3a8a",
+      "uuid": "a0ee4d94-5859-5e49-b0ef-835aa6ee7bfb",
+      "name": "Natural Coconut Milk Yoghurt Alternative",
+      "type": "natural-coconut-milk-yoghurt-alternative",
+      "slug": "natural-coconut-milk-yoghurt-alternative",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/610cfb2d66653831646e3a8a-3b0e2af0.png",
+      "imagePath": "/ingredient/610cfb2d66653831646e3a8a-3b0e2af0.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb3d",
+        "uuid": "5307caa4-9cd3-592b-a6cc-fa038380f973",
+        "name": "yogurt",
+        "slug": "yogurt",
+        "type": "ayran",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0ec9a48553f907536e",
+      "uuid": "83debc4f-e731-5de0-b54d-f0c8bc201099",
+      "name": "Baby Spinach",
+      "type": "baby-spinach",
+      "slug": "baby-spinach",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+      "imagePath": "/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa4dd7803ca91b7905e7",
+      "uuid": "af1c500d-4988-5a4b-92bd-5a44a4611b46",
+      "name": "Mango Chutney",
+      "type": "mango-chutney",
+      "slug": "mango-chutney",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa4dd7803ca91b7905e7-4e4620ad.png",
+      "imagePath": "/ingredient/62fcaa4dd7803ca91b7905e7-4e4620ad.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa50bd9a2478e193f0a4",
+      "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
+      "name": "Greek Style Natural Yoghurt",
+      "type": "greek-style-natural-yoghurt",
+      "slug": "greek-style-natural-yoghurt",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa50bd9a2478e193f0a4-2d4b9337.png",
+      "imagePath": "/ingredient/62fcaa50bd9a2478e193f0a4-2d4b9337.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa3dbd9a2478e193f06a",
+      "uuid": "0a12b986-df91-548e-b747-8585b80eacb3",
+      "name": "British Chicken Breasts",
+      "type": "chicken-breast",
+      "slug": "british-chicken-breasts",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa3dbd9a2478e193f06a-2d17edb7.png",
+      "imagePath": "/ingredient/62fcaa3dbd9a2478e193f06a-2d17edb7.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ef9cab2001267a28b8",
+      "uuid": "ef880220-34dc-4c85-9841-7d34b28d6165",
+      "name": "Water",
+      "type": "water-100ml",
+      "slug": "water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "imagePath": "/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ec9cab2001267a28b6",
+      "uuid": "809fb77d-c002-4b7e-bc7f-dad64260ecf8",
+      "name": "Sugar",
+      "type": "sugar-1-tsp",
+      "slug": "sugar",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ec9cab2001267a28b6-e4d7f5ab.png",
+      "imagePath": "/ingredient/62c6e0ec9cab2001267a28b6-e4d7f5ab.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1279cab2001267a28e9",
+      "uuid": "cf9af936-101e-4641-90f0-347da4d0a347",
+      "name": "Butter",
+      "type": "butter-100g",
+      "slug": "butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "imagePath": "/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/687e0d517299475a5b05d9f0",
+  "name": "One Pan Smoky Chicken and Chickpea Chana Saag",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 3220,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 770,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 31.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 15,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 71.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 23.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 14.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 48.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 3.96,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT20M",
+  "promotion": null,
+  "ratingsCount": 1,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 673,
+  "slug": "one-pan-smoky-chicken-and-chickpea-chana-saag",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nLay the chicken onto a baking tray, drizzle with oil and season with salt and pepper. Roast the chicken on the top shelf of your oven until cooked through, 25-30 mins. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It's cooked when no longer pink in the middle.\nHalve, peel and thinly slice the onion.\nThinly slice the red chilli.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Lay the chicken onto a baking tray, drizzle with oil and season with salt and pepper. Roast the chicken on the top shelf of your oven until cooked through, 25-30 mins. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It&#39;s cooked when no longer pink in the middle.</p>\n<p>Halve, peel and thinly slice the onion.</p>\n<p>Thinly slice the red chilli.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Lay the chicken onto a baking tray, drizzle with oil and season with salt and pepper. Roast the chicken on the top shelf of your oven until cooked through, 25-30 mins. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It&#39;s cooked when no longer pink in the middle.</p>\n<p>Halve, peel and thinly slice the onion.</p>\n<p>Thinly slice the red chilli.</p>",
+      "ingredients": [
+        "607856060e038e53063b2f0a",
+        "60390809b47bdb2f3e439e0d",
+        "62fcaa3dbd9a2478e193f06a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/687e0d517299475a5b05d9f0/step-67693000.jpg",
+          "path": "/687e0d517299475a5b05d9f0/step-67693000.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Heat a drizzle of oil in a large frying pan on medium-high heat.\nOnce hot, add the onion to the pan and stir-fry until softened, 4-5 mins.",
+      "instructionsHTML": "<p>Heat a drizzle of oil in a large frying pan on medium-high heat.</p>\n<p>Once hot, add the onion to the pan and stir-fry until softened, 4-5 mins.</p>",
+      "instructionsMarkdown": "<p>Heat a drizzle of oil in a large frying pan on medium-high heat.</p>\n<p>Once hot, add the onion to the pan and stir-fry until softened, 4-5 mins.</p>",
+      "ingredients": [
+        "607856060e038e53063b2f0a"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/687e0d517299475a5b05d9f0/step-b6134110.jpg",
+          "path": "/687e0d517299475a5b05d9f0/step-b6134110.jpg",
+          "caption": "Cook the Onion"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Once the onion has softened, add the korma curry paste, chickpeas and their liquid, smoky base paste, vegetable stock paste, water and sugar (see pantry for both).\nStir to dissolve the stock paste and simmer until slightly thickened, 3-4 mins.",
+      "instructionsHTML": "<p>Once the onion has softened, add the korma curry paste, chickpeas and their liquid, smoky base paste, vegetable stock paste, water and sugar (see pantry for both).</p>\n<p>Stir to dissolve the stock paste and simmer until slightly thickened, 3-4 mins.</p>",
+      "instructionsMarkdown": "<p>Once the onion has softened, add the korma curry paste, chickpeas and their liquid, smoky base paste, vegetable stock paste, water and sugar (see pantry for both).</p>\n<p>Stir to dissolve the stock paste and simmer until slightly thickened, 3-4 mins.</p>",
+      "ingredients": [
+        "6038fedee0dcd710657d0a8e",
+        "62fcaa0cd7803ca91b790573",
+        "6489bd550635a1e9befbb46d",
+        "64e492a8e1f123211ed56ce1",
+        "62c6e0ef9cab2001267a28b8",
+        "62c6e0ec9cab2001267a28b6"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/687e0d517299475a5b05d9f0/step-291d0020.jpg",
+          "path": "/687e0d517299475a5b05d9f0/step-291d0020.jpg",
+          "caption": "Make the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "While the sauce simmers, cook the rice according to pack instructions.",
+      "instructionsHTML": "<p>While the sauce simmers, cook the rice according to pack instructions.</p>",
+      "instructionsMarkdown": "<p>While the sauce simmers, cook the rice according to pack instructions.</p>",
+      "ingredients": [
+        "62fcaa0dbd9a2478e193f006"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/687e0d517299475a5b05d9f0/step-ff03e630.jpg",
+          "path": "/687e0d517299475a5b05d9f0/step-ff03e630.jpg",
+          "caption": "Cook the Rice"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Stir the coconut milk yoghurt through the chickpeas and add the spinach to the pan a handful at a time until wilted and piping hot, 1-2 mins.\nStir the mango chutney through the curry. Add a splash of water if it looks dry.",
+      "instructionsHTML": "<p>Stir the coconut milk yoghurt through the chickpeas and add the spinach to the pan a handful at a time until wilted and piping hot, 1-2 mins.</p>\n<p>Stir the mango chutney through the curry. Add a splash of water if it looks dry.</p>",
+      "instructionsMarkdown": "<p>Stir the coconut milk yoghurt through the chickpeas and add the spinach to the pan a handful at a time until wilted and piping hot, 1-2 mins.</p>\n<p>Stir the mango chutney through the curry. Add a splash of water if it looks dry.</p>",
+      "ingredients": [
+        "62fcaa0ec9a48553f907536e",
+        "610cfb2d66653831646e3a8a",
+        "62fcaa4dd7803ca91b7905e7"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/687e0d517299475a5b05d9f0/step-0942c540.jpg",
+          "path": "/687e0d517299475a5b05d9f0/step-0942c540.jpg",
+          "caption": "Finish the Curry"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Once the chicken is cooked, slice into 1cm thick slices.\nShare the rice between your bowls. Add the butter (see pantry) and toss to coat.\nSpoon the chickpea chana saag into the bowls alongside the rice. Top with the sliced chicken.\nDrizzle over the Greek style yoghurt and top with the chilli (careful - it's hot) to finish.\nEnjoy!",
+      "instructionsHTML": "<p>Once the chicken is cooked, slice into 1cm thick slices.</p>\n<p>Share the rice between your bowls. Add the butter (see pantry) and toss to coat.</p>\n<p>Spoon the chickpea chana saag into the bowls alongside the rice. Top with the sliced chicken.</p>\n<p>Drizzle over the Greek style yoghurt and top with the chilli (careful - it&#39;s hot) to finish.</p>\n<p>Enjoy!</p>",
+      "instructionsMarkdown": "<p>Once the chicken is cooked, slice into 1cm thick slices.</p>\n<p>Share the rice between your bowls. Add the butter (see pantry) and toss to coat.</p>\n<p>Spoon the chickpea chana saag into the bowls alongside the rice. Top with the sliced chicken.</p>\n<p>Drizzle over the Greek style yoghurt and top with the chilli (careful - it&#39;s hot) to finish.</p>\n<p>Enjoy!</p>",
+      "ingredients": [
+        "607856060e038e53063b2f0a",
+        "60390809b47bdb2f3e439e0d",
+        "6038fedee0dcd710657d0a8e",
+        "62fcaa0cd7803ca91b790573",
+        "6489bd550635a1e9befbb46d",
+        "64e492a8e1f123211ed56ce1",
+        "62fcaa0dbd9a2478e193f006",
+        "62fcaa0ec9a48553f907536e",
+        "610cfb2d66653831646e3a8a",
+        "62fcaa4dd7803ca91b7905e7",
+        "62fcaa50bd9a2478e193f0a4",
+        "62c6e0ef9cab2001267a28b8",
+        "62c6e0ec9cab2001267a28b6",
+        "62c6e1279cab2001267a28e9",
+        "62fcaa3dbd9a2478e193f06a"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/687e0d517299475a5b05d9f0/step-dcee7b50.jpg",
+          "path": "/687e0d517299475a5b05d9f0/step-dcee7b50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "651463b5f2a2367ad8b45f22",
+      "type": "modularity-add-chicken",
+      "name": "Mod - Add Chicken",
+      "slug": "mod-add-chicken",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "596df0032c3e08133541c5d3",
+      "type": "one-pan",
+      "name": "One Pan",
+      "slug": "one-pan",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "62163c70143a35226e03d85e",
+      "type": "super-quick",
+      "name": "Super Quick",
+      "slug": "super-quick",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "64624e0c8ab1333a8ca245a8",
+      "type": "gut-health",
+      "name": "Fibre Focused ",
+      "slug": "fibre-focused",
+      "colorHandle": "quickPrep",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67289724a8a26a35045e4",
+      "type": "flexitarian",
+      "name": "Flexitarian",
+      "slug": "flexitarian",
+      "colorHandle": null,
+      "preferences": [
+        "Flexitarian"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCMODPP58923420-47857-2",
+  "updatedAt": "2025-09-21T17:33:35+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "64eac505-87fb-4e5a-a21d-dc834153fdc4",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/one-pan-smoky-chicken-and-chickpea-chana-saag-687e0d517299475a5b05d9f0",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "607856060e038e53063b2f0a",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6038fedee0dcd710657d0a8e",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0cd7803ca91b790573",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6489bd550635a1e9befbb46d",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "64e492a8e1f123211ed56ce1",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0dbd9a2478e193f006",
+          "amount": 1,
+          "unit": "pouch(es)"
+        },
+        {
+          "id": "610cfb2d66653831646e3a8a",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536e",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa4dd7803ca91b7905e7",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa50bd9a2478e193f0a4",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa3dbd9a2478e193f06a",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 50,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e0ec9cab2001267a28b6",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 10,
+          "unit": "grams"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "607856060e038e53063b2f0a",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390809b47bdb2f3e439e0d",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6038fedee0dcd710657d0a8e",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0cd7803ca91b790573",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6489bd550635a1e9befbb46d",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "64e492a8e1f123211ed56ce1",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0dbd9a2478e193f006",
+          "amount": 2,
+          "unit": "pouch(es)"
+        },
+        {
+          "id": "610cfb2d66653831646e3a8a",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536e",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa4dd7803ca91b7905e7",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa50bd9a2478e193f0a4",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa3dbd9a2478e193f06a",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 100,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e0ec9cab2001267a28b6",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 20,
+          "unit": "grams"
+        }
+      ]
+    }
+  ]
+}

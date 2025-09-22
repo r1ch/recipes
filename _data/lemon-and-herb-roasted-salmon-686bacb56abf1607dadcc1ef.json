@@ -1,0 +1,789 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "60368d89cdbdf450236ad8cd",
+      "name": "Wheat",
+      "type": "wheat",
+      "slug": "wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f5",
+      "name": "Cereals containing gluten",
+      "type": "gluten",
+      "slug": "cereals-containing-gluten",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f7",
+      "name": "Fish",
+      "type": "fish",
+      "slug": "fish",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.6,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/686bacb56abf1607dadcc1ef-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039b1",
+    "name": "Seafood",
+    "type": "seafood",
+    "slug": "Seafood"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-07-07T11:17:10+00:00",
+  "cuisines": [
+    {
+      "id": "67ebf900b2ffe612cd83e51b",
+      "type": "",
+      "name": "Middle Eastern",
+      "slug": ""
+    }
+  ],
+  "description": "Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.",
+  "descriptionHTML": "<p>Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.</p>",
+  "descriptionMarkdown": "Part of our collection of recipes that deliver a sustaining 35-70g of protein each, this recipe helps support both active and balanced lifestyles as well as making it easy to hit your nutrition goals.",
+  "difficulty": 2,
+  "favoritesCount": 25,
+  "headline": "with Honey Harissa Bulgur Salad",
+  "id": "686bacb56abf1607dadcc1ef",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5022_W13_UK_GCB04610187-19_Main_low-80a836ef.jpg",
+  "imagePath": "/image/GC_Y23_R5022_W13_UK_GCB04610187-19_Main_low-80a836ef.jpg",
+  "ingredients": [
+    {
+      "id": "60390c38a581904442526529",
+      "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
+      "name": "Lemon",
+      "type": "lemon",
+      "slug": "lemon",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390c38a581904442526529-fa51e946.png",
+      "imagePath": "/ingredient/60390c38a581904442526529-fa51e946.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbc5",
+        "uuid": "3f3c3cbb-7960-5dcd-be95-cdb72d76e1a1",
+        "name": "lemon",
+        "slug": "lemon",
+        "type": "lemon",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6837276342dc4b928197f220",
+      "uuid": "4e26f661-e58c-53f7-ae04-4aa6433b0495",
+      "name": "Bulgur Wheat",
+      "type": "bulgur-wheat",
+      "slug": "bulgur-wheat",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa2dd7803ca91b7905ad-70da648f.png",
+      "imagePath": "/ingredient/62fcaa2dd7803ca91b7905ad-70da648f.png",
+      "shipped": true,
+      "allergens": [
+        "60368d89cdbdf450236ad8cd",
+        "57962a07b7e8697d4b3052f5"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603927a7aad25c3c6c6d9462",
+      "uuid": "c2928022-68b3-5239-af1d-9b16a2153402",
+      "name": "Salmon Fillets",
+      "type": "salmon",
+      "slug": "salmon-fillets",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "imagePath": "/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f7"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb9d",
+        "uuid": "71cb7001-a69a-5cfd-bb6b-384757bb222a",
+        "name": "white fish",
+        "slug": "white-fish",
+        "type": "fish",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6304d66eff08c9e5b584e014",
+      "uuid": "1909e19c-46d8-4fbd-8a37-6510cdf400c9",
+      "name": "Roasted Spice and Herb Blend",
+      "type": "roasted-spice-and-herb-blend",
+      "slug": "roasted-spice-and-herb-blend",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6304d66eff08c9e5b584e014-a74fd2de.png",
+      "imagePath": "/ingredient/6304d66eff08c9e5b584e014-a74fd2de.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9dfd7803ca91b79050e",
+      "uuid": "12a33629-d36c-55db-9ccc-8f5a5cadb4de",
+      "name": "Pumpkin Seeds",
+      "type": "pumpkin-seeds",
+      "slug": "pumpkin-seeds",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9dfd7803ca91b79050e-4aa3bbc6.png",
+      "imagePath": "/ingredient/62fca9dfd7803ca91b79050e-4aa3bbc6.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039064ba89c7678cd6b0d84",
+      "uuid": "06e875a3-26bf-5da5-b1d7-6290a9f9bc93",
+      "name": "Medium Tomato",
+      "type": "medium-tomato",
+      "slug": "medium-tomato",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "imagePath": "/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa51bd9a2478e193f0ae",
+      "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
+      "name": "Flat Leaf Parsley",
+      "type": "flat-leaf-parsley",
+      "slug": "flat-leaf-parsley",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa51bd9a2478e193f0ae-d9df6048.png",
+      "imagePath": "/ingredient/62fcaa51bd9a2478e193f0ae-d9df6048.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa45d7803ca91b7905d0",
+      "uuid": "a0a14688-0d9d-5e41-9484-b930cd2776e9",
+      "name": "Harissa Paste",
+      "type": "harissa-paste",
+      "slug": "harissa-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "imagePath": "/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e2ac9cab2001267a293b",
+      "uuid": "7ca25e35-20c6-4484-b9b7-bfb80a59fa19",
+      "name": "Boiled Water for the Bulgur",
+      "type": "boiled-water-for-the-bulgur-100ml",
+      "slug": "boiled-water-for-the-bulgur",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e2ac9cab2001267a293b-928060a1.png",
+      "imagePath": "/ingredient/62c6e2ac9cab2001267a293b-928060a1.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e2c79cab2001267a2961",
+      "uuid": "cc4a99c5-10b6-4a71-ad13-0a9be1ca4439",
+      "name": "Salt for the Dressing",
+      "type": "salt-for-the-dressing-1tsp",
+      "slug": "salt-for-the-dressing",
+      "country": "GN",
+      "imageLink": null,
+      "imagePath": null,
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e12c9cab2001267a28ed",
+      "uuid": "68d8a20a-1b79-437b-b2cb-8137d27a4558",
+      "name": "Honey",
+      "type": "honey-1-tbsp",
+      "slug": "honey",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e12c9cab2001267a28ed-872bb731.png",
+      "imagePath": "/ingredient/62c6e12c9cab2001267a28ed-872bb731.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ed9cab2001267a28b7",
+      "uuid": "38c7ad07-a6fc-480c-aa10-c9ce65b0dca5",
+      "name": "Olive Oil",
+      "type": "olive-oil-1-tbsp",
+      "slug": "olive-oil",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ed9cab2001267a28b7-b2caf16c.png",
+      "imagePath": "/ingredient/62c6e0ed9cab2001267a28b7-b2caf16c.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/686bacb56abf1607dadcc1ef",
+  "name": "Lemon and Herb Roasted Salmon",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 3348,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 800,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 39.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 6.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 63.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 13.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 9.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 41.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.65,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT30M",
+  "promotion": null,
+  "ratingsCount": 120,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 529,
+  "slug": "lemon-and-herb-roasted-salmon",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7. Boil a half-full kettle.\nZest and juice the lemon.\nPour the boiled water (see pantry) into a large saucepan. Stir in the bulgur with 1/4 tsp salt, bring back up to the boil on high heat and simmer for 1 min.\nPut a lid on the pan and remove from the heat. Leave to the side for 12-15 mins or until ready to serve.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. Boil a half-full kettle.</p>\n<p>Zest and juice the lemon.</p>\n<p>Pour the boiled water (see pantry) into a large saucepan. Stir in the bulgur with 1/4 tsp salt, bring back up to the boil on high heat and simmer for 1 min.</p>\n<p>Put a lid on the pan and remove from the heat. Leave to the side for 12-15 mins or until ready to serve.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. Boil a half-full kettle.</p>\n<p>Zest and juice the lemon.</p>\n<p>Pour the boiled water (see pantry) into a large saucepan. Stir in the bulgur with 1/4 tsp salt, bring back up to the boil on high heat and simmer for 1 min.</p>\n<p>Put a lid on the pan and remove from the heat. Leave to the side for 12-15 mins or until ready to serve.</p>",
+      "ingredients": [
+        "60390c38a581904442526529",
+        "6837276342dc4b928197f220",
+        "62c6e2ac9cab2001267a293b"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305385",
+        "57e2674fb7e8697d4b305392",
+        "57e2674fb7e8697d4b30536b",
+        "623c805661a1b9d0034f9065"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/686bacb56abf1607dadcc1ef/step-2b739f00.jpg",
+          "path": "/686bacb56abf1607dadcc1ef/step-2b739f00.jpg",
+          "caption": "Cook the Bulgur"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Meanwhile, heat a medium frying pan on medium-high heat with a drizzle of oil. Season the salmon with salt and pepper.\nOnce hot, lay the salmon into the pan, skin-side down, and fry until the skin starts to crisp, 5 mins. To get crispy skin on the fish, don’t move it around when it’s cooking skin-side down. IMPORTANT: Wash your hands and equipment after handling raw fish.",
+      "instructionsHTML": "<p>Meanwhile, heat a medium frying pan on medium-high heat with a drizzle of oil. Season the salmon with salt and pepper.</p>\n<p>Once hot, lay the salmon into the pan, skin-side down, and fry until the skin starts to crisp, 5 mins. To get crispy skin on the fish, don’t move it around when it’s cooking skin-side down. IMPORTANT: Wash your hands and equipment after handling raw fish.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat a medium frying pan on medium-high heat with a drizzle of oil. Season the salmon with salt and pepper.</p>\n<p>Once hot, lay the salmon into the pan, skin-side down, and fry until the skin starts to crisp, 5 mins. To get crispy skin on the fish, don’t move it around when it’s cooking skin-side down. IMPORTANT: Wash your hands and equipment after handling raw fish.</p>",
+      "ingredients": [
+        "603927a7aad25c3c6c6d9462"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/686bacb56abf1607dadcc1ef/step-3d362a10.jpg",
+          "path": "/686bacb56abf1607dadcc1ef/step-3d362a10.jpg",
+          "caption": "Pan-Fry the Salmon"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Transfer the salmon to a lined baking tray. Rub the flesh with half the lemon juice, half the zest and half the roasted spice and herb blend. Flip it over and sprinkle the remaining spice blend on the skin, then cook, skin-side up, on the top shelf of your oven, 10-12 mins. IMPORTANT: The salmon is cooked when opaque in the middle. \nWhen the salmon has 5 mins remaining, add the pumpkin seeds to the other end of the tray. ",
+      "instructionsHTML": "<p>Transfer the salmon to a lined baking tray. Rub the flesh with half the lemon juice, half the zest and half the roasted spice and herb blend. Flip it over and sprinkle the remaining spice blend on the skin, then cook, skin-side up, on the top shelf of your oven, 10-12 mins. IMPORTANT: The salmon is cooked when opaque in the middle. </p>\n<p>When the salmon has 5 mins remaining, add the pumpkin seeds to the other end of the tray. </p>",
+      "instructionsMarkdown": "<p>Transfer the salmon to a lined baking tray. Rub the flesh with half the lemon juice, half the zest and half the roasted spice and herb blend. Flip it over and sprinkle the remaining spice blend on the skin, then cook, skin-side up, on the top shelf of your oven, 10-12 mins. IMPORTANT: The salmon is cooked when opaque in the middle. </p>\n<p>When the salmon has 5 mins remaining, add the pumpkin seeds to the other end of the tray. </p>",
+      "ingredients": [
+        "60390c38a581904442526529",
+        "6304d66eff08c9e5b584e014",
+        "62fca9dfd7803ca91b79050e"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305368",
+        "6724dcd72e384a4fe481872e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/686bacb56abf1607dadcc1ef/step-70dd0d20.jpg",
+          "path": "/686bacb56abf1607dadcc1ef/step-70dd0d20.jpg",
+          "caption": "Roast the Salmon"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Meanwhile, cut the tomatoes into 1cm pieces.\nRoughly chop the rocket and parsley (stalks and all).\nIn a small bowl, combine the remaining lemon juice with the harissa, salt and honey (see pantry for both). Set aside your harissa dressing.",
+      "instructionsHTML": "<p>Meanwhile, cut the tomatoes into 1cm pieces.</p>\n<p>Roughly chop the rocket and parsley (stalks and all).</p>\n<p>In a small bowl, combine the remaining lemon juice with the harissa, salt and honey (see pantry for both). Set aside your harissa dressing.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, cut the tomatoes into 1cm pieces.</p>\n<p>Roughly chop the rocket and parsley (stalks and all).</p>\n<p>In a small bowl, combine the remaining lemon juice with the harissa, salt and honey (see pantry for both). Set aside your harissa dressing.</p>",
+      "ingredients": [
+        "60390c38a581904442526529",
+        "6039064ba89c7678cd6b0d84",
+        "60390dc851af04233575aab8",
+        "62fcaa51bd9a2478e193f0ae",
+        "62fcaa45d7803ca91b7905d0",
+        "62c6e2c79cab2001267a2961",
+        "62c6e12c9cab2001267a28ed"
+      ],
+      "utensils": [
+        "57e2674fb7e8697d4b305380"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/686bacb56abf1607dadcc1ef/step-59559530.jpg",
+          "path": "/686bacb56abf1607dadcc1ef/step-59559530.jpg",
+          "caption": "Prep the Veggies"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Once cooked, season the bulgur with salt and pepper.\nStir the remaining lemon zest, tomatoes, rocket, parsley and olive oil (see pantry) into the bulgur to make your bulgur salad.",
+      "instructionsHTML": "<p>Once cooked, season the bulgur with salt and pepper.</p>\n<p>Stir the remaining lemon zest, tomatoes, rocket, parsley and olive oil (see pantry) into the bulgur to make your bulgur salad.</p>",
+      "instructionsMarkdown": "<p>Once cooked, season the bulgur with salt and pepper.</p>\n<p>Stir the remaining lemon zest, tomatoes, rocket, parsley and olive oil (see pantry) into the bulgur to make your bulgur salad.</p>",
+      "ingredients": [
+        "62c6e0ed9cab2001267a28b7"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/686bacb56abf1607dadcc1ef/step-98351d40.jpg",
+          "path": "/686bacb56abf1607dadcc1ef/step-98351d40.jpg",
+          "caption": "Make the Salad"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Divide the bulgur salad between your plates and top with the lemon and herb roasted salmon.\nSpoon over the honey harissa dressing.\nScatter with the toasted pumpkin seeds to finish.",
+      "instructionsHTML": "<p>Divide the bulgur salad between your plates and top with the lemon and herb roasted salmon.</p>\n<p>Spoon over the honey harissa dressing.</p>\n<p>Scatter with the toasted pumpkin seeds to finish.</p>",
+      "instructionsMarkdown": "<p>Divide the bulgur salad between your plates and top with the lemon and herb roasted salmon.</p>\n<p>Spoon over the honey harissa dressing.</p>\n<p>Scatter with the toasted pumpkin seeds to finish.</p>",
+      "ingredients": [
+        "60390c38a581904442526529",
+        "6837276342dc4b928197f220",
+        "603927a7aad25c3c6c6d9462",
+        "6304d66eff08c9e5b584e014",
+        "62fca9dfd7803ca91b79050e",
+        "6039064ba89c7678cd6b0d84",
+        "60390dc851af04233575aab8",
+        "62fcaa51bd9a2478e193f0ae",
+        "62fcaa45d7803ca91b7905d0",
+        "62c6e2ac9cab2001267a293b",
+        "62c6e2c79cab2001267a2961",
+        "62c6e12c9cab2001267a28ed",
+        "62c6e0ed9cab2001267a28b7"
+      ],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/686bacb56abf1607dadcc1ef/step-74557750.jpg",
+          "path": "/686bacb56abf1607dadcc1ef/step-74557750.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5c0a23a7e3f339428b5edaf2",
+      "type": "balanced",
+      "name": "Balanced",
+      "slug": "balanced",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCB04610187-36",
+  "updatedAt": "2025-09-19T18:35:37+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305385",
+      "type": "zester",
+      "name": "Zester"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305392",
+      "type": "water-cooker",
+      "name": "Kettle"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536b",
+      "type": "lid",
+      "name": "Lid"
+    },
+    {
+      "id": "623c805661a1b9d0034f9065",
+      "type": "largesaucepan",
+      "name": "Large Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "6724dcd72e384a4fe481872e",
+      "type": "baking-paper",
+      "name": "Baking Paper"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305380",
+      "type": "smallbowl",
+      "name": "Small Bowl"
+    }
+  ],
+  "uuid": "c770b9b9-e3b4-4e76-becc-ba83778ff04f",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/lemon-and-herb-roasted-salmon-686bacb56abf1607dadcc1ef",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "60390c38a581904442526529",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6837276342dc4b928197f220",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "6304d66eff08c9e5b584e014",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fca9dfd7803ca91b79050e",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa51bd9a2478e193f0ae",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2ac9cab2001267a293b",
+          "amount": 220,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e2c79cab2001267a2961",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e12c9cab2001267a28ed",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e0ed9cab2001267a28b7",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "60390c38a581904442526529",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6837276342dc4b928197f220",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "6304d66eff08c9e5b584e014",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fca9dfd7803ca91b79050e",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa51bd9a2478e193f0ae",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2ac9cab2001267a293b",
+          "amount": 440,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e2c79cab2001267a2961",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e12c9cab2001267a28ed",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e0ed9cab2001267a28b7",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

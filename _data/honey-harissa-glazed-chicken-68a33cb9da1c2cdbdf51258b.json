@@ -1,0 +1,728 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 0,
+  "canonical": "66aa34b4cfd6381ac2cd72ae",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/honey-harissa-glazed-chicken-66aa34b4cfd6381ac2cd72ae",
+  "cardLink": null,
+  "category": null,
+  "clonedFrom": "689f23081597ca63310a5bed",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-18T14:46:18+00:00",
+  "cuisines": [
+    {
+      "id": "67ebf900b2ffe612cd83e51b",
+      "type": "",
+      "name": "Middle Eastern",
+      "slug": ""
+    }
+  ],
+  "description": "This dish is high in flavour. Harissa is widely used in Middle Eastern and North African cuisine, containing dried chillies, star anise, cumin and coriander.",
+  "descriptionHTML": "<p>This dish is high in flavour. Harissa is widely used in Middle Eastern and North African cuisine, containing dried chillies, star anise, cumin and coriander.</p>",
+  "descriptionMarkdown": "This dish is high in flavour. Harissa is widely used in Middle Eastern and North African cuisine, containing dried chillies, star anise, cumin and coriander. ",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Tabbouleh Inspired Basmati Rice and a Yoghurt Drizzle",
+  "id": "68a33cb9da1c2cdbdf51258b",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5023_W12_UK_GCLC69024385-9_swap_low-47255f3e.jpg",
+  "imagePath": "/image/GC_Y25_R5023_W12_UK_GCLC69024385-9_swap_low-47255f3e.jpg",
+  "ingredients": [
+    {
+      "id": "62fcaa32d7803ca91b7905b6",
+      "uuid": "c91133f3-b3cd-5de1-8140-08289aec6ae4",
+      "name": "Skin-On British Chicken Breasts",
+      "type": "chicken-breast-skin-on",
+      "slug": "skin-on-british-chicken-breasts",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa32d7803ca91b7905b6-8762071b.png",
+      "imagePath": "/ingredient/62fcaa32d7803ca91b7905b6-8762071b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9f4bd9a2478e193efdb",
+      "uuid": "257316a0-d7d2-5624-8408-32ad6195596b",
+      "name": "Red Onion",
+      "type": "red-onion",
+      "slug": "red-onion",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9f4bd9a2478e193efdb-304ca93a.png",
+      "imagePath": "/ingredient/62fca9f4bd9a2478e193efdb-304ca93a.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039064ba89c7678cd6b0d84",
+      "uuid": "06e875a3-26bf-5da5-b1d7-6290a9f9bc93",
+      "name": "Medium Tomato",
+      "type": "medium-tomato",
+      "slug": "medium-tomato",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "imagePath": "/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa51bd9a2478e193f0ae",
+      "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
+      "name": "Flat Leaf Parsley",
+      "type": "flat-leaf-parsley",
+      "slug": "flat-leaf-parsley",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa51bd9a2478e193f0ae-d9df6048.png",
+      "imagePath": "/ingredient/62fcaa51bd9a2478e193f0ae-d9df6048.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603900be24ea885d4c711bf2",
+      "uuid": "6fbc1448-f335-5219-86c6-01f9402a9f10",
+      "name": "Honey",
+      "type": "blossom-honey",
+      "slug": "honey",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603900be24ea885d4c711bf2-3866d80e.png",
+      "imagePath": "/ingredient/603900be24ea885d4c711bf2-3866d80e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbb3",
+        "uuid": "386de5dc-3457-5baf-a3ca-441cc9236d72",
+        "name": "honey",
+        "slug": "honey",
+        "type": "honey",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa45d7803ca91b7905d0",
+      "uuid": "a0a14688-0d9d-5e41-9484-b930cd2776e9",
+      "name": "Harissa Paste",
+      "type": "harissa-paste",
+      "slug": "harissa-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "imagePath": "/ingredient/62fcaa45d7803ca91b7905d0-34cca946.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0dbd9a2478e193f006",
+      "uuid": "b9e6d69e-8c74-5d13-b2ae-97b8de86ecf6",
+      "name": "Steamed Brown Basmati Rice",
+      "type": "steamed-brown-basmati-rice",
+      "slug": "steamed-brown-basmati-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0dbd9a2478e193f006-79a834a5.png",
+      "imagePath": "/ingredient/62fcaa0dbd9a2478e193f006-79a834a5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "633c6597aa3f33c15c854baf",
+      "uuid": "b755bc1f-0454-437a-9841-1981d18eb0e4",
+      "name": "Mixed Herbs",
+      "type": "mixed-herbs",
+      "slug": "mixed-herbs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "imagePath": "/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa14c9a48553f907537e",
+      "uuid": "03e69b87-0258-5dff-b057-10fa085e2f56",
+      "name": "Low Fat Natural Yoghurt",
+      "type": "low-fat-natural-yoghurt",
+      "slug": "low-fat-natural-yoghurt",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa14c9a48553f907537e-f8c5aad5.png",
+      "imagePath": "/ingredient/62fcaa14c9a48553f907537e-f8c5aad5.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0eb9cab2001267a28b5",
+      "uuid": "61c32777-540e-4b15-a60d-9f49c3f2b4aa",
+      "name": "Salt",
+      "type": "salt-1-tsp",
+      "slug": "salt",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+      "imagePath": "/ingredient/62c6e0eb9cab2001267a28b5-38e77541.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1279cab2001267a28e9",
+      "uuid": "cf9af936-101e-4641-90f0-347da4d0a347",
+      "name": "Butter",
+      "type": "butter-100g",
+      "slug": "butter",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "imagePath": "/ingredient/62c6e1279cab2001267a28e9-f8bd380d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e10e9cab2001267a28d3",
+      "uuid": "c462392f-6b9f-4f33-ad9f-19556a443f4c",
+      "name": "Water for the Glaze",
+      "type": "water-for-the-glaze-100ml",
+      "slug": "water-for-the-glaze",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e10e9cab2001267a28d3-cc25f21f.png",
+      "imagePath": "/ingredient/62c6e10e9cab2001267a28d3-cc25f21f.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/68a33cb9da1c2cdbdf51258b",
+  "name": "Honey Harissa Glazed Chicken",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2213,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 529,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 19.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 5.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 49.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 17,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 37.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 1.52,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 0,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 489,
+  "slug": "honey-harissa-glazed-chicken",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 240°C/220°C fan/gas mark 9. \nHeat a drizzle of oil in a large frying pan on high heat.\nOnce hot, lay the chicken into the pan, skin-side down. Season with salt and pepper. Fry until golden, 3-4 mins, then turn and cook for 1 min on the other side. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging.\nWhile the chicken is frying, halve and peel the onion, then cut each half into 3 wedges.",
+      "instructionsHTML": "<p>Preheat your oven to 240°C/220°C fan/gas mark 9. </p>\n<p>Heat a drizzle of oil in a large frying pan on high heat.</p>\n<p>Once hot, lay the chicken into the pan, skin-side down. Season with salt and pepper. Fry until golden, 3-4 mins, then turn and cook for 1 min on the other side. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging.</p>\n<p>While the chicken is frying, halve and peel the onion, then cut each half into 3 wedges.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 240°C/220°C fan/gas mark 9. </p>\n<p>Heat a drizzle of oil in a large frying pan on high heat.</p>\n<p>Once hot, lay the chicken into the pan, skin-side down. Season with salt and pepper. Fry until golden, 3-4 mins, then turn and cook for 1 min on the other side. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging.</p>\n<p>While the chicken is frying, halve and peel the onion, then cut each half into 3 wedges.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305370",
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68a33cb9da1c2cdbdf51258b/step-05b92400.jpg",
+          "path": "/68a33cb9da1c2cdbdf51258b/step-05b92400.jpg",
+          "caption": "Prep the Chicken "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Transfer the chicken to one side of a baking tray, skin-side up and place the onion wedges alongside.\nRoast on the top shelf of your oven until cooked through, 10-12 mins. IMPORTANT: The chicken is cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Transfer the chicken to one side of a baking tray, skin-side up and place the onion wedges alongside.</p>\n<p>Roast on the top shelf of your oven until cooked through, 10-12 mins. IMPORTANT: The chicken is cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Transfer the chicken to one side of a baking tray, skin-side up and place the onion wedges alongside.</p>\n<p>Roast on the top shelf of your oven until cooked through, 10-12 mins. IMPORTANT: The chicken is cooked when no longer pink in the middle.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68a33cb9da1c2cdbdf51258b/step-7e82f010.jpg",
+          "path": "/68a33cb9da1c2cdbdf51258b/step-7e82f010.jpg",
+          "caption": "Cook the Chicken "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Meanwhile, cut the tomatoes into 2cm chunks.\nRoughly chop the parsley (stalks and all).",
+      "instructionsHTML": "<p>Meanwhile, cut the tomatoes into 2cm chunks.</p>\n<p>Roughly chop the parsley (stalks and all).</p>",
+      "instructionsMarkdown": "<p>Meanwhile, cut the tomatoes into 2cm chunks.</p>\n<p>Roughly chop the parsley (stalks and all).</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68a33cb9da1c2cdbdf51258b/step-2bf55f20.jpg",
+          "path": "/68a33cb9da1c2cdbdf51258b/step-2bf55f20.jpg",
+          "caption": "Prep the Veg "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "When the chicken has 5 mins remaining, reheat the frying pan on medium-high heat with a drizzle of oil (no need to clean).\nOnce hot, add the steamed basmati rice and cook, 3-4 mins. Season with salt (see pantry) and pepper.\nIn the final min, add the mixed herbs and butter (see pantry) to the pan and stir to combine.",
+      "instructionsHTML": "<p>When the chicken has 5 mins remaining, reheat the frying pan on medium-high heat with a drizzle of oil (no need to clean).</p>\n<p>Once hot, add the steamed basmati rice and cook, 3-4 mins. Season with salt (see pantry) and pepper.</p>\n<p>In the final min, add the mixed herbs and butter (see pantry) to the pan and stir to combine.</p>",
+      "instructionsMarkdown": "<p>When the chicken has 5 mins remaining, reheat the frying pan on medium-high heat with a drizzle of oil (no need to clean).</p>\n<p>Once hot, add the steamed basmati rice and cook, 3-4 mins. Season with salt (see pantry) and pepper.</p>\n<p>In the final min, add the mixed herbs and butter (see pantry) to the pan and stir to combine.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68a33cb9da1c2cdbdf51258b/step-0375cc30.jpg",
+          "path": "/68a33cb9da1c2cdbdf51258b/step-0375cc30.jpg",
+          "caption": "Cook the Rice "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Meanwhile, heat another small frying pan on low heat (no oil). Once hot, add the honey, water for the glaze (see pantry) and harissa to the pan. Stir to combine and heat through, 1-2 mins.\nOnce the chicken has finished cooking, take the glaze pan off the heat and add the chicken to the pan. Season with salt and pepper and turn to coat. \nOnce the rice has cooked, add the tomatoes, red onion and half the parsley to the pan, then stir to combine.",
+      "instructionsHTML": "<p>Meanwhile, heat another small frying pan on low heat (no oil). Once hot, add the honey, water for the glaze (see pantry) and harissa to the pan. Stir to combine and heat through, 1-2 mins.</p>\n<p>Once the chicken has finished cooking, take the glaze pan off the heat and add the chicken to the pan. Season with salt and pepper and turn to coat. </p>\n<p>Once the rice has cooked, add the tomatoes, red onion and half the parsley to the pan, then stir to combine.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, heat another small frying pan on low heat (no oil). Once hot, add the honey, water for the glaze (see pantry) and harissa to the pan. Stir to combine and heat through, 1-2 mins.</p>\n<p>Once the chicken has finished cooking, take the glaze pan off the heat and add the chicken to the pan. Season with salt and pepper and turn to coat. </p>\n<p>Once the rice has cooked, add the tomatoes, red onion and half the parsley to the pan, then stir to combine.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68a33cb9da1c2cdbdf51258b/step-e7213940.jpg",
+          "path": "/68a33cb9da1c2cdbdf51258b/step-e7213940.jpg",
+          "caption": "Make the Glaze"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Divide the tabbouleh inspired rice between your bowls. \nServe the honey harissa glazed chicken alongside, pouring all remaining glaze from the pan over the chicken.\nFinish by drizzling over the yoghurt and sprinkling with the remaining parsley.",
+      "instructionsHTML": "<p>Divide the tabbouleh inspired rice between your bowls. </p>\n<p>Serve the honey harissa glazed chicken alongside, pouring all remaining glaze from the pan over the chicken.</p>\n<p>Finish by drizzling over the yoghurt and sprinkling with the remaining parsley.</p>",
+      "instructionsMarkdown": "<p>Divide the tabbouleh inspired rice between your bowls. </p>\n<p>Serve the honey harissa glazed chicken alongside, pouring all remaining glaze from the pan over the chicken.</p>\n<p>Finish by drizzling over the yoghurt and sprinkling with the remaining parsley.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68a33cb9da1c2cdbdf51258b/step-db9a2650.jpg",
+          "path": "/68a33cb9da1c2cdbdf51258b/step-db9a2650.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT20M",
+  "uniqueRecipeCode": "GCMODLC69024385-49192-2",
+  "updatedAt": "2025-09-15T19:08:52+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "b5f47c3e-6ba5-444b-a0fe-5df318a7c5ac",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/honey-harissa-glazed-chicken-68a33cb9da1c2cdbdf51258b",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa32d7803ca91b7905b6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9f4bd9a2478e193efdb",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa51bd9a2478e193f0ae",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "603900be24ea885d4c711bf2",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0dbd9a2478e193f006",
+          "amount": 1,
+          "unit": "pouch(es)"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa14c9a48553f907537e",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0eb9cab2001267a28b5",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e10e9cab2001267a28d3",
+          "amount": 20,
+          "unit": "milliliter(s)"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa32d7803ca91b7905b6",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9f4bd9a2478e193efdb",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa51bd9a2478e193f0ae",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "603900be24ea885d4c711bf2",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa45d7803ca91b7905d0",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0dbd9a2478e193f006",
+          "amount": 2,
+          "unit": "pouch(es)"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa14c9a48553f907537e",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0eb9cab2001267a28b5",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e1279cab2001267a28e9",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e10e9cab2001267a28d3",
+          "amount": 40,
+          "unit": "milliliter(s)"
+        }
+      ]
+    }
+  ]
+}

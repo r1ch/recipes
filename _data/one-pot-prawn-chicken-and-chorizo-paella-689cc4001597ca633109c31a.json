@@ -1,0 +1,886 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f4",
+      "name": "Crustaceans",
+      "type": "crustaceans",
+      "slug": "crustaceans",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f4-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f4-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b305301",
+      "name": "Molluscs",
+      "type": "molluscs",
+      "slug": "molluscs",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 0,
+  "canonical": "6828ed0f97a36a9824b409a1",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/one-pot-paella-6828ed0f97a36a9824b409a1",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/689cc4001597ca633109c31a-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039b1",
+    "name": "Seafood",
+    "type": "seafood",
+    "slug": "Seafood"
+  },
+  "clonedFrom": "6828ed0f97a36a9824b409a1",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-19T00:52:36+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053b2",
+      "type": "spanish",
+      "name": "Spanish",
+      "slug": "spanish",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b2-b3f4f4d2.jpg"
+    }
+  ],
+  "description": "This one pot paella is truly a dream. With chicken, prawns and smoky chorizo, this recipe is an homage to paella mixta, with peas and Tenderstem® broccoli giving freshness in the form of veg. Lemon, chives and chilli flakes create your classic garnishes to finish this pot of flavour.",
+  "descriptionHTML": "<p>This one pot paella is truly a dream. With chicken, prawns and smoky chorizo, this recipe is an homage to paella mixta, with peas and Tenderstem® broccoli giving freshness in the form of veg. Lemon, chives and chilli flakes create your classic garnishes to finish this pot of flavour.</p>",
+  "descriptionMarkdown": "This one pot paella is truly a dream. With chicken, prawns and smoky chorizo, this recipe is an homage to paella mixta, with peas and Tenderstem® broccoli giving freshness in the form of veg. Lemon, chives and chilli flakes create your classic garnishes to finish this pot of flavour.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Mussels, Tenderstem® Broccoli and Peas",
+  "id": "689cc4001597ca633109c31a",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5063_W42_UK_GCSEA01344789-3_Main_1_low-6da77612.jpg",
+  "imagePath": "/image/GC_Y25_R5063_W42_UK_GCSEA01344789-3_Main_1_low-6da77612.jpg",
+  "ingredients": [
+    {
+      "id": "60392410046fce264a0909e4",
+      "uuid": "540cc6fc-dcc5-5cc8-81b2-669729b49e60",
+      "name": "Tenderstem® Broccoli",
+      "type": "tenderstem-broccoli",
+      "slug": "tenderstem-r-broccoli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "imagePath": "/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb56",
+        "uuid": "d01a7d5d-e4fd-52a4-bdc5-8c61549aa9bb",
+        "name": "broccoli",
+        "slug": "broccoli",
+        "type": "broccoli",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6340bee0233160a36674ba38",
+      "uuid": "81b3c69b-2097-5c00-baa8-2cf099ef66e8",
+      "name": "Bell Pepper",
+      "type": "bell-pepper",
+      "slug": "bell-pepper",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6340bee0233160a36674ba38-4612e733.png",
+      "imagePath": "/ingredient/6340bee0233160a36674ba38-4612e733.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc06",
+        "uuid": "0d7440cc-50d0-547b-87d2-b60c90aa6e42",
+        "name": "pepper",
+        "slug": "pepper",
+        "type": "pepper-vegetable",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390c38a581904442526529",
+      "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
+      "name": "Lemon",
+      "type": "lemon",
+      "slug": "lemon",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390c38a581904442526529-fa51e946.png",
+      "imagePath": "/ingredient/60390c38a581904442526529-fa51e946.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbc5",
+        "uuid": "3f3c3cbb-7960-5dcd-be95-cdb72d76e1a1",
+        "name": "lemon",
+        "slug": "lemon",
+        "type": "lemon",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391f167f58c906aa09a942",
+      "uuid": "b443c50a-b3b3-510c-93ac-01d6610777a3",
+      "name": "Chives",
+      "type": "chives",
+      "slug": "chives",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391f167f58c906aa09a942-0ac4a203.png",
+      "imagePath": "/ingredient/60391f167f58c906aa09a942-0ac4a203.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb74",
+        "uuid": "ba0b471c-2b24-5aac-bcb1-c610e06408a1",
+        "name": "chive",
+        "slug": "chive",
+        "type": "chives",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "66bcc38e11ecbd46e2d02d15",
+      "uuid": "9bcd0897-d822-4f07-8474-e4c19bff7776",
+      "name": "Diced Chorizo",
+      "type": "chorizo-diced",
+      "slug": "diced-chorizo",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/66bcc38e11ecbd46e2d02d15-7d3d5b12.png",
+      "imagePath": "/ingredient/66bcc38e11ecbd46e2d02d15-7d3d5b12.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa39d7803ca91b7905bc",
+      "uuid": "8b7ec7ac-7dc0-5fcd-8702-58c8a214b61b",
+      "name": "Risotto Rice",
+      "type": "risotto-rice",
+      "slug": "risotto-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa39d7803ca91b7905bc-eecfbbd1.png",
+      "imagePath": "/ingredient/62fcaa39d7803ca91b7905bc-eecfbbd1.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6489bd550635a1e9befbb46d",
+      "uuid": "8a37d948-a345-45c9-8aed-6f4a09635456",
+      "name": "Smoky Base Paste",
+      "type": "smokey-base-paste",
+      "slug": "smoky-base-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6489bd550635a1e9befbb46d-d038affc.png",
+      "imagePath": "/ingredient/6489bd550635a1e9befbb46d-d038affc.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606335279cc1081ad772a604",
+      "uuid": "c7440604-41b7-5ef5-b2b3-8f83c31bccf9",
+      "name": "Tomato Puree",
+      "type": "tomato-puree",
+      "slug": "tomato-puree",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "imagePath": "/ingredient/606335279cc1081ad772a604-399f5463.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc45",
+        "uuid": "ead9e83c-158c-5ebe-bb04-ec24d45b8d80",
+        "name": "single ingredient paste",
+        "slug": "single-ingredient-paste",
+        "type": "tomato-paste",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6390aea605fc26d5313f23d1",
+      "uuid": "9838d4d1-5c2e-4e68-a073-54d514ccfdb0",
+      "name": "Diced British Chicken Breast",
+      "type": "chicken-breast-diced",
+      "slug": "diced-british-chicken-breast",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6390aea605fc26d5313f23d1-987f8235.png",
+      "imagePath": "/ingredient/6390aea605fc26d5313f23d1-987f8235.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603909be046fce264a0909c2",
+      "uuid": "0d4174dc-3c31-5968-82c5-027c3570f276",
+      "name": "Large King Prawns",
+      "type": "large-king-prawns",
+      "slug": "large-king-prawns",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603909be046fce264a0909c2-981be60b.png",
+      "imagePath": "/ingredient/603909be046fce264a0909c2-981be60b.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f4"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc29",
+        "uuid": "b0d9dcaa-bdfb-553e-817d-006d4d0f4e1e",
+        "name": "seafood preparation",
+        "slug": "seafood-preparation",
+        "type": "seafood",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "65b3c0473ebf28940b3029cf",
+      "uuid": "f1a60305-d308-4cb8-88cb-2803fa4c4108",
+      "name": "Garlic & White Wine Scottish Mussels",
+      "type": "garlic-and-white-wine-mussels",
+      "slug": "garlic-and-white-wine-scottish-mussels",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/65b3c0473ebf28940b3029cf-a27a809f.png",
+      "imagePath": "/ingredient/65b3c0473ebf28940b3029cf-a27a809f.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa",
+        "57962a07b7e8697d4b305301"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60dd59f9aea8bc0ebf7acedb",
+      "uuid": "cf091724-33ca-57a1-be89-5146fb69dee3",
+      "name": "Peas",
+      "type": "peas",
+      "slug": "peas",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60dd59f9aea8bc0ebf7acedb-aecd475c.png",
+      "imagePath": "/ingredient/60dd59f9aea8bc0ebf7acedb-aecd475c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc04",
+        "uuid": "f5be8c75-d90c-57d4-bd8e-b39b9417e4e9",
+        "name": "peas",
+        "slug": "peas",
+        "type": "peas",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa18bd9a2478e193f014",
+      "uuid": "dbc8bc5d-daac-50e9-8161-afdb361d627a",
+      "name": "Chilli Flakes",
+      "type": "chilli-flakes",
+      "slug": "chilli-flakes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "imagePath": "/ingredient/62fcaa18bd9a2478e193f014-f0d9fce2.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "670e49ded1dd98c148b0988d",
+      "uuid": "f14fb058-b0e3-4bb7-9b1c-cb194f7772af",
+      "name": "Honey",
+      "type": "honey-1-tsp",
+      "slug": "honey",
+      "country": "GN",
+      "imageLink": null,
+      "imagePath": null,
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ef9cab2001267a28b8",
+      "uuid": "ef880220-34dc-4c85-9841-7d34b28d6165",
+      "name": "Water",
+      "type": "water-100ml",
+      "slug": "water",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "imagePath": "/ingredient/62c6e0ef9cab2001267a28b8-96ef4bff.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "One Pot",
+    "handle": "onepot",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#CE4500",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/689cc4001597ca633109c31a",
+  "name": "One Pot Prawn, Chicken & Chorizo Paella",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 4240,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 1013,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 27.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 10.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 99.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 17.2,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 12.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 89.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 7.05,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT45M",
+  "promotion": null,
+  "ratingsCount": 0,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 1188,
+  "slug": "one-pot-prawn-chicken-and-chorizo-paella",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Cut the Tenderstem® broccoli into thirds. \nHalve the bell pepper and discard the core and seeds. Chop into 2cm chunks.",
+      "instructionsHTML": "<p>Cut the Tenderstem® broccoli into thirds. </p>\n<p>Halve the bell pepper and discard the core and seeds. Chop into 2cm chunks.</p>",
+      "instructionsMarkdown": "<p>Cut the Tenderstem® broccoli into thirds. </p>\n<p>Halve the bell pepper and discard the core and seeds. Chop into 2cm chunks.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc4001597ca633109c31a/step-29963500.jpg",
+          "path": "/689cc4001597ca633109c31a/step-29963500.jpg",
+          "caption": "Prep the Tenderstem® Broccoli "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Peel and grate the garlic (or use a garlic press).\nZest the lemon. Juice half the lemon and cut the other half into wedges.\nRoughly chop the chives (use scissors if easier).",
+      "instructionsHTML": "<p>Peel and grate the garlic (or use a garlic press).</p>\n<p>Zest the lemon. Juice half the lemon and cut the other half into wedges.</p>\n<p>Roughly chop the chives (use scissors if easier).</p>",
+      "instructionsMarkdown": "<p>Peel and grate the garlic (or use a garlic press).</p>\n<p>Zest the lemon. Juice half the lemon and cut the other half into wedges.</p>\n<p>Roughly chop the chives (use scissors if easier).</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc4001597ca633109c31a/step-5c024010.jpg",
+          "path": "/689cc4001597ca633109c31a/step-5c024010.jpg",
+          "caption": "Prep "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Heat a drizzle of oil in a large frying pan on high heat (or use a paella dish if you have one). \nOnce the oil is hot, add the pepper and chorizo. Fry until charred, 5-6 mins. Continue to stir while it cooks.",
+      "instructionsHTML": "<p>Heat a drizzle of oil in a large frying pan on high heat (or use a paella dish if you have one). </p>\n<p>Once the oil is hot, add the pepper and chorizo. Fry until charred, 5-6 mins. Continue to stir while it cooks.</p>",
+      "instructionsMarkdown": "<p>Heat a drizzle of oil in a large frying pan on high heat (or use a paella dish if you have one). </p>\n<p>Once the oil is hot, add the pepper and chorizo. Fry until charred, 5-6 mins. Continue to stir while it cooks.</p>",
+      "ingredients": [],
+      "utensils": [
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc4001597ca633109c31a/step-98930920.jpg",
+          "path": "/689cc4001597ca633109c31a/step-98930920.jpg",
+          "caption": "Fry the Veg "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Add the risotto rice, smoky base paste, garlic and tomato puree to the pan. Fry for 1 min.\nAdd the water and simmer for 20-25 mins, stirring regularly. \nIn the final 8-10 mins, stir through the chicken and broccoli. Bring to the boil, then lower the heat to medium and simmer until cooked. Season with salt and pepper to taste. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It's cooked when no longer pink in the middle. \nWhile the chicken and broccoli simmers, drain the prawns and drain the mussels in a colander.",
+      "instructionsHTML": "<p>Add the risotto rice, smoky base paste, garlic and tomato puree to the pan. Fry for 1 min.</p>\n<p>Add the water and simmer for 20-25 mins, stirring regularly. </p>\n<p>In the final 8-10 mins, stir through the chicken and broccoli. Bring to the boil, then lower the heat to medium and simmer until cooked. Season with salt and pepper to taste. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It&#39;s cooked when no longer pink in the middle. </p>\n<p><span>While the chicken and broccoli simmers, drain the prawns and drain the mussels in a colander.</span></p>",
+      "instructionsMarkdown": "<p>Add the risotto rice, smoky base paste, garlic and tomato puree to the pan. Fry for 1 min.</p>\n<p>Add the water and simmer for 20-25 mins, stirring regularly. </p>\n<p>In the final 8-10 mins, stir through the chicken and broccoli. Bring to the boil, then lower the heat to medium and simmer until cooked. Season with salt and pepper to taste. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It&#39;s cooked when no longer pink in the middle. </p>\n<p><span>While the chicken and broccoli simmers, drain the prawns and drain the mussels in a colander.</span></p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc4001597ca633109c31a/step-ac98bb30.jpg",
+          "path": "/689cc4001597ca633109c31a/step-ac98bb30.jpg",
+          "caption": "Add the Flavour  "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "For the final 5-6 mins, bring the sauce to the boil. Stir through the peas and prawns. Cook for the remaining time. IMPORTANT: Wash your hands and equipment after handling raw prawns. They're cooked when pink on the outside and opaque in the middle.\nFor the final 5 mins, add the mussels  to the saucepan. Bring to the boil.\nPlace the lid on or cover with foil and turn the heat down to medium-high. Cook until piping hot, 5 mins. IMPORTANT: Mussels served in shell, beware of sharp edges or broken shell. Discard any that do not open. Ensure they're piping hot throughout.\nOnce cooked, stir through the honey (see pantry), lemon zest and juice, half the chilli flakes (careful - they're hot) and half the chives. \nSeason with salt and pepper. Add a splash of water to loosen the paella to your desired consistency.",
+      "instructionsHTML": "<p>For the final 5-6 mins, bring the sauce to the boil. Stir through the peas and prawns. Cook for the remaining time. IMPORTANT: Wash your hands and equipment after handling raw prawns. They&#39;re cooked when pink on the outside and opaque in the middle.</p>\n<p><span>For the final 5 mins, add the mussels  to the saucepan. Bring to the boil.</span></p>\n<p><span>Place the lid on or cover with foil and turn the heat down to medium-high. Cook until piping hot, 5 mins. IMPORTANT: Mussels served in shell, beware of sharp edges or broken shell. Discard any that do not open. Ensure they&#39;re piping hot throughout.</span></p>\n<p>Once cooked, stir through the honey (see pantry), lemon zest and juice, half the chilli flakes (careful - they&#39;re hot) and half the chives. </p>\n<p>Season with salt and pepper. Add a splash of water to loosen the paella to your desired consistency.</p>",
+      "instructionsMarkdown": "<p>For the final 5-6 mins, bring the sauce to the boil. Stir through the peas and prawns. Cook for the remaining time. IMPORTANT: Wash your hands and equipment after handling raw prawns. They&#39;re cooked when pink on the outside and opaque in the middle.</p>\n<p><span>For the final 5 mins, add the mussels  to the saucepan. Bring to the boil.</span></p>\n<p><span>Place the lid on or cover with foil and turn the heat down to medium-high. Cook until piping hot, 5 mins. IMPORTANT: Mussels served in shell, beware of sharp edges or broken shell. Discard any that do not open. Ensure they&#39;re piping hot throughout.</span></p>\n<p>Once cooked, stir through the honey (see pantry), lemon zest and juice, half the chilli flakes (careful - they&#39;re hot) and half the chives. </p>\n<p>Season with salt and pepper. Add a splash of water to loosen the paella to your desired consistency.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc4001597ca633109c31a/step-dafca840.jpg",
+          "path": "/689cc4001597ca633109c31a/step-dafca840.jpg",
+          "caption": "Add the Prawns and Mussels"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the paella inspired rice between your bowls.\nTop with the remaining chives and serve with the lemon wedges.\nSprinkle over the remaining chilli flakes to finish.",
+      "instructionsHTML": "<p>Share the paella inspired rice between your bowls.</p>\n<p>Top with the remaining chives and serve with the lemon wedges.</p>\n<p>Sprinkle over the remaining chilli flakes to finish.</p>",
+      "instructionsMarkdown": "<p>Share the paella inspired rice between your bowls.</p>\n<p>Top with the remaining chives and serve with the lemon wedges.</p>\n<p>Sprinkle over the remaining chilli flakes to finish.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc4001597ca633109c31a/step-5d30c550.jpg",
+          "path": "/689cc4001597ca633109c31a/step-5d30c550.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305319",
+      "type": "spicy",
+      "name": "Medium Spice",
+      "slug": "medium-spice",
+      "colorHandle": "spicy",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305312",
+      "type": "one-pot",
+      "name": "One Pot Wonder",
+      "slug": "one-pot",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "5f195acee60c1276593d855b",
+      "type": "new",
+      "name": "New",
+      "slug": "new",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "No Preference",
+        "Fish Free",
+        "Pork Free",
+        "Veggie",
+        "Carb Smart",
+        "Protein Rich",
+        "Calorie Smart",
+        "family",
+        "Quick & Easy",
+        "Chef's Choice",
+        "Pescatarian",
+        "Flexitarian"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "68ac2b8f2e0eae9e5b7d973f",
+      "type": "6-plants",
+      "name": "6 Plants",
+      "slug": "6-plants",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "674dcb0cfe4143e76d6fe067",
+      "type": "signatures-category",
+      "name": "Signatures",
+      "slug": "signatures",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT35M",
+  "uniqueRecipeCode": "GCSEA01344789-3",
+  "updatedAt": "2025-09-15T18:26:32+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "7f92225d-51fa-4b65-b95c-fb3a30874af3",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/one-pot-prawn-chicken-and-chorizo-paella-689cc4001597ca633109c31a",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "6340bee0233160a36674ba38",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c38a581904442526529",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f167f58c906aa09a942",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "66bcc38e11ecbd46e2d02d15",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa39d7803ca91b7905bc",
+          "amount": 175,
+          "unit": "grams"
+        },
+        {
+          "id": "6489bd550635a1e9befbb46d",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "6390aea605fc26d5313f23d1",
+          "amount": 1,
+          "unit": "pack(s)"
+        },
+        {
+          "id": "603909be046fce264a0909c2",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "65b3c0473ebf28940b3029cf",
+          "amount": 500,
+          "unit": "grams"
+        },
+        {
+          "id": "60dd59f9aea8bc0ebf7acedb",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "670e49ded1dd98c148b0988d",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 700,
+          "unit": "milliliter(s)"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "6340bee0233160a36674ba38",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60390c38a581904442526529",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60391f167f58c906aa09a942",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "66bcc38e11ecbd46e2d02d15",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa39d7803ca91b7905bc",
+          "amount": 350,
+          "unit": "grams"
+        },
+        {
+          "id": "6489bd550635a1e9befbb46d",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "606335279cc1081ad772a604",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "6390aea605fc26d5313f23d1",
+          "amount": 2,
+          "unit": "pack(s)"
+        },
+        {
+          "id": "603909be046fce264a0909c2",
+          "amount": 500,
+          "unit": "grams"
+        },
+        {
+          "id": "65b3c0473ebf28940b3029cf",
+          "amount": 1000,
+          "unit": "grams"
+        },
+        {
+          "id": "60dd59f9aea8bc0ebf7acedb",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa18bd9a2478e193f014",
+          "amount": 2,
+          "unit": "pinch"
+        },
+        {
+          "id": "670e49ded1dd98c148b0988d",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e0ef9cab2001267a28b8",
+          "amount": 1400,
+          "unit": "milliliter(s)"
+        }
+      ]
+    }
+  ]
+}

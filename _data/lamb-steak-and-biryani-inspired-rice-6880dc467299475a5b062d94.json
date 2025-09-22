@@ -1,0 +1,815 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fd",
+      "name": "Mustard",
+      "type": "mustard",
+      "slug": "mustard",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 2.5,
+  "canonical": "682671b8bcf93b69ffc810ba",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/lamb-biriyani-682671b8bcf93b69ffc810ba",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/6880dc467299475a5b062d94-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039b0",
+    "name": "Lamb",
+    "type": "lamb",
+    "slug": "lamb"
+  },
+  "clonedFrom": "682671b8bcf93b69ffc810ba",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-09T01:44:59+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053aa",
+      "type": "indian",
+      "name": "Indian",
+      "slug": "indian",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053aa-835d45ad.jpg"
+    }
+  ],
+  "description": "Enjoy your favourite dishes made more delicious with our collection of elevated everyday recipes. With extra special sides to pair with a hero dish, this one is worth savouring.",
+  "descriptionHTML": "<p>Enjoy your favourite dishes made more delicious with our collection of elevated everyday recipes. With extra special sides to pair with a hero dish, this one is worth savouring.</p>",
+  "descriptionMarkdown": "Enjoy your favourite dishes made more delicious with our collection of elevated everyday recipes. With extra special sides to pair with a hero dish, this one is worth savouring.",
+  "difficulty": 2,
+  "favoritesCount": 1,
+  "headline": "with a Coriander Yoghurt and Chana Saag Inspired Chickpeas",
+  "id": "6880dc467299475a5b062d94",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5063_W39_UK_GCBE00144750-3_Main_F1_low-62d3883e.jpg",
+  "imagePath": "/image/GC_Y25_R5063_W39_UK_GCBE00144750-3_Main_F1_low-62d3883e.jpg",
+  "ingredients": [
+    {
+      "id": "62fcaa49c9a48553f90753e4",
+      "uuid": "0a1cae3a-2981-57fd-a8c3-a70ab32e27f1",
+      "name": "Lamb Steaks",
+      "type": "lamb-steak",
+      "slug": "lamb-steaks",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa49c9a48553f90753e4-f7170f3b.png",
+      "imagePath": "/ingredient/62fcaa49c9a48553f90753e4-f7170f3b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "61a87b74536c5c0ba11a1a51",
+      "uuid": "1aa76c55-dc0a-51ea-ae8d-bdfb6b05c203",
+      "name": "Chicken Broth Paste",
+      "type": "chicken-broth-paste",
+      "slug": "chicken-broth-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/61a87b74536c5c0ba11a1a51-ae9f6086.png",
+      "imagePath": "/ingredient/61a87b74536c5c0ba11a1a51-ae9f6086.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb57",
+        "uuid": "7ef4529c-c210-5d1f-a7cd-faf3d412cd15",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "broth",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa54c9a48553f907540f",
+      "uuid": "40329dfe-9539-5610-9e3c-5a1f4eb36c2e",
+      "name": "Basmati Rice",
+      "type": "basmati-rice",
+      "slug": "basmati-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa54c9a48553f907540f-f7b74b0e.png",
+      "imagePath": "/ingredient/62fcaa54c9a48553f907540f-f7b74b0e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60391f6bd3bd3274754539eb",
+      "uuid": "56e34095-fc33-5521-84c7-6a9df58106aa",
+      "name": "Coriander",
+      "type": "coriander",
+      "slug": "coriander",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60391f6bd3bd3274754539eb-7b85d9f4.png",
+      "imagePath": "/ingredient/60391f6bd3bd3274754539eb-7b85d9f4.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbf9",
+        "uuid": "813844a6-db58-5081-94e0-8cfb0e7c5a9b",
+        "name": "parsley",
+        "slug": "parsley",
+        "type": "parsley",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0cd7803ca91b790573",
+      "uuid": "81ee030d-c41d-5521-acb8-338b9e877fca",
+      "name": "Chickpeas",
+      "type": "chickpeas",
+      "slug": "chickpeas",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0cd7803ca91b790573-5e83574b.png",
+      "imagePath": "/ingredient/62fcaa0cd7803ca91b790573-5e83574b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0ec9a48553f907536f",
+      "uuid": "b330fdf9-ab81-5b42-bc68-7b5748ae00ba",
+      "name": "Curry Powder Mix",
+      "type": "curry-powder",
+      "slug": "curry-powder-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0ec9a48553f907536f-bd93057c.png",
+      "imagePath": "/ingredient/62fcaa0ec9a48553f907536f-bd93057c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390df6f44ad95997152386",
+      "uuid": "15cddd46-c4d1-5521-8277-f964e79d60d7",
+      "name": "Sliced Mushrooms",
+      "type": "sliced-mushrooms",
+      "slug": "sliced-mushrooms",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390df6f44ad95997152386-3c9524f6.png",
+      "imagePath": "/ingredient/60390df6f44ad95997152386-3c9524f6.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbde",
+        "uuid": "4d4e9c74-f094-555b-b132-6edacc2fd433",
+        "name": "plain mushrooms",
+        "slug": "plain-mushrooms",
+        "type": "mushrooms",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60dd59f9aea8bc0ebf7acedb",
+      "uuid": "cf091724-33ca-57a1-be89-5146fb69dee3",
+      "name": "Peas",
+      "type": "peas",
+      "slug": "peas",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60dd59f9aea8bc0ebf7acedb-aecd475c.png",
+      "imagePath": "/ingredient/60dd59f9aea8bc0ebf7acedb-aecd475c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc04",
+        "uuid": "f5be8c75-d90c-57d4-bd8e-b39b9417e4e9",
+        "name": "peas",
+        "slug": "peas",
+        "type": "peas",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6038fedee0dcd710657d0a8e",
+      "uuid": "427c79c7-8c5a-567a-aec0-980b9e2aca8d",
+      "name": "Korma Curry Paste",
+      "type": "korma-curry-paste",
+      "slug": "korma-curry-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6038fedee0dcd710657d0a8e-7d69193c.png",
+      "imagePath": "/ingredient/6038fedee0dcd710657d0a8e-7d69193c.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fd"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb8a",
+        "uuid": "7af8f2e9-c302-57de-8b46-c811cab0546a",
+        "name": "spice blend",
+        "slug": "spice-blend",
+        "type": "curry",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa0ec9a48553f907536e",
+      "uuid": "83debc4f-e731-5de0-b54d-f0c8bc201099",
+      "name": "Baby Spinach",
+      "type": "baby-spinach",
+      "slug": "baby-spinach",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+      "imagePath": "/ingredient/62fcaa0ec9a48553f907536e-df5e925c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa4dd7803ca91b7905e7",
+      "uuid": "af1c500d-4988-5a4b-92bd-5a44a4611b46",
+      "name": "Mango Chutney",
+      "type": "mango-chutney",
+      "slug": "mango-chutney",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa4dd7803ca91b7905e7-4e4620ad.png",
+      "imagePath": "/ingredient/62fcaa4dd7803ca91b7905e7-4e4620ad.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa50bd9a2478e193f0a4",
+      "uuid": "9608a7a7-1c10-5269-b1c6-4f272f757184",
+      "name": "Greek Style Natural Yoghurt",
+      "type": "greek-style-natural-yoghurt",
+      "slug": "greek-style-natural-yoghurt",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa50bd9a2478e193f0a4-2d4b9337.png",
+      "imagePath": "/ingredient/62fcaa50bd9a2478e193f0a4-2d4b9337.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e2b49cab2001267a2947",
+      "uuid": "bc36f032-d197-436f-b61e-3dcd74ad6bea",
+      "name": "Boiled Water for the Rice",
+      "type": "boiled-water-for-the-rice-100ml",
+      "slug": "boiled-water-for-the-rice",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e2b49cab2001267a2947-33602add.png",
+      "imagePath": "/ingredient/62c6e2b49cab2001267a2947-33602add.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "A Taste of India",
+    "handle": "taste-of-india",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#EF6709",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/6880dc467299475a5b062d94",
+  "name": "Lamb Steak and Biryani Inspired Rice",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 3059,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 731,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 22.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 8.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 82.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 19.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 14.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 47.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 3.75,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT35M",
+  "promotion": null,
+  "ratingsCount": 2,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 735,
+  "slug": "lamb-steak-and-biryani-inspired-rice",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Remove the steaks from your fridge to allow them to come up to room temperature.\nBoil a half-full kettle.\nPour the boiled water for the rice (see pantry) into a medium saucepan with the chicken broth paste and bring back to the boil on high heat. Add the rice, then reduce the heat to low.\nCover with a tight-fitting lid and cook for 10 mins, then remove from the heat, still covered, and leave to the side to steam until ready to serve.",
+      "instructionsHTML": "<p>Remove the steaks from your fridge to allow them to come up to room temperature.</p>\n<p>Boil a half-full kettle.</p>\n<p>Pour the boiled water for the rice (see pantry) into a medium saucepan with the chicken broth paste and bring back to the boil on high heat. Add the rice, then reduce the heat to low.</p>\n<p>Cover with a tight-fitting lid and cook for 10 mins, then remove from the heat, still covered, and leave to the side to steam until ready to serve.</p>",
+      "instructionsMarkdown": "<p>Remove the steaks from your fridge to allow them to come up to room temperature.</p>\n<p>Boil a half-full kettle.</p>\n<p>Pour the boiled water for the rice (see pantry) into a medium saucepan with the chicken broth paste and bring back to the boil on high heat. Add the rice, then reduce the heat to low.</p>\n<p>Cover with a tight-fitting lid and cook for 10 mins, then remove from the heat, still covered, and leave to the side to steam until ready to serve.</p>",
+      "ingredients": [],
+      "utensils": [
+        "5e3ad24dfcf61c18c30ff530"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6880dc467299475a5b062d94/step-3ff96c00.jpg",
+          "path": "/6880dc467299475a5b062d94/step-3ff96c00.jpg",
+          "caption": "Boil the Rice "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "While the rice cooks, roughly chop the coriander (stalks and all).\nDrain and rinse the chickpeas in a sieve.\nPeel and grate the garlic (or use a garlic press).",
+      "instructionsHTML": "<p>While the rice cooks, roughly chop the coriander (stalks and all).</p>\n<p>Drain and rinse the chickpeas in a sieve.</p>\n<p>Peel and grate the garlic (or use a garlic press).</p>",
+      "instructionsMarkdown": "<p>While the rice cooks, roughly chop the coriander (stalks and all).</p>\n<p>Drain and rinse the chickpeas in a sieve.</p>\n<p>Peel and grate the garlic (or use a garlic press).</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6880dc467299475a5b062d94/step-3cc31010.jpg",
+          "path": "/6880dc467299475a5b062d94/step-3cc31010.jpg",
+          "caption": "Prep"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Heat a drizzle of oil in a large frying pan on high heat. Season the steaks with salt and pepper.\nOnce very hot, lay the steaks into the pan and fry until browned and medium-rare, about 5 mins. Turn halfway through. TIP: Cook each side for 1 min more if you like it more well done.\nIn the last min, add half the curry powder and the honey (see pantry). Turn to coat.\nOnce cooked, transfer to a board, cover with foil and allow to rest for a couple of mins. IMPORTANT: Wash your hands and equipment after handling raw meat. The steak is safe to eat when browned on the outside.",
+      "instructionsHTML": "<p>Heat a drizzle of oil in a large frying pan on high heat. Season the steaks with salt and pepper.</p>\n<p>Once very hot, lay the steaks into the pan and fry until browned and medium-rare, about 5 mins. Turn halfway through. TIP: Cook each side for 1 min more if you like it more well done.</p>\n<p>In the last min, add half the curry powder and the honey (see pantry). Turn to coat.</p>\n<p>Once cooked, transfer to a board, cover with foil and allow to rest for a couple of mins. IMPORTANT: Wash your hands and equipment after handling raw meat. The steak is safe to eat when browned on the outside.</p>",
+      "instructionsMarkdown": "<p>Heat a drizzle of oil in a large frying pan on high heat. Season the steaks with salt and pepper.</p>\n<p>Once very hot, lay the steaks into the pan and fry until browned and medium-rare, about 5 mins. Turn halfway through. TIP: Cook each side for 1 min more if you like it more well done.</p>\n<p>In the last min, add half the curry powder and the honey (see pantry). Turn to coat.</p>\n<p>Once cooked, transfer to a board, cover with foil and allow to rest for a couple of mins. IMPORTANT: Wash your hands and equipment after handling raw meat. The steak is safe to eat when browned on the outside.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6880dc467299475a5b062d94/step-428d0a20.jpg",
+          "path": "/6880dc467299475a5b062d94/step-428d0a20.jpg",
+          "caption": "Fry the Steak  "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Reheat the steak pan (no need to clean) on high heat with a drizzle of oil.\nWhen hot, add the mushrooms to the pan. Season with salt and pepper and fry, stirring occasionally, until browned, 5-6 mins.\nAdd the peas for the final 4 mins, then stir in the garlic and korma curry paste. Fry for 1 min more.\nNext, add the cooked rice and stir to combine, 2-3 mins.",
+      "instructionsHTML": "<p>Reheat the steak pan (no need to clean) on high heat with a drizzle of oil.</p>\n<p>When hot, add the mushrooms to the pan. Season with salt and pepper and fry, stirring occasionally, until browned, 5-6 mins.</p>\n<p>Add the peas for the final 4 mins, then stir in the garlic and korma curry paste. Fry for 1 min more.</p>\n<p>Next, add the cooked rice and stir to combine, 2-3 mins.</p>",
+      "instructionsMarkdown": "<p>Reheat the steak pan (no need to clean) on high heat with a drizzle of oil.</p>\n<p>When hot, add the mushrooms to the pan. Season with salt and pepper and fry, stirring occasionally, until browned, 5-6 mins.</p>\n<p>Add the peas for the final 4 mins, then stir in the garlic and korma curry paste. Fry for 1 min more.</p>\n<p>Next, add the cooked rice and stir to combine, 2-3 mins.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6880dc467299475a5b062d94/step-6acd6d30.jpg",
+          "path": "/6880dc467299475a5b062d94/step-6acd6d30.jpg",
+          "caption": "Cook the Veg  "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Meanwhile, in another frying pan, add the spinach a handful at a time until wilted and piping hot, 1-2 mins.\nAdd the chickpeas and remaining curry powder, then stir through the mango chutney.\nRemove from the heat, then stir through half the coriander.",
+      "instructionsHTML": "<p>Meanwhile, in another frying pan, add the spinach a handful at a time until wilted and piping hot, 1-2 mins.</p>\n<p>Add the chickpeas and remaining curry powder, then stir through the mango chutney.</p>\n<p>Remove from the heat, then stir through half the coriander.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, in another frying pan, add the spinach a handful at a time until wilted and piping hot, 1-2 mins.</p>\n<p>Add the chickpeas and remaining curry powder, then stir through the mango chutney.</p>\n<p>Remove from the heat, then stir through half the coriander.</p>",
+      "ingredients": [],
+      "utensils": [
+        "636bd5d9d7cc354a94046877"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6880dc467299475a5b062d94/step-f5d58340.jpg",
+          "path": "/6880dc467299475a5b062d94/step-f5d58340.jpg",
+          "caption": "Make the Chana Saag "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Cut the lamb into 1cm pieces. Serve the biryani rice with the chana saag and lamb steak alongside.\nDrizzle the yoghurt over the steak and rice, then sprinkle over the remaining coriander to finish.",
+      "instructionsHTML": "<p>Cut the lamb into 1cm pieces. Serve the biryani rice with the chana saag and lamb steak alongside.</p>\n<p>Drizzle the yoghurt over the steak and rice, then sprinkle over the remaining coriander to finish.</p>",
+      "instructionsMarkdown": "<p>Cut the lamb into 1cm pieces. Serve the biryani rice with the chana saag and lamb steak alongside.</p>\n<p>Drizzle the yoghurt over the steak and rice, then sprinkle over the remaining coriander to finish.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6880dc467299475a5b062d94/step-6d350950.jpg",
+          "path": "/6880dc467299475a5b062d94/step-6d350950.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "64624e0c8ab1333a8ca245a8",
+      "type": "gut-health",
+      "name": "Fibre Focused ",
+      "slug": "fibre-focused",
+      "colorHandle": "quickPrep",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "66df147e6f2782a900bc741d",
+      "type": "tasty-adventures",
+      "name": "tasty-adventures",
+      "slug": "tasty-adventures",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "5f195acee60c1276593d855b",
+      "type": "new",
+      "name": "New",
+      "slug": "new",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "No Preference",
+        "Fish Free",
+        "Pork Free",
+        "Veggie",
+        "Carb Smart",
+        "Protein Rich",
+        "Calorie Smart",
+        "family",
+        "Quick & Easy",
+        "Chef's Choice",
+        "Pescatarian",
+        "Flexitarian"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "674dcb0cfe4143e76d6fe067",
+      "type": "signatures-category",
+      "name": "Signatures",
+      "slug": "signatures",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    }
+  ],
+  "totalTime": "PT30M",
+  "uniqueRecipeCode": "GCBE00144750-3",
+  "updatedAt": "2025-09-22T16:30:40+00:00",
+  "utensils": [
+    {
+      "id": "5e3ad24dfcf61c18c30ff530",
+      "type": null,
+      "name": "Small sauce pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    },
+    {
+      "id": "636bd5d9d7cc354a94046877",
+      "type": "large-frying-pan",
+      "name": "Large Frying Pan"
+    }
+  ],
+  "uuid": "abcf2b58-c91a-4e87-8ce8-0525aef7cb7c",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/lamb-steak-and-biryani-inspired-rice-6880dc467299475a5b062d94",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa49c9a48553f90753e4",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "61a87b74536c5c0ba11a1a51",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa54c9a48553f907540f",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "60391f6bd3bd3274754539eb",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa0cd7803ca91b790573",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536f",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "60390df6f44ad95997152386",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "60dd59f9aea8bc0ebf7acedb",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "6038fedee0dcd710657d0a8e",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536e",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa4dd7803ca91b7905e7",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa50bd9a2478e193f0a4",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2b49cab2001267a2947",
+          "amount": 300,
+          "unit": "milliliter(s)"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa49c9a48553f90753e4",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "61a87b74536c5c0ba11a1a51",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa54c9a48553f907540f",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "60391f6bd3bd3274754539eb",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "62fcaa0cd7803ca91b790573",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536f",
+          "amount": 4,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "60390df6f44ad95997152386",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "60dd59f9aea8bc0ebf7acedb",
+          "amount": 240,
+          "unit": "grams"
+        },
+        {
+          "id": "6038fedee0dcd710657d0a8e",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa0ec9a48553f907536e",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa4dd7803ca91b7905e7",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa50bd9a2478e193f0a4",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e2b49cab2001267a2947",
+          "amount": 600,
+          "unit": "milliliter(s)"
+        }
+      ]
+    }
+  ]
+}

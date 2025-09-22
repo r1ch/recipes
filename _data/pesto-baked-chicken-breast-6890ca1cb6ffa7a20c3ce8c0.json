@@ -1,0 +1,706 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    },
+    {
+      "id": "5de91db7c7d1a818111194b2",
+      "name": "Celery",
+      "type": "traces-of-celery",
+      "slug": "traces-of-celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "63c00da40c675b6b333afdca",
+      "name": "Khorasan (wheat)",
+      "type": "traces-of-khorasan",
+      "slug": "traces-of-khorasan-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "620388fcaa89ed438d344f43",
+      "name": "Oats",
+      "type": "traces-of-oats",
+      "slug": "traces-of-oats",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca932b6926917f344073a",
+      "name": "Rye",
+      "type": "traces-of-rye",
+      "slug": "traces-of-rye",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca9a68655e91f07576baa",
+      "name": "Spelt (wheat)",
+      "type": "traces-of-spelt",
+      "slug": "traces-of-spelt-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "6203885f2cefe43adc5127c0",
+      "name": "Wheat",
+      "type": "traces-of-wheat",
+      "slug": "traces-of-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca9427051291d16323686",
+      "name": "Barley",
+      "type": "traces-of-barley",
+      "slug": "traces-of-barley",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62cc417a2f15d58ec3559423",
+      "name": "Cereals containing gluten",
+      "type": "traces-of-gluten",
+      "slug": "traces-of-cereals-containing-gluten",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca9b39d7ee35a831ebe0d",
+      "name": "Kamut (wheat)",
+      "type": "traces-of-kamut",
+      "slug": "traces-of-kamut-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 0,
+  "canonical": "64b95aeaa1aa6db20ea0f890",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/pesto-baked-chicken-thighs-64b95aeaa1aa6db20ea0f890",
+  "cardLink": null,
+  "category": null,
+  "clonedFrom": "688c9a3b9643892dc8fa7f23",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-04T14:56:28+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053bd",
+      "type": "british",
+      "name": "British",
+      "slug": "british",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053bd-8abb14dd.jpg"
+    }
+  ],
+  "description": "Something savoury to enjoy. Lightly creamy lentils, green vegetables and basil pesto are a match made in heaven to make these chicken breasts sing. At less than 25g of carbs per portion, it's beautifully balanced.",
+  "descriptionHTML": "<p>Something savoury to enjoy. Lightly creamy lentils, green vegetables and basil pesto are a match made in heaven to make these chicken breasts sing. At less than 25g of carbs per portion, it's beautifully balanced.</p>",
+  "descriptionMarkdown": "Something savoury to enjoy. Lightly creamy lentils, green vegetables and basil pesto are a match made in heaven to make these chicken breasts sing. At less than 25g of carbs per portion, it's beautifully balanced.",
+  "difficulty": 1,
+  "favoritesCount": 0,
+  "headline": "with Creamy Lentils and Tenderstem® Broccoli",
+  "id": "6890ca1cb6ffa7a20c3ce8c0",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5024_W40_UK_GCLC60820143-11_mod_upgrade__high-627c6c54.jpg",
+  "imagePath": "/image/GC_Y25_R5024_W40_UK_GCLC60820143-11_mod_upgrade__high-627c6c54.jpg",
+  "ingredients": [
+    {
+      "id": "62fcaa3dbd9a2478e193f06a",
+      "uuid": "0a12b986-df91-548e-b747-8585b80eacb3",
+      "name": "British Chicken Breasts",
+      "type": "chicken-breast",
+      "slug": "british-chicken-breasts",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa3dbd9a2478e193f06a-2d17edb7.png",
+      "imagePath": "/ingredient/62fcaa3dbd9a2478e193f06a-2d17edb7.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "664f52982f920ffe29e932b5",
+      "uuid": "97fe7a85-fed9-5bc6-82e6-7a2c1e845742",
+      "name": "Pesto",
+      "type": "pesto",
+      "slug": "pesto",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/664f52982f920ffe29e932b5-4a31f4ac.png",
+      "imagePath": "/ingredient/664f52982f920ffe29e932b5-4a31f4ac.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603904c8823813388f0ab8f6",
+      "uuid": "90f7a2a9-7adb-51b5-8f53-022f3a2ef9d8",
+      "name": "Courgette",
+      "type": "courgette",
+      "slug": "courgette",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "imagePath": "/ingredient/603904c8823813388f0ab8f6-8ad4acb9.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f3",
+        "5de91db7c7d1a818111194b2"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb83",
+        "uuid": "c8061e44-33cd-538e-83ce-d05693b35ba7",
+        "name": "zucchini",
+        "slug": "zucchini",
+        "type": "courgette",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60392410046fce264a0909e4",
+      "uuid": "540cc6fc-dcc5-5cc8-81b2-669729b49e60",
+      "name": "Tenderstem® Broccoli",
+      "type": "tenderstem-broccoli",
+      "slug": "tenderstem-r-broccoli",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "imagePath": "/ingredient/60392410046fce264a0909e4-e019239c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb56",
+        "uuid": "d01a7d5d-e4fd-52a4-bdc5-8c61549aa9bb",
+        "name": "broccoli",
+        "slug": "broccoli",
+        "type": "broccoli",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6837307bf7d5496ac4a65c9d",
+      "uuid": "35c5f2d0-57ac-5ea7-8cf8-62aac599edc4",
+      "name": "Lentils",
+      "type": "lentils",
+      "slug": "lentils",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa28bd9a2478e193f036-14a1be3c.png",
+      "imagePath": "/ingredient/62fcaa28bd9a2478e193f036-14a1be3c.png",
+      "shipped": true,
+      "allergens": [
+        "63c00da40c675b6b333afdca",
+        "620388fcaa89ed438d344f43",
+        "5fdca932b6926917f344073a",
+        "5fdca9a68655e91f07576baa",
+        "6203885f2cefe43adc5127c0",
+        "5fdca9427051291d16323686",
+        "62cc417a2f15d58ec3559423",
+        "5fdca9b39d7ee35a831ebe0d",
+        "57962a07b7e8697d4b3052f3"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38c9a48553f90753c8",
+      "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
+      "name": "Creme Fraiche",
+      "type": "creme-fraiche",
+      "slug": "creme-fraiche",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "imagePath": "/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "61a87b74536c5c0ba11a1a51",
+      "uuid": "1aa76c55-dc0a-51ea-ae8d-bdfb6b05c203",
+      "name": "Chicken Broth Paste",
+      "type": "chicken-broth-paste",
+      "slug": "chicken-broth-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/61a87b74536c5c0ba11a1a51-ae9f6086.png",
+      "imagePath": "/ingredient/61a87b74536c5c0ba11a1a51-ae9f6086.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb57",
+        "uuid": "7ef4529c-c210-5d1f-a7cd-faf3d412cd15",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "broth",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "633c6597aa3f33c15c854baf",
+      "uuid": "b755bc1f-0454-437a-9841-1981d18eb0e4",
+      "name": "Mixed Herbs",
+      "type": "mixed-herbs",
+      "slug": "mixed-herbs",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "imagePath": "/ingredient/633c6597aa3f33c15c854baf-665ac925.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/6890ca1cb6ffa7a20c3ce8c0",
+  "name": "Pesto Baked Chicken Breast ",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2118,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 506,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 26.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 10.6,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 24.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 5.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 8.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 45.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 3.1,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT25M",
+  "promotion": null,
+  "ratingsCount": 0,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 456,
+  "slug": "pesto-baked-chicken-breast",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7.\nPlace the chicken on a baking tray with a drizzle of oil and season with salt and pepper. Spread over the pesto.\nRoast on the top shelf of your oven until browned and cooked through, 25-30 mins. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It's cooked when no longer pink in the middle.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Place the chicken on a baking tray with a drizzle of oil and season with salt and pepper. Spread over the pesto.</p>\n<p>Roast on the top shelf of your oven until browned and cooked through, 25-30 mins. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It&#39;s cooked when no longer pink in the middle.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7.</p>\n<p>Place the chicken on a baking tray with a drizzle of oil and season with salt and pepper. Spread over the pesto.</p>\n<p>Roast on the top shelf of your oven until browned and cooked through, 25-30 mins. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging. It&#39;s cooked when no longer pink in the middle.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305368"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6890ca1cb6ffa7a20c3ce8c0/step-53fc7900.jpg",
+          "path": "/6890ca1cb6ffa7a20c3ce8c0/step-53fc7900.jpg",
+          "caption": "Roast the Chicken"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Meanwhile, trim the courgette, then halve lengthways. Slice widthways into 1cm thick pieces.\nCut the Tenderstem® broccoli into thirds.\nDrain and rinse the lentils in a sieve.",
+      "instructionsHTML": "<p>Meanwhile, trim the courgette, then halve lengthways. Slice widthways into 1cm thick pieces.</p>\n<p>Cut the Tenderstem® broccoli into thirds.</p>\n<p>Drain and rinse the lentils in a sieve.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, trim the courgette, then halve lengthways. Slice widthways into 1cm thick pieces.</p>\n<p>Cut the Tenderstem® broccoli into thirds.</p>\n<p>Drain and rinse the lentils in a sieve.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b30539b",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6890ca1cb6ffa7a20c3ce8c0/step-f344c310.jpg",
+          "path": "/6890ca1cb6ffa7a20c3ce8c0/step-f344c310.jpg",
+          "caption": "Prep the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "When the chicken has 10 mins left, place a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, fry the courgette and broccoli until golden, 4-5 mins.",
+      "instructionsHTML": "<p>When the chicken has 10 mins left, place a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the courgette and broccoli until golden, 4-5 mins.</p>",
+      "instructionsMarkdown": "<p>When the chicken has 10 mins left, place a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the courgette and broccoli until golden, 4-5 mins.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305375"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6890ca1cb6ffa7a20c3ce8c0/step-f54e3d20.jpg",
+          "path": "/6890ca1cb6ffa7a20c3ce8c0/step-f54e3d20.jpg",
+          "caption": "Fry the Veg"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Reduce the heat to medium-low, then add the lentils, creme fraiche, chicken broth paste and mixed herbs. ",
+      "instructionsHTML": "<p>Reduce the heat to medium-low, then add the lentils, creme fraiche, chicken broth paste and mixed herbs. </p>",
+      "instructionsMarkdown": "<p>Reduce the heat to medium-low, then add the lentils, creme fraiche, chicken broth paste and mixed herbs. </p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6890ca1cb6ffa7a20c3ce8c0/step-e0604a30.jpg",
+          "path": "/6890ca1cb6ffa7a20c3ce8c0/step-e0604a30.jpg",
+          "caption": "Make the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Stir to combine and warm through, 1-2 mins. Season with salt and pepper.",
+      "instructionsHTML": "<p>Stir to combine and warm through, 1-2 mins. Season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Stir to combine and warm through, 1-2 mins. Season with salt and pepper.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6890ca1cb6ffa7a20c3ce8c0/step-fc3de440.jpg",
+          "path": "/6890ca1cb6ffa7a20c3ce8c0/step-fc3de440.jpg",
+          "caption": "Make the Sauce"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Share the creamy lentils between your bowls.\nTop with the pesto chicken.",
+      "instructionsHTML": "<p>Share the creamy lentils between your bowls.</p>\n<p>Top with the pesto chicken.</p>",
+      "instructionsMarkdown": "<p>Share the creamy lentils between your bowls.</p>\n<p>Top with the pesto chicken.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/6890ca1cb6ffa7a20c3ce8c0/step-2e9cf950.jpg",
+          "path": "/6890ca1cb6ffa7a20c3ce8c0/step-2e9cf950.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "594be44bc6243b76f8440332",
+      "type": "quick",
+      "name": "Quick",
+      "slug": "quick",
+      "colorHandle": "quickPrep",
+      "preferences": [
+        "Quick Cook"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "64624e0c8ab1333a8ca245a8",
+      "type": "gut-health",
+      "name": "Fibre Focused ",
+      "slug": "fibre-focused",
+      "colorHandle": "quickPrep",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCMODLC60820143-48529-2",
+  "updatedAt": "2025-09-15T19:25:22+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305368",
+      "type": "bakingsheet",
+      "name": "Baking Tray"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30539b",
+      "type": "sieve",
+      "name": "Sieve"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    }
+  ],
+  "uuid": "3475bc77-ec35-4b67-9369-b15aeb43d3e9",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/pesto-baked-chicken-breast-6890ca1cb6ffa7a20c3ce8c0",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fcaa3dbd9a2478e193f06a",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "664f52982f920ffe29e932b5",
+          "amount": 32,
+          "unit": "grams"
+        },
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 80,
+          "unit": "grams"
+        },
+        {
+          "id": "6837307bf7d5496ac4a65c9d",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "61a87b74536c5c0ba11a1a51",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 1,
+          "unit": "sachet(s)"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fcaa3dbd9a2478e193f06a",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "664f52982f920ffe29e932b5",
+          "amount": 64,
+          "unit": "grams"
+        },
+        {
+          "id": "603904c8823813388f0ab8f6",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "60392410046fce264a0909e4",
+          "amount": 160,
+          "unit": "grams"
+        },
+        {
+          "id": "6837307bf7d5496ac4a65c9d",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "61a87b74536c5c0ba11a1a51",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "633c6597aa3f33c15c854baf",
+          "amount": 2,
+          "unit": "sachet(s)"
+        }
+      ]
+    }
+  ]
+}

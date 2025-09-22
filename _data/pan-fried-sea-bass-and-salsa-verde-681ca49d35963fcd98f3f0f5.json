@@ -1,0 +1,939 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fd",
+      "name": "Mustard",
+      "type": "mustard",
+      "slug": "mustard",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fd-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052ff",
+      "name": "Sulphites",
+      "type": "sulphites",
+      "slug": "sulphites",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f7",
+      "name": "Fish",
+      "type": "fish",
+      "slug": "fish",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052f7-feb8e168.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.6,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/681ca49d35963fcd98f3f0f5-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039b1",
+    "name": "Seafood",
+    "type": "seafood",
+    "slug": "Seafood"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-05-08T12:33:34+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053a9",
+      "type": "greek",
+      "name": "Greek",
+      "slug": "greek",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a9-66a3ad00.jpg"
+    }
+  ],
+  "description": "Featuring a signature protein and delicious sides, this recipe is one of our favourites for a restaurant experience with all the style but still perfect for keto.",
+  "descriptionHTML": "<p>Featuring a signature protein and delicious sides, this recipe is one of our favourites for a restaurant experience with all the style but still perfect for keto.</p>",
+  "descriptionMarkdown": "Featuring a signature protein and delicious sides, this recipe is one of our favourites for a restaurant experience with all the style but still perfect for keto.",
+  "difficulty": 2,
+  "favoritesCount": 7,
+  "headline": "with a Greek Inspired Salad and Pumpkin Seeds",
+  "id": "681ca49d35963fcd98f3f0f5",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5062_W28_UK_GCLC26312150-26_Main_15_high-50e2e723.jpg",
+  "imagePath": "/image/GC_Y25_R5062_W28_UK_GCLC26312150-26_Main_15_high-50e2e723.jpg",
+  "ingredients": [
+    {
+      "id": "60390c38a581904442526529",
+      "uuid": "8f9a7fd7-c4e7-5238-9e69-a27831a2b2b0",
+      "name": "Lemon",
+      "type": "lemon",
+      "slug": "lemon",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390c38a581904442526529-fa51e946.png",
+      "imagePath": "/ingredient/60390c38a581904442526529-fa51e946.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fbc5",
+        "uuid": "3f3c3cbb-7960-5dcd-be95-cdb72d76e1a1",
+        "name": "lemon",
+        "slug": "lemon",
+        "type": "lemon",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa30c9a48553f90753b8",
+      "uuid": "42b4f296-d9bf-5b39-93f5-f7fd5114dca7",
+      "name": "Dried Oregano",
+      "type": "dried-oregano",
+      "slug": "dried-oregano",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa30c9a48553f90753b8-bee2e1e5.png",
+      "imagePath": "/ingredient/62fcaa30c9a48553f90753b8-bee2e1e5.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa06d7803ca91b790564",
+      "uuid": "c3f14037-af3d-5645-9c1b-f70ce0508e9e",
+      "name": "Dijon Mustard",
+      "type": "dijon-mustard",
+      "slug": "dijon-mustard",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa06d7803ca91b790564-cf0aa8a7.png",
+      "imagePath": "/ingredient/62fcaa06d7803ca91b790564-cf0aa8a7.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fd",
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039053d91ca37537b720b74",
+      "uuid": "f2061e37-18b0-59c3-b8d2-38e3c9d0d5bd",
+      "name": "Baby Plum Tomatoes",
+      "type": "baby-plum-tomatoes",
+      "slug": "baby-plum-tomatoes",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "imagePath": "/ingredient/6039053d91ca37537b720b74-d43aa7c1.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa51bd9a2478e193f0ae",
+      "uuid": "88253f9b-1a28-5a16-8fb2-0ef3494216fd",
+      "name": "Flat Leaf Parsley",
+      "type": "flat-leaf-parsley",
+      "slug": "flat-leaf-parsley",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa51bd9a2478e193f0ae-d9df6048.png",
+      "imagePath": "/ingredient/62fcaa51bd9a2478e193f0ae-d9df6048.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6038fa07b47bdb2f3e439e03",
+      "uuid": "3711b6af-76cf-5e72-9ba7-9ab7967a7549",
+      "name": "Capers**",
+      "type": "capers",
+      "slug": "capers",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6038fa07b47bdb2f3e439e03-027f9008.png",
+      "imagePath": "/ingredient/6038fa07b47bdb2f3e439e03-027f9008.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb5f",
+        "uuid": "5b5ed76d-5c8a-506e-aa4d-12fc40e636be",
+        "name": "pickled",
+        "slug": "pickled",
+        "type": "capers",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "603927a7aad25c3c6c6d9462",
+      "uuid": "c2928022-68b3-5239-af1d-9b16a2153402",
+      "name": "Salmon Fillets",
+      "type": "salmon",
+      "slug": "salmon-fillets",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "imagePath": "/ingredient/603927a7aad25c3c6c6d9462-e4c66b25.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052f7"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb9d",
+        "uuid": "71cb7001-a69a-5cfd-bb6b-384757bb222a",
+        "name": "white fish",
+        "slug": "white-fish",
+        "type": "fish",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9ecbd9a2478e193efc9",
+      "uuid": "a5dbf692-92b9-5af1-ba74-e1897efb6a65",
+      "name": "Olives",
+      "type": "green-olives",
+      "slug": "olives",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9ecbd9a2478e193efc9-5c72e11d.png",
+      "imagePath": "/ingredient/62fca9ecbd9a2478e193efc9-5c72e11d.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039040e21dd4b395e337bc4",
+      "uuid": "4842611c-bce4-5a00-9f96-af40c63b6310",
+      "name": "Avocado",
+      "type": "avocado",
+      "slug": "avocado",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039040e21dd4b395e337bc4-433979fd.png",
+      "imagePath": "/ingredient/6039040e21dd4b395e337bc4-433979fd.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fb3c",
+        "uuid": "d3d72eda-8632-5e81-a85b-b32612e1fef3",
+        "name": "avocado",
+        "slug": "avocado",
+        "type": "avocado",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9cac9a48553f90752d7",
+      "uuid": "bf51a385-1674-556b-8df8-1ac51b8e7ed1",
+      "name": "Baby Leaf Mix",
+      "type": "premium-baby-leaf-mix",
+      "slug": "baby-leaf-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9cac9a48553f90752d7-803e6f56.png",
+      "imagePath": "/ingredient/62fca9cac9a48553f90752d7-803e6f56.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6764b4a29905c923d7fd4567",
+      "uuid": "d7764c9e-eb56-4d4d-b452-dc58846a6e03",
+      "name": "Greek Style Salad Cheese",
+      "type": "greek-style-cheese",
+      "slug": "greek-style-salad-cheese",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6764b4a29905c923d7fd4567-226133f6.png",
+      "imagePath": "/ingredient/6764b4a29905c923d7fd4567-226133f6.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9dfd7803ca91b79050e",
+      "uuid": "12a33629-d36c-55db-9ccc-8f5a5cadb4de",
+      "name": "Pumpkin Seeds",
+      "type": "pumpkin-seeds",
+      "slug": "pumpkin-seeds",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9dfd7803ca91b79050e-4aa3bbc6.png",
+      "imagePath": "/ingredient/62fca9dfd7803ca91b79050e-4aa3bbc6.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e2cb9cab2001267a2966",
+      "uuid": "13c5dd0e-0f24-4fe2-8fe6-6ada6647232a",
+      "name": "Salt for the Salsa",
+      "type": "salt-for-the-salsa-1-tsp",
+      "slug": "salt-for-the-salsa",
+      "country": "GN",
+      "imageLink": null,
+      "imagePath": null,
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0f39cab2001267a28bc",
+      "uuid": "50c0d337-a582-43cf-8be4-e0ee8fd72048",
+      "name": "Olive Oil for the Salsa",
+      "type": "olive-oil-for-the-salsa-1-tbsp",
+      "slug": "olive-oil-for-the-salsa",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0f39cab2001267a28bc-f3d78722.png",
+      "imagePath": "/ingredient/62c6e0f39cab2001267a28bc-f3d78722.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e28e9cab2001267a291a",
+      "uuid": "7a69df17-cb7b-44ce-87da-30c548230e45",
+      "name": "Oil for Cooking",
+      "type": "oil-for-cooking",
+      "slug": "oil-for-cooking",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "imagePath": "/ingredient/62c6e28e9cab2001267a291a-18b6da3d.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": {
+    "text": "A Taste of Greece",
+    "handle": "taste-of-greece",
+    "foregroundColor": "#FFFFFF",
+    "backgroundColor": "#EF6709",
+    "displayLabel": true
+  },
+  "link": "https://hellofresh.com/recipes/681ca49d35963fcd98f3f0f5",
+  "name": "Pan-Fried Salmon and Salsa Verde",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 3600,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 861,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 62.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 13.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 8.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 4.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 40.5,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.22,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT20M",
+  "promotion": null,
+  "ratingsCount": 31,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 445,
+  "slug": "pan-fried-sea-bass-and-salsa-verde",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Halve the lemon, then juice one half into a large bowl (set aside the remaining lemon for the next step).\nMix the dried oregano, half the Dijon mustard and the olive oil for the dressing (see pantry) into the bowl of lemon juice. Season with salt and pepper.\nHalve the baby plum tomatoes and add to the bowl of dressing.",
+      "instructionsHTML": "<p>Halve the lemon, then juice one half into a large bowl (set aside the remaining lemon for the next step).</p>\n<p>Mix the dried oregano, half the Dijon mustard and the olive oil for the dressing (see pantry) into the bowl of lemon juice. Season with salt and pepper.</p>\n<p>Halve the baby plum tomatoes and add to the bowl of dressing.</p>",
+      "instructionsMarkdown": "<p>Halve the lemon, then juice one half into a large bowl (set aside the remaining lemon for the next step).</p>\n<p>Mix the dried oregano, half the Dijon mustard and the olive oil for the dressing (see pantry) into the bowl of lemon juice. Season with salt and pepper.</p>\n<p>Halve the baby plum tomatoes and add to the bowl of dressing.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305369"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/681ca49d35963fcd98f3f0f5/step-4e5f8300.jpg",
+          "path": "/681ca49d35963fcd98f3f0f5/step-4e5f8300.jpg",
+          "caption": "Make the Salad Dressing"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Peel the garlic. Juice the remaining lemon.\nIf you have a food processor, blitz the parsley (stalks and all), capers, garlic, the remaining Dijon mustard and lemon juice with the salt and olive oil for the salsa (see pantry for both) until it forms a paste. Set aside the salsa verde for later.",
+      "instructionsHTML": "<p>Peel the garlic. Juice the remaining lemon.</p>\n<p>If you have a food processor, blitz the parsley (stalks and all), capers, garlic, the remaining Dijon mustard and lemon juice with the salt and olive oil for the salsa (see pantry for both) until it forms a paste. Set aside the salsa verde for later.</p>",
+      "instructionsMarkdown": "<p>Peel the garlic. Juice the remaining lemon.</p>\n<p>If you have a food processor, blitz the parsley (stalks and all), capers, garlic, the remaining Dijon mustard and lemon juice with the salt and olive oil for the salsa (see pantry for both) until it forms a paste. Set aside the salsa verde for later.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30536c"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/681ca49d35963fcd98f3f0f5/step-2b86e410.jpg",
+          "path": "/681ca49d35963fcd98f3f0f5/step-2b86e410.jpg",
+          "caption": "Make the Salsa Verde"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "If you don’t have a food processor, finely chop the capers and parsley (stalks and all). Grate the garlic (or use a garlic press).\nIn a bowl, combine the remaining lemon juice and Dijon mustard with the parsley, capers and garlic. Add the salt and olive oil for the salsa (see pantry for both). Mix together well.\nSet aside your salsa verde for later. ",
+      "instructionsHTML": "<p>If you don’t have a food processor, finely chop the capers and parsley (stalks and all). Grate the garlic (or use a garlic press).</p>\n<p>In a bowl, combine the remaining lemon juice and Dijon mustard with the parsley, capers and garlic. Add the salt and olive oil for the salsa (see pantry for both). Mix together well.</p>\n<p>Set aside your salsa verde for later. </p>",
+      "instructionsMarkdown": "<p>If you don’t have a food processor, finely chop the capers and parsley (stalks and all). Grate the garlic (or use a garlic press).</p>\n<p>In a bowl, combine the remaining lemon juice and Dijon mustard with the parsley, capers and garlic. Add the salt and olive oil for the salsa (see pantry for both). Mix together well.</p>\n<p>Set aside your salsa verde for later. </p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305369",
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/681ca49d35963fcd98f3f0f5/step-29012620.jpg",
+          "path": "/681ca49d35963fcd98f3f0f5/step-29012620.jpg",
+          "caption": "Make the Salsa Verde"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "Heat a medium frying pan on medium-high heat with a drizzle of oil. Pat dry the salmon with kitchen paper, then season with salt and pepper.\nOnce hot, add the salmon fillets skin-side down and cook for 6-7 mins. To get crispy skin on the fish, don't move it around when it's cooking skin-side down.\nTurn over and cook on the other side for a further 6-7 mins. IMPORTANT: Wash your hands and equipment after handling raw fish. It's cooked when opaque in the middle.",
+      "instructionsHTML": "<p>Heat a medium frying pan on medium-high heat with a drizzle of oil. Pat dry the salmon with kitchen paper, then season with salt and pepper.</p>\n<p>Once hot, add the salmon fillets skin-side down and cook for 6-7 mins. To get crispy skin on the fish, don&#39;t move it around when it&#39;s cooking skin-side down.</p>\n<p>Turn over and cook on the other side for a further 6-7 mins. IMPORTANT: Wash your hands and equipment after handling raw fish. It&#39;s cooked when opaque in the middle.</p>",
+      "instructionsMarkdown": "<p>Heat a medium frying pan on medium-high heat with a drizzle of oil. Pat dry the salmon with kitchen paper, then season with salt and pepper.</p>\n<p>Once hot, add the salmon fillets skin-side down and cook for 6-7 mins. To get crispy skin on the fish, don&#39;t move it around when it&#39;s cooking skin-side down.</p>\n<p>Turn over and cook on the other side for a further 6-7 mins. IMPORTANT: Wash your hands and equipment after handling raw fish. It&#39;s cooked when opaque in the middle.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305375",
+        "57e2674fb7e8697d4b305376"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/681ca49d35963fcd98f3f0f5/step-fc637730.jpg",
+          "path": "/681ca49d35963fcd98f3f0f5/step-fc637730.jpg",
+          "caption": "Pan-Fry the Salmon"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "While the fish cooks, roughly chop the olives. \nHalve the avocado and remove the stone. Use a tablespoon to scoop out the flesh in one piece, then cut into chunks. Season with salt and pepper.\nAdd the baby leaves, avocado and olives to the bowl of tomatoes and crumble in the Greek style salad cheese. Toss everything in the dressing to coat well.",
+      "instructionsHTML": "<p>While the fish cooks, roughly chop the olives. </p>\n<p>Halve the avocado and remove the stone. Use a tablespoon to scoop out the flesh in one piece, then cut into chunks. Season with salt and pepper.</p>\n<p>Add the baby leaves, avocado and olives to the bowl of tomatoes and crumble in the Greek style salad cheese. Toss everything in the dressing to coat well.</p>",
+      "instructionsMarkdown": "<p>While the fish cooks, roughly chop the olives. </p>\n<p>Halve the avocado and remove the stone. Use a tablespoon to scoop out the flesh in one piece, then cut into chunks. Season with salt and pepper.</p>\n<p>Add the baby leaves, avocado and olives to the bowl of tomatoes and crumble in the Greek style salad cheese. Toss everything in the dressing to coat well.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/681ca49d35963fcd98f3f0f5/step-086c8e40.jpg",
+          "path": "/681ca49d35963fcd98f3f0f5/step-086c8e40.jpg",
+          "caption": "Make the Greek Salad"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Serve the salmon, skin-side up, with the Greek inspired salad alongside. Sprinkle over the pumpkin seeds.\nDrizzle the salsa verde over the salmon to finish.",
+      "instructionsHTML": "<p>Serve the salmon, skin-side up, with the Greek inspired salad alongside. Sprinkle over the pumpkin seeds.</p>\n<p>Drizzle the salsa verde over the salmon to finish.</p>",
+      "instructionsMarkdown": "<p>Serve the salmon, skin-side up, with the Greek inspired salad alongside. Sprinkle over the pumpkin seeds.</p>\n<p>Drizzle the salsa verde over the salmon to finish.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/681ca49d35963fcd98f3f0f5/step-e114f750.jpg",
+          "path": "/681ca49d35963fcd98f3f0f5/step-e114f750.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "5f9d72c0d8f840084f144706",
+      "type": "keto",
+      "name": "Keto",
+      "slug": "keto",
+      "colorHandle": "text",
+      "preferences": [
+        "Keto"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "62163c70143a35226e03d85e",
+      "type": "super-quick",
+      "name": "Super Quick",
+      "slug": "super-quick",
+      "colorHandle": "text",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "62cd3aaff9fe2cce9908255c",
+      "type": "low-emission",
+      "name": "Low-emission",
+      "slug": "low-emission",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "674dcb0cfe4143e76d6fe067",
+      "type": "signatures-category",
+      "name": "Signatures",
+      "slug": "signatures",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "66df147e6f2782a900bc741d",
+      "type": "tasty-adventures",
+      "name": "tasty-adventures",
+      "slug": "tasty-adventures",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "628cbb0f8c9d464d5c0837f4",
+      "type": "bestseller",
+      "name": "Bestseller",
+      "slug": "bestseller",
+      "colorHandle": "familyFriendly",
+      "preferences": [],
+      "displayLabel": false
+    },
+    {
+      "id": "62388d0e819bac74ed3067ef",
+      "type": "pescatarian",
+      "name": "Pescatarian",
+      "slug": "pescatarian",
+      "colorHandle": null,
+      "preferences": [
+        "Pescatarian"
+      ],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT15M",
+  "uniqueRecipeCode": "GCLC26312150-26",
+  "updatedAt": "2025-09-11T09:35:29+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b305369",
+      "type": "bowl",
+      "name": "Bowl"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536c",
+      "type": "foodprocessor",
+      "name": "Food Processor"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305375",
+      "type": "pan",
+      "name": "Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305376",
+      "type": "papertowel",
+      "name": "Paper Towel"
+    }
+  ],
+  "uuid": "50053a7e-89d3-424e-993e-cce18c92dd7e",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/pan-fried-sea-bass-and-salsa-verde-681ca49d35963fcd98f3f0f5",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "60390c38a581904442526529",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa30c9a48553f90753b8",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa06d7803ca91b790564",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 125,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa51bd9a2478e193f0ae",
+          "amount": 1,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "6038fa07b47bdb2f3e439e03",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9ecbd9a2478e193efc9",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "6039040e21dd4b395e337bc4",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9cac9a48553f90752d7",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "6764b4a29905c923d7fd4567",
+          "amount": 50,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9dfd7803ca91b79050e",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e2cb9cab2001267a2966",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e0f39cab2001267a28bc",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 0.5,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "60390c38a581904442526529",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa30c9a48553f90753b8",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "62fcaa06d7803ca91b790564",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "6039053d91ca37537b720b74",
+          "amount": 250,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa51bd9a2478e193f0ae",
+          "amount": 2,
+          "unit": "bunch(es)"
+        },
+        {
+          "id": "6038fa07b47bdb2f3e439e03",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "603927a7aad25c3c6c6d9462",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9ecbd9a2478e193efc9",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "6039040e21dd4b395e337bc4",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9cac9a48553f90752d7",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "6764b4a29905c923d7fd4567",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9dfd7803ca91b79050e",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e2cb9cab2001267a2966",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "62c6e0f39cab2001267a28bc",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "62c6e28e9cab2001267a291a",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}

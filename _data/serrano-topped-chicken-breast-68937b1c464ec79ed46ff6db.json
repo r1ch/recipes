@@ -1,0 +1,818 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fa",
+      "name": "Milk",
+      "type": "milk",
+      "slug": "milk",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052fa-be127d3f.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "63c00da40c675b6b333afdca",
+      "name": "Khorasan (wheat)",
+      "type": "traces-of-khorasan",
+      "slug": "traces-of-khorasan-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "620388fcaa89ed438d344f43",
+      "name": "Oats",
+      "type": "traces-of-oats",
+      "slug": "traces-of-oats",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca932b6926917f344073a",
+      "name": "Rye",
+      "type": "traces-of-rye",
+      "slug": "traces-of-rye",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca9a68655e91f07576baa",
+      "name": "Spelt (wheat)",
+      "type": "traces-of-spelt",
+      "slug": "traces-of-spelt-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "6203885f2cefe43adc5127c0",
+      "name": "Wheat",
+      "type": "traces-of-wheat",
+      "slug": "traces-of-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca9427051291d16323686",
+      "name": "Barley",
+      "type": "traces-of-barley",
+      "slug": "traces-of-barley",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "62cc417a2f15d58ec3559423",
+      "name": "Cereals containing gluten",
+      "type": "traces-of-gluten",
+      "slug": "traces-of-cereals-containing-gluten",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "5fdca9b39d7ee35a831ebe0d",
+      "name": "Kamut (wheat)",
+      "type": "traces-of-kamut",
+      "slug": "traces-of-kamut-wheat",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": true
+    },
+    {
+      "id": "57962a07b7e8697d4b3052f3",
+      "name": "May contain traces of allergens",
+      "type": "maycontaintracesofallergens",
+      "slug": "may-contain-traces-of-allergens",
+      "iconPath": null,
+      "triggersTracesOf": true,
+      "tracesOf": true
+    }
+  ],
+  "averageRating": 0,
+  "canonical": null,
+  "canonicalLink": null,
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/68937b1c464ec79ed46ff6db-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039ad",
+    "name": "Poultry",
+    "type": "poultry",
+    "slug": "poultry"
+  },
+  "clonedFrom": null,
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-06T15:56:13+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053a8",
+      "type": "french",
+      "name": "French",
+      "slug": "french",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053a8-7a553175.jpg"
+    }
+  ],
+  "description": "Something sensational for dinner? Wrapped in salty Serrano ham, this tender chicken breast is served alongside creamy lentils for a hint of French flair. With less than 25g of carbs, this dish is beautifully balanced.",
+  "descriptionHTML": "<p>Something sensational for dinner? Wrapped in salty Serrano ham, this tender chicken breast is served alongside creamy lentils for a hint of French flair. With less than 25g of carbs, this dish is beautifully balanced.</p>",
+  "descriptionMarkdown": "Something sensational for dinner? Wrapped in salty Serrano ham, this tender chicken breast is served alongside creamy lentils for a hint of French flair. With less than 25g of carbs, this dish is beautifully balanced.",
+  "difficulty": 2,
+  "favoritesCount": 0,
+  "headline": "with Creamy Lentils and Charred Tomatoes",
+  "id": "68937b1c464ec79ed46ff6db",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y23_R5021_W36_UK_GCLC15711007-17_Main__1low-d44545cd.jpg",
+  "imagePath": "/image/GC_Y23_R5021_W36_UK_GCLC15711007-17_Main__1low-d44545cd.jpg",
+  "ingredients": [
+    {
+      "id": "6039064ba89c7678cd6b0d84",
+      "uuid": "06e875a3-26bf-5da5-b1d7-6290a9f9bc93",
+      "name": "Medium Tomato",
+      "type": "medium-tomato",
+      "slug": "medium-tomato",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "imagePath": "/ingredient/6039064ba89c7678cd6b0d84-28885e46.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc46",
+        "uuid": "a7a0e26e-863f-5d33-a3bc-74fc5f01737d",
+        "name": "tomato",
+        "slug": "tomato",
+        "type": "tomatoes",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6837307bf7d5496ac4a65c9d",
+      "uuid": "35c5f2d0-57ac-5ea7-8cf8-62aac599edc4",
+      "name": "Lentils",
+      "type": "lentils",
+      "slug": "lentils",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa28bd9a2478e193f036-14a1be3c.png",
+      "imagePath": "/ingredient/62fcaa28bd9a2478e193f036-14a1be3c.png",
+      "shipped": true,
+      "allergens": [
+        "63c00da40c675b6b333afdca",
+        "620388fcaa89ed438d344f43",
+        "5fdca932b6926917f344073a",
+        "5fdca9a68655e91f07576baa",
+        "6203885f2cefe43adc5127c0",
+        "5fdca9427051291d16323686",
+        "62cc417a2f15d58ec3559423",
+        "5fdca9b39d7ee35a831ebe0d",
+        "57962a07b7e8697d4b3052f3"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa3dbd9a2478e193f06a",
+      "uuid": "0a12b986-df91-548e-b747-8585b80eacb3",
+      "name": "British Chicken Breasts",
+      "type": "chicken-breast",
+      "slug": "british-chicken-breasts",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa3dbd9a2478e193f06a-2d17edb7.png",
+      "imagePath": "/ingredient/62fcaa3dbd9a2478e193f06a-2d17edb7.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9dfbd9a2478e193efa5",
+      "uuid": "58f62d79-1df8-568e-933c-6cd1db61067a",
+      "name": "Serrano Ham",
+      "type": "serrano-ham",
+      "slug": "serrano-ham",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9dfbd9a2478e193efa5-5bb0048c.png",
+      "imagePath": "/ingredient/62fca9dfbd9a2478e193efa5-5bb0048c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60633303c7e6833e3e38fa40",
+      "uuid": "6c8f19df-7a9e-5397-a4ac-c5736ef93159",
+      "name": "Chicken Stock Paste",
+      "type": "chicken-stock-paste",
+      "slug": "chicken-stock-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+      "imagePath": "/ingredient/60633303c7e6833e3e38fa40-9d7e4c2c.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc39",
+        "uuid": "4bdb98f4-0803-541e-9159-741e21d04ec2",
+        "name": "stock concentrate",
+        "slug": "stock-concentrate",
+        "type": "stock",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa38c9a48553f90753c8",
+      "uuid": "3f5d19f2-54da-5bb8-afb8-b52dea2d60db",
+      "name": "Creme Fraiche",
+      "type": "creme-fraiche",
+      "slug": "creme-fraiche",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "imagePath": "/ingredient/62fcaa38c9a48553f90753c8-0d899ce4.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fa"
+      ],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60390dc851af04233575aab8",
+      "uuid": "0e54259d-82bb-566a-bcc5-4b8c6419a5fd",
+      "name": "Wild Rocket",
+      "type": "rocket",
+      "slug": "wild-rocket",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "imagePath": "/ingredient/60390dc851af04233575aab8-2a3e1b8e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc22",
+        "uuid": "19f7effa-248a-555b-95bc-842c77d7de3b",
+        "name": "salad mix",
+        "slug": "salad-mix",
+        "type": "salad",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e0ff9cab2001267a28c5",
+      "uuid": "7cd85650-3355-4a00-a785-d4c9f199ff49",
+      "name": "Water for the Sauce",
+      "type": "water-for-the-sauce-100ml",
+      "slug": "water-for-the-sauce",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "imagePath": "/ingredient/62c6e0ff9cab2001267a28c5-97a6173b.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1059cab2001267a28cb",
+      "uuid": "ea9c5b13-813d-46f4-9f3c-59b32aca6ea6",
+      "name": "Olive Oil for the Dressing",
+      "type": "olive-oil-for-the-dressing-1-tbsp",
+      "slug": "olive-oil-for-the-dressing",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "imagePath": "/ingredient/62c6e1059cab2001267a28cb-bd7f79d5.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/68937b1c464ec79ed46ff6db",
+  "name": "Serrano Topped Chicken Breast",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 1982,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 474,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 21.8,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 9.9,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 23.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 4.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 7.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 46.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 3.29,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT30M",
+  "promotion": null,
+  "ratingsCount": 0,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 436,
+  "slug": "serrano-topped-chicken-breast",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Halve the tomatoes.\nDrain and rinse the lentils in a sieve.\nPeel and grate the garlic (or use a garlic press).",
+      "instructionsHTML": "<p>Halve the tomatoes.</p>\n<p>Drain and rinse the lentils in a sieve.</p>\n<p>Peel and grate the garlic (or use a garlic press).</p>",
+      "instructionsMarkdown": "<p>Halve the tomatoes.</p>\n<p>Drain and rinse the lentils in a sieve.</p>\n<p>Peel and grate the garlic (or use a garlic press).</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "57e2674fb7e8697d4b30539b",
+        "59d49a9419279f8fe60e867c",
+        "57e2674fb7e8697d4b30536e",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68937b1c464ec79ed46ff6db/step-94935700.jpg",
+          "path": "/68937b1c464ec79ed46ff6db/step-94935700.jpg",
+          "caption": "Prepare"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "Sandwich each chicken breast between two pieces of baking paper and use a rolling pin or heavy saucepan to bash until 1-2cm thick all over. Season on both sides with salt and pepper.\nTop each chicken breast with a slice of Serrano ham, laid flat across the top. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging.",
+      "instructionsHTML": "<p>Sandwich each chicken breast between two pieces of baking paper and use a rolling pin or heavy saucepan to bash until 1-2cm thick all over. Season on both sides with salt and pepper.</p>\n<p>Top each chicken breast with a slice of Serrano ham, laid flat across the top. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging.</p>",
+      "instructionsMarkdown": "<p>Sandwich each chicken breast between two pieces of baking paper and use a rolling pin or heavy saucepan to bash until 1-2cm thick all over. Season on both sides with salt and pepper.</p>\n<p>Top each chicken breast with a slice of Serrano ham, laid flat across the top. IMPORTANT: Wash your hands and equipment after handling raw chicken and its packaging.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305377",
+        "57e2674fb7e8697d4b30537d",
+        "623c805661a1b9d0034f9065"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68937b1c464ec79ed46ff6db/step-9aba0310.jpg",
+          "path": "/68937b1c464ec79ed46ff6db/step-9aba0310.jpg",
+          "caption": "Bash the Chicken"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "Next, heat a large frying pan on medium-high heat with a drizzle of oil.\nOnce hot, fry the chicken, Serrano-side down, until browned and crispy, 5-6 mins.\nTurn and cook for 5-6 mins on the other side. IMPORTANT: The chicken is cooked when no longer pink in the middle. ",
+      "instructionsHTML": "<p>Next, heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the chicken, Serrano-side down, until browned and crispy, 5-6 mins.</p>\n<p>Turn and cook for 5-6 mins on the other side. IMPORTANT: The chicken is cooked when no longer pink in the middle. </p>",
+      "instructionsMarkdown": "<p>Next, heat a large frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, fry the chicken, Serrano-side down, until browned and crispy, 5-6 mins.</p>\n<p>Turn and cook for 5-6 mins on the other side. IMPORTANT: The chicken is cooked when no longer pink in the middle. </p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305373"
+      ],
+      "timers": [
+        {
+          "name": "Fry The Chicken serrano-side down",
+          "duration": "PT6M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        },
+        {
+          "name": "Turn and fry the Chicken ",
+          "duration": "PT6M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68937b1c464ec79ed46ff6db/step-21f98e20.jpg",
+          "path": "/68937b1c464ec79ed46ff6db/step-21f98e20.jpg",
+          "caption": "Fry the Chicken "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "While the chicken cooks, heat a medium saucepan on medium heat with a drizzle of oil.\nOnce hot, saute the garlic, 1 min.\nAdd the chicken stock paste and water (see pantry). Mix well to dissolve the stock paste, bring to the boil on high heat, then immediately reduce the heat to medium. Stir in the lentils, warm through for 1-2 mins.\nPour in the creme fraiche, then simmer for 1 min more. Season with salt and pepper. Add a splash of water if it looks dry.",
+      "instructionsHTML": "<p>While the chicken cooks, heat a medium saucepan on medium heat with a drizzle of oil.</p>\n<p>Once hot, saute the garlic, 1 min.</p>\n<p>Add the chicken stock paste and water (see pantry). Mix well to dissolve the stock paste, bring to the boil on high heat, then immediately reduce the heat to medium. Stir in the lentils, warm through for 1-2 mins.</p>\n<p>Pour in the creme fraiche, then simmer for 1 min more. Season with salt and pepper. Add a splash of water if it looks dry.</p>",
+      "instructionsMarkdown": "<p>While the chicken cooks, heat a medium saucepan on medium heat with a drizzle of oil.</p>\n<p>Once hot, saute the garlic, 1 min.</p>\n<p>Add the chicken stock paste and water (see pantry). Mix well to dissolve the stock paste, bring to the boil on high heat, then immediately reduce the heat to medium. Stir in the lentils, warm through for 1-2 mins.</p>\n<p>Pour in the creme fraiche, then simmer for 1 min more. Season with salt and pepper. Add a splash of water if it looks dry.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538c"
+      ],
+      "timers": [
+        {
+          "name": "Cook the Garlic",
+          "duration": "PT1M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        },
+        {
+          "name": "Cook the Lentils",
+          "duration": "PT2M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        },
+        {
+          "name": "Simmer",
+          "duration": "PT1M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68937b1c464ec79ed46ff6db/step-17b43e30.jpg",
+          "path": "/68937b1c464ec79ed46ff6db/step-17b43e30.jpg",
+          "caption": "Cook the Garlic"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "When the chicken has finished cooking, set aside and cover to keep warm.\nPlace the frying pan (no need to clean) back on medium-high heat with a drizzle of oil.\nOnce hot, add the tomatoes, cut-side down and fry until slightly charred, 3 mins. Turn, add a splash of water and immediately cover with a lid or some foil. Fry for a further 3 mins until soft. Season with salt and pepper.\nMeanwhile, in a large bowl, toss the rocket in the olive oil (see pantry) and season with salt and pepper.",
+      "instructionsHTML": "<p>When the chicken has finished cooking, set aside and cover to keep warm.</p>\n<p>Place the frying pan (no need to clean) back on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the tomatoes, cut-side down and fry until slightly charred, 3 mins. Turn, add a splash of water and immediately cover with a lid or some foil. Fry for a further 3 mins until soft. Season with salt and pepper.</p>\n<p>Meanwhile, in a large bowl, toss the rocket in the olive oil (see pantry) and season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>When the chicken has finished cooking, set aside and cover to keep warm.</p>\n<p>Place the frying pan (no need to clean) back on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, add the tomatoes, cut-side down and fry until slightly charred, 3 mins. Turn, add a splash of water and immediately cover with a lid or some foil. Fry for a further 3 mins until soft. Season with salt and pepper.</p>\n<p>Meanwhile, in a large bowl, toss the rocket in the olive oil (see pantry) and season with salt and pepper.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [
+        {
+          "name": "Simmer",
+          "duration": "PT3M",
+          "temperature": null,
+          "temperatureUnit": "C"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68937b1c464ec79ed46ff6db/step-a1e9e340.jpg",
+          "path": "/68937b1c464ec79ed46ff6db/step-a1e9e340.jpg",
+          "caption": "Toss the Rocket"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Slice the Serrano topped chicken breasts widthways into 1cm thick slices and serve on top of the creamy lentils.\nServe the rocket alongside and top with the charred tomatoes.",
+      "instructionsHTML": "<p>Slice the Serrano topped chicken breasts widthways into 1cm thick slices and serve on top of the creamy lentils.</p>\n<p>Serve the rocket alongside and top with the charred tomatoes.</p>",
+      "instructionsMarkdown": "<p>Slice the Serrano topped chicken breasts widthways into 1cm thick slices and serve on top of the creamy lentils.</p>\n<p>Serve the rocket alongside and top with the charred tomatoes.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b305372"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/68937b1c464ec79ed46ff6db/step-4bc44f50.jpg",
+          "path": "/68937b1c464ec79ed46ff6db/step-4bc44f50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "619f65dae9aadf39547f9f65",
+      "type": "under-650-calories",
+      "name": "Under 650 kcal",
+      "slug": "under-650-kcal",
+      "colorHandle": "calorieSmart",
+      "preferences": [
+        "Calorie Smart"
+      ],
+      "displayLabel": false
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "5c0a7148e3f3397e2b672602",
+      "type": "under-550-calories",
+      "name": "Calorie Conscious ",
+      "slug": "calorie-conscious",
+      "colorHandle": null,
+      "preferences": [],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT25M",
+  "uniqueRecipeCode": "GCLC15711007-50",
+  "updatedAt": "2025-09-15T17:50:14+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30539b",
+      "type": "sieve",
+      "name": "Sieve"
+    },
+    {
+      "id": "59d49a9419279f8fe60e867c",
+      "type": "garlic-press",
+      "name": "Garlic Press"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30536e",
+      "type": "grater",
+      "name": "Grater"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305377",
+      "type": "parchmentpaper",
+      "name": "Baking Paper"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30537d",
+      "type": "rollingpin",
+      "name": "Rolling Pin"
+    },
+    {
+      "id": "623c805661a1b9d0034f9065",
+      "type": "largesaucepan",
+      "name": "Large Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305373",
+      "type": "largepan",
+      "name": "Large Frying Pan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b30538c",
+      "type": "saucepan",
+      "name": "Medium Saucepan"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305372",
+      "type": "largebowl",
+      "name": "Large Bowl"
+    }
+  ],
+  "uuid": "6020d9d9-6dcf-4960-b796-054c489dc4d7",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/serrano-topped-chicken-breast-68937b1c464ec79ed46ff6db",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6837307bf7d5496ac4a65c9d",
+          "amount": 1,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa3dbd9a2478e193f06a",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9dfbd9a2478e193efa5",
+          "amount": 2,
+          "unit": "slice(s)"
+        },
+        {
+          "id": "60633303c7e6833e3e38fa40",
+          "amount": 10,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 75,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 50,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 0.5,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "6039064ba89c7678cd6b0d84",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "6837307bf7d5496ac4a65c9d",
+          "amount": 2,
+          "unit": "carton(s)"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fcaa3dbd9a2478e193f06a",
+          "amount": 4,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62fca9dfbd9a2478e193efa5",
+          "amount": 4,
+          "unit": "slice(s)"
+        },
+        {
+          "id": "60633303c7e6833e3e38fa40",
+          "amount": 20,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa38c9a48553f90753c8",
+          "amount": 150,
+          "unit": "grams"
+        },
+        {
+          "id": "60390dc851af04233575aab8",
+          "amount": 40,
+          "unit": "grams"
+        },
+        {
+          "id": "62c6e0ff9cab2001267a28c5",
+          "amount": 100,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e1059cab2001267a28cb",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}
