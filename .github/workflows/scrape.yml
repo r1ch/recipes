@@ -20,6 +20,7 @@ jobs:
 
       - name: Run downloader
         run: |
+          mkdir -p _data
           cd utils
           npm i
           node scrape.js

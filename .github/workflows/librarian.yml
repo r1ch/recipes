@@ -18,8 +18,9 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Run downloader
+      - name: Run Librarian
         run: |
+          mkdir -p _recipes
           cd utils
           npm i
           node librarian.js
