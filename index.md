@@ -8,6 +8,7 @@ layout: default
       <table class="table table-striped-columns">
         <thead>
           <tr>
+            <th>Pick</th>
             <th>Title</th>
             <th>Image</th>
             <th>Time</th>
@@ -20,6 +21,7 @@ layout: default
             {%- if recipe_data -%}
               {%- assign ingredients = recipe_data.ingredients -%}
           <tr>
+            <td><input type = "checkbox"></td>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
             <td><img style="max-width:100px" class="img-fluid" src="/images/{{ recipe.slug }}.jpg"></td>
             <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}</td>
