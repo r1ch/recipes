@@ -24,7 +24,7 @@ layout: default
             {%- if recipe_data -%}
               {%- assign ingredients = recipe_data.ingredients -%}
           <tr>
-            <td><input type = "checkbox" @change = "addRecipe()"></td>
+            <td><input type = "checkbox" @change="addRecipe()"></td>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
             <td><img style="max-width:100px" class="img-fluid" src="/images/{{ recipe.slug }}.jpg"></td>
             <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}</td>
