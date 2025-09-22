@@ -21,7 +21,7 @@ layout: default
               {%- assign ingredients = recipe_data.ingredients -%}
           <tr>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
-            <td><img class="img-fluid" src="/images/{{ recipe.slug }}.jpg"></td>
+            <td><img style="max-width:100px" class="img-fluid" src="/images/{{ recipe.slug }}.jpg"></td>
             <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}</td>
             <td>{{ ingredients | size }}</td>
           </tr>
