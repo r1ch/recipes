@@ -5,7 +5,7 @@ layout: default
 <h1>Recipes</h1>
   <div class = "row" id="app">
     <div class = "col-sm-6">
-      (( recipes ))
+      (( picked ))
     </div>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
