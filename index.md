@@ -5,7 +5,7 @@ layout: default
 <h1>Recipes</h1>
   <div class = "row" id="app">
     <div class = "col-sm-6">
-      ((message))
+      ((recipes))
     </div>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
@@ -24,7 +24,7 @@ layout: default
             {%- if recipe_data -%}
               {%- assign ingredients = recipe_data.ingredients -%}
           <tr>
-            <td><input type = "checkbox" @change = "></td>
+            <td><input type = "checkbox" @change = "addRecipe()"></td>
             <td><a href="{{ recipe.url | relative_url }}">{{ recipe.title }}</a></td>
             <td><img style="max-width:100px" class="img-fluid" src="/images/{{ recipe.slug }}.jpg"></td>
             <td>{{ recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}</td>
@@ -42,8 +42,8 @@ layout: default
       setup() {
         const recipes = ref([])
         function addRecipe(event) {
-          recipes.value.push({event})
-          newTodo.value = ''
+          console.log(event)
+          recipes.value.push(event)
         }
         return {
           addRecipe,
