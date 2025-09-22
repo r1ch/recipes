@@ -5,7 +5,7 @@ layout: default
 <h1>Recipes</h1>
   <div class = "row">
     <div class = "col-sm-6" id="app">
-      {{}}
+      ((message))
     </div>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
@@ -45,6 +45,6 @@ layout: default
             }
           }
         })
-    app.config.compilerOptions.delimiters = ['${', '}']
+    app.config.compilerOptions.delimiters = ['((', '))']
     app.mount('#app')
   </script>
