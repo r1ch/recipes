@@ -27,7 +27,7 @@ layout: default
             {%- if recipe_data -%}
               {%- assign ingredients = recipe_data.ingredients -%}
           <script>
-            ingredients["{{recipe.slug}}"] = "{{ingredients | jsonify}}"
+            ingredients["{{recipe.slug}}"] = {{ingredients | jsonify}}
           </script>
           <tr>
             <td><input type="checkbox" v-model="picked" value="{{ recipe.slug }}"></td>
