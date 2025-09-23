@@ -5,6 +5,7 @@ layout: default
 <h1>Recipes</h1>
   <div class = "row" id="app">
     <div class = "col-sm-6">
+      <a :href="thisWeekLink">Link to share</a>
       <table class="table table-striped-columns" v-if = "picked.length > 0">
         <thead>
           <tr>
