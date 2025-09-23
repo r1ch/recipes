@@ -53,7 +53,7 @@ layout: default
   {%- for recipe in site.recipes -%}
     {%- assign recipe_data = site.data[recipe.slug] -%}
     {% if recipe_data %}
-  r["{{recipe.slug}}"] = {"title":"{{recipe.title}}","url":"{{recipe.url}}","totalTime":"{{recipe.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}"};
+  r["{{recipe.slug}}"] = {"title":"{{recipe.title}}","url":"{{recipe.url}}","totalTime":"{{recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}"};
   ibR["{{recipe.slug}}"] = [
       {%- assign ingredients = recipe_data.ingredients -%}
       {%- assign yields = recipe_data.yields -%}
