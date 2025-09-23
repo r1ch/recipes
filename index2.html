@@ -73,10 +73,12 @@ layout: default
         const recipes = ref(r)
         const ingredientsByRecipe = ref(ibR)
         const shoppingList = computed(()=>{
+          console.log(picked)
           const totals = {}
-    
           for (const recipeId of picked.value) {
+            console.log(recipeId)
             const ingredients = ingredientsByRecipe[recipeId] || []
+            console.log(ingredients)
             for (const ing of ingredients) {
               if (!totals[ing.type]) {
                 totals[ing.type] = {
