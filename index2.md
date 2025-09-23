@@ -5,16 +5,16 @@ layout: default
 <script>
   const ingredientsByRecipe = {}
   const recipes = {}
-{% for recipe in site.recipes %}
+{%- for recipe in site.recipes -%}
   {%- assign recipe_data = site.data[recipe.slug] -%}
-  {%- if recipe_data -%}
-  recipes["{{recipe.slug}}"] = {"title":"{{recipe.title}}","url","{{recipe.url}}"}
+  {% if recipe_data %}
+  recipes["{{recipe.slug}}"] = {"title":"{{recipe.title}}","url":"{{recipe.url}}"};
   ingredientsByRecipe["{{recipe.slug}}"] = [
     {%- assign ingredients = recipe_data.ingredients -%}
     {%- assign yields = recipe_data.yields -%}
         {%- for yield in yields -%}
           {%- if yield.yields == 2 -%}
-            {% for ing in yield.ingredients %}
+            {%- for ing in yield.ingredients -%}
               {% assign ingredient = ingredients | where: "id", ing.id | first %}
               {"type":"{{ingredient.type}}", "name":"{{ingredient.name}}", "amount","{{ing.amount}}", "unit":"{{ing.unit}}"},
             {%- endfor -%}
