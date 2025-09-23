@@ -55,6 +55,9 @@ layout: default
         const picked = ref([])
         const recipes = ref(r)
         const ingredientsByRecipe = ref(ibR)
+        const thisWeekLink = computer(()=>{
+          return `/thisweek.html?${picked.value.map(v=>'r=${v}').join("&")}`
+        })
         const shoppingList = computed(()=>{
           const totals = {}
           for (const recipeId of picked.value) {
@@ -79,7 +82,8 @@ layout: default
           recipes,
           ingredientsByRecipe,
           picked,
-          shoppingList
+          shoppingList,
+          thisWeekLink
         }
       }
     })
