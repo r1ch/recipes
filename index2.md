@@ -19,12 +19,12 @@ layout: default
           </tr>
         </thead>
         <tbody>
-          <tr v-for = "recipe in recipes" :key="recipe">
-            <td><input type="checkbox" v-model="picked" value="recipe"></td>
+          <tr v-for = "(recipe, id)" :key="id">
+            <td><input type="checkbox" v-model="picked" value="id"></td>
             <td><a :href="recipe.url">((recipe.url))</a></td>
-            <td><img style="max-width:100px" class="img-fluid" :src="/images/((recipe)).jpg"></td>
+            <td><img style="max-width:100px" class="img-fluid" :src="/images/((id)).jpg"></td>
             <td>((recipe.totalTime))</td>
-            <td>((ingredientsByRecipe[recipe].length))</td>
+            <td>((ingredientsByRecipe[id].length))</td>
           </tr>
         </tbody>
       </table>
