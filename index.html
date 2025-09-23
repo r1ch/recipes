@@ -4,27 +4,8 @@ layout: default
 ---
 <h1>Recipes</h1>
   <div class = "row" id="app">
-    <div class = "col-sm-6">
-      <a :href="thisWeekLink">Link to share</a>
-      <table class="table table-striped-columns" v-if = "picked.length > 0">
-        <thead>
-          <tr>
-            <th>Ingredient</th>
-            <th>Recipes</th>
-            <th>Amount</th>
-            <th>Unit</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for = "item in shoppingList">
-            <td>((item.name))</td>
-            <td>((item.recipes))</td>
-            <td>((item.amount))</td>
-            <td>((item.unit))</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <a :href="thisWeekLink" v-if = "picked.length > 0">Link to this set of recipes</a><br>
+    <a href="#shoppinglist">Jump to the shopping list</a>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
         <thead>
@@ -43,6 +24,26 @@ layout: default
             <td><img style="max-width:100px" class="img-fluid" :src="`/images/${id}.jpg`"></td>
             <td>((recipe.totalTime))</td>
             <td>((ingredientsByRecipe[id].length))</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class = "col-sm-6" id="shoppinglist">
+      <table class="table table-striped-columns" v-if = "picked.length > 0">
+        <thead>
+          <tr>
+            <th>Ingredient</th>
+            <th>Recipes</th>
+            <th>Amount</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for = "item in shoppingList">
+            <td>((item.name))</td>
+            <td>((item.recipes))</td>
+            <td>((item.amount))</td>
+            <td>((item.unit))</td>
           </tr>
         </tbody>
       </table>
