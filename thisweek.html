@@ -29,7 +29,7 @@ title: This Week
       setup() {
         const queryParams = new URLSearchParams(window.location.search)
         const chosen = queryParams.getAll('r')
-        const recipes = Object.keys(r).filter(id=>chosen.includes(id)).map(id=>{...r[id],id:id})
+        const recipes = Object.keys(r).filter(id=>chosen.includes(id)).map(id=>({...r[id],id:id}))
         return {
           recipes
         }
