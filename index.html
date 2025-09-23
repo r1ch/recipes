@@ -63,9 +63,11 @@ layout: default
             c.forEach(i=>{
                 if(a[i.type] && a[i.type].unit == i.unit){
                     a[i.type].amount += Number(i.amount)
+                    a[i.type].recipes++
                 } else {
                     a[i.type] = {...i}
                     a[i.type].amount = Number(a[i.type].amount)
+                    a[i.type].recipes = 1
                 }
             })
             return a
