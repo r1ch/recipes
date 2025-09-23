@@ -1,7 +1,6 @@
 ---
 layout: none
 ---
-  <script>
   const ibR = {}
   const r = {}
   {%- for recipe in site.recipes -%}
@@ -22,4 +21,5 @@ layout: none
   ];
     {%- endif -%}
   {%- endfor -%}
-</script>
+
+export {r, ibR}
