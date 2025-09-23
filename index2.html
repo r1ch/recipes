@@ -77,7 +77,7 @@ layout: default
           const totals = {}
           for (const recipeId of picked.value) {
             console.log(recipeId)
-            const ingredients = ingredientsByRecipe[recipeId] || []
+            const ingredients = ingredientsByRecipe.value[recipeId] || []
             console.log(ingredients)
             for (const ing of ingredients) {
               if (!totals[ing.type]) {
