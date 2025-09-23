@@ -3,6 +3,7 @@ layout: default
 title: This Week
 ---
 <h1>This week</h1>
+((shoppingList))
 <div class = "row" id="app">
     <div class = "col-sm-12">
       <table class="table table-striped-columns" v-if = "recipes.length > 0">
@@ -31,8 +32,20 @@ title: This Week
         const queryParams = new URLSearchParams(window.location.search)
         const chosen = queryParams.getAll('r')
         const recipes = Object.keys(r).filter(id=>chosen.includes(id)).map(id=>({...r[id],id:id}))
+        const shoppingList = recipes.map(r=>ibR[r]).reduce((a,c)=>{
+            c.forEach(i=>{
+                if(a[i.type] && a[i.type].unit == i.unit){
+                    a[i.type].amount += Number(i.amount)
+                } else {
+                    a[i.type] = {...i}
+                    a[i.type].amount = Number(a[i.type].amount)
+                }
+            })
+            return a
+        },{})
         return {
-          recipes
+          recipes,
+          shoppingList
         }
       }
   })
