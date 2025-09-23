@@ -9,6 +9,7 @@ layout: default
         <thead>
           <tr>
             <th>Ingredient</th>
+            <th>Recipes</th>
             <th>Amount</th>
             <th>Unit</th>
           </tr>
@@ -16,6 +17,7 @@ layout: default
         <tbody>
           <tr v-for = "item in shoppingList">
             <td>((item.name))</td>
+            <td>((item.recipes))</td>td>
             <td>((item.amount))</td>
             <td>((item.unit))</td>
           </tr>
@@ -83,10 +85,12 @@ layout: default
               if (!totals[ing.type]) {
                 totals[ing.type] = {
                   ...ing,
-                  amount: Number(ing.amount) || 0
+                  amount: Number(ing.amount) || 0,
+                  recipes: 1
                 }
               } else {
                 totals[ing.type].amount += Number(ing.amount) || 0
+                totals[ing.type].recipes++
               }
             }
           }
