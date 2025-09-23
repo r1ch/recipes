@@ -19,7 +19,7 @@ layout: default
           </tr>
         </thead>
         <tbody>
-          <tr v-for = "(recipe, id)" :key="id">
+          <tr v-for = "(recipe, id) in recipes" :key="id">
             <td><input type="checkbox" v-model="picked" value="id"></td>
             <td><a :href="recipe.url">((recipe.url))</a></td>
             <td><img style="max-width:100px" class="img-fluid" :src="/images/((id)).jpg"></td>
