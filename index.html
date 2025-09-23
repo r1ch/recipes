@@ -57,7 +57,7 @@ layout: default
         const recipes = ref(r)
         const ingredientsByRecipe = ref(ibR)
         const thisWeekLink = computed(()=>{
-          return `/thisweek.html?${picked.value.map(v=>'r=${v}').join("&")}`
+          return `/thisweek.html?${picked.value.map(v=>`r=${v}`).join("&")}`
         })
         const shoppingList = computed(()=>{
           const totals = {}
