@@ -5,7 +5,7 @@ title: This Week
 <h1>This week</h1>
 ((shoppingList))
 <div class = "row" id="app">
-    <div class = "col-sm-12">
+    <div class = "col-sm-6">
       <table class="table table-striped-columns" v-if = "recipes.length > 0">
         <thead>
           <tr>
@@ -17,6 +17,26 @@ title: This Week
           <tr v-for = "recipe in recipes">
             <td><a :href="recipe.url">((recipe.title))</a></td>
             <td><img style="max-width:100px" class="img-fluid" :src="`/images/${recipe.id}.jpg`"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class = "col-sm-6">
+        <table class="table table-striped-columns" v-if = "picked.length > 0">
+        <thead>
+          <tr>
+            <th>Ingredient</th>
+            <th>Recipes</th>
+            <th>Amount</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for = "item in shoppingList">
+            <td>((item.name))</td>
+            <td>((item.recipes))</td>
+            <td>((item.amount))</td>
+            <td>((item.unit))</td>
           </tr>
         </tbody>
       </table>
