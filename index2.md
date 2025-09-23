@@ -20,7 +20,7 @@ layout: default
         </thead>
         <tbody>
           <tr v-for = "(recipe, id) in recipes" :key="id">
-            <td><input type="checkbox" v-model="picked" value="id"></td>
+            <td><input type="checkbox" v-model="picked" :value="id"></td>
             <td><a :href="recipe.url">((recipe.url))</a></td>
             <td><img style="max-width:100px" class="img-fluid" :src="/images/((id)).jpg"></td>
             <td>((recipe.totalTime))</td>
