@@ -22,3 +22,4 @@ layout: none
   ];
     {%- endif -%}
   {%- endfor -%}
+</script>
