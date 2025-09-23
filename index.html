@@ -59,26 +59,17 @@ layout: default
         const thisWeekLink = computed(()=>{
           return `/thisweek.html?${picked.value.map(v=>`r=${v}`).join("&")}`
         })
-        const shoppingList = computed(()=>{
-          const totals = {}
-          for (const recipeId of picked.value) {
-            const ingredients = ingredientsByRecipe.value[recipeId] || []
-            for (const ing of ingredients) {
-              if (!totals[ing.type]) {
-                totals[ing.type] = {
-                  ...ing,
-                  amount: Number(ing.amount) || 0,
-                  recipes: 1
+        const shoppingList = picked.value.map(r=>ibR[r]).reduce((a,c)=>{
+            c.forEach(i=>{
+                if(a[i.type] && a[i.type].unit == i.unit){
+                    a[i.type].amount += Number(i.amount)
+                } else {
+                    a[i.type] = {...i}
+                    a[i.type].amount = Number(a[i.type].amount)
                 }
-              } else {
-                totals[ing.type].amount += Number(ing.amount) || 0
-                totals[ing.type].recipes++
-              }
-            }
-          }
-    
-          return Object.values(totals)
-        })
+            })
+            return a
+        },{})
         return {
           recipes,
           ingredientsByRecipe,
