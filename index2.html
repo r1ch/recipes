@@ -5,7 +5,22 @@ layout: default
 <h1>Recipes</h1>
   <div class = "row" id="app">
     <div class = "col-sm-6">
-      (( picked ))
+      <table class="table table-striped-columns" v-if = "picked.length > 0">
+        <thead>
+          <tr>
+            <th>Ingredient</th>
+            <th>Amount</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for = "item in shoppingList">
+            <td>((item.name))</td>
+            <td>((item.amount))</td>
+            <td>((item.unit))</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
@@ -51,16 +66,43 @@ layout: default
   ];
     {%- endif -%}
   {%- endfor -%}
-  const { createApp, ref } = Vue
+  const { createApp, ref, computed } = Vue
   const app = createApp({
       setup() {
         const picked = ref([])
         const recipes = ref(r)
         const ingredientsByRecipe = ref(ibR)
+        const shoppingList = computed(()=>{
+          const totals = {}
+    
+          for (const recipeId of picked.value) {
+            const ingredients = ingredientsByRecipe[recipeId] || []
+            for (const ing of ingredients) {
+              if (!totals[ing.type]) {
+                totals[ing.type] = {
+                  ...ing,
+                  amount: Number(ing.amount) || 0
+                }
+              } else {
+                totals[ing.type].amount += Number(ing.amount) || 0
+              }
+            }
+          }
+    
+          return Object.values(totals)
+        })
+      }
+
+
+
+
+
+        
         return {
           recipes,
           ingredientsByRecipe,
-          picked
+          picked,
+          shoppingList
         }
       }
     })
