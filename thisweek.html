@@ -3,3 +3,38 @@ layout: default
 title: This Week
 ---
 <h1>This week</h1>
+<div class = "row" id="app">
+    <div class = "col-sm-6">
+      <table class="table table-striped-columns" v-if = "recipes.length > 0">
+        <thead>
+          <tr>
+            <th>Recipe</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for = "recipe in recipes">
+            <td><a :href="recipe.url">((recipe.title))</a></td>
+            <td><img style="max-width:100px" class="img-fluid" :src="`/images/${recipe.id}.jpg`"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+<script type="module">
+  const { createApp, ref } = Vue
+  import {r, ibR} from './recipes.js'
+  const app = createApp({
+      setup() {
+        const queryParams = new URLSearchParams(window.location.search)
+        const chosen = queryParams.getAll('r')
+        const recipes = Object.keys(r).filter(id=>chosen.includes(id)).map(id=>{...r[id],id:id})
+        return {
+          recipes
+        }
+    })
+  })
+  app.config.compilerOptions.delimiters = ['((', '))']
+  app.mount('#app')
+</script>
