@@ -32,7 +32,7 @@ title: This Week
         const queryParams = new URLSearchParams(window.location.search)
         const chosen = queryParams.getAll('r')
         const recipes = Object.keys(r).filter(id=>chosen.includes(id)).map(id=>({...r[id],id:id}))
-        const shoppingList = recipes.map(r=>ibR.?[r.?id])
+        const shoppingList = recipes.map(r=>ibR?.[r?.id])
             .filter(Boolean)
             .reduce((a,c)=>{
             c.forEach(i=>{
