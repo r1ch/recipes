@@ -5,7 +5,7 @@ layout: default
 <h1>Recipes</h1>
   <div class = "row" id="app">
     <a :href="thisWeekLink" v-if = "picked.length > 0">Link to this set of recipes</a><br>
-    <a href="#shoppinglist">Jump to the shopping list</a>
+    <a href="#shoppinglist" v-if = "picked.length > 0">Jump to the shopping list</a>
     <div class = "col-sm-6">
       <table class="table table-striped-columns">
         <thead>
