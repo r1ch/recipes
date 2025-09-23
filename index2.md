@@ -3,13 +3,13 @@ title: Main
 layout: default
 ---
 <script>
-  const ingredientsByRecipe = {}
-  const recipes = {}
+  const ibR = {}
+  const r = {}
 {%- for recipe in site.recipes -%}
   {%- assign recipe_data = site.data[recipe.slug] -%}
   {% if recipe_data %}
-  recipes["{{recipe.slug}}"] = {"title":"{{recipe.title}}","url":"{{recipe.url}}"};
-  ingredientsByRecipe["{{recipe.slug}}"] = [
+  r["{{recipe.slug}}"] = {"title":"{{recipe.title}}","url":"{{recipe.url}}"};
+  ibR["{{recipe.slug}}"] = [
     {%- assign ingredients = recipe_data.ingredients -%}
     {%- assign yields = recipe_data.yields -%}
         {%- for yield in yields -%}
@@ -39,17 +39,14 @@ layout: default
             <th>Time</th>
             <th>Number of ingredients</th>
           </tr>
-          <script>
-            ingredients = {}
-          </script>
         </thead>
         <tbody>
-          <tr v-for = "(recipe, ingredients) in ingredientsByRecipe" :key="recipe">
+          <tr v-for = "recipe in recipes" :key="recipe">
             <td><input type="checkbox" v-model="picked" value="recipe"></td>
-            <td><a :href="recipes[recipe].url">((recipes[recipe].url))</a></td>
+            <td><a :href="recipe.url">((recipe.url))</a></td>
             <td><img style="max-width:100px" class="img-fluid" :src="/images/((recipe)).jpg"></td>
-            <td>x</td>
-            <td>y</td>
+            <td>((recipe.totalTime))</td>
+            <td>((ingredientsByRecipe[recipe].length))</td>
           </tr>
         </tbody>
       </table>
@@ -60,7 +57,11 @@ layout: default
   const app = createApp({
       setup() {
         const picked = ref([])
+        const recipes = ref(r)
+        const ingredientsByRecipe = ref(ibR)
         return {
+          recipes,
+          ingredientsByRecipe,
           picked
         }
       }
