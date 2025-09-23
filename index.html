@@ -47,9 +47,9 @@ layout: default
       </table>
     </div>
   </div>
-<script type="module" src = "./recipes.js">
-<script>
+<script type="module">
   const { createApp, ref, computed } = Vue
+  import {r, ibR} from './recipes.js'
   const app = createApp({
       setup() {
         const picked = ref([])
