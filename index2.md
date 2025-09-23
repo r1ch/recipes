@@ -16,7 +16,7 @@ layout: default
           {%- if yield.yields == 2 -%}
             {%- for ing in yield.ingredients -%}
               {% assign ingredient = ingredients | where: "id", ing.id | first %}
-              {"type":"{{ingredient.type}}", "name":"{{ingredient.name}}", "amount","{{ing.amount}}", "unit":"{{ing.unit}}"},
+              {"type":"{{ingredient.type}}", "name":"{{ingredient.name}}", "amount":"{{ing.amount}}", "unit":"{{ing.unit}}"},
             {%- endfor -%}
           {%- endif -%}
         {%- endfor -%}
