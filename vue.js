@@ -21,7 +21,7 @@ const { createApp, ref, computed } = Vue
                 }
             })
             return a
-        },{}).sort((a,b)=>b.name-a.name))
+        },{}))
         return {
           recipes,
           ingredientsByRecipe,
