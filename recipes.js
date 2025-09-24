@@ -23,6 +23,12 @@ layout: none
                 {% elsif ingredient.type contains "oil-" %}
                   {% assign ingredient_type = "oil-various" %}
                   {% assign ingredient_name = "Oil (various)" %}
+                {% elsif ingredient.type contains "salt-" %}
+                  {% assign ingredient_type = "salt-various" %}
+                  {% assign ingredient_name = "Salt (various)" %}
+                {% elsif ingredient.type contains "honey-" %}
+                  {% assign ingredient_type = "honey-various" %}
+                  {% assign ingredient_name = "Honey (various)" %}
                 {% endif %}
               {"type":"{{ingredient_type}}", "name":"{{ingredient_name}}", "amount":"{{ing.amount}}", "unit":"{{ing.unit}}"},
             {%- endfor -%}
