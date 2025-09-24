@@ -1,12 +1,12 @@
 const { createApp, ref, computed } = Vue
-  import {recipes, ingredientsByRecipe} from './recipes2.js'
+  import {recipes, ingredientsByRecipe} from './recipes.js'
   const app = createApp({
       setup() {
         const queryParams = new URLSearchParams(window.location.search)
         const pickedRaw = queryParams.getAll('r')
         const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
         const thisWeekLink = computed(()=>{
-          return `/thisweek2.html?${picked.value.map(v=>`r=${v}`).join("&")}`
+          return `/thisweek.html?${picked.value.map(v=>`r=${v}`).join("&")}`
         })
         const pickedRecipes = computed(()=>picked.value.map(id=>recipes[id]))
         const shoppingList = computed(()=>picked.value.map(id=>ingredientsByRecipe[id]).reduce((a,c)=>{
