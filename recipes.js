@@ -37,9 +37,9 @@ layout: none
               {"type":"{{ingredient_type}}", "name":"{{ingredient_name}}", "amount":"{{ing.amount}}", "unit":"{{ing.unit}}"},
             {%- endfor -%}
           {%- endif -%}
-        {%- endfor -%}
+        {% endfor %}
   ];
-    {% endif %}
+    {%- endif -%}
   {%- endfor -%}
 
 export {recipes, ingredientsByRecipe}
