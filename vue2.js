@@ -9,7 +9,7 @@ const { createApp, ref, computed } = Vue
           return `/thisweek2.html?${picked.value.map(v=>`r=${v}`).join("&")}`
         })
         const pickedRecipes = computed(()=>picked.value.map(id=>recipes[id]))
-        const shoppingList = computed(()=>picked.value.map(r=>ingredientsByRecipe[r]).reduce((a,c)=>{
+        const shoppingList = computed(()=>picked.value.map(id=>ingredientsByRecipe[id]).reduce((a,c)=>{
             c.forEach(i=>{
                 if(a[i.type] && a[i.type].unit == i.unit){
                     a[i.type].amount += Number(i.amount)
