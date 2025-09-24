@@ -6,7 +6,7 @@ const { createApp, ref, computed } = Vue
         const pickedRaw = queryParams.getAll('r')
         const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
         const thisWeekLink = computed(()=>{
-          return `/thisweek.html?${picked.value.map(v=>`r=${v}`).join("&")}`
+          return `/thisweek2.html?${picked.value.map(v=>`r=${v}`).join("&")}`
         })
         const pickedRecipes = computed(()=>picked.map(id=>recipes[id]))
         const shoppingList = computed(()=>picked.value.map(r=>ibR[r]).reduce((a,c)=>{
