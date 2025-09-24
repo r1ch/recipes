@@ -1,7 +1,10 @@
 const { createApp, ref, computed } = Vue
-  import {r, ibR} from './recipes.js'
+  import {recipes, ingredientsByRecipe} from './recipes2.js'
   const app = createApp({
       setup() {
+        const queryParams = new URLSearchParams(window.location.search)
+        const chosen = queryParams.getAll('r')
+        const recipes = Object.keys(r).filter(id=>chosen.includes(id)).map(id=>({...r[id],id:id}))
         const picked = ref([])
         const recipes = ref(r)
         const ingredientsByRecipe = ref(ibR)
