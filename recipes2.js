@@ -6,7 +6,7 @@ layout: none
   {%- for recipe in site.recipes -%}
     {%- assign recipe_data = site.data[recipe.slug] -%}
     {% if recipe_data %}
-  recipes["{{recipe.slug}}"] = {"title":"{{recipe.title}}","url":"{{recipe.url}}","totalTime":"{{recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}"};
+  recipes["{{recipe.slug}}"] = {"id":"{{recipe.slug}}","title":"{{recipe.title}}","url":"{{recipe.url}}","totalTime":"{{recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}"};
   ingredientsByRecipe["{{recipe.slug}}"] = [
       {%- assign ingredients = recipe_data.ingredients -%}
       {%- assign yields = recipe_data.yields -%}
