@@ -14,7 +14,17 @@ layout: none
           {%- if yield.yields == 2 -%}
             {%- for ing in yield.ingredients -%}
               {% assign ingredient = ingredients | where: "id", ing.id | first %}
-              {"type":"{{ingredient.type}}", "name":"{{ingredient.name}}", "amount":"{{ing.amount}}", "unit":"{{ing.unit}}"},
+                {% assign ingredient_type = ingredient.type %}
+                {% assign ingredient_name = ingredient.name %}
+              
+                {% if ingredient.type contains "water-" %}
+                  {% assign ingredient_type = "water-various" %}
+                  {% assign ingredient_name = "Water (various)" %}
+                {% elsif ingredient.type contains "oil-" %}
+                  {% assign ingredient_type = "oil-various" %}
+                  {% assign ingredient_name = "Oil (various)" %}
+                {% endif %}
+              {"type":"{{ingredient_type}}", "name":"{{ingredient_name}}", "amount":"{{ing.amount}}", "unit":"{{ing.unit}}"},
             {%- endfor -%}
           {%- endif -%}
         {%- endfor -%}
