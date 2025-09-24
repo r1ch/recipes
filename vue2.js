@@ -3,14 +3,12 @@ const { createApp, ref, computed } = Vue
   const app = createApp({
       setup() {
         const queryParams = new URLSearchParams(window.location.search)
-        const chosen = queryParams.getAll('r')
-        const recipes = Object.keys(r).filter(id=>chosen.includes(id)).map(id=>({...r[id],id:id}))
-        const picked = ref([])
-        const recipes = ref(r)
-        const ingredientsByRecipe = ref(ibR)
+        const pickedRaw = queryParams.getAll('r')
+        const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
         const thisWeekLink = computed(()=>{
           return `/thisweek.html?${picked.value.map(v=>`r=${v}`).join("&")}`
         })
+        const pickedRecipes = computed(()=>picked.map(id=>recipes[id]))
         const shoppingList = computed(()=>picked.value.map(r=>ibR[r]).reduce((a,c)=>{
             c.forEach(i=>{
                 if(a[i.type] && a[i.type].unit == i.unit){
@@ -28,6 +26,7 @@ const { createApp, ref, computed } = Vue
           recipes,
           ingredientsByRecipe,
           picked,
+          pickedRecipes,
           shoppingList,
           thisWeekLink
         }
