@@ -1,13 +1,13 @@
 ---
 layout: none
 ---
-  const ibR = {}
-  const r = {}
+  const ingredientsByRecipe = {}
+  const recipes = {}
   {%- for recipe in site.recipes -%}
     {%- assign recipe_data = site.data[recipe.slug] -%}
     {% if recipe_data %}
-  r["{{recipe.slug}}"] = {"id":"{{recipe.slug}}","title":"{{recipe.title}}","url":"{{recipe.url}}","totalTime":"{{recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}"};
-  ibR["{{recipe.slug}}"] = [
+  recipes["{{recipe.slug}}"] = {"id":"{{recipe.slug}}","title":"{{recipe.title}}","url":"{{recipe.url}}","totalTime":"{{recipe_data.totalTime | replace: "PT", "" | replace: "M", " minutes"  }}"};
+  ingredientsByRecipe["{{recipe.slug}}"] = [
       {%- assign ingredients = recipe_data.ingredients -%}
       {%- assign yields = recipe_data.yields -%}
         {%- for yield in yields -%}
@@ -22,4 +22,4 @@ layout: none
     {%- endif -%}
   {%- endfor -%}
 
-export {r, ibR}
+export {recipes, ingredientsByRecipe}
