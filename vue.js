@@ -20,7 +20,7 @@ const { createApp, ref, computed } = Vue
                     a[i.type].recipes = 1
                 }
             })
-            return a
+            return a.sort((a,b)=>b.name-a.name)
         },{}))
         return {
           recipes,
