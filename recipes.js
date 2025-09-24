@@ -39,7 +39,7 @@ layout: none
           {%- endif -%}
         {%- endfor -%}
   ];
-    {%- endif -%}
+    {% endif %}
   {%- endfor -%}
 
 export {recipes, ingredientsByRecipe}
