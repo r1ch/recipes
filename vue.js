@@ -1,5 +1,8 @@
+---
+layout: none
+---
 const { createApp, ref, computed } = Vue
-  import {recipes, ingredientsByRecipe} from './recipes.js'
+  import {recipes, ingredientsByRecipe} from './recipes.js?revision={{site.github.build_revision}}'
   const app = createApp({
       setup() {
         const queryParams = new URLSearchParams(window.location.search)
