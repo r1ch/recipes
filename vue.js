@@ -13,12 +13,12 @@ const { createApp, ref, computed } = Vue
             c.forEach(i=>{
                 if(a[i.type] && a[i.type].unit == i.unit){
                     a[i.type].amount += Number(i.amount)
-                    a[i.type].recipes++
                 } else {
                     a[i.type] = {...i}
                     a[i.type].amount = Number(a[i.type].amount)
-                    a[i.type].recipes = 1
+                    a[i.type].recipes = new Set()
                 }
+              a[i.type].recipes.add(id)
             })
             return a
         },{}))
