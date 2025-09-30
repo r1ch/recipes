@@ -18,7 +18,7 @@ const { createApp, ref, computed } = Vue
                     a[i.type].amount = Number(a[i.type].amount)
                     a[i.type].recipes = new Set()
                 }
-              a[i.type].recipes.add(id)
+              a[i.type].recipes.add(i.recipeId)
             })
             return a
         },{}))
