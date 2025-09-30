@@ -34,7 +34,13 @@ layout: none
                   {%- assign ingredient_type = "honey-various" -%}
                   {%- assign ingredient_name = "Honey (various)" -%}
                 {%- endif %}
-              {"type":"{{ingredient_type}}", "name":"{{ingredient_name}}", "amount":"{{ing.amount}}", "unit":"{{ing.unit}}"},
+              {
+               "recipeId":"{{recipe.slug}}",
+               "type":"{{ingredient_type}}",
+               "name":"{{ingredient_name}}",
+               "amount":"{{ing.amount}}",
+               "unit":"{{ing.unit}}"
+              },
             {%- endfor -%}
           {%- endif -%}
         {% endfor %}
