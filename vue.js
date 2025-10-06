@@ -6,7 +6,7 @@ const { createApp, ref, computed } = Vue
   const app = createApp({
       setup() {
         const queryParams = new URLSearchParams(window.location.search)
-        const pickedRaw = queryParams.getAll('r')
+        const pickedRaw = queryParams.getAll('r') || window.location.pathname.endsWith("thisweek.html") ? thisWeek : []
         const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
         const thisWeekLink = computed(()=>{
           return `/thisweek.html?${picked.value.map(v=>`r=${v}`).join("&")}`
