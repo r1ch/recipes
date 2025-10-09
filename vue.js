@@ -13,10 +13,10 @@ const { createApp, ref, computed } = Vue
         const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
         const queryString = computed(()=>picked.value.map(v=>`r=${v}`).join("&"))
         const thisWeekLink = computed(()=>{
-          return `/thisweek.html?${this.queryString}`
+          return `/thisweek.html?${queryString.value}`
         })
         const saveLink = computed(()=>{
-          return `https://script.google.com/a/macros/bradi.sh/s/AKfycbzLTeCpe1OOytsgiqkS8hR01dMb0C1YC_NJVuIEUC2nShAEdbvxY8mukLYa7pf0kFr9/exec?${this.queryString}`
+          return `https://script.google.com/a/macros/bradi.sh/s/AKfycbzLTeCpe1OOytsgiqkS8hR01dMb0C1YC_NJVuIEUC2nShAEdbvxY8mukLYa7pf0kFr9/exec?${queryString.value}`
         })
         const pickedRecipes = computed(()=>picked.value.map(id=>recipes[id]))
         const shoppingList = computed(()=>picked.value.map(id=>ingredientsByRecipe[id]).reduce((a,c)=>{
@@ -38,7 +38,8 @@ const { createApp, ref, computed } = Vue
           picked,
           pickedRecipes,
           shoppingList,
-          thisWeekLink
+          thisWeekLink,
+          saveLink
         }
       }
     })
