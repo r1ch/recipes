@@ -4,7 +4,7 @@ title: This Week
 ---
 <h1>This week</h1>
 <div class = "row" id="app">
-    <div class = "col-sm-12" v-if="loadedFromQuery">
+    <div class = "col-sm-12" v-if="loadedFromQuery && !justSaved">
         <a class="btn btn-primary" :href="saveLink" role="button">Save this set of recipes</a>
     </div>
     <div class = "col-sm-6">
