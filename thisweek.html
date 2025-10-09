@@ -5,7 +5,7 @@ title: This Week
 <h1>This week</h1>
 <div class = "row" id="app">
     <div class = "col-sm-12" v-if="loadedFromQuery">
-        <a class = "btn" :href = "saveLink">Save this set of recipes</a>
+        <a class="btn btn-primary" :href="saveLink" role="button">Save this set of recipes</a>
     </div>
     <div class = "col-sm-6">
       <table class="table table-striped-columns" v-if = "picked.length > 0">
