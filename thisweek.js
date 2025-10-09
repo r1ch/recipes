@@ -1,4 +1,4 @@
 ---
 layout: none
 ---
-export const thisWeek = ["lamb-steak-and-peppercorn-sauce-689cc40483f90c073abac57a","lemon-and-herb-roasted-salmon-686bacb56abf1607dadcc1ef"]
+export const thisWeek = ["beef-chilli-con-carne-68874443637c1fda3ad8acdf","honey-harissa-glazed-chicken-68a33cb9da1c2cdbdf51258b","lamb-steak-and-biryani-inspired-rice-6880dc467299475a5b062d94","miso-glazed-salmon-60ed8af58452130fbf4e14b6"]
