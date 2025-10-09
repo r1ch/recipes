@@ -1,1 +1,4 @@
-const r = [null];
+---
+layout: none
+---
+export const thisWeek = ["acs"]
