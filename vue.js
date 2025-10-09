@@ -39,7 +39,8 @@ const { createApp, ref, computed } = Vue
           pickedRecipes,
           shoppingList,
           thisWeekLink,
-          saveLink
+          saveLink,
+          loadedFromQuery,
         }
       }
     })
