@@ -8,6 +8,7 @@ const { createApp, ref, computed } = Vue
       setup() {
         const queryParams = new URLSearchParams(window.location.search)
         const thisWeekPage = window.location.pathname.includes("thisweek")
+        const justSaved = queryParams.get('just_saved')
         const loadedFromQuery = queryParams.getAll('r').length > 0
         const pickedRaw = thisWeekPage ? (loadedFromQuery ? queryParams.getAll('r') : thisWeek) : []
         const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
@@ -41,6 +42,7 @@ const { createApp, ref, computed } = Vue
           thisWeekLink,
           saveLink,
           loadedFromQuery,
+          justSaved
         }
       }
     })
