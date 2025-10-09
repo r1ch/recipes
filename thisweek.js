@@ -1,4 +1,4 @@
 ---
 layout: none
 ---
-export const thisWeek = ["21-day-aged-rump-steak-and-chimichurri-sauce-6867921e700c002ea14ffae0"]
+export const thisWeek = ["beef-chilli-con-carne-68874443637c1fda3ad8acdf","honey-harissa-glazed-chicken-68a33cb9da1c2cdbdf51258b","lamb-steak-and-biryani-inspired-rice-6880dc467299475a5b062d94","miso-glazed-salmon-60ed8af58452130fbf4e14b6"]
