@@ -7,8 +7,9 @@ const { createApp, ref, computed } = Vue
   const app = createApp({
       setup() {
         const queryParams = new URLSearchParams(window.location.search)
-        const pickedRaw = window.location.pathname.includes("thisweek") ?
-            (queryParams.getAll('r').length > 0 ? queryParams.getAll('r') : thisWeek) : []
+        const thisWeekPage = window.location.pathname.includes("thisweek")
+        const loadedFromQuery = queryParams.getAll('r').length > 0
+        const pickedRaw = thisWeekPage ? (loadedFromQuery ? queryParams.getAll('r') : thisWeek) : []
         const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
         const queryString = computed(()=>picked.value.map(v=>`r=${v}`).join("&"))
         const thisWeekLink = computed(()=>{
