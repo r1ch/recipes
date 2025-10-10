@@ -58,6 +58,7 @@ const app = createApp({
                 amount: Number(i.amount),
                 recipes: new Set(),
               }
+              delete acc[i.type].recipeId
             }
             acc[i.type].recipes.add(i.recipeId)
           })
