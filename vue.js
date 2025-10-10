@@ -63,6 +63,13 @@ const app = createApp({
           })
           return acc
         }, {})
+        .sort((a,b)=>{
+          let aS = staples.some(s=>a.type.startsWith(s))
+          let bS = staples.some(s=>b.type.startsWith(s))
+          if(aS && !bs) return 1
+          if(bS) return 0
+          return -1
+        })
     )
 
     return {
