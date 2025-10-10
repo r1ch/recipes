@@ -44,7 +44,7 @@ const app = createApp({
     const filterStaples = ref(true)
     const staples = ["oil-various","water-various","salt-various","butter"]
     const shoppingList = computed(() =>
-      picked.value
+      Object.values(picked.value
         .map(id => ingredientsByRecipe[id])
         .reduce((acc, curr) => {
           curr.forEach(i => {
@@ -62,7 +62,7 @@ const app = createApp({
             acc[i.type].recipes.add(i.recipeId)
           })
           return acc
-        }, {})
+        }, {}))
         .sort((a,b)=>{
           let aS = staples.some(s=>a.type.startsWith(s))
           let bS = staples.some(s=>b.type.startsWith(s))
