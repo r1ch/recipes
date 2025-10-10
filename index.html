@@ -32,6 +32,10 @@ layout: default
       </table>
     </div>
     <div class = "col-sm-6" id="shoppinglist">
+      <input class="form-check-input" type="checkbox" v-model="filterStaples" id="filterStaples">
+      <label class="form-check-label" for="filterStaples">
+        &nbsp;Filter staples
+      </label>
       <table class="table table-striped-columns" v-if = "picked.length > 0">
         <thead>
           <tr>
