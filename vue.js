@@ -68,7 +68,7 @@ const app = createApp({
           let aS = staples.some(s=>a.type.startsWith(s))
           let bS = staples.some(s=>b.type.startsWith(s))
           if(aS && !bS) return 1
-          if(bS) return 0
+          if(bS && !aS) return -1
           if(a.name > b.name) return 1
           if(b.name > a.name) return -1
           return 0
