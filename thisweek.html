@@ -24,6 +24,10 @@ title: This Week
       </table>
     </div>
     <div class = "col-sm-6">
+          <input class="form-check-input" type="checkbox" :value="filterStaples" id="filterStaples">
+          <label class="form-check-label" for="filterStaples">
+            Filter staples
+          </label>
         <table class="table table-striped-columns" v-if = "picked.length > 0">
         <thead>
           <tr>
