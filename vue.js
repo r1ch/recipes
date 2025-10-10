@@ -40,6 +40,17 @@ const app = createApp({
       picked.value.map(id => recipes[id])
     )
 
+    // --- Copy function ---
+    const copyToClipboard = async () => {
+      try {
+        await navigator.clipboard.writeText(shoppingList.value.map(i=>i.name).join("\n"))
+        copied.value = true
+        setTimeout(() => copied.value = false, 1500)
+      } catch (err) {
+        console.error('Failed to copy:', err)
+      }
+    }
+
     // --- Build shopping list ---
     const filterStaples = ref(true)
     const staples = ["oil-various","water-various","salt-various","butter"]
@@ -86,6 +97,8 @@ const app = createApp({
       saveLink,
       loadedFromQuery,
       justSaved,
+      copied,
+      copyToClipboard
     }
   },
 })
