@@ -41,6 +41,7 @@ const app = createApp({
     )
 
     // --- Copy function ---
+    const copied = ref(true)
     const copyToClipboard = async () => {
       try {
         await navigator.clipboard.writeText(shoppingList.value.map(i=>i.name).join("\n"))
