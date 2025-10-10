@@ -1,50 +1,85 @@
 ---
 layout: none
 ---
+
 const { createApp, ref, computed } = Vue
-  import {recipes, ingredientsByRecipe} from './recipes.js?revision={{site.github.build_revision}}'
-  import {thisWeek} from './thisweek.js?revision={{site.github.build_revision}}'
-  const app = createApp({
-      setup() {
-        const queryParams = new URLSearchParams(window.location.search)
-        const thisWeekPage = window.location.pathname.includes("thisweek")
-        const justSaved = queryParams.get('just_saved')
-        const loadedFromQuery = queryParams.getAll('r').length > 0
-        const pickedRaw = thisWeekPage ? (loadedFromQuery ? queryParams.getAll('r') : thisWeek) : []
-        const picked = ref(Object.keys(recipes).filter(id=>pickedRaw.includes(id)))
-        const queryString = computed(()=>picked.value.map(v=>`r=${v}`).join("&"))
-        const thisWeekLink = computed(()=>{
-          return `/thisweek.html?${queryString.value}`
-        })
-        const saveLink = computed(()=>{
-          return `https://script.google.com/a/macros/bradi.sh/s/AKfycbzLTeCpe1OOytsgiqkS8hR01dMb0C1YC_NJVuIEUC2nShAEdbvxY8mukLYa7pf0kFr9/exec?${queryString.value}`
-        })
-        const pickedRecipes = computed(()=>picked.value.map(id=>recipes[id]))
-        const shoppingList = computed(()=>picked.value.map(id=>ingredientsByRecipe[id]).reduce((a,c)=>{
-            c.forEach(i=>{
-                if(a[i.type] && a[i.type].unit == i.unit){
-                    a[i.type].amount += Number(i.amount)
-                } else {
-                    a[i.type] = {...i}
-                    a[i.type].amount = Number(a[i.type].amount)
-                    a[i.type].recipes = new Set()
-                }
-              a[i.type].recipes.add(i.recipeId)
-            })
-            return a
-        },{}))
-        return {
-          recipes,
-          ingredientsByRecipe,
-          picked,
-          pickedRecipes,
-          shoppingList,
-          thisWeekLink,
-          saveLink,
-          loadedFromQuery,
-          justSaved
-        }
-      }
-    })
-  app.config.compilerOptions.delimiters = ['((', '))']
-  app.mount('#app')
+import { recipes, ingredientsByRecipe } from './recipes.js?revision={{site.github.build_revision}}'
+import { thisWeek } from './thisweek.js?revision={{site.github.build_revision}}'
+
+const app = createApp({
+  setup() {
+    // --- URL and context detection ---
+    const queryParams = new URLSearchParams(window.location.search)
+    const thisWeekPage = window.location.pathname.includes("thisweek")
+    const justSaved = queryParams.get('just_saved')
+    const loadedFromQuery = queryParams.getAll('r').length > 0
+
+    // --- Determine which recipes are picked ---
+    const pickedRaw = thisWeekPage
+      ? (loadedFromQuery ? queryParams.getAll('r') : thisWeek)
+      : []
+
+    const picked = ref(
+      Object.keys(recipes).filter(id => pickedRaw.includes(id))
+    )
+
+    // --- Computed properties ---
+    const queryString = computed(() =>
+      picked.value.map(v => `r=${v}`).join("&")
+    )
+
+    const thisWeekLink = computed(() =>
+      `/thisweek.html?${queryString.value}`
+    )
+
+    const saveLink = computed(() =>
+      `https://script.google.com/a/macros/bradi.sh/s/AKfycbzLTeCpe1OOytsgiqkS8hR01dMb0C1YC_NJVuIEUC2nShAEdbvxY8mukLYa7pf0kFr9/exec?${queryString.value}`
+    )
+
+    const pickedRecipes = computed(() =>
+      picked.value.map(id => recipes[id])
+    )
+
+    // --- Build shopping list ---
+    const filterStaples = ref(true)
+    const staples = ["oil-various","water-various","salt-various","butter"]
+    const shoppingList = computed(() =>
+      picked.value
+        .map(id => ingredientsByRecipe[id])
+        .reduce((acc, curr) => {
+          curr.forEach(i => {
+            if(filterStaples.value && staples.some(s=>i.type.startsWith(s))) return 
+            const existing = acc[i.type]
+            if (existing && existing.unit === i.unit) {
+              existing.amount += Number(i.amount)
+            } else {
+              acc[i.type] = {
+                ...i,
+                amount: Number(i.amount),
+                recipes: new Set(),
+              }
+            }
+            acc[i.type].recipes.add(i.recipeId)
+          })
+          return acc
+        }, {})
+    )
+
+    return {
+      recipes,
+      filterStaples,
+      ingredientsByRecipe,
+      picked,
+      pickedRecipes,
+      shoppingList,
+      thisWeekLink,
+      saveLink,
+      loadedFromQuery,
+      justSaved,
+    }
+  },
+})
+
+// --- Vue config and mount ---
+app.config.compilerOptions.delimiters = ['((', '))']
+app.mount('#app')
