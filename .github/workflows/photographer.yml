@@ -36,7 +36,7 @@ jobs:
         run: |
           ls
           git pull
-          git add _recipes/*.md
+          git add _images/*
           git config --global user.name 'The Photographer'
           git config --global user.email 'the_photographer@users.noreply.github.com'
           git diff --cached --quiet || git commit -am "Tidy the gallery"
