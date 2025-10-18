@@ -17,7 +17,7 @@ title: This Week
         </thead>
         <tbody>
           <tr v-for = "recipe in pickedRecipes">
-            <td><a :href="recipe.url">((recipe.title))</a></td>
+            <td><a :href="recipe.url">((recipe.title))</a><br>((recipe.totalTime))</td>
             <td><img style="max-width:100px" class="img-fluid" :src="`/images/${recipe.id}.jpg`"></td>
           </tr>
         </tbody>
