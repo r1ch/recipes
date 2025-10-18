@@ -20,7 +20,10 @@ const recipes = [
 	"sweet-and-spicy-beef-bowl-689cc40d1597ca633109c32a",
 	"harissa-and-chermoula-spiced-beef-687622325a587f17f458dda9",
 	"beef-chilli-con-carne-68874443637c1fda3ad8acdf",
-	"beef-rogan-josh-68762236a5a49c635d8b254e"
+	"beef-rogan-josh-68762236a5a49c635d8b254e",
+	"rich-pork-ragu-on-a-bed-of-courgetti-68a5e92f7e1f6c64ca679591",
+	"central-american-inspired-spiced-pork-fillet-689cc3fb1597ca633109c314",
+	"crispy-trout-and-cannellini-bean-stew-6880dc560e296dba6fd6a43b",
 ]
 const URL = recipe => `https://www.greenchef.co.uk/recipes/${recipe}`
 
