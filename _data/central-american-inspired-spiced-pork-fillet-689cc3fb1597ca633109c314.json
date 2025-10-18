@@ -1,0 +1,608 @@
+{
+  "active": true,
+  "allergens": [
+    {
+      "id": "57962a07b7e8697d4b3052fc",
+      "name": "Celery",
+      "type": "celery",
+      "slug": "celery",
+      "iconPath": null,
+      "triggersTracesOf": false,
+      "tracesOf": false
+    },
+    {
+      "id": "57962a07b7e8697d4b3052ff",
+      "name": "Sulphites",
+      "type": "sulphites",
+      "slug": "sulphites",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "iconPath": "/allergens/57962a07b7e8697d4b3052ff-04104ef2.png",
+      "triggersTracesOf": false,
+      "tracesOf": false
+    }
+  ],
+  "averageRating": 3.5,
+  "canonical": "65a8f28dcbafa858007badb4",
+  "canonicalLink": "https://www.greenchef.co.uk/recipes/paprika-pork-fillet-65a8f28dcbafa858007badb4",
+  "cardLink": "https://www.greenchef.co.uk/recipecards/card/689cc3fb1597ca633109c314-en-GB.pdf",
+  "category": {
+    "id": "5bd6f0ef19c55bee469039af",
+    "name": "Pork",
+    "type": "pork",
+    "slug": "pork"
+  },
+  "clonedFrom": "6529445e6720825b47fd7202",
+  "comment": null,
+  "country": "GN",
+  "createdAt": "2025-08-20T11:26:46+00:00",
+  "cuisines": [
+    {
+      "id": "57ebbc17b7e8697d4b3053b2",
+      "type": "spanish",
+      "name": "Spanish",
+      "slug": "spanish",
+      "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053b2-b3f4f4d2.jpg"
+    }
+  ],
+  "description": "This dish is beautifully balanced. Tangy and smoky, Central American spices give the pork a delicious depth and warmth, made with herbs and spices such as ground cumin, paprika, chilli flakes and thyme. With less than 35g of carbs, it's still brimming with flavour.",
+  "descriptionHTML": "<p>This dish is beautifully balanced. Tangy and smoky, Central American spices give the pork a delicious depth and warmth, made with herbs and spices such as ground cumin, paprika, chilli flakes and thyme. With less than 35g of carbs, it's still brimming with flavour.</p>",
+  "descriptionMarkdown": "This dish is beautifully balanced. Tangy and smoky, Central American spices give the pork a delicious depth and warmth, made with herbs and spices such as ground cumin, paprika, chilli flakes and thyme. With less than 35g of carbs, it's still brimming with flavour.",
+  "difficulty": 2,
+  "favoritesCount": 3,
+  "headline": "with Bacon Roasted Butternut Squash and Cavolo Nero",
+  "id": "689cc3fb1597ca633109c314",
+  "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/GC_Y25_R5024_W24_UK_GCLC59419801-16_Main_low-61364593.jpg",
+  "imagePath": "/image/GC_Y25_R5024_W24_UK_GCLC59419801-16_Main_low-61364593.jpg",
+  "ingredients": [
+    {
+      "id": "62fca9cdc9a48553f90752e1",
+      "uuid": "5ccca295-8a97-50fe-ac29-753af6df7e36",
+      "name": "Butternut Squash",
+      "type": "butternut-squash",
+      "slug": "butternut-squash",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9cdc9a48553f90752e1-ba175540.png",
+      "imagePath": "/ingredient/62fca9cdc9a48553f90752e1-ba175540.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "606f03a20f601846c30f9c0e",
+      "uuid": "1d4063e2-3fd4-57e3-8932-c1d3fb33ea45",
+      "name": "Central American Style Spice Mix",
+      "type": "central-american-style-spice-mix",
+      "slug": "central-american-style-spice-mix",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/606f03a20f601846c30f9c0e-4130422e.png",
+      "imagePath": "/ingredient/606f03a20f601846c30f9c0e-4130422e.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc32",
+        "uuid": "99414e57-f6fb-56c7-9849-042905b22cb1",
+        "name": "spice blend",
+        "slug": "spice-blend",
+        "type": "spice-mix",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6039091521dd4b395e337bcb",
+      "uuid": "9f418aae-4b93-5eb1-9b27-ac44b1d5cd33",
+      "name": "Whole British Pork Fillet",
+      "type": "pork-fillet",
+      "slug": "whole-british-pork-fillet",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6039091521dd4b395e337bcb-a28c9abf.png",
+      "imagePath": "/ingredient/6039091521dd4b395e337bcb-a28c9abf.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc12",
+        "uuid": "bbc3a600-642a-5eeb-9af1-c77ca2ee2317",
+        "name": "pork",
+        "slug": "pork",
+        "type": "pork",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fca9cbbd9a2478e193ef7e",
+      "uuid": "02a11a36-e514-5fc6-9647-3567c5aae492",
+      "name": "British Smoked Bacon Lardons",
+      "type": "bacon-lardons",
+      "slug": "british-smoked-bacon-lardons",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fca9cbbd9a2478e193ef7e-02fcc33b.png",
+      "imagePath": "/ingredient/62fca9cbbd9a2478e193ef7e-02fcc33b.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "60af7884a7e769310872d2ac",
+      "uuid": "c7ddc5b5-282c-5d16-978d-985e9b6c2c48",
+      "name": "Red Wine Jus Paste",
+      "type": "red-wine-jus-paste",
+      "slug": "red-wine-jus-paste",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/60af7884a7e769310872d2ac-1dd2dd20.png",
+      "imagePath": "/ingredient/60af7884a7e769310872d2ac-1dd2dd20.png",
+      "shipped": true,
+      "allergens": [
+        "57962a07b7e8697d4b3052fc",
+        "57962a07b7e8697d4b3052ff"
+      ],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fc54",
+        "uuid": "da557614-f3f3-559c-a83e-c66360fa6ff2",
+        "name": "wine",
+        "slug": "wine",
+        "type": "wine",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62fcaa08d7803ca91b790569",
+      "uuid": "75d688e9-826e-59d1-b129-af31f4e166eb",
+      "name": "Cavolo Nero",
+      "type": "cavolo-nero",
+      "slug": "cavolo-nero",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62fcaa08d7803ca91b790569-59ae32eb.png",
+      "imagePath": "/ingredient/62fcaa08d7803ca91b790569-59ae32eb.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "6048ba435d6d2541787296ec",
+      "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+      "name": "Garlic Clove",
+      "type": "garlic-clove",
+      "slug": "garlic-clove",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "imagePath": "/ingredient/6048ba435d6d2541787296ec-382e785f.png",
+      "shipped": true,
+      "allergens": [],
+      "family": {
+        "id": "58877cf3ed71a76e9c03fba4",
+        "uuid": "73da5048-bc09-5236-add6-6ab34fb3dd6f",
+        "name": "garlic",
+        "slug": "garlic",
+        "type": "garlic",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e1029cab2001267a28c8",
+      "uuid": "77bc66f3-62b5-4254-8e80-ec518292a538",
+      "name": "Water for the Jus",
+      "type": "water-for-the-jus-100ml",
+      "slug": "water-for-the-jus",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e1029cab2001267a28c8-1eb2d021.png",
+      "imagePath": "/ingredient/62c6e1029cab2001267a28c8-1eb2d021.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    },
+    {
+      "id": "62c6e12c9cab2001267a28ed",
+      "uuid": "68d8a20a-1b79-437b-b2cb-8137d27a4558",
+      "name": "Honey",
+      "type": "honey-1-tbsp",
+      "slug": "honey",
+      "country": "GN",
+      "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62c6e12c9cab2001267a28ed-872bb731.png",
+      "imagePath": "/ingredient/62c6e12c9cab2001267a28ed-872bb731.png",
+      "shipped": false,
+      "allergens": [],
+      "family": {
+        "id": "6299e0f4f7cd25bc1c024384",
+        "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+        "name": "none",
+        "slug": "none",
+        "type": "none",
+        "priority": 0,
+        "iconLink": null,
+        "iconPath": null
+      }
+    }
+  ],
+  "isAddon": false,
+  "isComplete": null,
+  "isPublished": true,
+  "label": null,
+  "link": "https://hellofresh.com/recipes/689cc3fb1597ca633109c314",
+  "name": "Central American Inspired Spiced Pork Fillet",
+  "nutrition": [
+    {
+      "type": "57b42a48b7e8697d4b30530d",
+      "name": "Energy (kJ)",
+      "amount": 2722,
+      "unit": "kJ"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305304",
+      "name": "Energy (kcal)",
+      "amount": 651,
+      "unit": "kcal"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305307",
+      "name": "Fat",
+      "amount": 40.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305308",
+      "name": "of which saturates",
+      "amount": 14.1,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305305",
+      "name": "Carbohydrate",
+      "amount": 33.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305306",
+      "name": "of which sugars",
+      "amount": 18.3,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530a",
+      "name": "Dietary Fibre",
+      "amount": 6.7,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b305309",
+      "name": "Protein",
+      "amount": 40.4,
+      "unit": "g"
+    },
+    {
+      "type": "57b42a48b7e8697d4b30530b",
+      "name": "Salt",
+      "amount": 2.17,
+      "unit": "g"
+    }
+  ],
+  "prepTime": "PT40M",
+  "promotion": null,
+  "ratingsCount": 17,
+  "seoDescription": null,
+  "seoName": null,
+  "servingSize": 622,
+  "slug": "central-american-inspired-spiced-pork-fillet",
+  "steps": [
+    {
+      "index": 1,
+      "instructions": "Preheat your oven to 220°C/200°C fan/gas mark 7. \nTrim the butternut squash, halve lengthways, then scoop out the seeds (peel first if you prefer). Cut widthways into 1cm thick slices.\nSpread the butternut slices out onto one side of a large lined baking tray. Season with salt and pepper, sprinkle over half the Central American spice mix, drizzle with oil and toss to coat. \nRoast on the top shelf of your oven until soft and golden, 25-30 mins. Turn halfway through cooking.",
+      "instructionsHTML": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. </p>\n<p>Trim the butternut squash, halve lengthways, then scoop out the seeds (peel first if you prefer). Cut widthways into 1cm thick slices.</p>\n<p>Spread the butternut slices out onto one side of a large lined baking tray. Season with salt and pepper, sprinkle over half the Central American spice mix, drizzle with oil and toss to coat. </p>\n<p>Roast on the top shelf of your oven until soft and golden, 25-30 mins. Turn halfway through cooking.</p>",
+      "instructionsMarkdown": "<p>Preheat your oven to 220°C/200°C fan/gas mark 7. </p>\n<p>Trim the butternut squash, halve lengthways, then scoop out the seeds (peel first if you prefer). Cut widthways into 1cm thick slices.</p>\n<p>Spread the butternut slices out onto one side of a large lined baking tray. Season with salt and pepper, sprinkle over half the Central American spice mix, drizzle with oil and toss to coat. </p>\n<p>Roast on the top shelf of your oven until soft and golden, 25-30 mins. Turn halfway through cooking.</p>",
+      "ingredients": [],
+      "utensils": [
+        "57e2674fb7e8697d4b30538f",
+        "5e3ad24dfcf61c18c30ff522",
+        "57e2674fb7e8697d4b305370"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc3fb1597ca633109c314/step-40239c00.jpg",
+          "path": "/689cc3fb1597ca633109c314/step-40239c00.jpg",
+          "caption": "Roast the Butternut"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "instructions": "In the meantime, heat a medium frying pan on medium-high heat with a drizzle of oil.\nOnce hot, sear the pork fillet on all sides until browned, 4-8 mins in total. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. ",
+      "instructionsHTML": "<p>In the meantime, heat a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, sear the pork fillet<strong> </strong>on all sides until browned, 4-8 mins in total. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. </p>",
+      "instructionsMarkdown": "<p>In the meantime, heat a medium frying pan on medium-high heat with a drizzle of oil.</p>\n<p>Once hot, sear the pork fillet<strong> </strong>on all sides until browned, 4-8 mins in total. Season with salt and pepper. IMPORTANT: Wash your hands and equipment after handling raw meat. </p>",
+      "ingredients": [],
+      "utensils": [
+        "5e3ad24dfcf61c18c30ff531"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc3fb1597ca633109c314/step-c6962810.jpg",
+          "path": "/689cc3fb1597ca633109c314/step-c6962810.jpg",
+          "caption": "Fry the Pork "
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "instructions": "When the butternut has roasted for 8-10 mins, remove from the oven and transfer the pork to the other side of the baking tray. Sprinkle the remaining Central American spice mix over the pork and turn to coat.\nRoast on middle shelf until fully cooked, 17-19 mins. IMPORTANT: The pork is cooked when no longer pink in the middle.\nIf the pork and butternut do not fit on one baking tray, use another baking tray for the pork. Roast the pork on the middle shelf and keep the butternut baking tray on the top shelf of the oven.",
+      "instructionsHTML": "<p>When the butternut has roasted for 8-10 mins, remove from the oven and transfer the pork to the other side of the baking tray. Sprinkle the remaining Central American spice mix over the pork and turn to coat.</p>\n<p>Roast on middle shelf until fully cooked, 17-19 mins. IMPORTANT: The pork is cooked when no longer pink in the middle.</p>\n<p>If the pork and butternut do not fit on one baking tray, use another baking tray for the pork. Roast the pork on the middle shelf and keep the butternut baking tray on the top shelf of the oven.</p>",
+      "instructionsMarkdown": "<p>When the butternut has roasted for 8-10 mins, remove from the oven and transfer the pork to the other side of the baking tray. Sprinkle the remaining Central American spice mix over the pork and turn to coat.</p>\n<p>Roast on middle shelf until fully cooked, 17-19 mins. IMPORTANT: The pork is cooked when no longer pink in the middle.</p>\n<p>If the pork and butternut do not fit on one baking tray, use another baking tray for the pork. Roast the pork on the middle shelf and keep the butternut baking tray on the top shelf of the oven.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc3fb1597ca633109c314/step-39625420.jpg",
+          "path": "/689cc3fb1597ca633109c314/step-39625420.jpg",
+          "caption": "Roast the Pork"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "instructions": "When there is 10 mins remaining on the pork and butternut, sprinkle the bacon lardons over the butternut and return to the oven for the remaining time. IMPORTANT: Wash your hands and equipment after handling raw meat. Cook bacon thoroughly.\nMeanwhile, pour the water for the jus (see pantry) into a small saucepan and bring to the boil on high heat. Stir in the red wine jus paste, then reduce the heat to medium-high. Allow the sauce to bubble and thicken, stirring regularly, 6-7 mins.\nIf your red wine jus paste has hardened, put the sachet in a bowl of hot water for 1 min to loosen.",
+      "instructionsHTML": "<p>When there is 10 mins remaining on the pork and butternut, sprinkle the bacon lardons over the butternut and return to the oven for the remaining time. IMPORTANT: Wash your hands and equipment after handling raw meat. Cook bacon thoroughly.</p>\n<p>Meanwhile, pour the water for the jus (see pantry) into a small saucepan and bring to the boil on high heat. Stir in the red wine jus paste, then reduce the heat to medium-high. Allow the sauce to bubble and thicken, stirring regularly, 6-7 mins.</p>\n<p><em>If your red wine jus paste has hardened, put the sachet in a bowl of hot water for 1 min to loosen.</em></p>",
+      "instructionsMarkdown": "<p>When there is 10 mins remaining on the pork and butternut, sprinkle the bacon lardons over the butternut and return to the oven for the remaining time. IMPORTANT: Wash your hands and equipment after handling raw meat. Cook bacon thoroughly.</p>\n<p>Meanwhile, pour the water for the jus (see pantry) into a small saucepan and bring to the boil on high heat. Stir in the red wine jus paste, then reduce the heat to medium-high. Allow the sauce to bubble and thicken, stirring regularly, 6-7 mins.</p>\n<p><em>If your red wine jus paste has hardened, put the sachet in a bowl of hot water for 1 min to loosen.</em></p>",
+      "ingredients": [],
+      "utensils": [
+        "5e3ad24dfcf61c18c30ff530"
+      ],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc3fb1597ca633109c314/step-117a2c30.jpg",
+          "path": "/689cc3fb1597ca633109c314/step-117a2c30.jpg",
+          "caption": "Make the Red Wine Jus"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "instructions": "Meanwhile, destalk the cavolo nero and discard the stems. Cut the leaves into thirds widthways. Peel and grate the garlic (or use a garlic press).\nHeat a drizzle of oil in the frying pan used for the pork on high heat (no need to clean).\nAdd the cavolo nero and a splash of water and cover until wilted, 3-4 mins. Remove the lid, add the garlic and stir-fry for 1 min more. Season with salt and pepper.",
+      "instructionsHTML": "<p>Meanwhile, destalk the cavolo nero and discard the stems. Cut the leaves into thirds widthways. Peel and grate the garlic (or use a garlic press).</p>\n<p>Heat a drizzle of oil in the frying pan used for the pork on high heat (no need to clean).</p>\n<p>Add the cavolo nero and a splash of water and cover until wilted, 3-4 mins. Remove the lid, add the garlic and stir-fry for 1 min more. Season with salt and pepper.</p>",
+      "instructionsMarkdown": "<p>Meanwhile, destalk the cavolo nero and discard the stems. Cut the leaves into thirds widthways. Peel and grate the garlic (or use a garlic press).</p>\n<p>Heat a drizzle of oil in the frying pan used for the pork on high heat (no need to clean).</p>\n<p>Add the cavolo nero and a splash of water and cover until wilted, 3-4 mins. Remove the lid, add the garlic and stir-fry for 1 min more. Season with salt and pepper.</p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc3fb1597ca633109c314/step-a25e5e40.jpg",
+          "path": "/689cc3fb1597ca633109c314/step-a25e5e40.jpg",
+          "caption": "Steam-Fry the Cavolo"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "instructions": "Once rested, slice the Central American inspired spiced pork widthways into 1cm thick slices and share between your plates.\nToss the butternut squash and bacon in the honey (see pantry).\nServe the garlic cavolo nero, honey roasted butternut and bacon alongside.\nDrizzle the red wine jus over the pork to finish. ",
+      "instructionsHTML": "<p>Once rested, slice the Central American inspired spiced pork widthways into 1cm thick slices and share between your plates.</p>\n<p>Toss the butternut squash and bacon in the honey (see pantry).</p>\n<p>Serve the garlic cavolo nero, honey roasted butternut and bacon alongside.</p>\n<p>Drizzle the red wine jus over the pork to finish. </p>",
+      "instructionsMarkdown": "<p>Once rested, slice the Central American inspired spiced pork widthways into 1cm thick slices and share between your plates.</p>\n<p>Toss the butternut squash and bacon in the honey (see pantry).</p>\n<p>Serve the garlic cavolo nero, honey roasted butternut and bacon alongside.</p>\n<p>Drizzle the red wine jus over the pork to finish. </p>",
+      "ingredients": [],
+      "utensils": [],
+      "timers": [],
+      "images": [
+        {
+          "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/689cc3fb1597ca633109c314/step-a9b4ef50.jpg",
+          "path": "/689cc3fb1597ca633109c314/step-a9b4ef50.jpg",
+          "caption": "Serve"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "61e67258f6ab79631f6dcc26",
+      "type": "lower-carb",
+      "name": "Lower Carb",
+      "slug": "lower-carb",
+      "colorHandle": null,
+      "preferences": [
+        "Lower Carb"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "57d13370b7e8697d4b305321",
+      "type": "high-protein",
+      "name": "High Protein",
+      "slug": "high-protein",
+      "colorHandle": null,
+      "preferences": [
+        "Protein Rich"
+      ],
+      "displayLabel": true
+    },
+    {
+      "id": "66059dd9ac3bc0db120b1412",
+      "type": "fiber-support",
+      "name": "Source of Fibre",
+      "slug": "source-of-fibre",
+      "colorHandle": "calorieSmart",
+      "preferences": [],
+      "displayLabel": true
+    }
+  ],
+  "totalTime": "PT25M",
+  "uniqueRecipeCode": "GCLC59419801-20",
+  "updatedAt": "2025-10-18T07:06:39+00:00",
+  "utensils": [
+    {
+      "id": "57e2674fb7e8697d4b30538f",
+      "type": "cuttingboard",
+      "name": "Chopping Board"
+    },
+    {
+      "id": "5e3ad24dfcf61c18c30ff522",
+      "type": null,
+      "name": "Baking Sheet with Baking Paper"
+    },
+    {
+      "id": "57e2674fb7e8697d4b305370",
+      "type": "knife",
+      "name": "Knife"
+    },
+    {
+      "id": "5e3ad24dfcf61c18c30ff531",
+      "type": null,
+      "name": "Fryingpan with lid"
+    },
+    {
+      "id": "5e3ad24dfcf61c18c30ff530",
+      "type": null,
+      "name": "Small sauce pan"
+    }
+  ],
+  "uuid": "8dab48fa-37a2-4013-9418-05b26efe9fb3",
+  "videoLink": null,
+  "websiteUrl": "https://www.greenchef.co.uk/recipes/central-american-inspired-spiced-pork-fillet-689cc3fb1597ca633109c314",
+  "yields": [
+    {
+      "yields": 2,
+      "ingredients": [
+        {
+          "id": "62fca9cdc9a48553f90752e1",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "606f03a20f601846c30f9c0e",
+          "amount": 1,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "6039091521dd4b395e337bcb",
+          "amount": 300,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9cbbd9a2478e193ef7e",
+          "amount": 60,
+          "unit": "grams"
+        },
+        {
+          "id": "60af7884a7e769310872d2ac",
+          "amount": 15,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa08d7803ca91b790569",
+          "amount": 100,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 1,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62c6e1029cab2001267a28c8",
+          "amount": 150,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e12c9cab2001267a28ed",
+          "amount": 0.5,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "yields": 4,
+      "ingredients": [
+        {
+          "id": "62fca9cdc9a48553f90752e1",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "606f03a20f601846c30f9c0e",
+          "amount": 2,
+          "unit": "sachet(s)"
+        },
+        {
+          "id": "6039091521dd4b395e337bcb",
+          "amount": 600,
+          "unit": "grams"
+        },
+        {
+          "id": "62fca9cbbd9a2478e193ef7e",
+          "amount": 120,
+          "unit": "grams"
+        },
+        {
+          "id": "60af7884a7e769310872d2ac",
+          "amount": 30,
+          "unit": "grams"
+        },
+        {
+          "id": "62fcaa08d7803ca91b790569",
+          "amount": 200,
+          "unit": "grams"
+        },
+        {
+          "id": "6048ba435d6d2541787296ec",
+          "amount": 2,
+          "unit": "unit(s)"
+        },
+        {
+          "id": "62c6e1029cab2001267a28c8",
+          "amount": 300,
+          "unit": "milliliter(s)"
+        },
+        {
+          "id": "62c6e12c9cab2001267a28ed",
+          "amount": 1,
+          "unit": "tbsp"
+        }
+      ]
+    }
+  ]
+}
