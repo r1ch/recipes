@@ -69,6 +69,7 @@ const app = createApp({
                 ...i,
                 amount: Number(i.amount),
                 recipes: new Set(),
+                link: `https://www.tesco.com/groceries/en-GB/search?query=${encodeURIComponent(i.name)}`
               }
               delete acc[i.type].recipeId
             }
