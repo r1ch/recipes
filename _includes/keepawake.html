@@ -1,0 +1,61 @@
+<style>
+  /* 1. CSS animation on hidden element */
+  @keyframes nudge {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(1px); }
+    100% { transform: translateY(0px); }
+  }
+
+  #keep-awake-box {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    animation: nudge 5s infinite;
+  }
+</style>
+
+<!-- 2. Optional: tiny hidden looping video -->
+<video id="keep-awake-video" autoplay loop muted playsinline style="display: none;">
+  <source src="blank.mp4" type="video/mp4">
+</video>
+
+<div id="keep-awake-box"></div>
+
+<script>
+  (function () {
+    console.log('[KeepAwake] Initializing...');
+
+    // 3. Scroll up/down slightly every 60 seconds
+    let scrollDir = 1;
+    setInterval(() => {
+      window.scrollBy(0, scrollDir);
+      scrollDir *= -1;
+      console.log('[KeepAwake] Scrolled by 1px');
+    }, 60000);
+
+    // 4. Simulate touch event every 90 seconds (optional)
+    setInterval(() => {
+      try {
+        const evt = new Event('touchstart', { bubbles: true, cancelable: true });
+        document.body.dispatchEvent(evt);
+        console.log('[KeepAwake] Dispatched fake touch event');
+      } catch (e) {
+        console.log('[KeepAwake] Touch event failed', e);
+      }
+    }, 90000);
+
+    // 5. Check if video is playing
+    const video = document.getElementById('keep-awake-video');
+    if (video) {
+      video.play().then(() => {
+        console.log('[KeepAwake] Video playing to help keep screen awake');
+      }).catch(err => {
+        console.log('[KeepAwake] Video failed to play:', err);
+      });
+    }
+
+    console.log('[KeepAwake] Setup complete');
+  })();
+</script>
