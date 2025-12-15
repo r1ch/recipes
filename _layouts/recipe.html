@@ -54,7 +54,7 @@ layout: default
   "name": {{ recipe_data.name | jsonify }},
   "description": {{ recipe_data.description | strip_html | jsonify }},
   "image": [
-    "/images/{{ page.slug }}.jpg"
+    {{ "/images/" | append: page.slug | append: ".jpg" | absolute_url }}
   ],
   "url": "{{ recipe_data.websiteUrl }}",
   "recipeYield": "2 servings",
