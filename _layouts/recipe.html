@@ -76,13 +76,31 @@ layout: default
   "prepTime": "{{ recipe_data.prepTime }}",
   "totalTime": "{{ recipe_data.totalTime }}",
 
-  "recipeIngredient": [
-    {% assign yield2 = recipe_data.yields | where: "yields", 2 | first %}
-    {% for yi in yield2.ingredients %}
-      {% assign ing = recipe_data.ingredients | where: "id", yi.id | first %}
-      "{{ yi.amount }} {{ yi.unit }} {{ ing.name }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
+{% assign yield2 = recipe_data.yields | where: "yields", 2 | first %}
+"recipeIngredient": [
+  {% for yi in yield2.ingredients %}
+    {% assign ing = recipe_data.ingredients | where: "id", yi.id | first %}
+
+    {% assign unit = yi.unit %}
+    {% case unit %}
+      {% when "unit(s)" %}
+        {% assign unit = "" %}
+      {% when "milliliter(s)" %}
+        {% assign unit = "ml" %}
+      {% when "grams" %}
+        {% assign unit = "g" %}
+    {% endcase %}
+
+    {% capture ingredient_line %}
+      {{ yi.amount }}
+      {% if unit != "" %} {{ unit }}{% endif %}
+      {{ ing.name }}
+    {% endcapture %}
+
+    "{{ ingredient_line | strip }}"{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+],
+
 
   "recipeInstructions": [
     {% for step in recipe_data.steps %}
