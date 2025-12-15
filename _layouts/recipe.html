@@ -44,6 +44,80 @@ layout: default
       </ul>
     </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+
+  "@id": "{{ recipe_data.websiteUrl }}",
+  "name": {{ recipe_data.name | jsonify }},
+  "description": {{ recipe_data.description | strip_html | jsonify }},
+  "image": [
+    "{{ recipe_data.imageLink }}"
+  ],
+  "url": "{{ recipe_data.websiteUrl }}",
+
+  "recipeYield": ["2 servings"],
+
+  "recipeCategory": "{{ recipe_data.category.name }}",
+  "recipeCuisine": [
+    {% for cuisine in recipe_data.cuisines %}
+      "{{ cuisine.name }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+
+  "keywords": [
+    {% for tag in recipe_data.tags %}
+      "{{ tag.name }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+
+  "prepTime": "{{ recipe_data.prepTime }}",
+  "totalTime": "{{ recipe_data.totalTime }}",
+
+  "recipeIngredient": [
+    {% assign yield2 = recipe_data.yields | where: "yields", 2 | first %}
+    {% for yi in yield2.ingredients %}
+      {% assign ing = recipe_data.ingredients | where: "id", yi.id | first %}
+      "{{ yi.amount }} {{ yi.unit }} {{ ing.name }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+
+  "recipeInstructions": [
+    {% for step in recipe_data.steps %}
+    {
+      "@type": "HowToStep",
+      "position": {{ step.index }},
+      "text": {{ step.instructions | strip_html | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+
+  "nutrition": {
+    "@type": "NutritionInformation",
+    {% for n in recipe_data.nutrition %}
+      {% case n.name %}
+        {% when "Energy (kcal)" %}"calories": "{{ n.amount }} {{ n.unit }}",
+        {% when "Fat" %}"fatContent": "{{ n.amount }} {{ n.unit }}",
+        {% when "of which saturates" %}"saturatedFatContent": "{{ n.amount }} {{ n.unit }}",
+        {% when "Carbohydrate" %}"carbohydrateContent": "{{ n.amount }} {{ n.unit }}",
+        {% when "of which sugars" %}"sugarContent": "{{ n.amount }} {{ n.unit }}",
+        {% when "Protein" %}"proteinContent": "{{ n.amount }} {{ n.unit }}",
+        {% when "Salt" %}"sodiumContent": "{{ n.amount }} {{ n.unit }}"
+      {% endcase %}
+    {% endfor %}
+  },
+
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{ recipe_data.averageRating }}",
+    "ratingCount": "{{ recipe_data.ratingsCount }}"
+  }
+}
+</script>
+
+
 {% include keepawake.html %}
 
 {% else %}
