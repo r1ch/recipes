@@ -54,33 +54,27 @@ layout: default
   "name": {{ recipe_data.name | jsonify }},
   "description": {{ recipe_data.description | strip_html | jsonify }},
   "image": [
-    "{{ recipe_data.imageLink }}"
+    "/images/{{ page.slug }}.jpg"
   ],
   "url": "{{ recipe_data.websiteUrl }}",
-
-  "recipeYield": ["2 servings"],
-
+  "recipeYield": "2 servings",
   "recipeCategory": "{{ recipe_data.category.name }}",
   "recipeCuisine": [
     {% for cuisine in recipe_data.cuisines %}
       "{{ cuisine.name }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ],
-
   "keywords": [
     {% for tag in recipe_data.tags %}
       "{{ tag.name }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ],
-
   "prepTime": "{{ recipe_data.prepTime }}",
   "totalTime": "{{ recipe_data.totalTime }}",
-
 {% assign yield2 = recipe_data.yields | where: "yields", 2 | first %}
 "recipeIngredient": [
   {% for yi in yield2.ingredients %}
     {% assign ing = recipe_data.ingredients | where: "id", yi.id | first %}
-
     {% assign unit = yi.unit %}
     {% case unit %}
       {% when "unit(s)" %}
@@ -90,13 +84,11 @@ layout: default
       {% when "grams" %}
         {% assign unit = "g" %}
     {% endcase %}
-
     {% capture ingredient_line %}
-      {{ yi.amount }}
-      {% if unit != "" %} {{ unit }}{% endif %}
-      {{ ing.name }}
+      {{% yi.amount %}}
+        {% if unit != "" %}{{ unit }}{% endif %}
+      {{% ing.name %}}
     {% endcapture %}
-
     "{{ ingredient_line | strip }}"{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ],
