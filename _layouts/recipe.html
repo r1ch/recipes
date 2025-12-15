@@ -85,9 +85,9 @@ layout: default
         {% assign unit = "g" %}
     {% endcase %}
     {% capture ingredient_line %}
-      {{% yi.amount %}}
-        {% if unit != "" %}{{ unit }}{% endif %}
-      {{% ing.name %}}
+      {{ yi.amount }}
+      {% if unit != "" %}  {{ unit }}{% endif %}
+      {{ ing.name }}
     {% endcapture %}
     "{{ ingredient_line | strip }}"{% unless forloop.last %},{% endunless %}
   {% endfor %}
