@@ -50,13 +50,13 @@ layout: default
   "@context": "https://schema.org",
   "@type": "Recipe",
 
-  "@id": "{{ recipe_data.websiteUrl }}",
+  "@id": "{{ page.slug}}",
   "name": {{ recipe_data.name | jsonify }},
   "description": {{ recipe_data.description | strip_html | jsonify }},
   "image": [
     {{ "/images/" | append: page.slug | append: ".jpg" | absolute_url }}
   ],
-  "url": "{{ recipe_data.websiteUrl }}",
+  "url": "{{ page.url | absolute_url }}",
   "recipeYield": "2 servings",
   "recipeCategory": "{{ recipe_data.category.name }}",
   "recipeCuisine": [
@@ -121,12 +121,6 @@ layout: default
         {% when "Salt" %}"sodiumContent": "{{ n.amount }} {{ n.unit }}"
       {% endcase %}
     {% endfor %}
-  },
-
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "{{ recipe_data.averageRating }}",
-    "ratingCount": "{{ recipe_data.ratingsCount }}"
   }
 }
 </script>
