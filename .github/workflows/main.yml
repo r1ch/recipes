@@ -1,0 +1,28 @@
+name: Mealie Webhook
+
+on:
+  repository_dispatch:
+    types: [mealie-webhook]  # This will match the event type we'll send from Mealie
+
+jobs:
+  save-webhook:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Save webhook payload to a file
+      - name: Save webhook data
+        run: |
+          mkdir -p data
+          echo '${{ github.event.client_payload | toJson }}' > data/mealie_payload.json
+
+      # Step 3: Commit & push the file
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Add Mealie webhook data"
+          branch: main
+          file_pattern: "data/mealie_payload.json"
