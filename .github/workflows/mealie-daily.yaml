@@ -1,0 +1,37 @@
+name: Sync Weekly Dinner Recipes
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # every Monday at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install yaml node-fetch@3
+
+      - name: Sync Mealie dinners
+        env:
+          MEALIE_BASE_URL: ${{ secrets.MEALIE_BASE_URL }}
+          MEALIE_API_KEY: ${{ secrets.MEALIE_API_KEY }}
+          YAML_PATH: weekly-dinners.yml
+        run: node scripts/sync-mealie-dinners.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add weekly-dinners.yml
+          git commit -m "Update weekly dinner recipes" || echo "No changes"
+          git push
