@@ -1,0 +1,12 @@
+---
+layout: mealie
+---
+<ul>
+{% for meal in site.data.mealie %}
+  <li>
+    <a href="{{ meal.link }}">
+      {{ meal.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
