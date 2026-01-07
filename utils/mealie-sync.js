@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 const {
   MEALIE_BASE_URL,
   MEALIE_API_KEY,
-  YAML_PATH = "index.yml"
+  YAML_PATH = "data/mealie.yml"
 } = process.env;
 
 if (!MEALIE_BASE_URL || !MEALIE_API_KEY) {
@@ -133,10 +133,7 @@ results.sort((a, b) => a.date.localeCompare(b.date));
  */
 fs.writeFileSync(
   YAML_PATH,
-  `---
-layout: mealie
-${YAML.stringify({meals:results})}`
----,
+  YAML.stringify({meals:results})},
   "utf8"
 );
 
