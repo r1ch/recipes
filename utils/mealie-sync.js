@@ -135,8 +135,8 @@ fs.writeFileSync(
   YAML_PATH,
   `---
 layout: mealie
----
-${YAML.stringify(results)}`,
+${YAML.stringify({meals:results})}`
+---,
   "utf8"
 );
 
