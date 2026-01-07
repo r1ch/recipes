@@ -47,10 +47,14 @@ const existingByDate = Object.fromEntries(
 );
 
 /**
- * Fetch meal plan entries
+ * Fetch meal plan entries (server-side filtered to dinner)
  */
 const mealPlanRes = await fetch(
-  `${MEALIE_BASE_URL}/api/households/mealplans?start_date=${start}&end_date=${end}&per_page=50`,
+  `${MEALIE_BASE_URL}/api/households/mealplans` +
+    `?start_date=${start}` +
+    `&end_date=${end}` +
+    `&per_page=50` +
+    `&queryFilter=entryType%3Ddinner`,
   { headers }
 );
 
@@ -72,7 +76,7 @@ const results = [];
  * Process dinner entries
  */
 for (const item of items) {
-  if (item.entryType !== "dinner" || !item.recipe) continue;
+  if (!item.recipe) continue; // defensive
 
   const date = item.date;
   const title = item.recipe.name;
@@ -88,11 +92,12 @@ for (const item of items) {
   expiresAt.setDate(expiresAt.getDate() + 14);
 
   const shareRes = await fetch(
-    `${MEALIE_BASE_URL}/api/recipes/${item.recipe.id}/share`,
+    `${MEALIE_BASE_URL}/api/shared/recipes`,
     {
       method: "POST",
       headers,
       body: JSON.stringify({
+        recipeId: item.recipe.id,
         expiresAt: expiresAt.toISOString()
       })
     }
