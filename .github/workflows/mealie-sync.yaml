@@ -26,7 +26,7 @@ jobs:
           MEALIE_BASE_URL: ${{ secrets.MEALIE_BASE_URL }}
           MEALIE_API_KEY: ${{ secrets.MEALIE_API_KEY }}
           YAML_PATH: weekly-dinners.yml
-        run: node scripts/sync-mealie-dinners.js
+        run: node scripts/mealie-sync.js
 
       - name: Commit changes
         run: |
