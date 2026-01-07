@@ -109,11 +109,17 @@ for (const item of items) {
   }
 
   const share = await shareRes.json();
-
+  
+  if (!share?.id) {
+    throw new Error(`Share response missing id for recipe "${title}"`);
+  }
+  
+  const link = `${MEALIE_BASE_URL}/g/home/shared/r/${share.id}`;
+  
   results.push({
     date,
     title,
-    link: share.url
+    link
   });
 }
 
