@@ -26,7 +26,7 @@ jobs:
         env:
           MEALIE_BASE_URL: ${{ secrets.MEALIE_BASE_URL }}
           MEALIE_API_KEY: ${{ secrets.MEALIE_API_KEY }}
-          YAML_PATH: index.yml
+          YAML_PATH: data/mealie.yml
         run: node utils/mealie-sync.js
 
       - name: Commit changes
