@@ -1,13 +1,12 @@
-meals:
-  - date: 2026-01-07
-    title: Spiced Beef Larb in Lettuce Cups
-    link: https://tiny-chicken.pikapod.net/g/home/shared/r/f04ff71d-978d-49f9-a353-31ce5c668083
-  - date: 2026-01-08
-    title: Venetian Duck Ragu
-    link: https://tiny-chicken.pikapod.net/g/home/shared/r/d5255f24-d15a-44a3-bccb-bfa1388d0f38
-  - date: 2026-01-12
-    title: Turkish Lamb Pilaf
-    link: https://tiny-chicken.pikapod.net/g/home/shared/r/1e6ff9b6-b810-44ba-9306-33d78325fa7e
-  - date: 2026-01-13
-    title: Beef Suya Kebabs
-    link: https://tiny-chicken.pikapod.net/g/home/shared/r/49885ae2-bb7c-4a13-a4f5-a0d8060c4caf
+- date: 2026-01-07
+  title: Spiced Beef Larb in Lettuce Cups
+  link: https://tiny-chicken.pikapod.net/g/home/shared/r/f04ff71d-978d-49f9-a353-31ce5c668083
+- date: 2026-01-08
+  title: Venetian Duck Ragu
+  link: https://tiny-chicken.pikapod.net/g/home/shared/r/d5255f24-d15a-44a3-bccb-bfa1388d0f38
+- date: 2026-01-12
+  title: Turkish Lamb Pilaf
+  link: https://tiny-chicken.pikapod.net/g/home/shared/r/1e6ff9b6-b810-44ba-9306-33d78325fa7e
+- date: 2026-01-13
+  title: Beef Suya Kebabs
+  link: https://tiny-chicken.pikapod.net/g/home/shared/r/49885ae2-bb7c-4a13-a4f5-a0d8060c4caf
