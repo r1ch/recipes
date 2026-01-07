@@ -133,7 +133,7 @@ results.sort((a, b) => a.date.localeCompare(b.date));
  */
 fs.writeFileSync(
   YAML_PATH,
-  YAML.stringify({meals:results}),
+  YAML.stringify(results),
   "utf8"
 );
 
