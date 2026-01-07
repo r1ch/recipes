@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/*.yml
+          git add _data/*.yml
           git commit -m "Update weekly dinner recipes" || echo "No changes"
           git push
