@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 const {
   MEALIE_BASE_URL,
   MEALIE_API_KEY,
-  YAML_PATH = "data/mealie.yml"
+  YAML_PATH = "_data/mealie.yml"
 } = process.env;
 
 if (!MEALIE_BASE_URL || !MEALIE_API_KEY) {
