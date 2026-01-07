@@ -39,7 +39,7 @@ const existingByDate = Object.fromEntries(
 
 // Fetch meal plan
 const mealPlanRes = await fetch(
-  `${MEALIE_BASE_URL}/api/meal-plans?start_date=${start}&end_date=${end}`,
+  `${MEALIE_BASE_URL}/api/households/mealplans?start_date=${start}&end_date=${end}`,
   { headers }
 );
 
