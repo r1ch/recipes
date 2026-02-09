@@ -4,9 +4,8 @@
 - date: 2026-02-10
   title: Crispy Trout and Cannellini Bean Stew
   link: https://tiny-chicken.pikapod.net/g/home/shared/r/c845ff2a-53bb-48bf-8bcf-106e758eec09
-- date: 2026-02-11
-  title: Yogurt & Spice Roasted Salmon
-  link: https://tiny-chicken.pikapod.net/g/home/shared/r/cbd5b46d-baa3-4cd1-90d8-16f9732f49fb
-- date: 2026-02-11
+- &a1
+  date: 2026-02-11
   title: Tortillas
   link: https://tiny-chicken.pikapod.net/g/home/shared/r/17f79b93-1733-4a82-8da5-acd9052f39d9
+- *a1
