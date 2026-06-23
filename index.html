@@ -5,9 +5,9 @@ layout: mealie
   <aside class="controls-column">
     <h2 class="app-title">Recipe Book</h2>
     
-    <div class="filter-status" v-if="currentFilter || currentProtein">
+    <div class="filter-status" v-if="searchQuery || currentProtein">
       <span>Filtering by:</span>
-      <span class="active-badge" v-if="currentFilter">Letter: [[ currentFilter ]]</span>
+      <span class="active-badge" v-if="searchQuery">Search: [[ searchQuery ]]</span>
       <span class="active-badge" v-if="currentProtein">Protein: [[ currentProtein ]]</span>
       <button class="btn-clear" @click="clearAllFilters">Clear All</button>
     </div>
@@ -27,16 +27,64 @@ layout: mealie
       </button>
     </div>
 
-    <h3 class="section-subtitle">Alphabet</h3>
-    <div class="keyboard-filter">
-      <button 
-        v-for="letter in alphabet" 
-        :key="letter"
-        :class="{ active: currentFilter === letter }"
-        @click="toggleFilter(letter)"
+    <h3 class="section-subtitle">Search Keyboard</h3>
+    <div class="search-display-container">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          class="search-input" 
+          v-model="searchQuery" 
+          placeholder="Type to search..."
+          readonly
+        />
+        <button 
+          v-if="searchQuery" 
+          class="search-clear-btn" 
+          @click="clearSearch"
+          title="Clear search"
+        >
+          &times;
+        </button>
+      </div>
+    </div>
+
+    <div class="custom-keyboard">
+      <div 
+        v-for="(row, rowIndex) in keyboardRows" 
+        :key="rowIndex" 
+        class="keyboard-row"
       >
-        [[ letter ]]
-      </button>
+        <button 
+          v-for="key in row" 
+          :key="key"
+          :class="[
+            'key-btn', 
+            key.toLowerCase(), 
+            { 
+              'action-key': ['space', 'backspace', 'clear'].includes(key.toLowerCase()),
+              'space-key': key === 'SPACE',
+              'backspace-key': key === 'BACKSPACE',
+              'clear-key': key === 'CLEAR'
+            }
+          ]"
+          :disabled="isKeyDisabled(key)"
+          @click="handleKeyPress(key)"
+        >
+          <template v-if="key === 'BACKSPACE'">
+            <span class="key-icon">⌫</span>
+          </template>
+          <template v-else-if="key === 'SPACE'">
+            <span class="key-text">Space</span>
+          </template>
+          <template v-else-if="key === 'CLEAR'">
+            <span class="key-text">Clear</span>
+          </template>
+          <template v-else>
+            [[ key ]]
+          </template>
+        </button>
+      </div>
     </div>
   </aside>
 
@@ -44,7 +92,7 @@ layout: mealie
     <ul class="meal-list" :class="{ 'empty-list': filteredMeals.length === 0 }">
       <li v-for="meal in filteredMeals" :key="meal.title" class="meal-item">
         <a :href="getAbsoluteUrl(meal.link)" @click="setLastClickedCookie(meal.link)" class="meal-card">
-          <span class="meal-title">[[ meal.title ]]</span>
+          <span class="meal-title" v-html="highlightMatch(meal.title)"></span>
           <span v-if="lastClickedLink === meal.link" class="star-badge">★ Last Viewed</span>
         </a>
       </li>
@@ -71,10 +119,15 @@ layout: mealie
   const app = createApp({
     setup() {
       const meals = ref(jekyllMeals);
-      const currentFilter = ref('');
+      const searchQuery = ref('');
       const currentProtein = ref('');
       
-      const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+      const keyboardRows = [
+        ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
+        ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
+        ['Z', 'X', 'C', 'V', 'B', 'N', 'M'],
+        ['SPACE', 'BACKSPACE', 'CLEAR']
+      ];
       const proteins = ['Chicken', 'Salmon', 'Pork', 'Beef', 'Lamb'];
       
       const setCookie = (name, value, hours) => {
@@ -121,10 +174,11 @@ layout: mealie
       const filteredMeals = computed(() => {
         let result = meals.value;
 
-        // Apply Letter Filter
-        if (currentFilter.value) {
+        // Apply Search Query Filter
+        if (searchQuery.value) {
+          const queryLower = searchQuery.value.toLowerCase();
           result = result.filter(meal => 
-            meal.title.trim().toUpperCase().startsWith(currentFilter.value)
+            meal.title.toLowerCase().includes(queryLower)
           );
         }
 
@@ -148,8 +202,50 @@ layout: mealie
         return result;
       });
 
-      const toggleFilter = (letter) => {
-        currentFilter.value = currentFilter.value === letter ? '' : letter;
+      const isKeyDisabled = (key) => {
+        const query = searchQuery.value;
+        
+        if (key === 'BACKSPACE' || key === 'CLEAR') {
+          return query.length === 0;
+        }
+
+        let nextQuery = query.toLowerCase();
+        if (key === 'SPACE') {
+          if (query.length === 0) return true;
+          if (query.endsWith(' ')) return true;
+          nextQuery += ' ';
+        } else {
+          nextQuery += key.toLowerCase();
+        }
+
+        const activeProtein = currentProtein.value ? currentProtein.value.toLowerCase() : '';
+        
+        return !meals.value.some(meal => {
+          if (activeProtein && !meal.title.toLowerCase().includes(activeProtein)) {
+            return false;
+          }
+          return meal.title.toLowerCase().includes(nextQuery);
+        });
+      };
+
+      const handleKeyPress = (key) => {
+        if (key === 'BACKSPACE') {
+          searchQuery.value = searchQuery.value.slice(0, -1);
+        } else if (key === 'CLEAR') {
+          searchQuery.value = '';
+        } else if (key === 'SPACE') {
+          if (!isKeyDisabled('SPACE')) {
+            searchQuery.value += ' ';
+          }
+        } else {
+          if (!isKeyDisabled(key)) {
+            searchQuery.value += key;
+          }
+        }
+      };
+
+      const clearSearch = () => {
+        searchQuery.value = '';
       };
 
       const toggleProtein = (protein) => {
@@ -157,22 +253,33 @@ layout: mealie
       };
 
       const clearAllFilters = () => {
-        currentFilter.value = '';
+        searchQuery.value = '';
         currentProtein.value = '';
       };
 
+      const highlightMatch = (title) => {
+        const query = searchQuery.value.trim();
+        if (!query) return title;
+        const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        const regex = new RegExp(`(${escapedQuery})`, 'gi');
+        return title.replace(regex, '<mark class="match-highlight">$1</mark>');
+      };
+
       return {
-        alphabet,
+        keyboardRows,
         proteins,
-        currentFilter,
+        searchQuery,
         currentProtein,
         filteredMeals,
-        toggleFilter,
+        handleKeyPress,
+        clearSearch,
         toggleProtein,
         clearAllFilters,
         getAbsoluteUrl,
         setLastClickedCookie,
-        lastClickedLink
+        lastClickedLink,
+        isKeyDisabled,
+        highlightMatch
       };
     }
   });
@@ -287,36 +394,163 @@ layout: mealie
     border-color: #137333;
   }
 
-  /* Touch-friendly Keyboard Grid */
-  .keyboard-filter {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 6px;
-    overflow-y: auto;
-    padding-right: 4px;
-    flex-grow: 1;
+  /* Search input container */
+  .search-display-container {
+    margin-bottom: 15px;
   }
 
-  .keyboard-filter button {
-    min-height: 40px;
+  .search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #f1f3f4;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 8px 12px;
+    transition: all 0.2s ease;
+  }
+
+  .search-input-wrapper:focus-within,
+  .search-input-wrapper.active-focus {
+    border-color: #1a73e8;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.15);
+  }
+
+  .search-icon {
+    font-size: 16px;
+    color: #5f6368;
+    margin-right: 8px;
+    user-select: none;
+  }
+
+  .search-input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #202124;
+    width: 100%;
+    outline: none;
+    font-weight: 500;
+    pointer-events: none; /* Make it read-only and no cursor on click */
+  }
+
+  .search-clear-btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #5f6368;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    transition: background 0.1s ease;
+  }
+
+  .search-clear-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #202124;
+  }
+
+  /* Custom keyboard layout */
+  .custom-keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #f1f3f4;
+    padding: 12px;
+    border-radius: 16px;
+    border: 1px solid #e0e0e0;
+  }
+
+  .keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .key-btn {
+    flex: 1;
+    min-width: 0;
+    height: 42px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    border: 1px solid #dadce0;
-    background: #fff;
-    border-radius: 8px;
+    border: none;
+    background: #ffffff;
+    border-radius: 6px;
     color: #3c4043;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.1s ease;
+    box-shadow: 0 2px 0 #dadce0;
+    transition: transform 0.05s ease, box-shadow 0.05s ease, background-color 0.1s ease;
+    user-select: none;
   }
 
-  .keyboard-filter button.active {
-    background: #1a73e8;
-    color: white;
-    border-color: #1a73e8;
-    box-shadow: 0 2px 4px rgba(26, 115, 232, 0.3);
+  .key-btn:hover:not(:disabled) {
+    background: #f8f9fa;
+  }
+
+  .key-btn:active:not(:disabled) {
+    transform: translateY(2px);
+    box-shadow: 0 0 0 #dadce0;
+  }
+
+  .key-btn:disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+    background: #e8eaed;
+    box-shadow: 0 2px 0 #dadce0;
+  }
+
+  /* Action keys customization */
+  .key-btn.action-key {
+    background: #dadce0;
+    box-shadow: 0 2px 0 #bdc1c6;
+    color: #3c4043;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .key-btn.action-key:hover:not(:disabled) {
+    background: #e8eaed;
+  }
+
+  .key-btn.space-key {
+    flex: 2.5;
+  }
+
+  .key-btn.backspace-key {
+    flex: 1.5;
+  }
+
+  .key-btn.clear-key {
+    flex: 1.5;
+  }
+
+  .key-icon {
+    font-size: 18px;
+  }
+
+  .key-text {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  /* Match Highlight style */
+  .match-highlight {
+    background-color: rgba(26, 115, 232, 0.15); /* Light blue highlight matching theme */
+    color: #1a73e8; /* Darker blue text */
+    padding: 0 2px;
+    border-radius: 4px;
+    font-weight: 600;
   }
 
   /* Right Column (List) Styling */
@@ -410,6 +644,10 @@ layout: mealie
       overflow: visible;
     }
     .list-column { overflow: visible; }
-    .keyboard-filter { grid-template-columns: repeat(7, 1fr); flex-grow: 0; }
+    .custom-keyboard {
+      max-width: 500px;
+      margin: 0 auto 15px auto;
+      width: 100%;
+    }
   }
 </style>
