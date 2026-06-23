@@ -1,31 +1,48 @@
 ---
 layout: mealie
 ---
-<div id="meal-app" v-cloak>
-  <div class="keyboard-filter">
-    <button 
-      v-for="letter in alphabet" 
-      :key="letter"
-      :class="{ active: currentFilter === letter }"
-      @click="toggleFilter(letter)"
-    >
-      [[ letter ]]
-    </button>
-    <button @click="clearFilter" v-if="currentFilter">Clear</button>
-  </div>
-  <ul class="meal-list">
-    <li v-for="meal in filteredMeals" :key="meal.title">
-      <a :href="getAbsoluteUrl(meal.link)" @click="setLastClickedCookie(meal.link)">
-        [[ meal.title ]] <span v-if="lastClickedLink === meal.link">★ (Last Clicked)</span>
-      </a>
-    </li>
-    <li v-if="filteredMeals.length === 0">No meals found starting with "[[ currentFilter ]]"</li>
-  </ul>
+<div id="meal-app" v-cloak class="nest-container">
+  <aside class="controls-column">
+    <h2 class="app-title">Recipe Book</h2>
+    
+    <div class="filter-status" v-if="currentFilter">
+      Filtering by: <span class="active-badge">[[ currentFilter ]]</span>
+      <button class="btn-clear" @click="clearFilter">Clear Filter</button>
+    </div>
+    <div class="filter-status no-filter" v-else>
+      Showing all recipes
+    </div>
+
+    <div class="keyboard-filter">
+      <button 
+        v-for="letter in alphabet" 
+        :key="letter"
+        :class="{ active: currentFilter === letter }"
+        @click="toggleFilter(letter)"
+      >
+        [[ letter ]]
+      </button>
+    </div>
+  </aside>
+
+  <main class="list-column">
+    <ul class="meal-list" :class="{ 'empty-list': filteredMeals.length === 0 }">
+      <li v-for="meal in filteredMeals" :key="meal.title" class="meal-item">
+        <a :href="getAbsoluteUrl(meal.link)" @click="setLastClickedCookie(meal.link)" class="meal-card">
+          <span class="meal-title">[[ meal.title ]]</span>
+          <span v-if="lastClickedLink === meal.link" class="star-badge">★ Last Viewed</span>
+        </a>
+      </li>
+      <li v-if="filteredMeals.length === 0" class="no-meals-msg">
+        <p>No meals found starting with "<strong>[[ currentFilter ]]</strong>"</p>
+        <button class="btn-clear large" @click="clearFilter">Reset Filter</button>
+      </li>
+    </ul>
+  </main>
 </div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script>
-  // 1. Get Jekyll to place the data into a JS object/array
   const jekyllMeals = [
     {% for meal in site.data.mealie %}
       {
@@ -35,7 +52,6 @@ layout: mealie
     {% endfor %}
   ];
 
-  // 2. Vue.js App Logic
   const { createApp, ref, computed } = Vue;
   const app = createApp({
     setup() {
@@ -43,7 +59,6 @@ layout: mealie
       const currentFilter = ref('');
       const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
       
-      // --- COOKIE HELPERS ---
       const setCookie = (name, value, hours) => {
         const d = new Date();
         d.setTime(d.getTime() + (hours * 60 * 60 * 1000));
@@ -61,41 +76,30 @@ layout: mealie
         return null;
       };
 
-      // State to track the last clicked link from cookies
       const lastClickedLink = ref(getCookie('last_clicked_meal'));
 
-      // --- URL BASE LOGIC ---
       const getUrlBase = () => {
-        // Look for the query parameter first
         const urlParams = new URLSearchParams(window.location.search);
         const queryBase = urlParams.get('url_base');
-        
-        if (queryBase) {
-          return queryBase;
-        }
+        if (queryBase) return queryBase;
 
-        // Fallback to path segment logic if no query parameter is provided
         const pathSegments = window.location.pathname.split('/').filter(Boolean);
         return pathSegments[0] || 'default-base'; 
       };
       
       const urlBase = getUrlBase();
 
-      // Generates the required absolute URL structure: https://{something}/{meal.link}
       const getAbsoluteUrl = (link) => {
-        // Removes leading slash from meal.link if it exists to avoid double slashes
         const cleanLink = link.startsWith('/') ? link.substring(1) : link;
         return `https://${urlBase}/${cleanLink}`;
       };
 
       const setLastClickedCookie = (link) => {
-        setCookie('last_clicked_meal', link, 1); // Store for 1 hour
-        lastClickedLink.value = link; // Update reactive state immediately
+        setCookie('last_clicked_meal', link, 1);
+        lastClickedLink.value = link;
       };
 
-      // --- FILTERING & SORTING LOGIC ---
       const filteredMeals = computed(() => {
-        // First, filter by alphabet if active
         let result = meals.value;
         if (currentFilter.value) {
           result = result.filter(meal => 
@@ -103,7 +107,6 @@ layout: mealie
           );
         }
 
-        // Second, bring the cookie-matching link to the top
         if (lastClickedLink.value) {
           result = [...result].sort((a, b) => {
             if (a.link === lastClickedLink.value) return -1;
@@ -134,7 +137,7 @@ layout: mealie
         lastClickedLink
       };
     }
-  })
+  });
 
   app.config.compilerOptions.delimiters = ['[[', ']]'];  
   app.mount('#meal-app');
@@ -142,7 +145,197 @@ layout: mealie
 
 <style>
   [v-cloak] { display: none; }
-  .keyboard-filter { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 5px; }
-  .keyboard-filter button { padding: 10px; font-size: 16px; cursor: pointer; border: 1px solid #ccc; background: #fff; }
-  .keyboard-filter button.active { background: #007bff; color: white; border-color: #007bff; }
+
+  /* Base Setup & Smart Display Optimization */
+  .nest-container {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #202124;
+    box-sizing: border-box;
+    height: 100vh;
+    max-height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  /* Left Column Styling */
+  .controls-column {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+
+  .app-title {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a73e8;
+  }
+
+  .filter-status {
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    min-height: 40px;
+  }
+  
+  .filter-status.no-filter {
+    color: #5f6368;
+    font-style: italic;
+  }
+
+  .active-badge {
+    background: #e8f0fe;
+    color: #1a73e8;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+
+  .btn-clear {
+    background: #f1f3f4;
+    border: none;
+    color: #3c4043;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .btn-clear:active { background: #e8eaed; }
+
+  /* Touch-friendly Keyboard Grid */
+  .keyboard-filter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+
+  .keyboard-filter button {
+    min-height: 48px; /* Google's minimum recommended touch target */
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #dadce0;
+    background: #fff;
+    border-radius: 8px;
+    color: #3c4043;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s ease;
+  }
+
+  .keyboard-filter button.active {
+    background: #1a73e8;
+    color: white;
+    border-color: #1a73e8;
+    box-shadow: 0 2px 4px rgba(26, 115, 232, 0.3);
+  }
+
+  /* Right Column (List) Styling */
+  .list-column {
+    overflow-y: auto;
+    height: 100%;
+    padding-right: 4px;
+  }
+
+  .meal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Recipe Card Layout */
+  .meal-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    border: 1px solid transparent;
+    transition: transform 0.1s ease, border-color 0.1s ease;
+  }
+
+  .meal-card:active {
+    transform: scale(0.99);
+    background: #fdfdfd;
+    border-color: #dadce0;
+  }
+
+  .meal-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #202124;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+  }
+
+  .star-badge {
+    background: #fef7e0;
+    color: #b06000;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    border: 1px solid #fde293;
+  }
+
+  /* Empty State View */
+  .meal-list.empty-list {
+    height: 100%;
+    justify-content: center;
+  }
+
+  .no-meals-msg {
+    text-align: center;
+    color: #5f6368;
+    font-size: 20px;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  .btn-clear.large {
+    margin-top: 15px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background: #1a73e8;
+    color: white;
+  }
+
+  /* Standard Web Fallback/Responsive tweak if screen is narrow */
+  @media (max-width: 768px) {
+    .nest-container {
+      grid-template-columns: 1fr;
+      height: auto;
+      max-height: none;
+      overflow: visible;
+    }
+    .list-column { overflow: visible; }
+    .keyboard-filter { grid-template-columns: repeat(7, 1fr); }
+  }
 </style>
