@@ -5,14 +5,29 @@ layout: mealie
   <aside class="controls-column">
     <h2 class="app-title">Recipe Book</h2>
     
-    <div class="filter-status" v-if="currentFilter">
-      Filtering by: <span class="active-badge">[[ currentFilter ]]</span>
-      <button class="btn-clear" @click="clearFilter">Clear Filter</button>
+    <div class="filter-status" v-if="currentFilter || currentProtein">
+      <span>Filtering by:</span>
+      <span class="active-badge" v-if="currentFilter">Letter: [[ currentFilter ]]</span>
+      <span class="active-badge" v-if="currentProtein">Protein: [[ currentProtein ]]</span>
+      <button class="btn-clear" @click="clearAllFilters">Clear All</button>
     </div>
     <div class="filter-status no-filter" v-else>
       Showing all recipes
     </div>
 
+    <h3 class="section-subtitle">Proteins</h3>
+    <div class="protein-filter">
+      <button 
+        v-for="protein in proteins" 
+        :key="protein"
+        :class="{ active: currentProtein === protein }"
+        @click="toggleProtein(protein)"
+      >
+        [[ protein ]]
+      </button>
+    </div>
+
+    <h3 class="section-subtitle">Alphabet</h3>
     <div class="keyboard-filter">
       <button 
         v-for="letter in alphabet" 
@@ -34,8 +49,8 @@ layout: mealie
         </a>
       </li>
       <li v-if="filteredMeals.length === 0" class="no-meals-msg">
-        <p>No meals found starting with "<strong>[[ currentFilter ]]</strong>"</p>
-        <button class="btn-clear large" @click="clearFilter">Reset Filter</button>
+        <p>No meals found matching the selected criteria.</p>
+        <button class="btn-clear large" @click="clearAllFilters">Reset Filters</button>
       </li>
     </ul>
   </main>
@@ -57,7 +72,10 @@ layout: mealie
     setup() {
       const meals = ref(jekyllMeals);
       const currentFilter = ref('');
+      const currentProtein = ref('');
+      
       const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+      const proteins = ['Chicken', 'Salmon', 'Pork', 'Beef', 'Lamb'];
       
       const setCookie = (name, value, hours) => {
         const d = new Date();
@@ -99,14 +117,26 @@ layout: mealie
         lastClickedLink.value = link;
       };
 
+      // Combined Computed Filter
       const filteredMeals = computed(() => {
         let result = meals.value;
+
+        // Apply Letter Filter
         if (currentFilter.value) {
           result = result.filter(meal => 
             meal.title.trim().toUpperCase().startsWith(currentFilter.value)
           );
         }
 
+        // Apply Protein Filter (checks if title contains the protein phrase)
+        if (currentProtein.value) {
+          const proteinLower = currentProtein.value.toLowerCase();
+          result = result.filter(meal => 
+            meal.title.toLowerCase().includes(proteinLower)
+          );
+        }
+
+        // Sort by Last Clicked
         if (lastClickedLink.value) {
           result = [...result].sort((a, b) => {
             if (a.link === lastClickedLink.value) return -1;
@@ -122,16 +152,24 @@ layout: mealie
         currentFilter.value = currentFilter.value === letter ? '' : letter;
       };
 
-      const clearFilter = () => {
+      const toggleProtein = (protein) => {
+        currentProtein.value = currentProtein.value === protein ? '' : protein;
+      };
+
+      const clearAllFilters = () => {
         currentFilter.value = '';
+        currentProtein.value = '';
       };
 
       return {
         alphabet,
+        proteins,
         currentFilter,
+        currentProtein,
         filteredMeals,
         toggleFilter,
-        clearFilter,
+        toggleProtein,
+        clearAllFilters,
         getAbsoluteUrl,
         setLastClickedCookie,
         lastClickedLink
@@ -173,18 +211,27 @@ layout: mealie
   }
 
   .app-title {
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
     font-size: 24px;
     font-weight: 600;
     color: #1a73e8;
   }
 
+  .section-subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #5f6368;
+    margin: 15px 0 8px 0;
+    font-weight: 600;
+  }
+
   .filter-status {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 14px;
+    margin-bottom: 5px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     flex-wrap: wrap;
     min-height: 40px;
   }
@@ -197,9 +244,9 @@ layout: mealie
   .active-badge {
     background: #e8f0fe;
     color: #1a73e8;
-    padding: 4px 10px;
-    border-radius: 12px;
-    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: 600;
   }
 
   .btn-clear {
@@ -208,24 +255,51 @@ layout: mealie
     color: #3c4043;
     padding: 6px 12px;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
     font-weight: 500;
   }
   .btn-clear:active { background: #e8eaed; }
 
+  /* Protein Filter Layout */
+  .protein-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .protein-filter button {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #dadce0;
+    background: #fff;
+    border-radius: 20px;
+    color: #3c4043;
+    transition: all 0.1s ease;
+  }
+
+  .protein-filter button.active {
+    background: #e6f4ea;
+    color: #137333;
+    border-color: #137333;
+  }
+
   /* Touch-friendly Keyboard Grid */
   .keyboard-filter {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
+    gap: 6px;
     overflow-y: auto;
     padding-right: 4px;
+    flex-grow: 1;
   }
 
   .keyboard-filter button {
-    min-height: 48px; /* Google's minimum recommended touch target */
-    font-size: 18px;
+    min-height: 40px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     border: 1px solid #dadce0;
@@ -336,6 +410,6 @@ layout: mealie
       overflow: visible;
     }
     .list-column { overflow: visible; }
-    .keyboard-filter { grid-template-columns: repeat(7, 1fr); }
+    .keyboard-filter { grid-template-columns: repeat(7, 1fr); flex-grow: 0; }
   }
 </style>
