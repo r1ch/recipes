@@ -18,118 +18,109 @@ const headers = {
 };
 
 /**
- * Date helpers
+ * Load existing YAML (index by recipe ID for quick lookups)
  */
-const today = new Date();
-const endDate = new Date();
-endDate.setDate(today.getDate() + 6);
-
-const formatDate = d => d.toISOString().slice(0, 10);
-
-const start = formatDate(today);
-const end = formatDate(endDate);
-
-/**
- * Load existing YAML (if it exists)
- */
-let existing = [];
+let existingRecipes = [];
 if (fs.existsSync(YAML_PATH)) {
   const raw = fs.readFileSync(YAML_PATH, "utf8");
-  existing = YAML.parse(raw) ?? [];
+  existingRecipes = YAML.parse(raw) ?? [];
 }
+const existingById = Object.fromEntries(existingRecipes.map(r => [r.id, r]));
 
 /**
- * Index existing entries by date
- * NOTE: assumes one dinner per day
+ * Fetch ALL recipes from Mealie
  */
-const existingByDate = Object.fromEntries(
-  existing.map(e => [e.date, e])
-);
-
-/**
- * Fetch meal plan entries (server-side filtered to dinner)
- */
-const mealPlanRes = await fetch(
-  `${MEALIE_BASE_URL}/api/households/mealplans` +
-    `?start_date=${start}` +
-    `&end_date=${end}` +
-    `&per_page=50` +
-    `&queryFilter=entryType%3Ddinner`,
+const recipesRes = await fetch(
+  `${MEALIE_BASE_URL}/api/recipes?per_page=500`, // Adjust per_page if you have more recipes
   { headers }
 );
 
-if (!mealPlanRes.ok) {
-  const text = await mealPlanRes.text();
-  throw new Error(`Failed to fetch meal plan: ${text}`);
+if (!recipesRes.ok) {
+  const text = await recipesRes.text();
+  throw new Error(`Failed to fetch recipes: ${text}`);
 }
 
-const mealPlanResponse = await mealPlanRes.json();
-const items = mealPlanResponse.items ?? [];
-
-if (!Array.isArray(items)) {
-  throw new Error("Unexpected meal plan response shape");
-}
+const recipesData = await recipesRes.json();
+const allRecipes = recipesData.items ?? [];
 
 const results = [];
+const today = new Date();
 
 /**
- * Process dinner entries
+ * Process all recipes
  */
-for (const item of items) {
-  if (!item.recipe) continue; // defensive
+for (const recipe of allRecipes) {
+  const recipeId = recipe.id;
+  const title = recipe.name;
+  
+  let existingEntry = existingById[recipeId];
+  let needsNewLink = true;
 
-  const date = item.date;
-  const title = item.recipe.name;
+  if (existingEntry && existingEntry.link && existingEntry.createdAt) {
+    const createdDate = new Date(existingEntry.createdAt);
+    
+    // Max validity is 30 days. Let's see how many days are left.
+    const maxExpiryDate = new Date(createdDate.getTime());
+    maxExpiryDate.setDate(maxExpiryDate.getDate() + 30);
+    
+    const msLeft = maxExpiryDate.getTime() - today.getTime();
+    const daysLeft = msLeft / (1000 * 60 * 60 * 24);
 
-  // Reuse existing entry if present
-  if (existingByDate[date]) {
-    results.push(existingByDate[date]);
-    continue;
-  }
-
-  // Generate a shared recipe link (valid for 14 days)
-  const expiresAt = new Date();
-  expiresAt.setDate(expiresAt.getDate() + 14);
-
-  const shareRes = await fetch(
-    `${MEALIE_BASE_URL}/api/shared/recipes`,
-    {
-      method: "POST",
-      headers,
-      body: JSON.stringify({
-        recipeId: item.recipe.id,
-        expiresAt: expiresAt.toISOString()
-      })
+    // If the link is still valid for more than 7 days, reuse it
+    if (daysLeft > 7) {
+      results.push(existingEntry);
+      needsNewLink = false;
     }
-  );
-
-  if (!shareRes.ok) {
-    const text = await shareRes.text();
-    throw new Error(`Failed to share recipe "${title}": ${text}`);
   }
 
-  const share = await shareRes.json();
-  
-  if (!share?.id) {
-    throw new Error(`Share response missing id for recipe "${title}"`);
+  // Generate a new share link if needed
+  if (needsNewLink) {
+    // Set explicit expiry to 30 days on Mealie
+    const expiresAt = new Date();
+    expiresAt.setDate(expiresAt.getDate() + 30);
+
+    const shareRes = await fetch(
+      `${MEALIE_BASE_URL}/api/shared/recipes`,
+      {
+        method: "POST",
+        headers,
+        body: JSON.stringify({
+          recipeId: recipeId,
+          expiresAt: expiresAt.toISOString()
+        })
+      }
+    );
+
+    if (!shareRes.ok) {
+      console.error(`Failed to share recipe "${title}": ${shareRes.statusText}`);
+      // Fallback: If sharing fails, keep the old one temporarily if it exists
+      if (existingEntry) results.push(existingEntry);
+      continue;
+    }
+
+    const share = await shareRes.json();
+    
+    if (share?.id) {
+      const link = `${MEALIE_BASE_URL}/g/home/shared/r/${share.id}`;
+      results.push({
+        id: recipeId,
+        title,
+        link,
+        createdAt: today.toISOString().slice(0, 10) // YYYY-MM-DD
+      });
+    } else if (existingEntry) {
+      results.push(existingEntry);
+    }
   }
-  
-  const link = `${MEALIE_BASE_URL}/g/home/shared/r/${share.id}`;
-  
-  results.push({
-    date,
-    title,
-    link
-  });
 }
 
 /**
- * Sort results by date
+ * Sort results alphabetically by title
  */
-results.sort((a, b) => a.date.localeCompare(b.date));
+results.sort((a, b) => a.title.localeCompare(b.title));
 
 /**
- * Write YAML output
+ * Write updated YAML output
  */
 fs.writeFileSync(
   YAML_PATH,
@@ -137,4 +128,4 @@ fs.writeFileSync(
   "utf8"
 );
 
-console.log(`Updated ${YAML_PATH} with ${results.length} dinner recipes`);
+console.log(`Updated ${YAML_PATH} with ${results.length} total recipes`);
