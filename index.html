@@ -65,9 +65,16 @@ layout: mealie
       const lastClickedLink = ref(getCookie('last_clicked_meal'));
 
       // --- URL BASE LOGIC ---
-      // Extracts {something} from the current window location path (e.g., /something/page.html -> something)
-      // If your path structure varies, you can tweak this extraction logic
       const getUrlBase = () => {
+        // Look for the query parameter first
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryBase = urlParams.get('url_base');
+        
+        if (queryBase) {
+          return queryBase;
+        }
+
+        // Fallback to path segment logic if no query parameter is provided
         const pathSegments = window.location.pathname.split('/').filter(Boolean);
         return pathSegments[0] || 'default-base'; 
       };
