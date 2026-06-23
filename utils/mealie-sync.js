@@ -101,7 +101,7 @@ for (const recipe of allRecipes) {
     const share = await shareRes.json();
     
     if (share?.id) {
-      const link = `${MEALIE_BASE_URL}/g/home/shared/r/${share.id}`;
+      const link = `/g/home/shared/r/${share.id}`;
       results.push({
         id: recipeId,
         title,
