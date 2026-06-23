@@ -1,6 +1,4 @@
----
-layout: mealie
----
+{% raw %}
 <div id="meal-app" v-cloak>
   
   <div class="keyboard-filter">
@@ -22,11 +20,13 @@ layout: mealie
     <li v-if="filteredMeals.length === 0">No meals found starting with "{{ currentFilter }}"</li>
   </ul>
 </div>
+{% endraw %}
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
 <script>
   // 1. Get Jekyll to place the data into a JS object/array
+  // Leave this OUTSIDE the raw tags so Jekyll actually processes it!
   const jekyllMeals = [
     {% for meal in site.data.mealie %}
       {
@@ -45,7 +45,6 @@ layout: mealie
       const currentFilter = ref('');
       const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
-      // 4. Use Vue.js to filter the list
       const filteredMeals = computed(() => {
         if (!currentFilter.value) {
           return meals.value;
@@ -56,7 +55,6 @@ layout: mealie
       });
 
       const toggleFilter = (letter) => {
-        // If clicking the same letter, clear it. Otherwise, set it.
         currentFilter.value = currentFilter.value === letter ? '' : letter;
       };
 
