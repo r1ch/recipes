@@ -91,9 +91,8 @@ layout: mealie
   <main class="list-column">
     <ul class="meal-list" :class="{ 'empty-list': filteredMeals.length === 0 }">
       <li v-for="meal in filteredMeals" :key="meal.title" class="meal-item">
-        <a :href="getAbsoluteUrl(meal.link)" @click="setLastClickedCookie(meal.link)" class="meal-card">
+        <a :href="getAbsoluteUrl(meal.link)" class="meal-card">
           <span class="meal-title" v-html="highlightMatch(meal.title)"></span>
-          <span v-if="lastClickedLink === meal.link" class="star-badge">★ Last Viewed</span>
         </a>
       </li>
       <li v-if="filteredMeals.length === 0" class="no-meals-msg">
@@ -140,24 +139,7 @@ layout: mealie
         return Array.from(set).sort();
       });
       
-      const setCookie = (name, value, hours) => {
-        const d = new Date();
-        d.setTime(d.getTime() + (hours * 60 * 60 * 1000));
-        const expires = "expires=" + d.toUTCString();
-        document.cookie = `${name}=${encodeURIComponent(value)};${expires};path=/`;
-      };
 
-      const getCookie = (name) => {
-        const nameEQ = name + "=";
-        const ca = document.cookie.split(';');
-        for (let i = 0; i < ca.length; i++) {
-          let c = ca[i].trim();
-          if (c.indexOf(nameEQ) === 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
-        }
-        return null;
-      };
-
-      const lastClickedLink = ref(getCookie('last_clicked_meal'));
 
       const getUrlBase = () => {
         const urlParams = new URLSearchParams(window.location.search);
@@ -175,10 +157,7 @@ layout: mealie
         return `https://${urlBase}/${cleanLink}`;
       };
 
-      const setLastClickedCookie = (link) => {
-        setCookie('last_clicked_meal', link, 1);
-        lastClickedLink.value = link;
-      };
+
 
       // Combined Computed Filter
       const filteredMeals = computed(() => {
@@ -199,14 +178,7 @@ layout: mealie
           );
         }
 
-        // Sort by Last Clicked
-        if (lastClickedLink.value) {
-          result = [...result].sort((a, b) => {
-            if (a.link === lastClickedLink.value) return -1;
-            if (b.link === lastClickedLink.value) return 1;
-            return 0;
-          });
-        }
+
 
         return result;
       });
@@ -285,8 +257,7 @@ layout: mealie
         toggleProtein,
         clearAllFilters,
         getAbsoluteUrl,
-        setLastClickedCookie,
-        lastClickedLink,
+
         isKeyDisabled,
         highlightMatch
       };
@@ -609,16 +580,7 @@ layout: mealie
     padding-right: 15px;
   }
 
-  .star-badge {
-    background: #fef7e0;
-    color: #b06000;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    white-space: nowrap;
-    border: 1px solid #fde293;
-  }
+
 
   /* Empty State View */
   .meal-list.empty-list {
