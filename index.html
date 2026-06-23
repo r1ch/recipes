@@ -15,11 +15,14 @@ layout: mealie
   </div>
   <ul class="meal-list">
     <li v-for="meal in filteredMeals" :key="meal.title">
-      <a :href="meal.link">[[ meal.title ]]</a>
+      <a :href="getAbsoluteUrl(meal.link)" @click="setLastClickedCookie(meal.link)">
+        [[ meal.title ]] <span v-if="lastClickedLink === meal.link">★ (Last Clicked)</span>
+      </a>
     </li>
     <li v-if="filteredMeals.length === 0">No meals found starting with "[[ currentFilter ]]"</li>
   </ul>
 </div>
+
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script>
   // 1. Get Jekyll to place the data into a JS object/array
@@ -31,6 +34,7 @@ layout: mealie
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
+
   // 2. Vue.js App Logic
   const { createApp, ref, computed } = Vue;
   const app = createApp({
@@ -38,34 +42,97 @@ layout: mealie
       const meals = ref(jekyllMeals);
       const currentFilter = ref('');
       const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-      // 4. Use Vue.js to filter the list
-      const filteredMeals = computed(() => {
-        if (!currentFilter.value) {
-          return meals.value;
+      
+      // --- COOKIE HELPERS ---
+      const setCookie = (name, value, hours) => {
+        const d = new Date();
+        d.setTime(d.getTime() + (hours * 60 * 60 * 1000));
+        const expires = "expires=" + d.toUTCString();
+        document.cookie = `${name}=${encodeURIComponent(value)};${expires};path=/`;
+      };
+
+      const getCookie = (name) => {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i].trim();
+          if (c.indexOf(nameEQ) === 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
         }
-        return meals.value.filter(meal => 
-          meal.title.trim().toUpperCase().startsWith(currentFilter.value)
-        );
+        return null;
+      };
+
+      // State to track the last clicked link from cookies
+      const lastClickedLink = ref(getCookie('last_clicked_meal'));
+
+      // --- URL BASE LOGIC ---
+      // Extracts {something} from the current window location path (e.g., /something/page.html -> something)
+      // If your path structure varies, you can tweak this extraction logic
+      const getUrlBase = () => {
+        const pathSegments = window.location.pathname.split('/').filter(Boolean);
+        return pathSegments[0] || 'default-base'; 
+      };
+      
+      const urlBase = getUrlBase();
+
+      // Generates the required absolute URL structure: https://{something}/{meal.link}
+      const getAbsoluteUrl = (link) => {
+        // Removes leading slash from meal.link if it exists to avoid double slashes
+        const cleanLink = link.startsWith('/') ? link.substring(1) : link;
+        return `https://${urlBase}/${cleanLink}`;
+      };
+
+      const setLastClickedCookie = (link) => {
+        setCookie('last_clicked_meal', link, 1); // Store for 1 hour
+        lastClickedLink.value = link; // Update reactive state immediately
+      };
+
+      // --- FILTERING & SORTING LOGIC ---
+      const filteredMeals = computed(() => {
+        // First, filter by alphabet if active
+        let result = meals.value;
+        if (currentFilter.value) {
+          result = result.filter(meal => 
+            meal.title.trim().toUpperCase().startsWith(currentFilter.value)
+          );
+        }
+
+        // Second, bring the cookie-matching link to the top
+        if (lastClickedLink.value) {
+          result = [...result].sort((a, b) => {
+            if (a.link === lastClickedLink.value) return -1;
+            if (b.link === lastClickedLink.value) return 1;
+            return 0;
+          });
+        }
+
+        return result;
       });
+
       const toggleFilter = (letter) => {
-        // If clicking the same letter, clear it. Otherwise, set it.
         currentFilter.value = currentFilter.value === letter ? '' : letter;
       };
+
       const clearFilter = () => {
         currentFilter.value = '';
       };
+
       return {
         alphabet,
         currentFilter,
         filteredMeals,
         toggleFilter,
-        clearFilter
+        clearFilter,
+        getAbsoluteUrl,
+        setLastClickedCookie,
+        lastClickedLink
       };
     }
   })
- app.config.compilerOptions.delimiters = ['[[', ']]'];  
- app.mount('#meal-app');
+
+  app.config.compilerOptions.delimiters = ['[[', ']]'];  
+  app.mount('#meal-app');
 </script>
+
 <style>
   [v-cloak] { display: none; }
   .keyboard-filter { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 5px; }
