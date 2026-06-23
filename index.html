@@ -110,7 +110,8 @@ layout: mealie
     {% for meal in site.data.mealie %}
       {
         "title": {{ meal.title | jsonify }},
-        "link": {{ meal.link | jsonify }}
+        "link": {{ meal.link | jsonify }},
+        "protein": {{ meal.protein | jsonify }}
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
@@ -128,7 +129,16 @@ layout: mealie
         ['Z', 'X', 'C', 'V', 'B', 'N', 'M'],
         ['SPACE', 'BACKSPACE', 'CLEAR']
       ];
-      const proteins = ['Chicken', 'Salmon', 'Pork', 'Beef', 'Lamb'];
+      // Dynamically extract unique protein values from the meals list
+      const proteins = computed(() => {
+        const set = new Set();
+        meals.value.forEach(meal => {
+          if (meal.protein) {
+            set.add(meal.protein);
+          }
+        });
+        return Array.from(set).sort();
+      });
       
       const setCookie = (name, value, hours) => {
         const d = new Date();
@@ -182,11 +192,10 @@ layout: mealie
           );
         }
 
-        // Apply Protein Filter (checks if title contains the protein phrase)
+        // Apply Protein Filter
         if (currentProtein.value) {
-          const proteinLower = currentProtein.value.toLowerCase();
           result = result.filter(meal => 
-            meal.title.toLowerCase().includes(proteinLower)
+            meal.protein === currentProtein.value
           );
         }
 
@@ -218,10 +227,10 @@ layout: mealie
           nextQuery += key.toLowerCase();
         }
 
-        const activeProtein = currentProtein.value ? currentProtein.value.toLowerCase() : '';
+        const activeProtein = currentProtein.value;
         
         return !meals.value.some(meal => {
-          if (activeProtein && !meal.title.toLowerCase().includes(activeProtein)) {
+          if (activeProtein && meal.protein !== activeProtein) {
             return false;
           }
           return meal.title.toLowerCase().includes(nextQuery);

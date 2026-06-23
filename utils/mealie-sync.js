@@ -18,6 +18,44 @@ const headers = {
 };
 
 /**
+ * Extract protein category from recipe metadata
+ */
+function extractProtein(recipe) {
+  const title = (recipe.name || "").toLowerCase();
+  const description = (recipe.description || "").toLowerCase();
+  
+  const tags = (recipe.tags || []).map(t => (typeof t === "object" ? t.name : t).toLowerCase());
+  const categories = (recipe.recipeCategory || []).map(c => (typeof c === "object" ? c.name : c).toLowerCase());
+
+  const proteinMap = {
+    Chicken: ["chicken", "poultry", "turkey", "duck"],
+    Beef: ["beef", "steak", "mince"],
+    Pork: ["pork", "ham", "chorizo", "bacon", "gammon"],
+    "Fish/Seafood": ["salmon", "trout", "fish", "tuna", "prawn", "seafood", "cod", "haddock", "sea bass", "sea-bass"],
+    Lamb: ["lamb"]
+  };
+
+  for (const [protein, keywords] of Object.entries(proteinMap)) {
+    for (const keyword of keywords) {
+      if ([title, ...tags, ...categories].some(src => src.includes(keyword))) {
+        return protein;
+      }
+    }
+  }
+
+  // Fallback to checking description
+  for (const [protein, keywords] of Object.entries(proteinMap)) {
+    for (const keyword of keywords) {
+      if (description.includes(keyword)) {
+        return protein;
+      }
+    }
+  }
+
+  return "";
+}
+
+/**
  * Load existing YAML (index by recipe ID for quick lookups)
  */
 let existingRecipes = [];
@@ -52,6 +90,7 @@ const today = new Date();
 for (const recipe of allRecipes) {
   const recipeId = recipe.id;
   const title = recipe.name;
+  const protein = extractProtein(recipe);
   
   let existingEntry = existingById[recipeId];
   let needsNewLink = true;
@@ -68,6 +107,7 @@ for (const recipe of allRecipes) {
 
     // If the link is still valid for more than 7 days, reuse it
     if (daysLeft > 7) {
+      existingEntry.protein = protein;
       results.push(existingEntry);
       needsNewLink = false;
     }
@@ -94,7 +134,10 @@ for (const recipe of allRecipes) {
     if (!shareRes.ok) {
       console.error(`Failed to share recipe "${title}": ${shareRes.statusText}`);
       // Fallback: If sharing fails, keep the old one temporarily if it exists
-      if (existingEntry) results.push(existingEntry);
+      if (existingEntry) {
+        existingEntry.protein = protein;
+        results.push(existingEntry);
+      }
       continue;
     }
 
@@ -106,9 +149,11 @@ for (const recipe of allRecipes) {
         id: recipeId,
         title,
         link,
+        protein,
         createdAt: today.toISOString().slice(0, 10) // YYYY-MM-DD
       });
     } else if (existingEntry) {
+      existingEntry.protein = protein;
       results.push(existingEntry);
     }
   }
