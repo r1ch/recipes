@@ -1,13 +1,83 @@
 ---
 layout: mealie
-stuff: nice
 ---
-<ul>
-{% for meal in site.data.mealie %}
-  <li>
-    <a href="{{ meal.link }}">
-      {{ meal.title }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+<div id="meal-app" v-cloak>
+  
+  <div class="keyboard-filter">
+    <button 
+      v-for="letter in alphabet" 
+      :key="letter"
+      :class="{ active: currentFilter === letter }"
+      @click="toggleFilter(letter)"
+    >
+      {{ letter }}
+    </button>
+    <button @click="clearFilter" v-if="currentFilter">Clear</button>
+  </div>
+
+  <ul class="meal-list">
+    <li v-for="meal in filteredMeals" :key="meal.title">
+      <a :href="meal.link">{{ meal.title }}</a>
+    </li>
+    <li v-if="filteredMeals.length === 0">No meals found starting with "{{ currentFilter }}"</li>
+  </ul>
+</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<script>
+  // 1. Get Jekyll to place the data into a JS object/array
+  const jekyllMeals = [
+    {% for meal in site.data.mealie %}
+      {
+        "title": {{ meal.title | jsonify }},
+        "link": {{ meal.link | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  // 2. Vue.js App Logic
+  const { createApp, ref, computed } = Vue;
+
+  createApp({
+    setup() {
+      const meals = ref(jekyllMeals);
+      const currentFilter = ref('');
+      const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+      // 4. Use Vue.js to filter the list
+      const filteredMeals = computed(() => {
+        if (!currentFilter.value) {
+          return meals.value;
+        }
+        return meals.value.filter(meal => 
+          meal.title.trim().toUpperCase().startsWith(currentFilter.value)
+        );
+      });
+
+      const toggleFilter = (letter) => {
+        // If clicking the same letter, clear it. Otherwise, set it.
+        currentFilter.value = currentFilter.value === letter ? '' : letter;
+      };
+
+      const clearFilter = () => {
+        currentFilter.value = '';
+      };
+
+      return {
+        alphabet,
+        currentFilter,
+        filteredMeals,
+        toggleFilter,
+        clearFilter
+      };
+    }
+  }).mount('#meal-app');
+</script>
+
+<style>
+  [v-cloak] { display: none; }
+  .keyboard-filter { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 5px; }
+  .keyboard-filter button { padding: 10px; font-size: 16px; cursor: pointer; border: 1px solid #ccc; background: #fff; }
+  .keyboard-filter button.active { background: #007bff; color: white; border-color: #007bff; }
+</style>
