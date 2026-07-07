@@ -128,7 +128,7 @@ layout: mealie
         ['Z', 'X', 'C', 'V', 'B', 'N', 'M'],
         ['SPACE', 'BACKSPACE', 'CLEAR']
       ];
-      // Dynamically extract unique protein values from the meals list
+      
       const proteins = computed(() => {
         const set = new Set();
         meals.value.forEach(meal => {
@@ -139,8 +139,6 @@ layout: mealie
         return Array.from(set).sort();
       });
       
-
-
       const getUrlBase = () => {
         const urlParams = new URLSearchParams(window.location.search);
         const queryBase = urlParams.get('url_base');
@@ -157,13 +155,9 @@ layout: mealie
         return `https://${urlBase}/${cleanLink}`;
       };
 
-
-
-      // Combined Computed Filter
       const filteredMeals = computed(() => {
         let result = meals.value;
 
-        // Apply Search Query Filter
         if (searchQuery.value) {
           const queryLower = searchQuery.value.toLowerCase();
           result = result.filter(meal => 
@@ -171,14 +165,11 @@ layout: mealie
           );
         }
 
-        // Apply Protein Filter
         if (currentProtein.value) {
           result = result.filter(meal => 
             meal.protein === currentProtein.value
           );
         }
-
-
 
         return result;
       });
@@ -257,7 +248,6 @@ layout: mealie
         toggleProtein,
         clearAllFilters,
         getAbsoluteUrl,
-
         isKeyDisabled,
         highlightMatch
       };
@@ -271,10 +261,10 @@ layout: mealie
 <style>
   [v-cloak] { display: none; }
 
-  /* Base Setup & Smart Display Optimization */
+  /* Base Setup - Left column widened to give keyboard more breathing room */
   .nest-container {
     display: grid;
-    grid-template-columns: 320px 1fr;
+    grid-template-columns: 500px 1fr;
     gap: 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #f8f9fa;
@@ -386,7 +376,7 @@ layout: mealie
     background: #f1f3f4;
     border: 2px solid transparent;
     border-radius: 12px;
-    padding: 8px 12px;
+    padding: 12px;
     transition: all 0.2s ease;
   }
 
@@ -398,7 +388,7 @@ layout: mealie
   }
 
   .search-icon {
-    font-size: 16px;
+    font-size: 18px;
     color: #5f6368;
     margin-right: 8px;
     user-select: none;
@@ -407,12 +397,12 @@ layout: mealie
   .search-input {
     border: none;
     background: transparent;
-    font-size: 16px;
+    font-size: 18px;
     color: #202124;
     width: 100%;
     outline: none;
     font-weight: 500;
-    pointer-events: none; /* Make it read-only and no cursor on click */
+    pointer-events: none;
   }
 
   .search-clear-btn {
@@ -437,13 +427,13 @@ layout: mealie
     color: #202124;
   }
 
-  /* Custom keyboard layout */
+  /* Custom keyboard layout - Enriched for larger tap accessibility */
   .custom-keyboard {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     background: #f1f3f4;
-    padding: 12px;
+    padding: 14px;
     border-radius: 16px;
     border: 1px solid #e0e0e0;
   }
@@ -451,25 +441,26 @@ layout: mealie
   .keyboard-row {
     display: flex;
     justify-content: center;
-    gap: 6px;
+    gap: 8px;
     width: 100%;
   }
 
+  /* Height updated from 42px to 64px, text scaled appropriately */
   .key-btn {
     flex: 1;
     min-width: 0;
-    height: 42px;
-    font-size: 16px;
+    height: 64px;
+    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
     border: none;
     background: #ffffff;
-    border-radius: 6px;
+    border-radius: 8px;
     color: #3c4043;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 0 #dadce0;
+    box-shadow: 0 3px 0 #dadce0;
     transition: transform 0.05s ease, box-shadow 0.05s ease, background-color 0.1s ease;
     user-select: none;
   }
@@ -479,7 +470,7 @@ layout: mealie
   }
 
   .key-btn:active:not(:disabled) {
-    transform: translateY(2px);
+    transform: translateY(3px);
     box-shadow: 0 0 0 #dadce0;
   }
 
@@ -487,15 +478,15 @@ layout: mealie
     opacity: 0.25;
     cursor: not-allowed;
     background: #e8eaed;
-    box-shadow: 0 2px 0 #dadce0;
+    box-shadow: 0 3px 0 #dadce0;
   }
 
   /* Action keys customization */
   .key-btn.action-key {
     background: #dadce0;
-    box-shadow: 0 2px 0 #bdc1c6;
+    box-shadow: 0 3px 0 #bdc1c6;
     color: #3c4043;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
   }
 
@@ -516,18 +507,18 @@ layout: mealie
   }
 
   .key-icon {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .key-text {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
   }
 
   /* Match Highlight style */
   .match-highlight {
-    background-color: rgba(26, 115, 232, 0.15); /* Light blue highlight matching theme */
-    color: #1a73e8; /* Darker blue text */
+    background-color: rgba(26, 115, 232, 0.15);
+    color: #1a73e8;
     padding: 0 2px;
     border-radius: 4px;
     font-weight: 600;
@@ -580,8 +571,6 @@ layout: mealie
     padding-right: 15px;
   }
 
-
-
   /* Empty State View */
   .meal-list.empty-list {
     height: 100%;
@@ -606,7 +595,6 @@ layout: mealie
     color: white;
   }
 
-  /* Standard Web Fallback/Responsive tweak if screen is narrow */
   @media (max-width: 768px) {
     .nest-container {
       grid-template-columns: 1fr;
@@ -616,7 +604,7 @@ layout: mealie
     }
     .list-column { overflow: visible; }
     .custom-keyboard {
-      max-width: 500px;
+      max-width: 100%;
       margin: 0 auto 15px auto;
       width: 100%;
     }
