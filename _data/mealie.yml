@@ -78,6 +78,11 @@
   link: /g/home/shared/r/4711f16a-b575-496f-bda8-07e88495e5a1
   protein: Pork
   createdAt: 2026-11-06
+- id: c4aff3d9-eedc-42ea-a32f-a05f009d7a06
+  title: Gingerbread house
+  link: /g/home/shared/r/90641e31-5438-449c-b2e1-007f5c12b95d
+  protein: ""
+  createdAt: 2026-11-22
 - id: 9c54a79d-2f1c-4cd3-bbbe-016149e5f769
   title: Gingerbread Pears
   link: /g/home/shared/r/ac518b1f-eb21-45fe-9952-5ca0686c58c8
@@ -146,11 +151,6 @@
 - id: 04d8dba5-6d99-4410-9bea-f87720e060f9
   title: Roasted Apricots with a Rosemary & Hazelnut Crumble
   link: /g/home/shared/r/ee3fbd30-a034-454e-8d54-ce30783fa70e
-  protein: ""
-  createdAt: 2026-11-06
-- id: d82d5445-b7a6-4697-85ce-e282e97ec360
-  title: Roasted Fig, Chicory & Hazelnut Lunchbox Salad
-  link: /g/home/shared/r/a10a7644-456e-4ede-aad9-478ec0c2e711
   protein: ""
   createdAt: 2026-11-06
 - id: 4654dd05-b0c1-4e5b-8f6d-d231573418ec
